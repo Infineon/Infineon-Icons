@@ -1,6 +1,6 @@
 {
   "name": "@infineon/infineon-icons",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Infineon Icons",
   "homepage": "https://github.com/Infineon/Infineon-Icons#readme",
   "bugs": {
@@ -18,7 +18,7 @@
     "build_icons": "rollup ./generated_js/index.js --file ./dist/icons.js --format es  --name \"svgs\""
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "exports": {
     "./library": "./dist/library.js",
@@ -27,9 +27,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
