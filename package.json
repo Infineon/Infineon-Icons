@@ -1,6 +1,6 @@
 {
   "name": "@infineon/infineon-icons",
-  "version": "1.9.0",
+  "version": "0.1.0",
   "description": "Infineon Icons",
   "homepage": "https://github.com/Infineon/Infineon-Icons#readme",
   "bugs": {
@@ -24,6 +24,9 @@
     "./library": "./dist/library.js",
     "./icons": "./dist/icons.js"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     
   },
@@ -37,7 +40,6 @@
     "plugins": [
       "npm",
       "released"
-    ],
-    "onlyPublishWithReleaseLabel": true
+    ]
   }
 }
