@@ -12,10 +12,10 @@
   },
   "author": "Kai Werther",
   "scripts": {
-    "build": "npm run generate_js && npm run build_library && npm run build_icons",
-    "generate_js": "node ./build/generate_js",
-    "build_library": "rollup ./src/library.js --file ./dist/library.js --format es  --name \"library\"",
-    "build_icons": "rollup ./generated_js/index.js --file ./dist/icons.js --format es  --name \"svgs\""
+    "build": "npm run generate:js && npm run build:lib && npm run build:icons",
+    "generate:js": "node ./build/generate_js",
+    "build:lib": "rollup ./library/library.js --file ./dist/library.js --format es  --name \"library\"",
+    "build:icons": "rollup ./generated_js/index.js --file ./dist/icons.js --format es  --name \"svgs\""
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
