@@ -24,6 +24,9 @@
     "./library": "./dist/library.js",
     "./icons": "./dist/icons.js"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     
   },
