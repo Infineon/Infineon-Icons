@@ -30,6 +30,7 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
 
+      - run: cat .npmrc
       - run: npm ci
       - run: npm run build
       - run: npm publish
