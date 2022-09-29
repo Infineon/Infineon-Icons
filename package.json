@@ -1,16 +1,28 @@
 {
-  "name": "infineon-icons",
+  "name": "@infineon/infineon-icons",
   "version": "1.9.0",
+  "description": "Infineon Icons",
+  "homepage": "https://github.com/Infineon/Infineon-Icons#readme",
+  "bugs": {
+    "url": "https://github.com/Infineon/Infineon-Icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infineon/Infineon-Icons.git"
+  },
+  "author": "Kai Werther",
   "scripts": {
-    "build": "npm run generate_js && npm run compile_library && npm run compile_icons",
-    "generate_js": "",
-    "compile_library": "rollup ./src/library.js --file ./dist/library.js --format es  --name \"library\"",
-    "compile_icons": "rollup ./js/index.js --file ./dist/icons.js --format es  --name \"svgs\"",
-    "compile_t": "rollup ./treeshaking_test.js --file ./dist/treeshaking_test.js --format es  --name \"test\""
+    "build": "npm run generate_js && npm run build_library && npm run build_icons",
+    "generate_js": "node ./build/generate_js",
+    "build_library": "rollup ./src/library.js --file ./dist/library.js --format es  --name \"library\"",
+    "build_icons": "rollup ./generated_js/index.js --file ./dist/icons.js --format es  --name \"svgs\""
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "exports": {
     "./library": "./dist/library.js",
-    ".": "./dist/icons.js"
+    "./icons": "./dist/icons.js"
   },
   "dependencies": {
     
@@ -18,6 +30,14 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "rollup": "^2.79.1"
+    "rollup": "^2.79.1",
+    "auto": "^10.37.4"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "released"
+    ],
+    "onlyPublishWithReleaseLabel": true
   }
 }
