@@ -1,29 +1,31 @@
 const iconLibrary = {};
 
 const library = {
-  add: ({
-    name, svgSuffix, height, width, svgContent,
-  }) => {
+  add: (...icons) => {
+    icons.forEach(({
+      name, height, width, svgContent,
+    }) => {
     // first check if icon is a valid icon
-    if (!name || !svgSuffix || !height || !width || !svgContent) {
-      console.error(`Trying to add unsupported icon to library${`${name}_${svgSuffix}`}`);
-    } else if (iconLibrary[name] && iconLibrary[name][svgSuffix]) {
-      console.error(`Adding icon twice ${name}_${svgSuffix}`);
-    } else {
-      if (!iconLibrary[name]) {
-        iconLibrary[name] = {};
+      if (!name || !height || !width || !svgContent) {
+        console.error(`Trying to add unsupported icon to library "${name}"`);
+      } else if (iconLibrary[name] && iconLibrary[name]) {
+        console.error(`Adding icon twice ${name}`);
+      } else {
+        if (!iconLibrary[name]) {
+          iconLibrary[name] = {};
+        }
+        const iconObj = { height, width, svgContent };
+        iconLibrary[name] = iconObj;
+        iconLibrary[name.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase())] = iconObj;
       }
-      iconLibrary[name][svgSuffix] = { height, width, svgContent };
-
-      console.log('hell yeah');
-    }
+    });
   },
-  getIcon: (name, svgSuffix) => {
-    if (!iconLibrary[name] || !iconLibrary[name][svgSuffix]) {
-      console.error(`Trying to load icon that was not put into iconLibrary before.${name}_${svgSuffix}`);
+  getIcon: (name) => {
+    if (!iconLibrary[name]) {
+      console.error(`Trying to load icon that was not put into iconLibrary before "${name}"`);
       return undefined;
     }
-    return iconLibrary[name][svgSuffix];
+    return iconLibrary[name];
   },
 };
 

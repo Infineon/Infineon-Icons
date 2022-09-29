@@ -2,11 +2,14 @@
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-console */
 const fs = require('fs').promises;
+const fsr = require('fs');
 const path = require('path');
 
 const regex = /<svg.*height="(.*?)".*?width="(.*?)".*?>(.*)<\/svg>/m;
 const svgSourceFolder = './svg/';
-const jsTargetFolder = './js/';
+const jsTargetFolder = './generated_js/';
+
+if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
 
 // #######################################
 console.info(`removing files from target directory ${jsTargetFolder}`);
@@ -40,23 +43,21 @@ fs.readdir(svgSourceFolder).then(async (files) => {
 
       const m = regex.exec(fileContent);
       if (m != null) {
-        const name = file.substr(0, file.lastIndexOf('-'));
-        const sizeSuffix = file.substr(file.lastIndexOf('-') + 1, file.length - file.lastIndexOf('.') - 2);
+        const name = file.substr(0, file.lastIndexOf('.'));
         const height = m[1];
         const width = m[2];
         const svgContent = m[3];
         // building js file content
         let content = '';
         content += `const name = '${name}';\n`;
-        content += `const svgSuffix = ${sizeSuffix};\n`;
         content += `const height = ${height};\n`;
         content += `const width = ${width};\n`;
         content += `const svgContent = '${svgContent};'\n`;
-        content += 'export default {\n  name,\n  svgSuffix,\n  height,\n  width,\n  svgContent,\n};';
+        content += 'export default {\n  name,\n  height,\n  width,\n  svgContent,\n};\n';
 
         // do some sanity checks before writing
-        if (!name || !sizeSuffix || isNaN(sizeSuffix)) {
-          console.error(`${svgFile}: File Name doesn't match expected format. Expects {svgName}-{sizeFlag}.svg`);
+        if (!name) {
+          console.error(`${svgFile}: File Name doesn't match expected format. Expects {svgName}.svg`);
         } else if (!height || isNaN(height)
                     || !width || isNaN(width)
                     || !svgContent) {
@@ -76,7 +77,7 @@ fs.readdir(svgSourceFolder).then(async (files) => {
   const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 
   const indexFileImportContent = `${addedIcons.map((addedIcon) => `import ${makeCamelCase(addedIcon)} from './${addedIcon}'`).join(';\n')};\n\n`;
-  const indexFileExportDefaultContent = `export default {\n${
+  const indexFileExportDefaultContent = `export {\n${
     addedIcons.map((addedIcon) => `  ${makeCamelCase(addedIcon)}`).join(',\n')},\n};\n`;
 
   fs.writeFile(`${jsTargetFolder}index.js`, indexFileImportContent + indexFileExportDefaultContent, (err3) => {
