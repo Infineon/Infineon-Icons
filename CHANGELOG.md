@@ -1,0 +1,28 @@
+# v0.2.0 (Thu Sep 29 2022)
+
+#### 🚀 Enhancement
+
+- empty readme to test ci/cd [#1](https://github.com/Infineon/Infineon-Icons/pull/1) ([@kaiwerther](https://github.com/kaiwerther))
+
+#### 🐛 Bug Fix
+
+- added back auto command to ci/cd [#2](https://github.com/Infineon/Infineon-Icons/pull/2) ([@kaiwerther](https://github.com/kaiwerther))
+
+#### ⚠️ Pushed to `master`
+
+- Synced package-lock with package.json ([@kaiwerther](https://github.com/kaiwerther))
+- fixes CI/CD ([@kaiwerther](https://github.com/kaiwerther))
+- configured CI/CD ([@kaiwerther](https://github.com/kaiwerther))
+- bugfixes for library ([@kaiwerther](https://github.com/kaiwerther))
+- added first couple of icons ([@kaiwerther](https://github.com/kaiwerther))
+- Added Build folders to gitignore ([@kaiwerther](https://github.com/kaiwerther))
+- Merge branch 'master' of https://github.com/Infineon/Infineon-Icons ([@kaiwerther](https://github.com/kaiwerther))
+- removed generated build folders from repository ([@kaiwerther](https://github.com/kaiwerther))
+- Update npm-publish-github-packages.yml ([@kaiwerther](https://github.com/kaiwerther))
+- Create npm-publish-github-packages.yml ([@kaiwerther](https://github.com/kaiwerther))
+- Initial commit ([@kaiwerther](https://github.com/kaiwerther))
+- Update LICENSE ([@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 1
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
