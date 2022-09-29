@@ -30,13 +30,8 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
 
-      - run: echo $NPM_CONFIG_USERCONFIG
-      - run: cat $NPM_CONFIG_USERCONFIG
-      - run: cat $NPM_CONFIG_USERCONFIG
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
       - run: npm ci
       - run: npm run build
-      - run: npm publish
+      - run: auto shipit
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
