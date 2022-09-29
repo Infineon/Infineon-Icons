@@ -1,3 +1,16 @@
+# v0.2.1 (Thu Sep 29 2022)
+
+#### 🐛 Bug Fix
+
+- fixed wrong buildscript [#4](https://github.com/Infineon/Infineon-Icons/pull/4) ([@kaiwerther](https://github.com/kaiwerther))
+- changed the way how modules are exported [#3](https://github.com/Infineon/Infineon-Icons/pull/3) ([@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 1
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v0.2.0 (Thu Sep 29 2022)
 
 #### 🚀 Enhancement
