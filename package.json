@@ -1,0 +1,23 @@
+{
+  "name": "infineon-icons",
+  "version": "1.9.0",
+  "scripts": {
+    "build": "npm run generate_js && npm run compile_library && npm run compile_icons",
+    "generate_js": "",
+    "compile_library": "rollup ./src/library.js --file ./dist/library.js --format es  --name \"library\"",
+    "compile_icons": "rollup ./js/index.js --file ./dist/icons.js --format es  --name \"svgs\"",
+    "compile_t": "rollup ./treeshaking_test.js --file ./dist/treeshaking_test.js --format es  --name \"test\""
+  },
+  "exports": {
+    "./library": "./dist/library.js",
+    ".": "./dist/icons.js"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "rollup": "^2.79.1"
+  }
+}
