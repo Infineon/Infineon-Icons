@@ -27,6 +27,7 @@ const library = {
     }
     return iconLibrary[name];
   },
+  getIcons: () => iconLibrary,
 };
 
 export default library;
