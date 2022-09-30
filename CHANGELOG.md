@@ -1,3 +1,15 @@
+# v0.2.3 (Fri Sep 30 2022)
+
+#### 🐛 Bug Fix
+
+- add getIcons functionality to library [#7](https://github.com/Infineon/Infineon-Icons/pull/7) ([@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 1
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v0.2.2 (Thu Sep 29 2022)
 
 #### 🐛 Bug Fix
