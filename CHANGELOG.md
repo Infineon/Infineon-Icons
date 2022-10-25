@@ -1,3 +1,15 @@
+# v1.0.0 (Tue Oct 25 2022)
+
+#### 💥 Breaking Change
+
+- Icons v1 release [#8](https://github.com/Infineon/Infineon-Icons/pull/8) ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+#### Authors: 1
+
+- Benedikt Kaemmerer ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+---
+
 # v0.2.3 (Fri Sep 30 2022)
 
 #### 🐛 Bug Fix
