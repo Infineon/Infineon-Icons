@@ -61,7 +61,7 @@ fs.readdir(svgSourceFolder).then(async (files) => {
         } else if (!height || isNaN(height)
                     || !width || isNaN(width)
                     || !svgContent) {
-          console.error(`${svgFile}: Content not in expected format! Executed regex didn't deliver results.`);
+          console.error(`${svgFile}: Content not in expected format! Executed regex didn't deliver results - width: ${width}; height: ${height}; svgContent ${svgContent} `);
         } else {
           fs.writeFile(jsFile, content);
           addedIcons.push(file.replace('.svg', ''));
