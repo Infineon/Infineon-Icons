@@ -5,7 +5,7 @@ const fs = require('fs').promises;
 const fsr = require('fs');
 const path = require('path');
 
-const regex = /<svg.*?height="(.*?)".*?width="(.*?)".*?>(.*)<\/svg>/m;
+const regex = /<svg.*?width="(.*?)".*?height="(.*?)".*?>(.*)<\/svg>/m;
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
 
@@ -67,7 +67,7 @@ fs.readdir(svgSourceFolder).then(async (files) => {
           addedIcons.push(file.replace('.svg', ''));
         }
       } else {
-        console.error(`${svgFile}: Content not in expected format! Executed regex didn't deliver results.`);
+        console.error(`${svgFile}: Content not found! Executed regex didn't deliver results.`);
       }
     } else if (stat.isDirectory()) {
       console.error("'%s' is a directory. This script is currently not recursive and can't handle sub directories.", svgFile);
