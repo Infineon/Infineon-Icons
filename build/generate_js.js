@@ -5,7 +5,7 @@ const fs = require('fs').promises;
 const fsr = require('fs');
 const path = require('path');
 
-const regex = /<svg.*?height="(.*?)".*?width="(.*?)".*?>(.*)<\/svg>/m;
+const regex = /<svg.*?width="(.*?)".*?height="(.*?)".*?>(.*)<\/svg>/m;
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
 
