@@ -61,13 +61,13 @@ fs.readdir(svgSourceFolder).then(async (files) => {
         } else if (!height || isNaN(height)
                     || !width || isNaN(width)
                     || !svgContent) {
-          console.error(`${svgFile}: Content not in expected format! Executed regex didn't deliver results - width: ${width}; height: ${height}; svgContent ${svgContent} `);
+          console.error(`${svgFile}: Content not in expected format! Executed regex didn't deliver results.`);
         } else {
           fs.writeFile(jsFile, content);
           addedIcons.push(file.replace('.svg', ''));
         }
       } else {
-        console.error(`${svgFile}: Content not in expected format! Executed regex didn't deliver results.`);
+        console.error(`${svgFile}: Content not found! Executed regex didn't deliver results.`);
       }
     } else if (stat.isDirectory()) {
       console.error("'%s' is a directory. This script is currently not recursive and can't handle sub directories.", svgFile);
