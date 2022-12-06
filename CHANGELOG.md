@@ -1,3 +1,15 @@
+# v1.0.1 (Tue Dec 06 2022)
+
+#### ⚠️ Pushed to `master`
+
+- readme added (lechneve@ISCN5CG1201S7M.infineon.com)
+
+#### Authors: 1
+
+- Verena Lechner (lechneve@ISCN5CG1201S7M.infineon.com)
+
+---
+
 # v1.0.0 (Tue Oct 25 2022)
 
 #### 💥 Breaking Change
