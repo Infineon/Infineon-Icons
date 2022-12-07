@@ -99,8 +99,8 @@ npm config set '//npm.pkg.github.com/:_authToken' '<yourPAThere>'
 ## Project configuration
 1. add a file .npmrc to your project root. It should contain 
  ```@infineon:registry=https://npm.pkg.github.com/ ```
-  It is considered best practice to keep package configuration on project level (+ check in your source control system).
-  Access configuration should never be in your source control system and thus are configured on a global PC level
+  It is considered best practice to keep package configuration on project level. Please note that
+  access configuration should never be added to your source control system, though.
 
 ## Installation
 ### Install Packages
@@ -134,7 +134,7 @@ import './plugins/infineonIcons'
 Use the icon component in any template. The icon has to be a string matching the icon name in your library.
 The name can be the original file name from figma or camelCase.
 
-Depending on project language:
+Depending on project language, the following shows how to access the icon and its properties:
 
 ```js
 import library from '@infineon/infineon-icons/library';
@@ -145,6 +145,8 @@ const width = iconObj.width;
 const viewbox = `0 0 ${height} ${width}`;
 const pathD = iconObj.svgContent.substring(iconObj.svgContent.indexOf('d=') + 3).split("\"/>")[0];
 ```
+
+Include the icon as an SVG into your project:
 
 ```html
 <svg width={width} height={height} xmlns="http://www.w3.org/2000/svg" viewBox={viewbox}><path fill="currentColor" d={pathD}/></svg>
@@ -189,7 +191,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Benedikt Kämmerer - Benedikt.Kaemmerer@infineon.com
-Kai Werther - kai.werther@infineon.com
+Tihomir Yanchev - Tihomir.Yanchev-EE@infineon.com
 Verena Lechner - verena.lechner@infineon.com
 
 Project Link: [https://github.com/infineon/infineon-icons](https://github.com/infineon/infineon-icons)
