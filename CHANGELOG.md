@@ -1,3 +1,16 @@
+# v1.0.2 (Wed Dec 07 2022)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/Infineon/Infineon-Icons (lechneve@ISCN5CG1201S7M.infineon.com)
+- readme updated (lechneve@ISCN5CG1201S7M.infineon.com)
+
+#### Authors: 1
+
+- Verena Lechner (lechneve@ISCN5CG1201S7M.infineon.com)
+
+---
+
 # v1.0.1 (Tue Dec 06 2022)
 
 #### ⚠️ Pushed to `master`
