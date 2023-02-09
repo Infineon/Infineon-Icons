@@ -1,3 +1,15 @@
+# v1.0.3 (Thu Feb 09 2023)
+
+#### 🐛 Bug Fix
+
+- Feature/new object format [#9](https://github.com/Infineon/Infineon-Icons/pull/9) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v1.0.2 (Wed Dec 07 2022)
 
 #### ⚠️ Pushed to `master`
