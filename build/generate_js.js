@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable no-await-in-loop */
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-console */
@@ -84,8 +85,6 @@ fs.readdir(svgSourceFolder).then(async (files) => {
           d, stroke, strokeLinecap, strokeLinejoin,
         } = svgPath;
 
-        // const pathD = svgPath[0].attributes[3].nodeValue;
-
         // building js file content
         let content = '';
 
@@ -113,10 +112,24 @@ fs.readdir(svgSourceFolder).then(async (files) => {
   const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 
   const indexFileImportContent = `${addedIcons.map((addedIcon) => `import ${makeCamelCase(addedIcon)} from './${addedIcon}'`).join(';\n')};\n\n`;
-  const indexFileExportDefaultContent = `const icons = {\n${
+
+  const indexFileExportIconsObject = `const icons = {\n${
     addedIcons.map((addedIcon) => `  ${makeCamelCase(addedIcon)}`).join(',\n')},\n};\n`;
-  console.log('indexFileExportDefaultContent', indexFileExportDefaultContent);
-  fs.writeFile(`${jsTargetFolder}index.js`, indexFileImportContent + indexFileExportDefaultContent, (err3) => {
+
+  const indexFileExportGetterFunction = `\n export function getIcon(icon) { 
+    if(!icons[icon]) { 
+      for(let svg in icons) { 
+        if(icons[svg].alternativeName.toLowerCase() === icon.toLowerCase()) { 
+          return icons[svg]
+        }
+      }
+    }
+    return icons[icon]
+  }`;
+
+  const data = [indexFileImportContent, indexFileExportIconsObject, indexFileExportGetterFunction];
+
+  fs.writeFile(`${jsTargetFolder}index.js`, data, (err3) => {
     if (err3) {
       console.error(err3);
     }
