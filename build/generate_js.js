@@ -119,7 +119,7 @@ fs.readdir(svgSourceFolder).then(async (files) => {
   const indexFileExportGetterFunction = `\n export function getIcon(icon) { 
     if(!icons[icon]) { 
       for(let svg in icons) { 
-        if(icons[svg].alternativeName.toLowerCase() === icon.toLowerCase()) { 
+        if(icons[svg].name.toLowerCase() === icon.toLowerCase()) { 
           return icons[svg]
         }
       }
