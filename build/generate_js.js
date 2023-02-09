@@ -1,6 +1,8 @@
+/* eslint-disable max-len */
 /* eslint-disable no-await-in-loop */
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-console */
+
 const fs = require('fs').promises;
 const fsr = require('fs');
 const path = require('path');
@@ -8,6 +10,8 @@ const path = require('path');
 const regex = /<svg.*?width="(.*?)".*?height="(.*?)".*?>(.*)<\/svg>/m;
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
+
+const { DOMParser } = require('xmldom');
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
 
@@ -27,6 +31,33 @@ console.info('deletion successfull\n');
 // #######################################
 console.info('start reading svg files and creating js files');
 // Loop through all the files in the temp directory
+const parsePath = (html) => {
+  const parser = new DOMParser();
+  const document = parser.parseFromString(html, 'text/xml');
+
+  let stroke = '';
+  let strokeLinecap = '';
+  let strokeLinejoin = '';
+  let d = '';
+
+  if (document.childNodes['0'].attributes['0']) {
+    stroke = document.childNodes['0'].attributes['0'].nodeValue;
+  }
+  if (document.childNodes['0'].attributes['1']) {
+    strokeLinecap = document.childNodes['0'].attributes['1'].nodeValue;
+  }
+
+  if (document.childNodes['0'].attributes['2']) {
+    strokeLinejoin = document.childNodes['0'].attributes['2'].nodeValue;
+  }
+  if (document.childNodes['0'].attributes['3']) {
+    d = document.childNodes['0'].attributes['3'].nodeValue;
+  }
+  return {
+    stroke, strokeLinecap, strokeLinejoin, d,
+  };
+};
+
 fs.readdir(svgSourceFolder).then(async (files) => {
   const addedIcons = [];
 
@@ -42,18 +73,22 @@ fs.readdir(svgSourceFolder).then(async (files) => {
       const fileContent = await fs.readFile(svgFile, 'utf8');
 
       const m = regex.exec(fileContent);
+
       if (m != null) {
         const name = file.substr(0, file.lastIndexOf('.'));
         const height = m[1];
         const width = m[2];
         const svgContent = m[3];
+        const svgPath = parsePath(svgContent);
+
+        const {
+          d, stroke, strokeLinecap, strokeLinejoin,
+        } = svgPath;
+
         // building js file content
         let content = '';
-        content += `const name = '${name}';\n`;
-        content += `const height = ${height};\n`;
-        content += `const width = ${width};\n`;
-        content += `const svgContent = '${svgContent};'\n`;
-        content += 'export default {\n  name,\n  height,\n  width,\n  svgContent,\n};\n';
+
+        content += `export default {\n  name: '${name}',\n  height: ${height},\n  width: ${width},\n  d: '${d}',\n  stroke: '${stroke}',\n  strokeLinecap: '${strokeLinecap}',\n  strokeLinejoin: '${strokeLinejoin}',\n};\n`;
 
         // do some sanity checks before writing
         if (!name) {
@@ -77,10 +112,24 @@ fs.readdir(svgSourceFolder).then(async (files) => {
   const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 
   const indexFileImportContent = `${addedIcons.map((addedIcon) => `import ${makeCamelCase(addedIcon)} from './${addedIcon}'`).join(';\n')};\n\n`;
-  const indexFileExportDefaultContent = `export {\n${
+
+  const indexFileExportIconsObject = `const icons = {\n${
     addedIcons.map((addedIcon) => `  ${makeCamelCase(addedIcon)}`).join(',\n')},\n};\n`;
 
-  fs.writeFile(`${jsTargetFolder}index.js`, indexFileImportContent + indexFileExportDefaultContent, (err3) => {
+  const indexFileExportGetterFunction = `\n export function getIcon(icon) { 
+    if(!icons[icon]) { 
+      for(let svg in icons) { 
+        if(icons[svg].alternativeName.toLowerCase() === icon.toLowerCase()) { 
+          return icons[svg]
+        }
+      }
+    }
+    return icons[icon]
+  }`;
+
+  const data = [indexFileImportContent, indexFileExportIconsObject, indexFileExportGetterFunction];
+
+  fs.writeFile(`${jsTargetFolder}index.js`, data, (err3) => {
     if (err3) {
       console.error(err3);
     }
