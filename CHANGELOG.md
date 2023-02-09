@@ -1,3 +1,15 @@
+# v1.0.4 (Thu Feb 09 2023)
+
+#### 🐛 Bug Fix
+
+- fixed alternative name [#10](https://github.com/Infineon/Infineon-Icons/pull/10) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v1.0.3 (Thu Feb 09 2023)
 
 #### 🐛 Bug Fix
