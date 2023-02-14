@@ -1,3 +1,15 @@
+# v1.0.5 (Tue Feb 14 2023)
+
+#### 🐛 Bug Fix
+
+- updated icon object structure [#11](https://github.com/Infineon/Infineon-Icons/pull/11) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v1.0.4 (Thu Feb 09 2023)
 
 #### 🐛 Bug Fix
