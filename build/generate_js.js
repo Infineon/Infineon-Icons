@@ -7,11 +7,9 @@ const fs = require('fs').promises;
 const fsr = require('fs');
 const path = require('path');
 
-const regex = /<svg.*?width="(.*?)".*?height="(.*?)".*?>(.*)<\/svg>/m;
+const regex = /<svg.*?width="(.*?)".*?height="(.*?)".*?fill="(.*?)".*?viewBox="(.*?)".*?>(.*)<\/svg>/m;
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
-
-const { DOMParser } = require('xmldom');
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
 
@@ -31,32 +29,6 @@ console.info('deletion successfull\n');
 // #######################################
 console.info('start reading svg files and creating js files');
 // Loop through all the files in the temp directory
-const parsePath = (html) => {
-  const parser = new DOMParser();
-  const document = parser.parseFromString(html, 'text/xml');
-
-  let stroke = '';
-  let strokeLinecap = '';
-  let strokeLinejoin = '';
-  let d = '';
-
-  if (document.childNodes['0'].attributes['0']) {
-    stroke = document.childNodes['0'].attributes['0'].nodeValue;
-  }
-  if (document.childNodes['0'].attributes['1']) {
-    strokeLinecap = document.childNodes['0'].attributes['1'].nodeValue;
-  }
-
-  if (document.childNodes['0'].attributes['2']) {
-    strokeLinejoin = document.childNodes['0'].attributes['2'].nodeValue;
-  }
-  if (document.childNodes['0'].attributes['3']) {
-    d = document.childNodes['0'].attributes['3'].nodeValue;
-  }
-  return {
-    stroke, strokeLinecap, strokeLinejoin, d,
-  };
-};
 
 fs.readdir(svgSourceFolder).then(async (files) => {
   const addedIcons = [];
@@ -78,17 +50,14 @@ fs.readdir(svgSourceFolder).then(async (files) => {
         const name = file.substr(0, file.lastIndexOf('.'));
         const height = m[1];
         const width = m[2];
-        const svgContent = m[3];
-        const svgPath = parsePath(svgContent);
-
-        const {
-          d, stroke, strokeLinecap, strokeLinejoin,
-        } = svgPath;
+        const fill = m[3];
+        const viewBox = m[4];
+        const svgContent = m[5];
 
         // building js file content
         let content = '';
 
-        content += `export default {\n  name: '${name}',\n  height: ${height},\n  width: ${width},\n  d: '${d}',\n  stroke: '${stroke}',\n  strokeLinecap: '${strokeLinecap}',\n  strokeLinejoin: '${strokeLinejoin}',\n};\n`;
+        content += `export default {\n  name: '${name}',\n  height: ${height},\n  width: ${width},\n  svgContent: '${svgContent}',\n fill: '${fill}',\n viewBox: '${viewBox}'\n};\n`;
 
         // do some sanity checks before writing
         if (!name) {
