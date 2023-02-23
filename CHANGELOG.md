@@ -1,3 +1,15 @@
+# v1.0.6 (Thu Feb 23 2023)
+
+#### ⚠️ Pushed to `master`
+
+- to lower case ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v1.0.5 (Tue Feb 14 2023)
 
 #### 🐛 Bug Fix
