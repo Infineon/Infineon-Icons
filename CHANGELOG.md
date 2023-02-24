@@ -1,3 +1,17 @@
+# v1.0.7 (Fri Feb 24 2023)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/Infineon/Infineon-Icons ([@tishoyanchev](https://github.com/tishoyanchev))
+- without lower case ([@tishoyanchev](https://github.com/tishoyanchev))
+- witout lower case ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v1.0.6 (Thu Feb 23 2023)
 
 #### ⚠️ Pushed to `master`
