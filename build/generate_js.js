@@ -85,8 +85,6 @@ fs.readdir(svgSourceFolder).then(async (files) => {
   const indexFileExportIconsObject = `const icons = {\n${
     addedIcons.map((addedIcon) => `  ${makeCamelCase(addedIcon)}`).join(',\n')},\n};\n`;
     
-    console.log(addedIcons)
-
   const indexFileExportGetterFunction = `\n export function getIcon(icon) { 
     if(!icons[icon.toLowerCase()]) { 
       for(let svg in icons) { 
