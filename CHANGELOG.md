@@ -1,3 +1,15 @@
+# v1.0.9 (Fri Feb 24 2023)
+
+#### ⚠️ Pushed to `master`
+
+- simplify getter function ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v1.0.8 (Fri Feb 24 2023)
 
 #### ⚠️ Pushed to `master`
