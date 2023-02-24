@@ -85,16 +85,7 @@ fs.readdir(svgSourceFolder).then(async (files) => {
   const indexFileExportIconsObject = `const icons = {\n${
     addedIcons.map((addedIcon) => `  ${makeCamelCase(addedIcon)}`).join(',\n')},\n};\n`;
 
-  const indexFileExportGetterFunction = `\n export function getIcon(icon) { 
-    if(!icons[icon.toLowerCase()]) { 
-      for(let svg in icons) { 
-        if(icons[svg].name.toLowerCase() === icon.toLowerCase()) { 
-          return icons[svg]
-        }
-      }
-    }
-    return icons[icon]
-  }`;
+  const indexFileExportGetterFunction = `\n export const getIcon = (icon) => icons[icon]`;
 
   const data = [indexFileImportContent, indexFileExportIconsObject, indexFileExportGetterFunction];
 
