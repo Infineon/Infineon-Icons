@@ -78,13 +78,13 @@ fs.readdir(svgSourceFolder).then(async (files) => {
     }
   }
 
-  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr);
 
   const indexFileImportContent = `${addedIcons.map((addedIcon) => `import ${makeCamelCase(addedIcon)} from './${addedIcon}'`).join(';\n')};\n\n`;
 
   const indexFileExportIconsObject = `const icons = {\n${
     addedIcons.map((addedIcon) => `  ${makeCamelCase(addedIcon)}`).join(',\n')},\n};\n`;
-    
+
   const indexFileExportGetterFunction = `\n export function getIcon(icon) { 
     if(!icons[icon.toLowerCase()]) { 
       for(let svg in icons) { 
