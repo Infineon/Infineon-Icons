@@ -21,7 +21,8 @@
   },
   "main": "dist/icons.js",
   "files": [
-    "dist"
+    "dist",
+    "svg"
   ],
   "dependencies": {
     "xmldom": "^0.6.0"
