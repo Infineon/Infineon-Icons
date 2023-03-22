@@ -1,3 +1,15 @@
+# v1.1.0 (Wed Mar 22 2023)
+
+#### 🚀 Enhancement
+
+- Update package.json [#13](https://github.com/Infineon/Infineon-Icons/pull/13) ([@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 1
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v1.0.9 (Fri Feb 24 2023)
 
 #### ⚠️ Pushed to `master`
