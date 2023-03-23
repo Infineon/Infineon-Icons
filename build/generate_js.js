@@ -59,7 +59,8 @@ fs.readdir(svgSourceFolder).then(async (files) => {
   `import ${makeCamelCase(addedIcon)}Icon from ".${svgSourceFolder}${addedIcon}.svg"`).join(';\n') + ";"
  
   const indexFileRegistryContent = "\n export const iconRegistry = {};"+
-  "\n" + addedIcons.map((addedIcon) => `export const ${makeCamelCase(addedIcon)} = () => iconRegistry["${makeCamelCase(addedIcon)}"] = ${makeCamelCase(addedIcon)}Icon`).join(';\n') + ";"
+  "\n" + 
+  addedIcons.map((addedIcon) => `export const ${makeCamelCase(addedIcon)} = (() => {iconRegistry["${makeCamelCase(addedIcon)}"] = ${makeCamelCase(addedIcon)}Icon})()`).join(';\n') + ";"
 
 
   const data = [svgImports, indexFileRegistryContent];
