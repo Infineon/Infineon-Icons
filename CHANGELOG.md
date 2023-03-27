@@ -1,3 +1,15 @@
+# v1.1.1 (Mon Mar 27 2023)
+
+#### ⚠️ Pushed to `master`
+
+- Update generate_js.js ([@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 1
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v1.1.0 (Wed Mar 22 2023)
 
 #### 🚀 Enhancement
