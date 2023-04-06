@@ -29,11 +29,15 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org
-      - run: cat .npmrc    
-      - run: npm whoami 
-      - run: npm ci
-      - run: npm run build
-      - run: auto shipit
+          
+      - name: Create Release 
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+          NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          cat .npmrc
+          npm whoami
+          npm install
+          npm run buuild
+          auto shipit
