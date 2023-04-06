@@ -36,7 +36,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          cat /home/runner/.npmrc
           npm install
           npm run build
           auto shipit
