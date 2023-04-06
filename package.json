@@ -16,9 +16,6 @@
     "generate:js": "node ./build/generate_js",
     "build:icons": "rollup ./generated_js/index.js --file ./dist/icons.js --format es --name \"svgs\""
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "main": "dist/icons.js",
   "files": [
     "dist",
