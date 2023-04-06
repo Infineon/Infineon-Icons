@@ -1,3 +1,20 @@
+# v1.1.2 (Thu Apr 06 2023)
+
+#### ⚠️ Pushed to `master`
+
+- clean json lock + added config ([@tishoyanchev](https://github.com/tishoyanchev))
+- Update main.yml ([@kaiwerther](https://github.com/kaiwerther))
+- Update package.json ([@kaiwerther](https://github.com/kaiwerther))
+- updated package-lock ([@kaiwerther](https://github.com/kaiwerther))
+- Update main.yml ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 2
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v1.1.1 (Mon Mar 27 2023)
 
 #### ⚠️ Pushed to `master`
