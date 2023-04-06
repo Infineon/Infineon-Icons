@@ -36,7 +36,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          cat .npmrc
           npm whoami
           npm install
           npm run buuild
