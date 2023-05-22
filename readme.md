@@ -66,9 +66,7 @@
 
 <a href="">
   <img src="assets/icons-screenshot.PNG" alt="Screenshot-Icons">
-</a>https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page
-
-Simple library containing Infineon's Icons as SVGs: <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">Infineons Icon Library</a>.
+</a>Simple library containing Infineon's Icons as SVGs: <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">Infineons Icon Library</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
