@@ -3,19 +3,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/infineon/infineon-icons-vue">
+  <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">
     <img src="https://www.infineon.com/frontend/release_2022-09/dist/resources/img/logo-desktop-en.png" alt="Logo">
   </a>
 
   <h3 align="center">infineon-icons</h3>
 
   <p align="center">
-    Include SVG Icons from <a href="https://github.com/infineon/infineon-icons">Infineon's Icon Library</a> into your project
+    Include SVG Icons from <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">Infineon's Icon Library</a> into your project
     <br />
     <a href="https://github.com/infineon/infineon-icons"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://infineon.github.io/infineon-icons-vue">View Demo</a>
+    <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">View Demo</a>
     ·
     <a href="https://github.com/infineon/infineon-icons/issues">Report Bug</a>
     ·
@@ -64,11 +64,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://github.com/Infineon/infineon-icons-vue">
-  <img src="https://github.com/Infineon/infineon-icons-vue/blob/master/images/screenshot-icons.png?raw=true" alt="Screenshot-Icons">
-</a>
-
-Simple library containing Infineon's Icons as SVGs: <a href="https://github.com/infineon/infineon-icons">Infineons Icon Library</a>.
+<a href="">
+  <img src="assets/icons-screenshot.PNG" alt="Screenshot-Icons">
+</a>Simple library containing Infineon's Icons as SVGs: <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">Infineons Icon Library</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
