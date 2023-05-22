@@ -1,3 +1,16 @@
+# v1.1.3 (Mon May 22 2023)
+
+#### 🐛 Bug Fix
+
+- 17 update link in icon library readme [#18](https://github.com/Infineon/Infineon-Icons/pull/18) (lechneve@ISCN5CG1201S7M.infineon.com [@verena-ifx](https://github.com/verena-ifx))
+
+#### Authors: 2
+
+- [@verena-ifx](https://github.com/verena-ifx)
+- Verena Lechner (lechneve@ISCN5CG1201S7M.infineon.com)
+
+---
+
 # v1.1.2 (Thu Apr 06 2023)
 
 #### ⚠️ Pushed to `master`
