@@ -65,7 +65,7 @@
 ## About The Project
 
 <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">
-  <img src="https://github.com/Infineon/infineon-icons/blob/master/images/icons-screenshot.png?raw=true" alt="Screenshot-Icons">
+  <img src="assets/icons-screenshot.PNG" alt="Screenshot-Icons">
 </a>
 
 Simple library containing Infineon's Icons as SVGs: <a href="https://github.com/infineon/infineon-icons">Infineons Icon Library</a>.
