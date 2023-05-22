@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/infineon/infineon-icons-vue">
+  <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">
     <img src="https://www.infineon.com/frontend/release_2022-09/dist/resources/img/logo-desktop-en.png" alt="Logo">
   </a>
 
@@ -15,7 +15,7 @@
     <a href="https://github.com/infineon/infineon-icons"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://infineon.github.io/infineon-icons-vue">View Demo</a>
+    <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">View Demo</a>
     ·
     <a href="https://github.com/infineon/infineon-icons/issues">Report Bug</a>
     ·
@@ -64,8 +64,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://github.com/Infineon/infineon-icons-vue">
-  <img src="https://github.com/Infineon/infineon-icons-vue/blob/master/images/screenshot-icons.png?raw=true" alt="Screenshot-Icons">
+<a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">
+  <img src="https://github.com/Infineon/infineon-icons/blob/master/images/icons-screenshot.png?raw=true" alt="Screenshot-Icons">
 </a>
 
 Simple library containing Infineon's Icons as SVGs: <a href="https://github.com/infineon/infineon-icons">Infineons Icon Library</a>.
