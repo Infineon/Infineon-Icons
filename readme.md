@@ -10,7 +10,7 @@
   <h3 align="center">infineon-icons</h3>
 
   <p align="center">
-    Include SVG Icons from <a href="https://github.com/infineon/infineon-icons">Infineon's Icon Library</a> into your project
+    Include SVG Icons from <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">Infineon's Icon Library</a> into your project
     <br />
     <a href="https://github.com/infineon/infineon-icons"><strong>Explore the docs »</strong></a>
     <br />
@@ -64,11 +64,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">
+<a href="">
   <img src="assets/icons-screenshot.PNG" alt="Screenshot-Icons">
-</a>
+</a>https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page
 
-Simple library containing Infineon's Icons as SVGs: <a href="https://github.com/infineon/infineon-icons">Infineons Icon Library</a>.
+Simple library containing Infineon's Icons as SVGs: <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">Infineons Icon Library</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
