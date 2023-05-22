@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">
+  <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page" target="_blank">
     <img src="https://www.infineon.com/frontend/release_2022-09/dist/resources/img/logo-desktop-en.png" alt="Logo">
   </a>
 
@@ -15,7 +15,7 @@
     <a href="https://github.com/infineon/infineon-icons"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">View Demo</a>
+    <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/infineon/infineon-icons/issues">Report Bug</a>
     ·
@@ -66,7 +66,7 @@
 
 <a href="">
   <img src="assets/icons-screenshot.PNG" alt="Screenshot-Icons">
-</a>Simple library containing Infineon's Icons as SVGs: <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page">Infineons Icon Library</a>.
+</a>Simple library containing Infineon's Icons as SVGs: <a href="https://infineon.github.io/infineon-design-system-stencil/?path=/story/icons--page" target="_blank">Infineons Icon Library</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
