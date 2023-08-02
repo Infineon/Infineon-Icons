@@ -1,3 +1,15 @@
+# v1.1.4 (Wed Aug 02 2023)
+
+#### 🐛 Bug Fix
+
+- New Icon release July [#19](https://github.com/Infineon/Infineon-Icons/pull/19) ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+#### Authors: 1
+
+- Benedikt Kaemmerer ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+---
+
 # v1.1.3 (Mon May 22 2023)
 
 #### 🐛 Bug Fix
