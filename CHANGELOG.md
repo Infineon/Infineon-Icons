@@ -1,3 +1,15 @@
+# v1.1.5 (Tue Oct 17 2023)
+
+#### 🐛 Bug Fix
+
+- Added new icons [#20](https://github.com/Infineon/Infineon-Icons/pull/20) ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+#### Authors: 1
+
+- Benedikt Kaemmerer ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+---
+
 # v1.1.4 (Wed Aug 02 2023)
 
 #### 🐛 Bug Fix
