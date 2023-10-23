@@ -1,3 +1,16 @@
+# v1.1.6 (Mon Oct 23 2023)
+
+#### ⚠️ Pushed to `master`
+
+- generated new icons ([@tishoyanchev](https://github.com/tishoyanchev))
+- generated latest icons ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v1.1.5 (Tue Oct 17 2023)
 
 #### 🐛 Bug Fix
