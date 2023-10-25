@@ -23,10 +23,15 @@ jobs:
         with:
           github-token: ${{ secrets.REPO_DISPATCH_TOKEN }}
           script: |
-            const result = await github.rest.repos.createDispatchEvent({
-              owner: 'Infineon',
-              repo: 'Infineon-Design-System-Stencil',
-              event_type: 'infineon_icons_release',
-              client_payload: {"version": "v5.3.10"}
-              })
-            console.log(result);
+            try {
+              const result = await github.rest.repos.createDispatchEvent({
+                owner: 'Infineon',
+                repo: 'Infineon-Design-System-Stencil',
+                event_type: 'infineon_icons_release',
+                client_payload: {"version": "v5.3.10"}
+              });
+              console.log(result);
+            } catch (error) {
+              console.error(error);
+            }
+          
