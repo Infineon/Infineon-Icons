@@ -1,10 +1,18 @@
 name: Trigger Infineon/infineon-design-system-stencil update
 
-on:
-  workflow_run:
-    workflows: ["Deploy Library to GitHub"]
+# on:
+#   workflow_run:
+#     workflows: ["Deploy Library to GitHub"]
+#     types:
+#       - completed
+
+on: #just for testing
+  pull_request:
     types:
-      - completed
+      - opened
+      - reopened
+      - synchronize # canary on new commit
+
   workflow_dispatch:
 
 jobs:
