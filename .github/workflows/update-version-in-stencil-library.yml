@@ -27,6 +27,6 @@ jobs:
               owner: 'Infineon',
               repo: 'Infineon-Design-System-Stencil',
               event_type: 'infineon_icons_release',
-              client_payload: {}
-            })
+              client_payload: {"version": "v5.3.10"}
+              })
             console.log(result);
