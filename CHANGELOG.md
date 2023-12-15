@@ -1,3 +1,16 @@
+# v1.1.8 (Fri Dec 15 2023)
+
+#### 🐛 Bug Fix
+
+- Bugfix: Security vulnerability from xmldom dependency [#25](https://github.com/Infineon/Infineon-Icons/pull/25) (lechneve@ISCN5CG1201S7M.infineon.com [@verena-ifx](https://github.com/verena-ifx))
+
+#### Authors: 2
+
+- [@verena-ifx](https://github.com/verena-ifx)
+- verena-ifx (lechneve@ISCN5CG1201S7M.infineon.com)
+
+---
+
 # v1.1.6 (Mon Oct 23 2023)
 
 #### ⚠️ Pushed to `master`
