@@ -1,3 +1,16 @@
+# v2.0.1 (Fri May 03 2024)
+
+#### 🐛 Bug Fix
+
+- link in readme fixed [#28](https://github.com/Infineon/Infineon-Icons/pull/28) (lechneve@ISCN5CG1201S7M.infineon.com [@verena-ifx](https://github.com/verena-ifx))
+
+#### Authors: 2
+
+- [@verena-ifx](https://github.com/verena-ifx)
+- verena-ifx (lechneve@ISCN5CG1201S7M.infineon.com)
+
+---
+
 # v2.0.0 (Fri May 03 2024)
 
 #### 💥 Breaking Change
