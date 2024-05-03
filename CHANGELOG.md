@@ -1,3 +1,15 @@
+# v2.0.0 (Fri May 03 2024)
+
+#### 💥 Breaking Change
+
+- Updated Icons with the new March 2024 Release [#29](https://github.com/Infineon/Infineon-Icons/pull/29) ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+#### Authors: 1
+
+- Benedikt Kaemmerer ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+---
+
 # v1.1.8 (Fri Dec 15 2023)
 
 #### 🐛 Bug Fix
