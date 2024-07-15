@@ -43,7 +43,6 @@ fs.readdir(svgSourceFolder).then(async (files) => {
 
     if (stat.isFile()) {
       const fileContent = await fs.readFile(svgFile, 'utf8');
-
       const m = regex.exec(fileContent);
 
       if (m != null) {
@@ -85,7 +84,7 @@ fs.readdir(svgSourceFolder).then(async (files) => {
   const indexFileExportIconsObject = `export const icons = {\n${
     addedIcons.map((addedIcon) => `  ${makeCamelCase(addedIcon)}`).join(',\n')},\n};\n`;
 
-  const indexFileExportGetterFunction = `\n export const getIcon = (icon) => icons[icon];`;
+  const indexFileExportGetterFunction = '\n export const getIcon = (icon) => icons[icon];';
 
   const data = [indexFileImportContent, indexFileExportIconsObject, indexFileExportGetterFunction];
 
