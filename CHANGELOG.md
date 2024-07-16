@@ -1,3 +1,15 @@
+# v2.1.0 (Tue Jul 16 2024)
+
+#### 🚀 Enhancement
+
+- New icons added [#31](https://github.com/Infineon/Infineon-Icons/pull/31) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v2.0.1 (Fri May 03 2024)
 
 #### 🐛 Bug Fix
