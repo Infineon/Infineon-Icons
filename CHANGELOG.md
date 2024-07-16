@@ -1,3 +1,15 @@
+# v2.1.1 (Tue Jul 16 2024)
+
+#### 🐛 Bug Fix
+
+- Updated file-sap-16/24 icons [#33](https://github.com/Infineon/Infineon-Icons/pull/33) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v2.1.0 (Tue Jul 16 2024)
 
 #### 🚀 Enhancement
