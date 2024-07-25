@@ -1,3 +1,15 @@
+# v2.1.2 (Thu Jul 25 2024)
+
+#### 🐛 Bug Fix
+
+- Update existing icons to allow color customization [#35](https://github.com/Infineon/Infineon-Icons/pull/35) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v2.1.1 (Tue Jul 16 2024)
 
 #### 🐛 Bug Fix
