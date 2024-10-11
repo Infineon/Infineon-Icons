@@ -1,3 +1,16 @@
+# v3.0.0 (Fri Oct 11 2024)
+
+#### 💥 Breaking Change
+
+- changed build script to add the icon registry [#14](https://github.com/Infineon/Infineon-Icons/pull/14) ([@kaiwerther](https://github.com/kaiwerther) [@verena-ifx](https://github.com/verena-ifx))
+
+#### Authors: 2
+
+- [@verena-ifx](https://github.com/verena-ifx)
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v2.1.2 (Thu Jul 25 2024)
 
 #### 🐛 Bug Fix
