@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 /* eslint-disable no-await-in-loop */
 /* eslint-disable no-restricted-globals */
 /* eslint-disable no-console */
@@ -9,8 +8,10 @@ const path = require('path');
 
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
+const fontTargetFolder = './generated_fonts/';
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
+if (!fsr.existsSync(fontTargetFolder)) fsr.mkdirSync(fontTargetFolder, { recursive: true });
 
 // #######################################
 console.info(`removing files from target directory ${jsTargetFolder}`);
@@ -23,7 +24,7 @@ fs.readdir(jsTargetFolder, (err, files) => {
     });
   });
 });
-console.info('deletion successfull\n');
+console.info('deletion successful\n');
 
 // #######################################
 console.info('start reading svg files and creating js files');
@@ -70,4 +71,31 @@ fs.readdir(svgSourceFolder).then(async (files) => {
       console.error(err3);
     }
   });
+
+  // Dynamically import SVGIcons2SVGFontStream
+  const { SVGIcons2SVGFontStream } = await import('svgicons2svgfont');
+
+  // Create the icon font
+  const fontStream = new SVGIcons2SVGFontStream({
+    fontName: 'iconfont',
+  });
+
+  fontStream.pipe(fsr.createWriteStream(path.join(fontTargetFolder, 'iconfont.svg')))
+    .on('finish', () => {
+      console.log('Font successfully created!');
+    })
+    .on('error', (err) => {
+      console.error(err);
+    });
+
+  files.forEach((file) => {
+    const glyph = fsr.createReadStream(path.join(svgSourceFolder, file));
+    glyph.metadata = {
+      unicode: [String.fromCharCode(0xe000 + addedIcons.indexOf(file.replace('.svg', '')))],
+      name: file.replace('.svg', ''),
+    };
+    fontStream.write(glyph);
+  });
+
+  fontStream.end();
 });
