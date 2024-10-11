@@ -6,7 +6,6 @@ on:
       - opened
       - reopened
       - synchronize
-      - closed
   push:
     branches:
       - master
@@ -28,10 +27,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://npm.pkg.github.com/
-
-      - run: npm ci
-      - run: npm run build
-      - run: auto shipit
+          cache: 'npm'
+          
+      - name: Create Release 
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          npm install
+          npm run build
+          auto shipit

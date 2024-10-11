@@ -1,7 +1,9 @@
 {
   "name": "@infineon/infineon-icons",
-  "version": "1.0.9",
+  "version": "2.1.2",
+  "private": false,
   "description": "Infineon Icons",
+  "license": "MIT",
   "homepage": "https://github.com/Infineon/Infineon-Icons#readme",
   "bugs": {
     "url": "https://github.com/Infineon/Infineon-Icons/issues"
@@ -16,16 +18,17 @@
     "generate:js": "node ./build/generate_js",
     "build:icons": "rollup --config rollup.config.js"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "main": "dist/icons.js",
   "files": [
     "dist",
     "svg"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "dependencies": {
-    "xmldom": "^0.6.0"
+    "@xmldom/xmldom": "^0.8.10"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",

@@ -1,3 +1,168 @@
+# v2.1.2 (Thu Jul 25 2024)
+
+#### 🐛 Bug Fix
+
+- Update existing icons to allow color customization [#35](https://github.com/Infineon/Infineon-Icons/pull/35) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
+# v2.1.1 (Tue Jul 16 2024)
+
+#### 🐛 Bug Fix
+
+- Updated file-sap-16/24 icons [#33](https://github.com/Infineon/Infineon-Icons/pull/33) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
+# v2.1.0 (Tue Jul 16 2024)
+
+#### 🚀 Enhancement
+
+- New icons added [#31](https://github.com/Infineon/Infineon-Icons/pull/31) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
+# v2.0.1 (Fri May 03 2024)
+
+#### 🐛 Bug Fix
+
+- link in readme fixed [#28](https://github.com/Infineon/Infineon-Icons/pull/28) (lechneve@ISCN5CG1201S7M.infineon.com [@verena-ifx](https://github.com/verena-ifx))
+
+#### Authors: 2
+
+- [@verena-ifx](https://github.com/verena-ifx)
+- verena-ifx (lechneve@ISCN5CG1201S7M.infineon.com)
+
+---
+
+# v2.0.0 (Fri May 03 2024)
+
+#### 💥 Breaking Change
+
+- Updated Icons with the new March 2024 Release [#29](https://github.com/Infineon/Infineon-Icons/pull/29) ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+#### Authors: 1
+
+- Benedikt Kaemmerer ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+---
+
+# v1.1.8 (Fri Dec 15 2023)
+
+#### 🐛 Bug Fix
+
+- Bugfix: Security vulnerability from xmldom dependency [#25](https://github.com/Infineon/Infineon-Icons/pull/25) (lechneve@ISCN5CG1201S7M.infineon.com [@verena-ifx](https://github.com/verena-ifx))
+
+#### Authors: 2
+
+- [@verena-ifx](https://github.com/verena-ifx)
+- verena-ifx (lechneve@ISCN5CG1201S7M.infineon.com)
+
+---
+
+# v1.1.6 (Mon Oct 23 2023)
+
+#### ⚠️ Pushed to `master`
+
+- generated new icons ([@tishoyanchev](https://github.com/tishoyanchev))
+- generated latest icons ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
+# v1.1.5 (Tue Oct 17 2023)
+
+#### 🐛 Bug Fix
+
+- Added new icons [#20](https://github.com/Infineon/Infineon-Icons/pull/20) ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+#### Authors: 1
+
+- Benedikt Kaemmerer ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+---
+
+# v1.1.4 (Wed Aug 02 2023)
+
+#### 🐛 Bug Fix
+
+- New Icon release July [#19](https://github.com/Infineon/Infineon-Icons/pull/19) ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+#### Authors: 1
+
+- Benedikt Kaemmerer ([@benedikt-ifx](https://github.com/benedikt-ifx))
+
+---
+
+# v1.1.3 (Mon May 22 2023)
+
+#### 🐛 Bug Fix
+
+- 17 update link in icon library readme [#18](https://github.com/Infineon/Infineon-Icons/pull/18) (lechneve@ISCN5CG1201S7M.infineon.com [@verena-ifx](https://github.com/verena-ifx))
+
+#### Authors: 2
+
+- [@verena-ifx](https://github.com/verena-ifx)
+- Verena Lechner (lechneve@ISCN5CG1201S7M.infineon.com)
+
+---
+
+# v1.1.2 (Thu Apr 06 2023)
+
+#### ⚠️ Pushed to `master`
+
+- clean json lock + added config ([@tishoyanchev](https://github.com/tishoyanchev))
+- Update main.yml ([@kaiwerther](https://github.com/kaiwerther))
+- Update package.json ([@kaiwerther](https://github.com/kaiwerther))
+- updated package-lock ([@kaiwerther](https://github.com/kaiwerther))
+- Update main.yml ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 2
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
+# v1.1.1 (Mon Mar 27 2023)
+
+#### ⚠️ Pushed to `master`
+
+- Update generate_js.js ([@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 1
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
+# v1.1.0 (Wed Mar 22 2023)
+
+#### 🚀 Enhancement
+
+- Update package.json [#13](https://github.com/Infineon/Infineon-Icons/pull/13) ([@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 1
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v1.0.9 (Fri Feb 24 2023)
 
 #### ⚠️ Pushed to `master`
