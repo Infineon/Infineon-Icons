@@ -8,7 +8,7 @@ const path = require('path');
 
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
-const fontTargetFolder = './generated_fonts/';
+const fontTargetFolder = './dist/fonts/'; // Updated to point to the dist folder
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
 if (!fsr.existsSync(fontTargetFolder)) fsr.mkdirSync(fontTargetFolder, { recursive: true });
