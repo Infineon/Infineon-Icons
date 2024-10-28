@@ -29,6 +29,9 @@ jobs:
           node-version: 16
           cache: 'npm'
           
+      - name: Install xmllint
+        run: sudo apt-get install -y libxml2-utils
+
       - name: Create Release 
         env:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}

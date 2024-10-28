@@ -1,101 +1,211 @@
-/* eslint-disable no-await-in-loop */
-/* eslint-disable no-restricted-globals */
-/* eslint-disable no-console */
-
+/* eslint-disable max-len */
 const fs = require('fs').promises;
-const fsr = require('fs');
+const fsr = require('fs'); // Use this for synchronous methods
 const path = require('path');
+const crypto = require('crypto');
+const { execSync } = require('child_process');
+// eslint-disable-next-line import/no-extraneous-dependencies
+const webfont = require('webfont').default;
 
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
-const fontTargetFolder = './dist/fonts/'; // Updated to point to the dist folder
+const fontTargetFolder = './dist/fonts/';
+const glyphMapFile = './glyphmap.json';
+const START_CODEPOINT = 0xe900;
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
 if (!fsr.existsSync(fontTargetFolder)) fsr.mkdirSync(fontTargetFolder, { recursive: true });
 
-// #######################################
-console.info(`removing files from target directory ${jsTargetFolder}`);
-fs.readdir(jsTargetFolder, (err, files) => {
-  if (err) throw err;
-
-  files.forEach((file) => {
-    fs.unlink(path.join(jsTargetFolder, file), (err2) => {
-      if (err2) throw err2;
-    });
-  });
-});
-console.info('deletion successful\n');
-
-// #######################################
-console.info('start reading svg files and creating js files');
-// Loop through all the files in the temp directory
-
-fs.readdir(svgSourceFolder).then(async (files) => {
-  const addedIcons = [];
-
-  // eslint-disable-next-line no-restricted-syntax
-  for (const file of files) {
-    // Make one pass and make the file complete
-    const svgFile = path.join(svgSourceFolder, file);
-
-    const stat = await fs.stat(svgFile);
-
-    if (stat.isFile()) {
-      const name = file.substr(0, file.lastIndexOf('.'));
-
-      // do some sanity checks before writing
-      if (!name) {
-        console.error(`${svgFile}: File Name doesn't match expected format. Expects {svgName}.svg`);
-      } else {
-        addedIcons.push(file.replace('.svg', ''));
-      }
-    } else if (stat.isDirectory()) {
-      console.error("'%s' is a directory. This script is currently not recursive and can't handle sub directories.", svgFile);
-    }
+const readGlyphMap = async () => {
+  try {
+    const glyphMapData = await fs.readFile(glyphMapFile, 'utf-8');
+    return JSON.parse(glyphMapData);
+  } catch (err) {
+    console.error('Error reading glyph map:', err);
+    return {};
   }
+};
 
+const writeGlyphMap = async (glyphMap) => {
+  try {
+    await fs.writeFile(glyphMapFile, JSON.stringify(glyphMap, null, 2));
+  } catch (err) {
+    console.error('Error saving glyph map:', err);
+  }
+};
+
+const cleanDirectory = async (directory) => {
+  console.info(`Removing files from target directory ${directory}`);
+  try {
+    const files = await fs.readdir(directory);
+    await Promise.all(files.map((file) => fs.unlink(path.join(directory, file))));
+    console.info('Deletion successful\n');
+  } catch (err) {
+    console.error(`Error cleaning directory ${directory}:`, err);
+  }
+};
+
+const computeFileHash = async (filePath) => {
+  try {
+    const data = await fs.readFile(filePath);
+    const hash = crypto.createHash('sha256').update(data).digest('hex');
+    return hash;
+  } catch (err) {
+    console.error('Error computing file hash:', err);
+    throw err;
+  }
+};
+
+const getRenamedFiles = () => {
+  try {
+    const output = execSync('git diff --name-status HEAD~1 HEAD').toString();
+    return output.split('\n')
+      .filter((line) => line.startsWith('R'))
+      .map((line) => {
+        const [, oldPath, newPath] = line.split('\t');
+        return { oldName: path.basename(oldPath, '.svg'), newName: path.basename(newPath, '.svg') };
+      });
+  } catch (err) {
+    console.error('Error detecting renamed files:', err);
+    return [];
+  }
+};
+
+const validateSVG = (filePath) => {
+  try {
+    execSync(`xmllint --noout ${filePath}`);
+    return true;
+  } catch (err) {
+    console.error(`Invalid SVG at ${filePath}:`, err.message);
+    throw new Error(`Invalid SVG at ${filePath}`);
+  }
+};
+
+const generateJSFiles = async (icons) => {
   const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 
-  const svgImports = addedIcons.map((addedIcon) => 
-  `import ${makeCamelCase(addedIcon)}Icon from ".${svgSourceFolder}${addedIcon}.svg"`).join(';\n') + ";"
- 
-  const indexFileRegistryContent = "\n export const iconRegistry = {};"+
-  "\n" + 
-  addedIcons.map((addedIcon) => `export const ${makeCamelCase(addedIcon)} = () => iconRegistry["${makeCamelCase(addedIcon)}"] = ${makeCamelCase(addedIcon)}Icon`).join(';\n') + ";"
+  const svgImports = icons.map((icon) => `import ${makeCamelCase(icon)}Icon from ".${svgSourceFolder}${icon}.svg";`).join('\n');
+  const indexFileRegistryContent = `export const iconRegistry = {};\n${
+    icons.map((icon) => `export const ${makeCamelCase(icon)} = () => iconRegistry["${makeCamelCase(icon)}"] = ${makeCamelCase(icon)}Icon;`).join('\n')}`;
 
+  const data = [svgImports, indexFileRegistryContent].join('\n');
 
-  const data = [svgImports, indexFileRegistryContent];
+  try {
+    await fs.writeFile(`${jsTargetFolder}index.js`, data);
+  } catch (err) {
+    console.error('Error writing JS files:', err);
+    throw err;
+  }
+};
 
-  fs.writeFile(`${jsTargetFolder}index.js`, data, (err3) => {
-    if (err3) {
-      console.error(err3);
-    }
-  });
+const generateFont = async (icons, glyphMap) => {
+  try {
+    const iconFiles = icons.map((iconName) => ({
+      path: path.join(svgSourceFolder, `${iconName}.svg`),
+      name: iconName,
+      codepoint: glyphMap[iconName].codepoint,
+    }));
 
-  // Dynamically import SVGIcons2SVGFontStream
-  const { SVGIcons2SVGFontStream } = await import('svgicons2svgfont');
-
-  // Create the icon font
-  const fontStream = new SVGIcons2SVGFontStream({
-    fontName: 'iconfont',
-  });
-
-  fontStream.pipe(fsr.createWriteStream(path.join(fontTargetFolder, 'iconfont.svg')))
-    .on('finish', () => {
-      console.log('Font successfully created!');
-    })
-    .on('error', (err) => {
-      console.error(err);
+    const result = await webfont({
+      files: iconFiles.map((icon) => icon.path),
+      fontName: 'iconfont',
+      formats: ['ttf', 'woff', 'woff2'],
+      glyphTransformFn: (originalObj) => {
+        const obj = { ...originalObj };
+        const icon = iconFiles.find((i) => i.path === obj.path);
+        obj.name = icon.name;
+        obj.unicode = [String.fromCharCode(icon.codepoint)];
+        return obj;
+      },
+      normalize: true,
+      fontHeight: 1000,
+      descent: 200,
+      dest: fontTargetFolder,
+      template: 'css', // Optionally generate CSS file
+      templateClassName: 'icon',
+      templateFontPath: './',
     });
 
-  files.forEach((file) => {
-    const glyph = fsr.createReadStream(path.join(svgSourceFolder, file));
-    glyph.metadata = {
-      unicode: [String.fromCharCode(0xe000 + addedIcons.indexOf(file.replace('.svg', '')))],
-      name: file.replace('.svg', ''),
-    };
-    fontStream.write(glyph);
-  });
+    ['ttf', 'woff', 'woff2'].forEach((ext) => {
+      if (result[ext]) {
+        const outputPath = path.join(fontTargetFolder, `iconfont.${ext}`);
+        fsr.writeFileSync(outputPath, result[ext]); // Correct usage of writeFileSync
+        console.log(`Generated font file: ${outputPath}`);
+      }
+    });
 
-  fontStream.end();
-});
+    if (result.template) {
+      const cssOutputPath = path.join(fontTargetFolder, 'iconfont.css');
+      fsr.writeFileSync(cssOutputPath, result.template);
+      console.log(`Generated CSS file: ${cssOutputPath}`);
+    }
+
+    console.log('Font generation completed successfully!');
+  } catch (err) {
+    console.error('Error in font generation:', err);
+    throw err;
+  }
+};
+
+const main = async () => {
+  const glyphMap = await readGlyphMap();
+  await cleanDirectory(jsTargetFolder);
+
+  try {
+    const files = await fs.readdir(svgSourceFolder);
+    const updatedIcons = await Promise.all(
+      files
+        .filter((file) => file.endsWith('.svg'))
+        .map(async (file) => {
+          const iconName = file.slice(0, -4);
+          const svgFile = path.join(svgSourceFolder, file);
+
+          validateSVG(svgFile);
+
+          const fileHash = await computeFileHash(svgFile);
+          return { iconName, fileHash };
+        }),
+    );
+
+    const renamedFiles = getRenamedFiles();
+    renamedFiles.forEach(({ oldName, newName }) => {
+      if (glyphMap[oldName]) {
+        glyphMap[newName] = glyphMap[oldName];
+        delete glyphMap[oldName];
+      }
+    });
+
+    const highestCodepoint = Object.values(glyphMap).reduce((max, { codepoint }) => Math.max(max, codepoint), START_CODEPOINT);
+
+    const currentIcons = updatedIcons.map(({ iconName }) => iconName);
+    const currentHashes = updatedIcons.reduce((acc, { iconName, fileHash }) => {
+      acc[iconName] = fileHash;
+      return acc;
+    }, {});
+
+    let nextCodepoint = highestCodepoint + 1;
+
+    currentIcons.forEach((iconName) => {
+      if (!glyphMap[iconName]) {
+        glyphMap[iconName] = { codepoint: nextCodepoint };
+        nextCodepoint += 1;
+      }
+      if (glyphMap[iconName].hash !== currentHashes[iconName]) {
+        glyphMap[iconName].hash = currentHashes[iconName];
+      }
+    });
+
+    const deletedIcons = Object.keys(glyphMap).filter((icon) => !currentIcons.includes(icon));
+    deletedIcons.forEach((icon) => {
+      delete glyphMap[icon];
+    });
+
+    await generateJSFiles(currentIcons);
+    await generateFont(currentIcons, glyphMap);
+    await writeGlyphMap(glyphMap);
+  } catch (err) {
+    console.error('Error processing SVG files:', err);
+  }
+};
+
+main();

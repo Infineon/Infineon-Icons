@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "@xmldom/xmldom": "^0.8.10",
-    "svgicons2svgfont": "^14.0.2"
+    "svgicons2svgfont": "^14.0.2",
+    "webfont": "11.2.26"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
