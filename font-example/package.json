@@ -1,0 +1,11 @@
+{
+    "name": "@infineon/infineon-icons-font-example",
+    "version": "1.0.0",
+    "private": false,
+    "description": "Infineon Icons Example",
+    "license": "MIT",
+    "author": "Kai Werther",
+    "dependencies": {
+        "@infineon/infineon-icons": "^3.0.1--canary.37.4ee23d7945db0f7f037bf019bf5e28908f35552b.0"
+    }
+}
