@@ -6,7 +6,7 @@ const path = require('path');
 const crypto = require('crypto');
 const webfont = require('webfont').default;
 
-const svgSourceFolder = './optimized-icons/';
+const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
 const fontTargetFolder = './dist/fonts/';
 const glyphMapFile = './glyphmap.json';
@@ -81,7 +81,7 @@ const generateFont = async (icons, glyphMap) => {
 
     const result = await webfont({
       files: iconFiles.map((icon) => icon.path),
-      fontName: 'iconfont',
+      fontName: 'infineon-icons',
       formats: ['ttf', 'woff', 'woff2'],
       glyphTransformFn: (originalObj) => {
         const obj = { ...originalObj };
@@ -101,13 +101,13 @@ const generateFont = async (icons, glyphMap) => {
 
     ['ttf', 'woff', 'woff2'].forEach((ext) => {
       if (result[ext]) {
-        const outputPath = path.join(fontTargetFolder, `iconfont.${ext}`);
+        const outputPath = path.join(fontTargetFolder, `infineon-icons.${ext}`);
         fsr.writeFileSync(outputPath, result[ext]); // Correct usage of writeFileSync
       }
     });
 
     if (result.template) {
-      const cssOutputPath = path.join(fontTargetFolder, 'iconfont.css');
+      const cssOutputPath = path.join(fontTargetFolder, 'infineon-icons.css');
       fsr.writeFileSync(cssOutputPath, result.template);
     }
 
@@ -146,7 +146,7 @@ const main = async () => {
         const svgFile = path.join(svgSourceFolder, file);
 
         const fileHash = await computeFileHash(svgFile);
-        return { iconName, originalIconName, fileHash };
+        return { iconName: iconName.toLowerCase(), originalIconName, fileHash };
       }),
     );
 
