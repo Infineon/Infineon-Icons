@@ -6,7 +6,7 @@ const path = require('path');
 const crypto = require('crypto');
 const webfont = require('webfont').default;
 
-const svgSourceFolder = './svg';
+const svgSourceFolder = './optimized-icons/';
 const jsTargetFolder = './generated_js/';
 const fontTargetFolder = './dist/fonts/';
 const glyphMapFile = './glyphmap.json';
