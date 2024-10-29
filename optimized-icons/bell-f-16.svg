@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   fill="none"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <path
+     fill="currentColor"
+     d="M10 13.5a2 2 0 1 1-4 0M14.5 11.5h.5c-1.105 0-2.5-.895-2.5-2V5a4.5 4.5 0 0 0-9 0v4.5a2 2 0 0 1-2 2"
+     id="path1" />
+  <path
+     fill="currentColor"
+     d="M10 13.5h.5V13H10v.5Zm-4 0V13h-.5v.5H6ZM.5 11a.5.5 0 0 0 0 1v-1Zm15 1a.5.5 0 0 0 0-1v1Zm-1-1a.5.5 0 0 0 0 1v-1Zm.5 1a.5.5 0 0 0 0-1v1ZM1.5 11a.5.5 0 0 0 0 1v-1Zm8 2.5A1.5 1.5 0 0 1 8 15v1a2.5 2.5 0 0 0 2.5-2.5h-1ZM8 15a1.5 1.5 0 0 1-1.5-1.5h-1A2.5 2.5 0 0 0 8 16v-1Zm-2-1h4v-1H6v1ZM.5 12h15v-1H.5v1Zm14 0h.5v-1h-.5v1Zm.5-1c-.431 0-.954-.18-1.366-.487-.418-.31-.634-.679-.634-1.013h-1c0 .77.481 1.402 1.037 1.816.562.417 1.29.684 1.963.684v-1Zm-2-1.5V5h-1v4.5h1ZM13 5a5 5 0 0 0-5-5v1a4 4 0 0 1 4 4h1ZM8 0a5 5 0 0 0-5 5h1a4 4 0 0 1 4-4V0ZM3 5v4.5h1V5H3Zm0 4.5A1.5 1.5 0 0 1 1.5 11v1A2.5 2.5 0 0 0 4 9.5H3Z"
+     id="path2" />
+</svg>

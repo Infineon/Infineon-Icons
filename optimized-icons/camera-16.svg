@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   fill="none"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <path
+     fill="currentColor"
+     fill-rule="evenodd"
+     d="M6.5 1h-.309l-.138.276L5.19 3H1.5A1.5 1.5 0 0 0 0 4.5v9A1.5 1.5 0 0 0 1.5 15h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 3h-1.691l-.862-1.724L11.81 1H6.5Zm-.553 2.724L6.81 2h4.382l.862 1.724.138.276H14.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h4.309l.138-.276ZM2 5h2v1H2V5Zm7 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM5 9a4 4 0 1 1 8 0 4 4 0 0 1-8 0Z"
+     clip-rule="evenodd"
+     id="path1" />
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="12"
+   height="12"
+   fill="none"
+   viewBox="0 0 12 12"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <path
+     fill="currentColor"
+     d="M1.688 10.033a.25.25 0 0 0 .277.277l4.416-.527a.25.25 0 0 0 .148-.425L2.639 5.47a.25.25 0 0 0-.424.148l-.527 4.416ZM10.313 1.963a.25.25 0 0 0-.278-.277l-4.416.527a.25.25 0 0 0-.148.425l3.89 3.889c.146.147.4.06.424-.148l.527-4.416Z"
+     id="path1" />
+</svg>

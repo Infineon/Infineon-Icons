@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="12"
+   height="12"
+   fill="none"
+   viewBox="0 0 12 12"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <path
+     style="fill:currentColor;stroke-linecap:round;stroke-linejoin:round"
+     d="M 6,0 A 0.5,0.5 0 0 0 5.6464844,0.14648437 l -4,4.00000003 a 0.5,0.5 0 0 0 0,0.7070312 0.5,0.5 0 0 0 0.7070312,0 L 5.5,1.7070312 V 11.5 A 0.5,0.5 0 0 0 6,12 0.5,0.5 0 0 0 6.5,11.5 V 1.7070312 l 3.1464844,3.1464844 a 0.5,0.5 0 0 0 0.7070316,0 0.5,0.5 0 0 0 0,-0.7070312 L 6.3535156,0.14648437 A 0.5,0.5 0 0 0 6,0 Z"
+     id="path1" />
+</svg>
