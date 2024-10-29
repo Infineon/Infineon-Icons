@@ -84,7 +84,7 @@ const generateJSFiles = async (icons) => {
 const generateFont = async (icons, glyphMap) => {
   try {
     const iconFiles = icons.map((iconName) => ({
-      path: path.join(svgSourceFolder, `${iconName}.svg`),
+      path: path.join(svgSourceFolder, `${iconName}-16.svg`),
       name: iconName,
       codepoint: glyphMap[iconName].codepoint,
     }));
@@ -137,7 +137,7 @@ const main = async () => {
     const files = await fs.readdir(svgSourceFolder);
 
     const iconsForJS = files.filter((file) => file.endsWith('.svg'));
-    const iconsForFont = files.filter((file) => file.endsWith('.svg') && !file.endsWith('-24.svg'));
+    const iconsForFont = files.filter((file) => file.endsWith('.svg') && !file.endsWith('-24.svg') && !file.endsWith('-12.svg'));
 
     const updatedIconsForJS = await Promise.all(
       iconsForJS.map(async (file) => {
@@ -150,6 +150,7 @@ const main = async () => {
         return { iconName, fileHash };
       }),
     );
+
 
     const updatedIconsForFont = await Promise.all(
       iconsForFont.map(async (file) => {
