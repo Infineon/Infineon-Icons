@@ -1,1438 +1,1438 @@
 {
   "Cart-f": {
     "codepoint": 59649,
-    "hash": "ef865c10fda485fafe5a264486566e3c3ef497e1897975de1fda9a49b6de302f"
+    "hash": "2adc39b9cba83eb4037f76bb0579b214757e44df262d12a2a58647cfdf8a803d"
   },
   "address-book": {
     "codepoint": 59650,
-    "hash": "b87259f02803939a3013635eab6d7119c66932ab4e7094d10f6a3749672923c2"
+    "hash": "f7f866caa9bc2867c40e7090e77fbf81cddbb0d6859c03cdd04423ef809febed"
   },
   "advanced": {
     "codepoint": 59651,
-    "hash": "1b554b675c37d760d2ef0f50eea9805c7525c7d17dd70e86c0b5b0326b9cd701"
+    "hash": "ee854c00db2d3b0a89d952670db46ff7a7ee8f2eb72fdeabad64dc9bd69fff3a"
   },
   "airplane": {
     "codepoint": 59652,
-    "hash": "2c91b550c73a43f302bd7f20188f9017b8673455661c124c8130d7734fa9d099"
+    "hash": "3d5e4e417de1ad7b2367c207f862cb54e4b12bdd2d55907d4015bbfaab4b48db"
   },
   "antenna": {
     "codepoint": 59653,
-    "hash": "782d4ff25ace08005d45c3a9d7e86bb40906d94c7160bbe6af4960f4703f1a89"
+    "hash": "2962182b4e8f63721515de6d32840ec13f29c99055d29b19f85db517c2da9abf"
   },
   "apartment-building": {
     "codepoint": 59654,
-    "hash": "2507bcc9fe7c90d0dad4e0db46f056162c4b5e26a95a49510333c7befb06e7cf"
+    "hash": "e6430850b4e2dd6855fcb12ee2832812bd1236accd9799395bbfffda7993ffa9"
   },
   "applications": {
     "codepoint": 59655,
-    "hash": "602921c808dbd78dc4eb560d630a1d90759cd295233b05eaefbee71360758eb4"
+    "hash": "2bff9c76e7f534d9c8186c541cdc387e498d2bc730f80fa4aeab9db1cc623f41"
   },
   "archive": {
     "codepoint": 59656,
-    "hash": "9f50b0f97e7a88ca0c7a97be3a348f09e8f872962d7da0bf75f3b3f863fac646"
+    "hash": "a2079f61f3e766c92a06d804c9b5686628e892be5bd7bb77250b7db61343d3b6"
   },
   "arrow-down": {
     "codepoint": 59657,
-    "hash": "567137a8979749337b4c0a5e5d6b52216cfe18b4125b02bf166a7d387d1716c6"
+    "hash": "aac69629de4fc1a73345e7f36832be52bdfa8e686ca63f94a2b67653e7629f29"
   },
   "arrow-left": {
     "codepoint": 59658,
-    "hash": "fa82a4a7ab124d3af598c5180ca49ba52c177ae069586604f03aed9efd66dffb"
+    "hash": "ed847f3839472603cf74994efb63180e68a14536c94fc5d65b7d9218043aeed8"
   },
   "arrow-right": {
     "codepoint": 59659,
-    "hash": "91ef571c87b2bd87d1e1b36be704083e4506dd1461442c041d61cb7eb650167c"
+    "hash": "0af2b24eef4848c9c25bbdb5e2079ec11244d3a8661dfb4b3d383d69c71f96b0"
   },
   "arrow-triangle-diagonal": {
     "codepoint": 59660,
-    "hash": "86849e0ebd9d7d731a175bff4406fdaaccdf5262150bcabae7edb1a78b2366ce"
+    "hash": "c521104ee83785bbc40f58073575a6385e23a158fa8b601589be09ab50fa4bf2"
   },
   "arrow-triangle-down": {
     "codepoint": 59661,
-    "hash": "239be92f18034acf2dc3f3ee3e96b82528f722c58791606c32c34cb79f80fb9f"
+    "hash": "adc80e9bbedf136aaf611cd73051a093b266fcccf0db953b2382f3786e338ba8"
   },
   "arrow-triangle-horizontal": {
     "codepoint": 59662,
-    "hash": "33b9960b6bde6908f61875e16a1eb79598505bfdb0ae2e19cb07ec71c3baabdd"
+    "hash": "6c22d80b87a75941b8b1b6445ccd9bef87ec9ca980561297014319e1cb9d6fc8"
   },
   "arrow-triangle-left": {
     "codepoint": 59663,
-    "hash": "782668246bfa6a14b1d8351743e81e3cb25c9a3c6e6d64e45be04acffb4ad135"
+    "hash": "1ca128c6acce2d327d2d4ef27822c44bdb249de11b54b466b589f6ea06f51ce7"
   },
   "arrow-triangle-right": {
     "codepoint": 59664,
-    "hash": "ca5fef51fb7aff10f4fa5254ee85718bb619358279ef574c5aef9431e592c63c"
+    "hash": "f6cd0c1daac784479c613cb181ca2f188ac7394fe73e84af7defe51894f3dcfd"
   },
   "arrow-triangle-up": {
     "codepoint": 59665,
-    "hash": "c8aaf94c5579f3775f3fd37bc0d5573f7875125b5a739d59f35aaedcb77bcedf"
+    "hash": "f32515d9579124aef1a128a970bbc00691c5207ece9795dd673793c173e51897"
   },
   "arrow-triangle-vertikal": {
     "codepoint": 59666,
-    "hash": "f01a7c954d94e0c36b61be52f364f2b24843120e13f5050c5a2b15955568fe32"
+    "hash": "3ac1eb00239e0bcec6cb4af80792d8d4df40d9b220b465df3f12b0fc99452386"
   },
   "arrow-up": {
     "codepoint": 59667,
-    "hash": "06c8970c34ef8a804dba636617dc2da643703432730cbe19d3baf614cf5bf2ae"
+    "hash": "4f55464e3c1a152e7f85d4adf81a6599d6dd85a93182836eae2cc0308e4767b4"
   },
   "article": {
     "codepoint": 59668,
-    "hash": "515c7abed93b3e2e32d65da859c9cf897d8fe87b536c3abf7fff98acf0979ae6"
+    "hash": "0d0b03f3c33f22494694f9ee77c0740a6377de44ca7d901e44dc792efced05bd"
   },
   "assembled-product": {
     "codepoint": 59669,
-    "hash": "f3c365127026381f99f64d921df08b1d99b1262fb94d84144c2ac9c13fc4dd6f"
+    "hash": "58f1adecd474db29b5cdc968d1ae3972a72bd08e7de26defe8ed985cb105eab6"
   },
   "attachment": {
     "codepoint": 59670,
-    "hash": "751b39a96cc329b7de7a995dd7a03d9fc553a8fdc34fd54fb935c404226bfc2b"
+    "hash": "2c4f63f181ec1cf3352b88f46c02ae34a2d8631783acfdaa1623f6f73ed20ec6"
   },
   "audio-description": {
     "codepoint": 59671,
-    "hash": "2560f0bbb293fb92e0631ae816cacd44b018ff125a3e46dbe3ad6c783e76fd6d"
+    "hash": "e717a7dabf69e6b9928bd1bac05d70a0df7b327a5a680e716b5c432f74456cfa"
   },
   "award": {
     "codepoint": 59672,
-    "hash": "6ce609ee54b140bc1e649818d03ae414c917aa11a6fbb74ff83bfb34b1001a4d"
+    "hash": "d3fa8075e46cb1779a610e1680976f3f4d1de1cb19d81ba47e4546550c787460"
   },
   "ban": {
     "codepoint": 59673,
-    "hash": "8229b0a1b3139856f4a4bd5a3b04f9ebe87613e7c9a09a3fdfc9601ec1b14f3d"
+    "hash": "c699914daa6065c3ea21f3ac4c55e9b67b4833e990e95edfdbad3ffcff7a40f5"
   },
   "bar-graph": {
     "codepoint": 59674,
-    "hash": "00c3aa2af7c443bdd8d93f9ea473dc2105540649fe27a29d0dcbd7b359c0dee4"
+    "hash": "7164c924733de68420c5446f00130aaa0ae36c74dd1ed85f5edf27a51b04ae5e"
   },
   "bar-graph-linear": {
     "codepoint": 59675,
-    "hash": "d8eda0eb73e8eab74c59f2066f2e371f2b65595cb926a2c49bdfae9fdeb78496"
+    "hash": "95850501b6de92542ba226f3e6ab3bf0c77140c48acb6f030fc7a28fc81fcc44"
   },
   "bar-graph-x": {
     "codepoint": 59676,
-    "hash": "064ba118aa54e1a01bf67c373977f87fb06c7d435ff65c4a5b6c16b07dbe134d"
+    "hash": "4b85a74092d541e3bc23c8d73b37bc778cac984e87297a87571e1f06a346b170"
   },
   "barcode": {
     "codepoint": 59677,
-    "hash": "d1d213a9902834e1b2606d37fc1c3f349ecfbbd1a3b577bc8ecee1d83735cb4b"
+    "hash": "de27d2ba6af952983ad747c9b051ba344539607458795747713b85e5ff5cc48d"
   },
   "battery-charging": {
     "codepoint": 59678,
-    "hash": "13e47044596e053107fc78a753259ba42f64ecf594cdf6a9216f3652cdf0986a"
+    "hash": "62455d1426daf3c4e178ef6959d10a7ceda9ecc1f58b1ed1547488085612baa8"
   },
   "beginner": {
     "codepoint": 59679,
-    "hash": "846dd3b0fcc6ddfba5703dec9e4a147ed4090226c223904836e5ed3bd809ca72"
+    "hash": "dc7daab59294fbd44e53f9dc9f67bfbb7d31f3b865a8209fe1b709d50147e443"
   },
   "bell": {
     "codepoint": 59680,
-    "hash": "32518bdb2951cadf359402e91c0afab00131bcf4c2acacf76b37d28404d89156"
+    "hash": "76e5879b260473d7465209510df25c45e205de7833f319cedfad227609d3a882"
   },
   "bell-f": {
     "codepoint": 59681,
-    "hash": "569fdd8ef3b3c0710b643ebe518b7c330f69d8098ae6b81150d03f7237f9a8c0"
+    "hash": "6ee093d4636c7f57d7bb1cc3445e55b7769b4f6c85658c40cf7297ca4ac49dca"
   },
   "bell-x": {
     "codepoint": 59682,
-    "hash": "dabe43eac151dd8dba05a720ec90a776365ea52f7512f9bb17cb56fb4f6b6ddd"
+    "hash": "3a4df1c6bf855681a568dc45b5ab0ae82615be65ec772c1ea8c3f53119411a91"
   },
   "bike": {
     "codepoint": 59683,
-    "hash": "5f6730c1a33a7fa91ec40b2127f196db7851ddaf0e7c6ca6f9fc781237193989"
+    "hash": "5ecce67c4dd977a5a5e3e0daae5564d024ae1f9a4a6f2e0770e15372d80978b6"
   },
   "binoculars": {
     "codepoint": 59684,
-    "hash": "f85d95761d4ed06109aaef0626b5b43425a7e35c09e07ad016d063462ef925af"
+    "hash": "d8668d256653a54fd8ab4a1f4bd766e7217479306fa3b1814effeafe11ab5dcf"
   },
   "block": {
     "codepoint": 59685,
-    "hash": "f9ec077f4833ef658ed84f21bb04d0649aea657ea5874e5a8251c59684869b49"
+    "hash": "269b777bcf3bdfb96cb49153cbb1328bb7ab3620a96936050e2b050125c0000b"
   },
   "blocks": {
     "codepoint": 59686,
-    "hash": "8f9bc1104541aec70f9827daf9ce1f558169583ba3c3f3153d51efb9b0ded903"
+    "hash": "a7b5d62110a80c2406d7b96a69d3ccfeefe937b82b599a383d157ae7b7e46391"
   },
   "bluetooth": {
     "codepoint": 59687,
-    "hash": "f7ab1a8d8950558fb3addbbce779381616c9674386046ab2403d3b37679c0eb3"
+    "hash": "c6a3a621019bd85436c4817ae5a23e485de8ee5ced3ce0e97b6f4a5cb909f944"
   },
   "board": {
     "codepoint": 59688,
-    "hash": "e7db2411c4943fb5a93ca495e930234cb93803d3781469182fab1e7de903a404"
+    "hash": "276f0d19b4133969c261901c36c54b9a20c1746e369cfa2a0ed5fe1f69c942db"
   },
   "book": {
     "codepoint": 59689,
-    "hash": "b3464253bd38060044071d45f7b440e645cbe1f779e60c25f5564244b70b0f99"
+    "hash": "e94e0621607bb115f50bf76eb9277707f983a4a659be9308e7d2f17875c5cbce"
   },
   "book-bookmark": {
     "codepoint": 59690,
-    "hash": "495d77b0912517947f3f9d61c64288c9fab94597752ebfd851a28ec71cfec50e"
+    "hash": "9fd9d05d674b302886fa5752b34bc88dbfe04b71aaa67ea691dbff5d34ae7d1c"
   },
   "book-open": {
     "codepoint": 59691,
-    "hash": "ebb0da75e2d9411e3e715935f758d96bf25fd1b8dd5b5142559f270af976006b"
+    "hash": "2d7625a23a7e72779b62832272c1288b73798376eacab0c42eb47f25cd2e0e1b"
   },
   "bookmark": {
     "codepoint": 59692,
-    "hash": "f3757c738318377853abf8f473c858323b741671b6ae0b3eb7f861c637369732"
+    "hash": "8ce00da387af0f501656d7ddf716b7a933b014cb5fb087908792dadbc983830f"
   },
   "bookmark-f": {
     "codepoint": 59693,
-    "hash": "9695b88c2a5398109cdc0628b8d80348245102b4433b17c345a152194b36a48a"
+    "hash": "eb8731a76040b493a2fbf255d0c5f00b82250335f04a845ff8b2cedf624b6725"
   },
   "box": {
     "codepoint": 59694,
-    "hash": "7161e13434025aa36895697b5685b3cfcd52112d93b5d055156f25159107c5ee"
+    "hash": "2e788e462e133e47e78c49ba95d412844e641825ca7a0f7f820cb299541559f7"
   },
   "braille": {
     "codepoint": 59695,
-    "hash": "b4c9283f95244903624187b3bbb5b9a622d8881fa6cc7b2a8750e5959ad52c17"
+    "hash": "f2cbd94157928ba979d7998bad56300124c74463bc39ebd86ad9bac586d8606e"
   },
   "briefcase": {
     "codepoint": 59696,
-    "hash": "26891afa79ca4f7e5ddede085015fdfb6d88be8910fa1f1068f963219035d28e"
+    "hash": "80a4f064c2a3dab8e7a8665a5e39b59047e86b5001552577e302d81103487872"
   },
   "bug": {
     "codepoint": 59697,
-    "hash": "e1b704952d828ffadbdac276b4db3a572adcd0563e332f7dab48832d5d0d8e1c"
+    "hash": "ed807f21f9c065592f63b0f6db114f19cad89ccd58175658fbbdf32de01ae071"
   },
   "bullet-list": {
     "codepoint": 59698,
-    "hash": "c385a5c16272bdb298697fb9c44f56b9ffd22144777d36d43916ab4d1dcd8822"
+    "hash": "c171d5426d444eb7cb1b5609a53da814b756fa92b9600a82c96e4243b32c5a45"
   },
   "c-add": {
     "codepoint": 59699,
-    "hash": "a9d003690f59a839c3c593db81e2cf22fcdd2ce9780d365c0501f45d69b574ae"
+    "hash": "7b0eb2c07ff2debc2a1e117779c03319a5104163351708eaf12890fed74e5f16"
   },
   "c-check": {
     "codepoint": 59700,
-    "hash": "edad87f8c0da308a5ef65dbdd17698bcaa6694154f6a0cf7e265e44b474b659f"
+    "hash": "97e5b3596d01ee2ac5c31311b127cb1f920dbb1adf9c52740ff2e37194b08785"
   },
   "c-check-f": {
     "codepoint": 59701,
-    "hash": "0797a634d9fb07a66fee0b5b8faf5598ee9cc857b10ba0cc18b6ddc4fc54e0f3"
+    "hash": "e8ec334eee413f470c705c8c36af75c0aaec1c2f7b80728ea56e6192aa664c62"
   },
   "c-delete": {
     "codepoint": 59702,
-    "hash": "23fe06179ef6ecb25fd6a09cbd2df2394d3a8d90c6f20c886473e98b39f8f084"
+    "hash": "e8cf2111b54ae78ed9df04158a98a0b7e78b3d45eace1e2737641f87766b02f8"
   },
   "c-info": {
     "codepoint": 59703,
-    "hash": "cd732c45b0bf1ef00941dd7f9f746b3b8368dcdfcd0e1684fa6a6839cba1a1f8"
+    "hash": "e54b5fb63b28a83ac1b7a507d690dd70079c008c7963192a7bd0bc4c07f13442"
   },
   "c-info-f": {
     "codepoint": 59704,
-    "hash": "c30dbbb9d5e78c1c95b5a313498023402d615949d4ac15f204a287119acf96ff"
+    "hash": "bf758b45c84229764b00d9aa6113ff048a01ba6b312259829a54a478f03a9f84"
   },
   "c-question": {
     "codepoint": 59705,
-    "hash": "4409b2f2187fab6c2fe0e3aefe4a3265c9dfb9f05f708d16e6a13c8d3067554e"
+    "hash": "19bf2f2cf6590ccf8815a15ac833b6e97f6562a73155d80a4ded6253ee2bbaf5"
   },
   "c-remove": {
     "codepoint": 59706,
-    "hash": "c8f7e441c37dd1db5a6dc9273ae5e8f42f3b0369edcee22fc90352c1d9b0f785"
+    "hash": "1b530f34c8cc9fca663cdb37f598403a25ab643d1b17bc9c55778640882039c4"
   },
   "c-warning": {
     "codepoint": 59707,
-    "hash": "e7d9f7ab995039d1f50e3c784ce8d77891714038398a45b24fc7c127302a1a35"
+    "hash": "d98b4e97d289a329f344719b585b99cd342374c386ac5cf8d66be7d5ae47afa4"
   },
   "c-warning-f": {
     "codepoint": 59708,
-    "hash": "c781a379037ce4b18773e46797b48a7278069879fad0dbda4cf0614365aee95e"
+    "hash": "5724f09994f13933fda9d9a8f0d98de99312910cfb1bc085535e0083479eea29"
   },
   "calendar": {
     "codepoint": 59709,
-    "hash": "e11699f9925460a50127179dd353159b99a8d1a4440a700af78698de028a1f5d"
+    "hash": "df3385e5f03232bbceee0fb62ef7f384257ee10382bdd9077288568241f26f5c"
   },
   "calendar-check": {
     "codepoint": 59710,
-    "hash": "8870914b83248d080a9372672e0025114b6cb0f53459f0d05b6b271020d6c20f"
+    "hash": "ce4f0b83533c683261eff39911455ad0f67e745ddc987c4ebe165aae5b83aa6b"
   },
   "calendar-heart": {
     "codepoint": 59711,
-    "hash": "d2aef9dd03f139a9f9f3142df29b1f585b9a71fa937fff4a1732ff26d79157eb"
+    "hash": "f0ccfe8d9d67201be00cb84e4e98a031b5046d33f58a69cd17be9bd4c666995e"
   },
   "calendar-plus": {
     "codepoint": 59712,
-    "hash": "b90b206768b38faa1cddf26cc6e396f7cd4c7d2dabcd0e94d6c163e054397ee8"
+    "hash": "d3826a454622e817c672f668898983902d3c42abe491a17130b5fa23930fb46c"
   },
   "camera": {
     "codepoint": 59713,
-    "hash": "a9de6aabde4c0ac41e4f4d68865a9142685b1911ed0ac169deb79f6482b494d3"
+    "hash": "e8040f95e62ae445d83f0b51c33bf5aef84fa8242210d4574b0be0132b54c72d"
   },
   "car": {
     "codepoint": 59714,
-    "hash": "3b4acd3738c7e76a69ff7e5c590fb1e7960185a6006c11669cd1463cd8314ae3"
+    "hash": "4f350cd3d62f22bf07d3cda23085337ba3ad32c5cf2b398c0c8c86c1b5f86cae"
   },
   "car-lights": {
     "codepoint": 59715,
-    "hash": "4fabf5a7d9877d059cc4be5ff5834e45e136ee3bd5b72525c1518f15551b69cf"
+    "hash": "00e3fd7d6432f84c8e3fcd6b56eb9687b709c3aa326593bf4949c98b4e4c470c"
   },
   "cart": {
     "codepoint": 59716,
-    "hash": "4452faa21086b69cb7ed6aeee57657cbe1f9c235baa0bc7162da7b67eae58bf6"
+    "hash": "ba995c0955e16dc90846af56ed184b118c6ebafa46ace96857f157f4c8bb04d5"
   },
   "charging": {
     "codepoint": 59717,
-    "hash": "98e08c10e0d9264a354a4138d228582f4129dfc6a64a075da878d3ed2be922e9"
+    "hash": "54b61780437620697151ebfb5c025971eb12d3ff32bc9501d15e57a72b4b79b4"
   },
   "chart": {
     "codepoint": 59718,
-    "hash": "99f96ef40663e6e1ca6afd64b9158451ae3a7130e062265d3eeca29f6bb6c3a1"
+    "hash": "53c0a85928516de3545a9e9b69c4d24efc636d0a20689f6a0c09c3e3040ce59d"
   },
   "chat": {
     "codepoint": 59719,
-    "hash": "1063a8d1a53e92117a703c2c079fd6c5743234965a6652cf9767d6921d600ae9"
+    "hash": "88887501f32b1ca4affb1e3a6055fa5cab351756978d71b42c6577c7e737e6b4"
   },
   "check": {
     "codepoint": 59720,
-    "hash": "0d3577e35835edcfd7c25c2816b3ff9ee8695aa6208cc9ca21812423a98d46a9"
+    "hash": "e4618eae146050d45e89b7704da9cb7fd69a26244df4a2338247529d6f4ba739"
   },
   "check-list": {
     "codepoint": 59721,
-    "hash": "48295ee627703576f5bfff5d86ac46e1e8bed61a24b746cb9f438ccb061656b5"
+    "hash": "b1a72d0e9a10172d571c5f3c47ed709718c781992feaf2b5da4ba093a74bb40e"
   },
   "chemistry": {
     "codepoint": 59722,
-    "hash": "4375883d224dfa276509f7a79329d5f49c10c652bce8ffae13fadbcb6f2f8ce9"
+    "hash": "c2280caea264bc28708e7a11dc6a0e6b6b55d346672bf928c0f3c315ff4d1700"
   },
   "chevron-down": {
     "codepoint": 59723,
-    "hash": "9e65cd2fe1986e704b5371217ae98a3a0fce8d13dbcd5f37334d4382aa5490cc"
+    "hash": "b5d70da36bff9319c4d60f8bdaa74b0911b9a023119b95e33a3e2c98cf799db2"
   },
   "chevron-left": {
     "codepoint": 59724,
-    "hash": "70a37fd04d50e742b180c2631fa489e978989e8bdcd285fd331e6ac19d8ec964"
+    "hash": "0c5bda1d40fd95d3d2fe8ab7f8d097f5295bae8f908ad33b4d3943f95cf7b065"
   },
   "chevron-right": {
     "codepoint": 59725,
-    "hash": "f19acf86ea868517f1e76431003740d3f881034ffaa823f3bb93b6fcbc648c31"
+    "hash": "701153fc20add4ba726e94e79aeb5a017730cbdba968d3e42830229b0843f08c"
   },
   "chevron-up": {
     "codepoint": 59726,
-    "hash": "6559b193a7db9a8625266b75d4d066a81d271f87c19713ca0b45b7d1feb42a18"
+    "hash": "f554cba6733502fc7cc583730876525f90cd1619e7cf5126ed729b4315a37430"
   },
   "chip": {
     "codepoint": 59727,
-    "hash": "60780757588815e1e8cd24888a609e09265ce72084f951974034a9338af57ed0"
+    "hash": "76d96066e25e01cc534d5e5fd4e04d5e15eb2b8593594607443e53c526394f3f"
   },
   "chip-dip": {
     "codepoint": 59728,
-    "hash": "67e64351bbf3fb2c9081af89d7974a2c3f690ef5acf587febd2b10cf76f8c413"
+    "hash": "35ad5656af4d666c0e95b90e6cca81f8866bd8e0f6f5fd4785c9ad32c7dca6fe"
   },
   "chips": {
     "codepoint": 59729,
-    "hash": "60c6ba7861b93905e39f911aa2dbdb45d2846d1ca78febf2493fbbc9737b2b2a"
+    "hash": "e47d78257b76f16845b573b66633e0a1f61612adebef2713a9e6fdd3fe947a69"
   },
   "clipboard": {
     "codepoint": 59730,
-    "hash": "32637d51ff2df0f205d29f465649ded62eb64a9a6c4f4b09dae2d898d98bdec4"
+    "hash": "0412e1d62b934c6f892330605b7e1bd8144d94b25a620b8d1b829034632d82d6"
   },
   "clipboard-check": {
     "codepoint": 59731,
-    "hash": "bba801fd60e0df625d6948d744efb3fa874da04a3dee6929e5b0621d10cf4134"
+    "hash": "86e498845886b6eca0577634fb823ce555d12f930c7026dd7d0c8aa3724537e5"
   },
   "clipboard-medical": {
     "codepoint": 59732,
-    "hash": "59311194f7250316ef61ea1dff0b1b500185f69d036b697d830dae2a4751537e"
+    "hash": "76cc3b4965e85223e7587cfe19ebe18abf1b76072e705d57dc9df3db7afe306d"
   },
   "clock": {
     "codepoint": 59733,
-    "hash": "23d32a6c94946947de5b86908e726ab72d00621f59c776d612c19dddf6204afb"
+    "hash": "86640d03c95b279291ab03555daebfa1a08cad7ab2845227de336606bc86523e"
   },
   "cloud": {
     "codepoint": 59734,
-    "hash": "33f6b1f241ce4863a93f40c1d77465373a0edc04281688144cd2ce61d07f4d80"
+    "hash": "9f72f838861507a724e581463ba397960787bd897cd02507d8b199e471b1344f"
   },
   "coach": {
     "codepoint": 59735,
-    "hash": "196249f24b393782465307826894e4849541bf0c83508d5fb1911ebf9cec8d12"
+    "hash": "8d5cbb5a4192ef85b8535dd73cf5d6c25ce4498f670759dc3f85fd669ece7b47"
   },
   "code": {
     "codepoint": 59736,
-    "hash": "f4862ac06e391cd22901c954c96f6fd19ceb4f2ac5a5864b7380d87a1adf4140"
+    "hash": "8e294e514b82b0c80ae4b3e64b95ea1bda5602c669029a1b78c7399a2a081e6f"
   },
   "cogwheel": {
     "codepoint": 59737,
-    "hash": "2afd32447d1aaa4199bbff6660795b0777d77d72e5ddce4cf2183f70198e3b72"
+    "hash": "8cc7a612b57f6da7b84edb720e621466d1213a3a04d6915bcd1f738438d75668"
   },
   "coins": {
     "codepoint": 59738,
-    "hash": "b2f0bbc0025905c0d56c7f7614e310f160c4f1d54da4e66066108a4d5ca7bbda"
+    "hash": "388cd286c7bbc33a4984f9366ff267390a194999810dfb1fe8c1ab7a944b3c21"
   },
   "comment": {
     "codepoint": 59739,
-    "hash": "17f05468e4bc15db41669eb0e755a483817fb034e1b9d688e93627fba91be6c4"
+    "hash": "7aa6e61a5ed815934d9fa1763b5e5dfaab94dd48d6cb2200df41f63f4cb8ee00"
   },
   "community": {
     "codepoint": 59740,
-    "hash": "eada8c6c0a898bfe1fc09fd79094456b88e2bc2fd7726ab1af575df448bd5add"
+    "hash": "82e7ebba85a473fc7bdaee19d2c68368a2462458cfe8dbe1b04a3acca146bfde"
   },
   "contact": {
     "codepoint": 59741,
-    "hash": "6ceafff5e9665dfb8431e37f92c5a429ed4d5e030406f73152f83dd72bb3a1bf"
+    "hash": "b0ebf5c6f08a04a1b42fdcc18e10a3c7fe0dd4b4970f67bbcc1dc76a39fc5e6d"
   },
   "copy": {
     "codepoint": 59742,
-    "hash": "711cd2091d17d93ec0f06c04e34af56147c3f2bcc9f1cd5b718be5d0af673a42"
+    "hash": "df0d8f68bc5dfacea471dc137b00ab92c5b66e39d50a9d032f6f30ce0b60e29f"
   },
   "copyright": {
     "codepoint": 59743,
-    "hash": "0d36aecbdf03261cfca8559bdcb1d70f3c0c4eafdbbcc64d4e01760e13edd2c6"
+    "hash": "c66d89a359eea6b82dd26752092cfd10db8a06a8c708b260796ee1d0d33afcf4"
   },
   "corner-arrow-down-right": {
     "codepoint": 59744,
-    "hash": "6151cdc42ab90c008fe732897cda6a352360ba0be8bbbdda066c10b60df92a00"
+    "hash": "af7d491ad21337cbb893deb274dca2672f01cb843e14d1aa136aca30e84ca7b0"
   },
   "cross": {
     "codepoint": 59745,
-    "hash": "389c7c77ab6eb6eff0b96685f9a37f9fa3eb65e0ad1e05330be02602ea617ead"
+    "hash": "eacb596b5efd3c27ab4f116f2b4a69cb5f238a5afda78967d867d954a0f73952"
   },
   "curved-arrow-left": {
     "codepoint": 59746,
-    "hash": "e58d02d62affbd3284d1f1b717e65980e6bb7303d539610ea79404959fa44752"
+    "hash": "52fdd4fb35f17da06f780c738165f77604016e92c2dc5fb43651ade6e9b6f4a3"
   },
   "curved-arrow-right": {
     "codepoint": 59747,
-    "hash": "72f9a39e0a01a22a81a56068cc3985b8ed5745a847c4ba761b45976a75504054"
+    "hash": "0ce703c827d8b5a77d94979474d59e1e8a6847efaa676d94b3806712c0efb792"
   },
   "cutlery": {
     "codepoint": 59748,
-    "hash": "ac7dfcdc9eb1a18ba566d040a0594e20d118c98c6c76a12c38a70a7eed1ac2a1"
+    "hash": "e27718b6833b62871df7b06b9bc1aaa2c9b7d3800e3289422fdb49e21ee45315"
   },
   "dashboard": {
     "codepoint": 59749,
-    "hash": "b2717f1d9d8fe996354dbd13d0fe8fd5c45b30f47fa4b3e6ff02e0c367a318dd"
+    "hash": "f300390fe654b95162fc651ee26ca569569e992285108891a6d0f15e288089ae"
   },
   "database": {
     "codepoint": 59750,
-    "hash": "cc7a8051f4506c981f15a02a7f520d9375ccf73c97e50ba4d0927c13c2006623"
+    "hash": "d246aeea59d495b461f6273c7d156dded23cbb4a5dfff005042067b1adf34b4c"
   },
   "delete": {
     "codepoint": 59751,
-    "hash": "2c2ef258c2d61c5c433491381defb00f39de10e132392015e1919578c2df82d6"
+    "hash": "6230e479c729b8bb6fc81c99f33907db89271380cc6154bc25f792e3e90bf325"
   },
   "delete-forever": {
     "codepoint": 59752,
-    "hash": "704d26abbad929f76ee62ac1a07b83171307b147f560dac9f5d8f737aae702fb"
+    "hash": "0106f3d9ed70bc8edd1e7fcca1cfd294422f93f22e2c09fa58473dcc7ca3b4db"
   },
   "delete-text": {
     "codepoint": 59753,
-    "hash": "6efae66289d263cf062a8178c936ab6e33b669d67606d2ad3259190b27ef28fd"
+    "hash": "62115e137796f0c0ec81665f00bd0d08996f59312882cc72b28917904e0fd711"
   },
   "desktop": {
     "codepoint": 59754,
-    "hash": "acf6782fdc029605909f57f75ff8f43ca144c9aa1b96b75f578eb432ba6a32a4"
+    "hash": "cbf50c4b4016ac9eb35169571a632053e3ce94bfa24a4f50651d89eebfb1ed72"
   },
   "double-chevron-left": {
     "codepoint": 59755,
-    "hash": "4f9f4a985ab952b540a63904e39736fc2dae3ebb97ad845bd05b2d7c1242597a"
+    "hash": "0e01d4dc85785b46b52cc396eb74885f1b52747a23e7a61ab1a7c0dbc51d2099"
   },
   "double-chevron-right": {
     "codepoint": 59756,
-    "hash": "9e18d90aed72055b41504bad7b5ac46b7dbc7798f733b52d0c5d199d722d698d"
+    "hash": "8e52ed0ef4da485a076370d3c1b7b4a0ff3b18ec114f9bbb3828963b09713edc"
   },
   "download": {
     "codepoint": 59757,
-    "hash": "a082d315c057fb0b5c9d6576957fb6b3b27d3d0d0c72353655a1671ddf21c42d"
+    "hash": "d4eaa4c051878e82256163b0056baab23380e76c79e5f91af480b32c6549135b"
   },
   "download-check": {
     "codepoint": 59758,
-    "hash": "c05bab6ee3e492b7b7c212ef7b8a0b21f56d4ebaf9068898960c6fc05876c2ac"
+    "hash": "a4c70ffaa49db62958c223807ed90d134d06efa32893d015afcddd42ae0d5abb"
   },
   "download-plus": {
     "codepoint": 59759,
-    "hash": "5a8eb72043c0d76d3748018d4099997ffb5bb4254df220baf046d4ef8cde896d"
+    "hash": "1d2be06a730517ef726a3095b7e4d7ccf699b5f3c80770676902c63546eee2f0"
   },
   "drag-arrows": {
     "codepoint": 59760,
-    "hash": "ebfac32371b4e1601aaa0b25b60b89f149861ea4d23d0a923b14d8c4b63e56ae"
+    "hash": "72163450e92b99a57c2a7e0f00aa68f9a662d8112edbc6160e1409ab312eb97b"
   },
   "drag-indicator": {
     "codepoint": 59761,
-    "hash": "a38c4db188761b74fa5ce3dc0ac40818197bb9440a050842619e321fd3fee889"
+    "hash": "767fc1d3e174ef3332fbab7ad3373fe5d6eb2e50d79957485513c286d84c7bfb"
   },
   "duplicate": {
     "codepoint": 59762,
-    "hash": "f0ed0876cb9e1b980776a9710f5201687f0914e362f9f2e1dd38510407ffda84"
+    "hash": "a99ba3600f6900fec01cb5fdf0217070625f75f521fe7b1f9b0e7742fc384400"
   },
   "editor": {
     "codepoint": 59763,
-    "hash": "02aec4c0d9b0771b128231ceac66bcca9a7b52d51db2a7252ef1d56c5f9911e2"
+    "hash": "e6315e52a4fd80c8e2c090c1646f8c7e425dcf026874602774c2ee730e9a601c"
   },
   "elearning": {
     "codepoint": 59764,
-    "hash": "6e882e41522ffcaa87c0c5d9c74ea70b0b6d40d1bcdc0a82a96dc52205696d1c"
+    "hash": "1113e87e4ba59d6d21e7d78164d2840f0f40969cb3fe22ea51b5c7b5663cbfe1"
   },
   "enlarge": {
     "codepoint": 59765,
-    "hash": "d92d8629bf8845e29c5c78350c804144abd57511bc727c7f9eca619b5b3c8df8"
+    "hash": "3aa27cdc74dda9407a6a045e0c33251fb81ffe5088f31af0dc5d24a69b5c1902"
   },
   "facebook": {
     "codepoint": 59766,
-    "hash": "80aa12535994ec6aca5c5869796ea2f0e32962d7e1af61917bafad49953968b6"
+    "hash": "e2a11977beb52040cb93da3efcef9ae365dc6e176eb272e0ba2fa1ff9dc80ac5"
   },
   "factory": {
     "codepoint": 59767,
-    "hash": "89721cabe7419e52e4a189b29395582a5df404a465ebd1db3806a97c566cbb37"
+    "hash": "767ec9ee55ee49f150a79a1d8fcf765e0247fca7eb10c6208379aa039942075d"
   },
   "file": {
     "codepoint": 59768,
-    "hash": "9cbd32f2fe71fa08f59cb3793865f79e8c1bc1fc57f767d5a02776f52b9e00f5"
+    "hash": "83e8d635e8aeb4d4da09d3b2c9faab545d345a44705fb704c4cbdafd871535a2"
   },
   "file-aac": {
     "codepoint": 59769,
-    "hash": "ba347e4a84bc624ee140828697f3433e8a53498577a39f8dee2c6233a5407fdc"
+    "hash": "29bde0c126e5b7b2097e00a5a6f00d2fc1f95dd9fe6ab581b7025832b249846d"
   },
   "file-avi": {
     "codepoint": 59770,
-    "hash": "46620904e5ce3be7378e52357836c2fa1ec83761142de019cc89547f012fa58a"
+    "hash": "525060f511033bc4e44877c9ca4424ecbce1904ca8d784e19e571f4261dac7b6"
   },
   "file-css": {
     "codepoint": 59771,
-    "hash": "87dc0b23355a2ad0958aed921d752cd2bf9e9a49f63071463b693f3917baa989"
+    "hash": "62599480b346a6b70c41a247633838bfd12b155d2e299e2232d9ad86dda8bf26"
   },
   "file-csv": {
     "codepoint": 59772,
-    "hash": "acbe67b6da6deeb636c21b26f2de0bc865beff30a38845c38a46bc1dcac9e7a8"
+    "hash": "882851290afe6ba5a78b712587a1a797edf8b6b7254485e4086d441bbe0f9fcf"
   },
   "file-doc": {
     "codepoint": 59773,
-    "hash": "855d952a9b4fc8de63ba9eafc757e2612bec97df63d894b9b88ec0581f560e80"
+    "hash": "9edd4c504dab82fa0d22381e09409417fbd2232c69f6c9650cf42c39021d65cc"
   },
   "file-docx": {
     "codepoint": 59774,
-    "hash": "18b24fd44bf65689074e31e10ba9d9e5a90f84b18bd2306bbe43b95448eed10b"
+    "hash": "82bb302417cce4581ada07a6026bee1cdea95fb711fbfde9beb58ba274a01cff"
   },
   "file-eps": {
     "codepoint": 59775,
-    "hash": "18efa107e62f25dbaeea72c1a461175b51889ceb53df2c653d5bf56b0a1aae76"
+    "hash": "3c848e082814df9205f3f9b0b7b6cc5e5cad05197fbda8cff05a37c3a829f03f"
   },
   "file-exe": {
     "codepoint": 59776,
-    "hash": "6efa51bf99471fce59a76a30c414ac14a502009a88c3aec4e368fe912cff91d4"
+    "hash": "a6cfa0359c32fec79daff64067f6e5e1c29e2ba928493c3ab85745382a7f42e3"
   },
   "file-gif": {
     "codepoint": 59777,
-    "hash": "fc5ccb87772636915a9a212d72bdc3f1cbf50dd947ab9e915fa139d79855722e"
+    "hash": "48b1737619198f7037ce6e721029498983388fe1ff5a37027ab3bfb0ca9075e6"
   },
   "file-html": {
     "codepoint": 59778,
-    "hash": "a423521e2391a9f40dac3d80775c4a40eef46e5b6b5a5b4ac77e8d27fe9729b6"
+    "hash": "91f2ce455ab8a1796ed9b13e9c656989873c59a80e506541e408fa29f1e91751"
   },
   "file-jpg": {
     "codepoint": 59779,
-    "hash": "8675cecccac750314737e0545816c4991880b0212d5ae79b440c8eb58398037b"
+    "hash": "a8c21043e1c67ff2d5ff7a796a0e0dd8edd2955fd1003c82aada3fd3b8bf0870"
   },
   "file-js": {
     "codepoint": 59780,
-    "hash": "35c143acbc589aa47abc81890933b93ac5ed2486e65fc86ac4e04e2a8ccea950"
+    "hash": "8842b4e3b7c881c71dbf55defc5251f3d711604a139df73f63386ebfc0badc24"
   },
   "file-json": {
     "codepoint": 59781,
-    "hash": "4025745db90a85dfeecdf6fad20a0edfee16c899cd16f9e992fdf38386349cea"
+    "hash": "f1efd675c6fedc5d8825c46341d250bf3324e9145e0f8f2669cf71375e09d6e3"
   },
   "file-mkv": {
     "codepoint": 59782,
-    "hash": "05780d34c98fefa200aefacb193fa31b8dc6c2a54c969620e97a051047d37cc6"
+    "hash": "807ce7365cd307a23a565c2ccb7a5e2be3443847d3b72d38835f7099c3799d7f"
   },
   "file-mov": {
     "codepoint": 59783,
-    "hash": "18a7240e9082a970a0fa24685534eb4dd91545d737c8551a85f5872407f01f6a"
+    "hash": "df53a207c24e743a1a459723e63b55fef271c0c41d0d780d8106200a93a30d6a"
   },
   "file-mp3": {
     "codepoint": 59784,
-    "hash": "a0c351fc5aac24be0f91c2239e32c7d2477c49e78ffa82665136547b5faa42b8"
+    "hash": "509a44b9fe1974320b19c6b5b741b8c97d2b4a33a25e0830529eb4ee0c9a6145"
   },
   "file-mp4": {
     "codepoint": 59785,
-    "hash": "bbe0743d88074c2ebc8b34b80a332361e34097be28ee4a3b57da1d014b3693d4"
+    "hash": "7be59486daa725d67be8229f1589010fc394c09fa73ab4204c86100e8eaecb0e"
   },
   "file-mpg": {
     "codepoint": 59786,
-    "hash": "4c6615896b8150e805e5ee8e17ad541ef37f9385388b955fed9ac0e4fead92e3"
+    "hash": "ec755bdcdade65da47e8c5ce941f916f44cf0c6832f754ccee01900729963c50"
   },
   "file-otf": {
     "codepoint": 59787,
-    "hash": "8a7e1746118daaafca5b7a757c0b9f7a671ef36118f96083fa32f78d4d5113b0"
+    "hash": "7adefa26092684a8a69ed4e6c1d9e6322efcdad3594e5c5b3c6d303dedbea386"
   },
   "file-pdf": {
     "codepoint": 59788,
-    "hash": "2f32ac10b478c2e6c1120547762e95075f3885b7126bc7a5beda0fee3ea21187"
+    "hash": "75cb0d828911a4d0d784bc3bd1bbf4083cb7cca33b5c7f7874cf73de30de4416"
   },
   "file-png": {
     "codepoint": 59789,
-    "hash": "2a572d282f18d38fa216a90ed81351096ac098543af522ccd4f08f506dd3d0ed"
+    "hash": "c4b790333b6c592ba2e2350fb122df083da86ab35467e06a17ee1cfb766aca99"
   },
   "file-pptx": {
     "codepoint": 59790,
-    "hash": "ac9a4aa3ce73b64b573fa94a0f2988dbd4a9fd18c686fe8eda27fc73dd736433"
+    "hash": "d6a4ec1501965443f722867430a03c1d8e715991ba7358808c3d706082310457"
   },
   "file-rar": {
     "codepoint": 59791,
-    "hash": "f539603c1adbc8f6b5e356c1d1e223d8c5cda9fc0df312df306faba64a822bde"
+    "hash": "f470db8700db35f81102e719b5452edaf44f7b56322dab6e538e8874cae61cfd"
   },
   "file-rtf": {
     "codepoint": 59792,
-    "hash": "0c5bc0243311c626bd7206415fbfc7d8d7b5743c52986945596c0947a4d531ce"
+    "hash": "e5904808f9ada309e7a90aebb7e290bfbd52db98f1585fa2a5e61a22bb17af54"
   },
   "file-sap": {
     "codepoint": 59793,
-    "hash": "0f69aae0d2fcd292717835f94f2ecd31180e41ec6db0acb1641123fe5fcbf6f0"
+    "hash": "220ea5a5b7b0a8486b89e7f12908749ca2a49bb436c694165ac08905740e15c0"
   },
   "file-sql": {
     "codepoint": 59794,
-    "hash": "2a55ffb485b74a79f54d81a723febf02a807b68cce5129025f4a5e8ac8100eef"
+    "hash": "597e8b378fbd6f685a7d2e20119a4461c11235663821a3317a867e056160017f"
   },
   "file-stp": {
     "codepoint": 59795,
-    "hash": "8dc6aefcf7da8319be6747c728455079ba0dcfcb6ffd9c3d23fff7eb8c8dd6eb"
+    "hash": "bf28d66513149f9ead4c9ea4db3e4e49f987a772e54053935d1298127f8f36cf"
   },
   "file-svg": {
     "codepoint": 59796,
-    "hash": "c21d39a899fa7a0b218b36d25a06348d88b301528e7c9b5b6b75e1439011b91f"
+    "hash": "3c1b9cb7092721e444e942b6b1223edc5bfb6c0aab61011e297e912121652737"
   },
   "file-text": {
     "codepoint": 59797,
-    "hash": "d927eb7931d9ee9a8d4b667a343cbd92b83dec482833a483c3dcc216474c5a71"
+    "hash": "77a26cd6ea76e10a6dbdc2891f259f319944a702acb5f87ae810a785c3a59ee3"
   },
   "file-txt": {
     "codepoint": 59798,
-    "hash": "d4e276b7ecd981cb9f36cbb830f52ba42dd8fd64531a6157cace61d8b33a8a44"
+    "hash": "55b46864812e36edd9f4332cf07a502bb3e49c68539c73d0652242934dc53ca4"
   },
   "file-vdf": {
     "codepoint": 59799,
-    "hash": "3a703c749cf176e8d85a2e001f5f16ddd8ecd9b36743cb067bf520b0058a88d4"
+    "hash": "622e8f2ced547e28548c90d4e0a40eb2463487ddbfd1b60d1f8664cf75f74466"
   },
   "file-vdn": {
     "codepoint": 59800,
-    "hash": "7b7e7dbba97f4a0483e120303b5bcee435a3cb497ea145701218c755eb07a799"
+    "hash": "d235c7bf76039c1eaa0dad730977a00665b1480454da641db6d7907336e9362d"
   },
   "file-xlsx": {
     "codepoint": 59801,
-    "hash": "eb4e7f416e07ee748c0083744ace9b1664e066a904507f9ff988c18af09f76c4"
+    "hash": "13390011be9ebbf33e24748fcf21f9665d869a39bc78814b530d97ab088d2628"
   },
   "file-xml": {
     "codepoint": 59802,
-    "hash": "782440f137112195ecffed61fb9ad66ee014b9172fe082c5a7fe4dee64b2c9fa"
+    "hash": "c74c86efc06686a4d3530c67ee9c96afa808341b92057463494253fe8da864ab"
   },
   "file-zip": {
     "codepoint": 59803,
-    "hash": "412b0f00e753dc538938f5a86c5865c6b45b76f600abdf8e46ebc9c2805b6231"
+    "hash": "acf90936529d994521c3123717fa9aeae8df3fee11e746f775362d2b7874df7a"
   },
   "filter": {
     "codepoint": 59804,
-    "hash": "a645da966160bf40248eda3169db80f792c6b105e2d9ff24b5bd039d6c3a6cdb"
+    "hash": "540f7c8214104f152547f56850192fcc6af9fc737ee3d534a8951e608a6fd72e"
   },
   "flag": {
     "codepoint": 59805,
-    "hash": "b0c0652df78d4046b27a6bcf813c37c84ae0887cc57da39f82a33d2e8695032d"
+    "hash": "803ea5b0d5067530116cba24c2b297b909ce4d3819f02a26badf317daebabcf0"
   },
   "flag-f": {
     "codepoint": 59806,
-    "hash": "44d742aa2facebccc379ca08ee6bffcdf61eb3135bbf863a2fc212de1fc0c5da"
+    "hash": "b303f7f7be93457251e804496d078935d64b0a2f194190dcb66ec2f35b9ab84a"
   },
   "floppy-disk": {
     "codepoint": 59807,
-    "hash": "03a4c8abc5f533c39123b96bb29292999d78a48dc39c9a64124830ae6e910f04"
+    "hash": "8d42d5cdbc71260c212a2cfb081a25ba738eaf68f9ae67c1701415f5297a30fb"
   },
   "floppy-disks": {
     "codepoint": 59808,
-    "hash": "7d817e773b8093febbe385e535987f9fb04deee146e0f236453709f0cb71a08f"
+    "hash": "b8b0f57f11a7db53b0664910ba3654d2cede47c924f522cc7f7a124e9fed3d68"
   },
   "folder": {
     "codepoint": 59809,
-    "hash": "a3e463505e2ab4d023ba729a00d966b15b82857a736d38191bd95bc20479c527"
+    "hash": "823ae699e00063bd3168f4431fbb17293b76fad7a41eac850e00bbe9c89b97b6"
   },
   "folder-add": {
     "codepoint": 59810,
-    "hash": "3eb147ee52455823fe29eeda264448e78713cf15839253ec5b87969577ca7edd"
+    "hash": "4d7e26f4b9d1e714e360c128a0e7f22649d6c3a5be76cda33c38863c109c867c"
   },
   "folder-empty": {
     "codepoint": 59811,
-    "hash": "a1e8ff5284f9fa4267579adf6c505c1f7c3d93fbe2b75089e70227577ca9c1d5"
+    "hash": "67cabc3cd9becd029787b31c60f82d6013c19cb253fdbcb1f4ed4b672dcd4e23"
   },
   "folder-open": {
     "codepoint": 59812,
-    "hash": "de64529d176be3c3013056745bff0f175757e5480c94754f13bf546da41feaa2"
+    "hash": "c5f5369e96378b7ed334c5ff5f4bb1be6a5efe8ef569ad26a9112272c6cf7977"
   },
   "folder-remove": {
     "codepoint": 59813,
-    "hash": "096b172be456bb42ccd38bcaa41e44f1aa14d6727b43518667529ffcc37eae86"
+    "hash": "75e0c31d1cc3a1af5fa0fa7565181b0572152d18d34ef96e8ba8da6c5e42391d"
   },
   "fruit-crate": {
     "codepoint": 59814,
-    "hash": "7e4cb911ec195838d4010fca4740f860dbb2785a3cff927a5246560aafef733e"
+    "hash": "025c205ada7931851394626812fd549d6eff899e3883ee1d3f5b137b538fe266"
   },
   "gallery": {
     "codepoint": 59815,
-    "hash": "40bc8731e404ed97e8a01d4028f83b8315bba6e8869abf33112a837d772623ac"
+    "hash": "51a2e6896f8c776c34aac3ab407675baf04020fe216e6b4c1ab143c3fd3ec6de"
   },
   "generic-diode": {
     "codepoint": 59816,
-    "hash": "09a4798f1b9164eda9b8a6ac840babaae522091e72db5e603a65045e5be42e0b"
+    "hash": "6bdc712fa4d8b96c4bc926ea0a9f5188fdeb37d5ebf9887becafc5889f59b539"
   },
   "github": {
     "codepoint": 59817,
-    "hash": "093dc8271cb90dbab569c6da4acf5d380e2feb8c503db48f70607245eb73d73a"
+    "hash": "d2f59845f5e028f22a1a4fc39ab2bc38d7f99abccc0d5337e379eaa83cbfb9f9"
   },
   "glasses": {
     "codepoint": 59818,
-    "hash": "4ac4801e3f09be4926a2a4db7e764ecf633eefb50dba8421651438d0a7da5c0d"
+    "hash": "b1569724ec43c3ec44963a5d325dd8bf030376bd4c7b3b0484c6a51c1be00310"
   },
   "globe": {
     "codepoint": 59819,
-    "hash": "f086e2daad46f0f7edf97babc28d4eed27e493f8f9ec9e6753963f1ef16578ca"
+    "hash": "250b186164b74080cdebee7b09c3f5a2ccc076b6a5f77fae8642b5b86d73b10a"
   },
   "google": {
     "codepoint": 59820,
-    "hash": "80a43c1722512743a920b321fce5913fa7208ff3c6ef387a5de97947eac5fb1c"
+    "hash": "6cf23e3d5a67d2c1700c1d15fb952e305f056ebd6467f2c2e621b5867d8b6eb9"
   },
   "graduation": {
     "codepoint": 59821,
-    "hash": "86462490189c77c765ccb4b3b7010ffc0e7ebedf1112e5cf70190bb76865753a"
+    "hash": "ddddca09bde6b71240c0f764622dbcb92e9cf599d36ae1e77587abf8c4fd610e"
   },
   "grid": {
     "codepoint": 59822,
-    "hash": "50ef9f9d0084bdfecf67f2c2e660f34da323f52dde0a0093c36aad2a0bc94c2e"
+    "hash": "2527c803a43f0063d0b7ee93eba50a9d224f40b5121867a06afcfba0c7bb9b00"
   },
   "grid-layout": {
     "codepoint": 59823,
-    "hash": "2ad23c4b315094cc8d0bf23361bc58bc456c53d581f7f5890a4e5feb3900a896"
+    "hash": "2c503c0b2c23ca6e197b59af6729fffb2c5c742cc2aefe795ffbbb89ea1305e9"
   },
   "group": {
     "codepoint": 59824,
-    "hash": "f18ec25b3c57b37f827157bcc0e3c48b7a70ff62a16cc99064fe83a6306d11d4"
+    "hash": "a3b308a45720e0e9973123eba8d94ac81ee0871cd1a5cbf2a89a33d44263c1ef"
   },
   "gym": {
     "codepoint": 59825,
-    "hash": "2625744b0affd0f770772b9fdc82ec4a224f62be3d32fce2981d39c71e0c1666"
+    "hash": "c5d72651c0e289507e0b508cf9e9af6d5a6aa9ce2f7a1ead6779fa9e4c0e80fb"
   },
   "halogen-free": {
     "codepoint": 59826,
-    "hash": "2c40c9fe95ac64d06f966b6c1a934c3ab9611011076d581c71984e9a48914770"
+    "hash": "e6a0abb77b3f2842490944cd670a744d615e551c9e81cf2be32cbbec98d57a94"
   },
   "handshake": {
     "codepoint": 59827,
-    "hash": "cf4a3f4d3754fbed9cedcc876217fcdbfa736f3cca690d5be1d550d9761791ea"
+    "hash": "ad230fa6c27691967b4da133d83386a98c6f7c39d8a21572918e3a579ebdc228"
   },
   "happy-baby": {
     "codepoint": 59828,
-    "hash": "574966b388c42fd16026868265ccb3ee7b56d68a465979e54aa345c5dce65991"
+    "hash": "d3a88e2f4045107578300e18c6e8f7ebd68110e2d656369c08fed229dc0687fd"
   },
   "hash-mark": {
     "codepoint": 59829,
-    "hash": "b1776edbd8913c56c018a80316c7f1675c1255b8029443c9fb8060a52b6a91cb"
+    "hash": "a5f98d3c9ff5316a7764d16b194238f73526bf2d172fbbc3490f5e430ed4d494"
   },
   "heading-1": {
     "codepoint": 59830,
-    "hash": "e9e0d778984b2d5e5df0e5b9889cb0e63a64d9eea4d700874865a4d2b09ede12"
+    "hash": "063358cabfe5f07bd762133730e4441260a43997418aa3342e6ae08ddbe455ea"
   },
   "heading-2": {
     "codepoint": 59831,
-    "hash": "dce5984a764367d735766ab4c89bec2f0e6cdd51416daa30e55748dd50f3fd32"
+    "hash": "cd16eeeb0744c966fddb079d8887c4c4acc5f1877bcdfeae4ecd6917c0f495a1"
   },
   "heading-3": {
     "codepoint": 59832,
-    "hash": "45024d2f89abb34d748d619fb2f88506fd15928f9365e22c523abba2502c1727"
+    "hash": "0163dcc5e706cd7067c29d74016e3154ef90a4b50c4a5fbbeacadd14a7e3beb5"
   },
   "heading-4": {
     "codepoint": 59833,
-    "hash": "06e349842109f50bdc5cdd896d36f9a298346506096437b6703abd4e95b32987"
+    "hash": "d48a08ddf6c4c785d57ca651c42f40a81d792fc926433ddc25c121ee28030ffb"
   },
   "heading-5": {
     "codepoint": 59834,
-    "hash": "44a1d143fae19369e8392af686136369ffadac935f641bf9cdacf66655dcc5c0"
+    "hash": "2be90f0dc468a884ba8505c70a59ea110ab918c36bba03635111736c0a4fec9e"
   },
   "heading-6": {
     "codepoint": 59835,
-    "hash": "3ebbdae410d9d871a9949ffdb48f945c88ce10512876973552dbc914393a2f13"
+    "hash": "3627d8becd8ba974db095e2452a6de276505b4abea897c08c6f3d0bd8576e1e8"
   },
   "headset": {
     "codepoint": 59836,
-    "hash": "d30b19c7dd744afb55c98aad74842072cd26ea9f7bb2ab922406627c00e6d873"
+    "hash": "c054c78785b94f10cdc91623c06c65d7167746283db1a387a2d1d11d176f75e8"
   },
   "hide": {
     "codepoint": 59837,
-    "hash": "f2fa544983fd0e9690e6c30f980717fa068a00354cab40a3b6afb798368960c6"
+    "hash": "ea0cc914f078c5cc88512f7ec64c248867fba4c09b463a70045620f8515ed221"
   },
   "high-reliablity": {
     "codepoint": 59838,
-    "hash": "bc97dbd51181d7c13c9707123f2d7d276722f8a46f513e0c5e85288bf7d201ed"
+    "hash": "a55793fcde7cf4e7b33dfbac8660263d7cd937bd6daac1a0e615ae005bc8aa47"
   },
   "history": {
     "codepoint": 59839,
-    "hash": "3e7b52d91886e4b17bd63eb7ee12e5e5de8e483ae05299ee4e164599d0315f6c"
+    "hash": "2a2e524b76c81ffda40ed0f73203dd90b24aed34ac61a1697ad824ca3b3670dd"
   },
   "home": {
     "codepoint": 59840,
-    "hash": "c940838885eac90abd8729a6368bad8f831510ffae7d469abffb6c7164d2318b"
+    "hash": "5b694d8af1d5f091cf2ad04c685ee27c7588a72a6669d6bfac76ea6c737a2ebb"
   },
   "hospital": {
     "codepoint": 59841,
-    "hash": "b41e11400a0ef0ede684242313573a1ef5618107e6d6656e50fed03c1989dcce"
+    "hash": "33244cb364ae7682d60f2defdae199a4e2d8f31ce1a3527d1a64f6952d43a6b2"
   },
   "hospital-bed": {
     "codepoint": 59842,
-    "hash": "0761d3aa958786aee0a8825f8ed87e42751c38521e9f2b9525ea09479d97ff98"
+    "hash": "10764a1ff63ace6f272874a3b4b5e555783960351be63a73a63317374c02fc9e"
   },
   "hourglass": {
     "codepoint": 59843,
-    "hash": "585b959e371cab86dab321f77913b8b644d4165b2388d2009a6365fc3a15294a"
+    "hash": "7863f8b6d2119cb06e09f5c499ae628af7a0e57ca5074c9c1588311d0e25cf6d"
   },
   "hyperlink": {
     "codepoint": 59844,
-    "hash": "b72b19b12aad3365a972bd3da67ce5d6bc2f72e55e709be5e18e85f213488fa1"
+    "hash": "a4522dfcc44acdc067365483ba3f714b7c00e47e771e1aeb5aef1cf836b244bd"
   },
   "image": {
     "codepoint": 59845,
-    "hash": "0e970d02c3ddd36623b52ccb9364427403a821186c5ad19dd270c1e14ccb9021"
+    "hash": "f031aa421d8956dce299f493642eb5077a59d51a825c5a7c86c3d0d3b1632cca"
   },
   "inbox": {
     "codepoint": 59846,
-    "hash": "0d2464c75d7d184fe638ce5dea9df01a3cc79c24a8969559490f5207ad24beb4"
+    "hash": "83f8ee9c4effd5432662439455f1ff2cc38545ea0880dd197bcce3b66715e02e"
   },
   "instagram": {
     "codepoint": 59847,
-    "hash": "aaec47ac63efd35d363f30021e1b75cb942aa07454fcc8a2f306ff15a6dd7272"
+    "hash": "f0a8ecc0b284e5b184d789a62171cda6725c01cf538629ddf3cd728a9c3874f0"
   },
   "insurance": {
     "codepoint": 59848,
-    "hash": "563d2ba57b4d56895525efc436702441693e33111bdb3035e9def391a57abf2d"
+    "hash": "b17a71186e201151ffa4d26ebec3da5ff83abe649be41552813e92c7ce38cd0b"
   },
   "intermediate": {
     "codepoint": 59849,
-    "hash": "2824b688f6f0b64bfc56d1a5637c70b9a2e7d7ada61d02827c8f8a44ca804e76"
+    "hash": "4c829cb21243c001eed8dda8df74811f48c0e1062a22d172b1f64610f588db1d"
   },
   "key": {
     "codepoint": 59850,
-    "hash": "07a855ba11d80c7416cb832027b08a6e9ae804a19d655f255c0f75f8eb777976"
+    "hash": "8c8d04fb91cfedf41b677add7bdb6b27b6d16764ca323a67c827fbd8f953d232"
   },
   "language": {
     "codepoint": 59851,
-    "hash": "e323246cdcf6883cff3e7f0bfe7628975a0dd4cb077570ece3ca98f1b599ebff"
+    "hash": "ed8949dce05542c3c8448fb07d6a11339e6834eaf5549a837e379eef016ad7cc"
   },
   "laptop": {
     "codepoint": 59852,
-    "hash": "305234db363841e2109f3847b6c6eb17b894161678483aa7b07e2878526a5021"
+    "hash": "7ea7a116d3c839d4d1eb4c0ca5946840cebc02ef724a312950ffa1b9d4037429"
   },
   "launch": {
     "codepoint": 59853,
-    "hash": "176fd8bcd9ee29b04153243b31a6fbbd56260876538bdc19c58fc95f1bfd16fd"
+    "hash": "f1144dd8542eb5d58a0cb63d34c301eb32c5e56015bf2c7f63b5e47165148450"
   },
   "layout": {
     "codepoint": 59854,
-    "hash": "85b96a32c2038d284a43def677eadabfd3130bf604340660d3b055c1c96c3513"
+    "hash": "167e730f93099a9a4b7c911b120799f40028686f027d69e23a3f17439006de89"
   },
   "lead-free": {
     "codepoint": 59855,
-    "hash": "3260dcf9c4704752a1288f72a2e8b8f0a99a2241e92a0d4daa8605ce9e93522a"
+    "hash": "b651e6877ad554ca32c1e75a1c2e0998f94fb6e0071de11d860e348ed595ec89"
   },
   "leaf": {
     "codepoint": 59856,
-    "hash": "50bf855fcabece77676d1f474fb5f7ceec96479f59457eeb1f4b504046033bf5"
+    "hash": "f215d3314c2c51c979040132eeb0b3e1105592edf1a6c312d894db69a4f151f1"
   },
   "light-emitting-diode": {
     "codepoint": 59857,
-    "hash": "82ee0a735025a46146ea3631467290d8c77f1207d8f0e7bc15908f13ebf0249f"
+    "hash": "85360bc3aaa6858271b5b733082fec7ca29859e290f035b726e6b3f16cc9ffa2"
   },
   "line-graph": {
     "codepoint": 59858,
-    "hash": "4f457d81c9589bb4a31a654149a09b339a1f36f474802ec2976a632b4f1d8d23"
+    "hash": "cb61c67325a9bf744ed4a1c5f8152f09dc60cfca59de3fdaf39ff36b627d46cc"
   },
   "link": {
     "codepoint": 59859,
-    "hash": "3b3e0028aa0080985348bfef3354cc41d0d998659041115638530253c1bd98c3"
+    "hash": "cf179fc3a60039b22ba814411377852a5c96c9e57fcac94e7e313292a21b1709"
   },
   "linkedin": {
     "codepoint": 59860,
-    "hash": "4590396668a32266f82de4347110172475efdf8d8ed5bc0a11d9bcbc7fca8120"
+    "hash": "7f3bba72c268b790ccf962424c20561f266437d1e6523cf58748f886a22db8bf"
   },
   "list": {
     "codepoint": 59861,
-    "hash": "3293eddb3324fe40269055c50d3d9f2cf891e4aaeb31abc3bead16c276fac8d8"
+    "hash": "ba19ccbfa335c29d86422d0452dd8ef581554bb8171513ac6a78d0df4a3c7775"
   },
   "list-check": {
     "codepoint": 59862,
-    "hash": "44aea677703e25a2d952bbf7e3514cc44eb372a21502e62d4dc10ecfc124c2b7"
+    "hash": "3f5fe446eed5668989708130ca817eb14c90a82500fc02771e1ec242746e9db2"
   },
   "list-plus": {
     "codepoint": 59863,
-    "hash": "443ca395cacb4e6f76d5dbe3b39a11a2663c96720977dbcfd4fb81c5dde428a1"
+    "hash": "d09657c820f2cbad9a8cf74048536ceeb2ff76d57574e13a9781d9a3ad65fe3e"
   },
   "lock": {
     "codepoint": 59864,
-    "hash": "0bed4e4764d17307c86ae0781421e0bb674c010684671abbb528e12074986878"
+    "hash": "e50e9247b59109d79750fcca7ae7883e1a3657fa4bb5176b6ad3f5e1c146ec50"
   },
   "lock-f": {
     "codepoint": 59865,
-    "hash": "6e2eb4c0816c7ea5db6076aa6ee42e00c9cb4cd3a7e7805658795aae903428d6"
+    "hash": "ecc968c9cb43f51f388722c0c7a97e70faf12383bc30e6c1b3b62d0b21fcd529"
   },
   "logistics": {
     "codepoint": 59866,
-    "hash": "62dc183366404332a4051ca79e263abbca5ecc0ed060c1d9020bb9abdf5f77c0"
+    "hash": "438f63acaf4cd1fdd5f80a726fa69589033a454c697d2e398d0e16e47ef48063"
   },
   "logout": {
     "codepoint": 59867,
-    "hash": "a346cab01dba6a7d65ba17860c449aea0740f46d04a2ed06c1007381dedcff91"
+    "hash": "5a408d5965358d0b7107ec0453707a02a43e298eef85bf3129c7dced2892c388"
   },
   "mail": {
     "codepoint": 59868,
-    "hash": "b691dd7fd60478724850dfca5f2e514aa61467ce03dfb2337c94c0a2f22b05c1"
+    "hash": "4a6f4a820d810c42b89bceeb115efe864154b168a826dba9436969b4d15dddb7"
   },
   "map-pin": {
     "codepoint": 59869,
-    "hash": "aa5053e42d48ab0c508e26cc2e8508dd4924bf42006bd67d264429aa7704020b"
+    "hash": "b137d9ea455b4a2b77733acc1e65deb2efff08ef3974a26c80177c824a363623"
   },
   "medal": {
     "codepoint": 59870,
-    "hash": "0e7838142b6bdbe083244cc1ed52a9de56041f577145923042a6b13f433892ec"
+    "hash": "419db20afe36e2ffc1f1dfe01b6e6793aedfb3adb49c42e2b6fc6bfad07a774f"
   },
   "media-eject": {
     "codepoint": 59871,
-    "hash": "77326116f594693c41ed9b49c863bce371ef4d48d1bccd37464ffcfcab4575bf"
+    "hash": "18269d058f4008e06ed3a9b710fbb3a1a15ef76a70d2018008108985b60b0ced"
   },
   "media-pause": {
     "codepoint": 59872,
-    "hash": "70a2daab370f0d0b5e7e9a4c58d0e9af79bc88a5638ab9cdcb5770fce86a71f4"
+    "hash": "c294687b416e901304de4c836ae86046cef9895d453d720b8d43e109c567fc46"
   },
   "media-play": {
     "codepoint": 59873,
-    "hash": "c5f4b9cac6e040bcf76addabf12b7da2585dde2d2a523f61d1b44e235152c65e"
+    "hash": "bd5423a9666ac0c840b1fadc6ba4edcd54883af3afedbaaff4bdf66bed5b0708"
   },
   "media-record": {
     "codepoint": 59874,
-    "hash": "3e655269d31ce893806ec43737d35e0475243eaa982cb4247bdac213615baa42"
+    "hash": "5daa14fdc5cebcab700d44398e8012a05f9f8b126717f817df6cfb884ff8d614"
   },
   "media-stop": {
     "codepoint": 59875,
-    "hash": "c07d0da7128ff6f0abfbb7fa42f8cf162e0ace2d095882718d0b55f6a9baf2f0"
+    "hash": "35806447da4b617a559ed3b52b654ba83a8d2f1590737c0ade5e6aaebdc63289"
   },
   "megaphone": {
     "codepoint": 59876,
-    "hash": "8f6f35b7d22dd43ac7f58559192183b6ffdd7cf0c32c33db0f0ddf60c34f1ee9"
+    "hash": "6bd71ef239c7e62dacd60fec382bdccd143e831d9639e12cbe075696ae5ac6d4"
   },
   "menu": {
     "codepoint": 59877,
-    "hash": "2a3ce09d543ee42db2c37ee0f056e6a7326fa574b8019309860398df478c935d"
+    "hash": "923ebae7ee966a401c3fbd032b08dc483be8b771db0a42f94bfaf64ca04f00e4"
   },
   "menu-left": {
     "codepoint": 59878,
-    "hash": "55b4149600dea176c547da5499fc1f723d9aa9fbc516fbd3c4c2fb1b56b392df"
+    "hash": "406258c7c89204cc178c25ed0124963fa1ca7029e9c3844031cbc2f4de60c4a9"
   },
   "menu-right": {
     "codepoint": 59879,
-    "hash": "d5d366a8f97d29705cc938283b68f5d1998004f1e00cb80c536edd9e276d1d0e"
+    "hash": "9a40673470039a3b52965a43d371168432fdd22ebbdd1496e04382ed142d3e74"
   },
   "microcontroller": {
     "codepoint": 59880,
-    "hash": "08b4beac046944f4e649d367c00904b9e1f4290c9c5c24b2cb790fa3f6a4066e"
+    "hash": "d981facaece3787b0cf1bf7b438c9ed0bbc176b2f62611c4399bc39ad526e7e1"
   },
   "microphone": {
     "codepoint": 59881,
-    "hash": "44725a602d451916c6bdc33a796d30b178b3f55bc7b2db03c017315dcaaf94ac"
+    "hash": "e026303575f991933840cbcc85b7a1e08b9b773d8ae3588db74060af6d40a051"
   },
   "minus": {
     "codepoint": 59882,
-    "hash": "e59bc7d8fac681a92176c543fa396d617345de415a79171f6cef97924b4398b9"
+    "hash": "f5fe615cfce6dbd008830272f54af432f6b3d6a51feccf13021adc89f790e779"
   },
   "mobile-chat": {
     "codepoint": 59883,
-    "hash": "fa54a7aec3061b91ebc3955780188a5a6fcf0c57f589c4ae82ebfcff8da4d404"
+    "hash": "de3151b67a8d1edfaea086825f85d5173b5192cbc1b7e74ca108046a29a02d81"
   },
   "module": {
     "codepoint": 59884,
-    "hash": "2b15939eb89788d4d32f6e3a094b94dfa01f2ca2962d6cf15b0edb6b4a7c6bba"
+    "hash": "591961602b4f0d28d35d9540a0279423de301ee57b0c9b8fc41925c0109ea124"
   },
   "money": {
     "codepoint": 59885,
-    "hash": "f88d81df2696984347f0885c7a83a8604ed9f5a231e8410755cd30ebaae1355b"
+    "hash": "fa0440532852b7d830665bc45cb67505068d0c8846d4169b4f46554b0315d036"
   },
   "more": {
     "codepoint": 59886,
-    "hash": "c9c0d768cd826998bba0c986424fe4f8b7e2c81e6fcc1aab8d404fda17010313"
+    "hash": "27247751bfeda2f6d0013b0d5ccf1df86c269a34dc7c76cf9a5f9f6c0bf86b2b"
   },
   "mouse-cursor": {
     "codepoint": 59887,
-    "hash": "d145b31ae787f0795b1c2e18c82bc0493a682da717ce76b26959b5417e133a55"
+    "hash": "a4cb666bc291a6e36841dca090e837e8cc463520071a33130ea0bac2d84bb75a"
   },
   "mouse-cursor-pointer": {
     "codepoint": 59888,
-    "hash": "4c3b93b035caf47cb42ef572b2ab128aaf0340756ebdb635a1997e89bfdee6b0"
+    "hash": "c7786be67842a55cd2d776abe4d6ab562d7f3a88363122bf1951b09ea9794180"
   },
   "mouse-cursor-text": {
     "codepoint": 59889,
-    "hash": "464b412ab73308752d38b27af6e078a328875ac3c5def0e402b1d4b428f86b8d"
+    "hash": "252db8e66670fe581436776d3ce1cfa690b384915dc58edbe86f6c57907fbf26"
   },
   "multi-line-graph": {
     "codepoint": 59890,
-    "hash": "38bd5eb27198928e326211b74b4c073d92419dc42810658e0f8957b1a920740e"
+    "hash": "904ea341c46cfe41ee1e0addf529e3926e99582650565b5de9cedbfc0d4ed0ba"
   },
   "ordered-list": {
     "codepoint": 59891,
-    "hash": "37cc5f66b052f323c9041680d8ff8305722007a6d14434e9da3ffae2b72ae5ba"
+    "hash": "f8ad2fcd90fa67b780bb8f6c6817b2ec6fa58ae676d08d31b260e7c118e81971"
   },
   "organigram": {
     "codepoint": 59892,
-    "hash": "c7723e8c0e6490e12a8af5fd0bf88098f1d37f0033b4241f5818660fea70de4f"
+    "hash": "5aaad5ec83ac47900b3593d49c000401531d7c3b3333e00199d48984234a15fc"
   },
   "package": {
     "codepoint": 59893,
-    "hash": "70f7d8155d21d1aebb40d75e9240c91bf16af36d581c900b16391ef7b2569aa3"
+    "hash": "8bee5563553f68dc52effca17b9d7420ae12057ee7ca3538bfe2fac2b4b8fd29"
   },
   "paragraphs": {
     "codepoint": 59894,
-    "hash": "a3374f6c7470ecf508ea5fe8c04d81981d8b77ca1e19a740d15be77572e9c89c"
+    "hash": "ce23e4c55c47c448917bd20a61c485b3a1a41e49f66f0f2059c0a0c7307456d7"
   },
   "park": {
     "codepoint": 59895,
-    "hash": "d0aeabe67b5644ef3da04c95ef3b0e473d13eba9abdf162ad499839a65bb84e8"
+    "hash": "060f98a8ce41e93c6ec98b6e67dc00806f7cd8c040428b4553dd7395abb82b81"
   },
   "pen": {
     "codepoint": 59896,
-    "hash": "4f87f66c1fc9601e2ce7fcbc8b5e2ff51a7f664665f57c5749b033f00aebac0e"
+    "hash": "66dddfd0da9e9f6e87d1724f81c96dd6595c51ba38f828e4c85634e10d730c62"
   },
   "people": {
     "codepoint": 59897,
-    "hash": "77d4508de98d25f5ff62f737365f2159a82a16dda5ca7b3c602a31eeac68b156"
+    "hash": "61ace6fd12da0d03662be3d0b406f958abe96eec3fe5fe053ade998fdd431441"
   },
   "phone": {
     "codepoint": 59898,
-    "hash": "182c0ee8a0e04f9ad526885847e575655d4d85bbabc3b1a70d47e40547d79ac4"
+    "hash": "d8f6a0c5ebb9e1d4a865cc847ea0c8f9551c830a04981571ee5fb7edd064ed87"
   },
   "phone-call": {
     "codepoint": 59899,
-    "hash": "e1e7c89e071c0a98419f3942d1ef3878f40f5c8be19cd27b407aaf1aa17842dd"
+    "hash": "64531b204ef4306f968770fedbaf46e63a95d81ea28f7046eea54ac0d97a5253"
   },
   "pin": {
     "codepoint": 59900,
-    "hash": "ea6e6e77a389f51aa24367834449039f4711bb3f8b9d21beb8dd95faae2108e6"
+    "hash": "1b59f8c18843e3ceffc8c2c9c3bdc595c00a71737bbdd59bfb3e92d5332daa93"
   },
   "pin-f": {
     "codepoint": 59901,
-    "hash": "d5ce69d0d1651d605ef8d1fdad3e348a0c093c89a68d47b8c000355b58b3eb96"
+    "hash": "0183bfdb75755b42b9fa5d5b960ea7a2182054f29fc14489af1b2d72d84345db"
   },
   "plus": {
     "codepoint": 59902,
-    "hash": "777f80760f1671cbb254ba7d44597044e87457db1de2acc2f216ab07b0ed65a8"
+    "hash": "e9017fbfe249faf8e161ea9831b9b4eca192443bde7896d99b1563ed405d89fb"
   },
   "poll": {
     "codepoint": 59903,
-    "hash": "e317529fd81b2bda64d9d8917c8cf5558dc9cbb98b319aafc1692454155c1881"
+    "hash": "04e023fe34a4f8c9069047098d3db9a0f8be1f1b1d06bd5c4405685d0e6e312b"
   },
   "power": {
     "codepoint": 59904,
-    "hash": "75205df8a525fde384dcbb79e64dbc01a045a73ce66c808f6d21316fb37f7958"
+    "hash": "0363319e6dbe3b47a6818199686e894aec2d1d94128f2cd8a02535df7c3d17fd"
   },
   "preferences": {
     "codepoint": 59905,
-    "hash": "c38dae3a0d489b6df8c76b3a2e57c794b25da4fb4c57f0a76983951fd13f9bbb"
+    "hash": "50ea4c89c72f255cc66e43b6d5bcf2dbeb98420bdd187f1d5db8877df9655850"
   },
   "present": {
     "codepoint": 59906,
-    "hash": "88d03a6a458d47d73aa9a533eb554980954ac852c1ef1162c896be8382faa2c2"
+    "hash": "bf536eeb80a3b9e24ffd0ac00033a0ff184efe4b87b0281c4b65803362c64cc4"
   },
   "preview": {
     "codepoint": 59907,
-    "hash": "96f54f9e488ddac7880157f357213eeb0c46222c96304348cff258b1b21ae881"
+    "hash": "2b82d33b0fb980cbbc71f028e56bf65310cd870cbd71853d7e8271e6f1a820ed"
   },
   "printer": {
     "codepoint": 59908,
-    "hash": "6c1e414d8563926895217e5e0bafffc737e2522034791f870709235e58743532"
+    "hash": "0b6eb7807e05cd7346e59324b750e6572ac01c39738b8cb814ed9566b7ceedf8"
   },
   "project": {
     "codepoint": 59909,
-    "hash": "dbfe82dc7fce3666632031e9483a769508216e16b795320a28b636b164c3c2db"
+    "hash": "dbbea7734b28622f299fd6a909569c3440057f6cb89477b7e6e9c22fb1595bd5"
   },
   "protection": {
     "codepoint": 59910,
-    "hash": "e19ad8166267fba8714e056ba73a39d99e80e93226235561f969d9f43450fa69"
+    "hash": "87228c9df47ea9811cdc2dfd7c72b69f0908aa69ae8937dcccbb0fc97bc01199"
   },
   "question-mark": {
     "codepoint": 59911,
-    "hash": "be75d6859bcb8eae9cef701e32c42f830b6287f97d76fe05e62677763ccb2327"
+    "hash": "ddce5f7d7539e38725c17927c0f97edbf829f02211f74e5709c226b2af493547"
   },
   "quote": {
     "codepoint": 59912,
-    "hash": "9ffccd35126eb2ca7c8435d38ad25c908b8b608f57db99343266c539d57ea788"
+    "hash": "1121161f8b2431623fdf7889f0745147b511ee83bd0dc5498c159a1127039836"
   },
   "rate-down": {
     "codepoint": 59913,
-    "hash": "d3ea5a08eb8907a94ee0efd9f9951cb41348548d250377fdd4a3b7c5d8b2ff7b"
+    "hash": "4d97548088534079d78887175b1c63e0c02e30618f9222bd8c3bfa0149320ae2"
   },
   "rate-up": {
     "codepoint": 59914,
-    "hash": "c785d60ca96898622993416b1836e69d6e55bba87c4f11b642f03d9fe2769dae"
+    "hash": "106fbfb6495abd58c97fa1ddd84c290f65514c0c97fbcf8d4bf4e5cc5dc5adde"
   },
   "refresh": {
     "codepoint": 59915,
-    "hash": "6bf63780390248064ded956064bebe2e00fdd3f4713cda830875e948af0a1a79"
+    "hash": "9b6c24733f2bbbe10f63379e3ee56b815cf13f4bc204350b41758d03e7da6da2"
   },
   "reload": {
     "codepoint": 59916,
-    "hash": "2b5e3827750179618582808fc1d0693e9e376fee0fc4c8a262186c7b326b9da5"
+    "hash": "827f1910d933f4e02bf40c3047231d5ed1ef74358fc14178cf38cd37a954ea30"
   },
   "reply": {
     "codepoint": 59917,
-    "hash": "7ce29c47c0f5935160ae85b37cbaa23c3e0ead5c5814c7dc7a5fe5561baab2b0"
+    "hash": "b143cf80bd92319d86cb72f4a4f2699874bc65759f8fc2c7b56bd7c90d2b4df7"
   },
   "restore": {
     "codepoint": 59918,
-    "hash": "aeb10490be58a7edd40565813718e6e37a2084c67d68f99d790590a54e05c379"
+    "hash": "8d54ec50ffca3986739f3aafba365aa4cf616ebc894c594a8644889dfcfad112"
   },
   "robotic-arm": {
     "codepoint": 59919,
-    "hash": "af443b3ffc0715d9cde3b0f903585e0462670de1e5bc1d64563c148f0331cd69"
+    "hash": "8242e6beb863b432b6caed35b3fb925670a951614fb6f890d54e1ceacea6f4ba"
   },
   "rocket": {
     "codepoint": 59920,
-    "hash": "81b1319178a8461786ed7f6af7a765bf20b9579dcc98e9995a612a9e3dad5afd"
+    "hash": "dfbbc72698119b4db4e63a6de17a54347bffd7b3c6c395f1c7c9a222a36190fc"
   },
   "rss": {
     "codepoint": 59921,
-    "hash": "97018e1b8fe7ff7320992da8188f8c15f673e3b894b6d273afb683a281efbb96"
+    "hash": "d09c19adfdb8dd836dccd2e03b541fe413a67d7c3e10d9e96c8def712d0e5a70"
   },
   "s-warning": {
     "codepoint": 59922,
-    "hash": "b6dc99cb5dbe148bb319f35d7eae630041fe8c689a76d9ac74804b65a086b159"
+    "hash": "8a6a86c3911d64bcb88d207603de4f4f34b6cbc47e55a556860bd0dab09bfc61"
   },
   "sad": {
     "codepoint": 59923,
-    "hash": "bc7d66dd43212063ab5eaa435e63924f644bd731f6b93c3bc5db2a238a2821cd"
+    "hash": "ab166f21a711a4bda37a7dcebecaddbe13c9332d87360b77d9fadb2c7504c085"
   },
   "sample": {
     "codepoint": 59924,
-    "hash": "cbd8521ffcfda4e3dcfc303aa6c18e2e4745aa70d4cde103c3935bafc3019136"
+    "hash": "a1808c3d74c9e43e9afe9d595f7d19fcf353c2bea7c25e67f698ef66f11d734d"
   },
   "scale": {
     "codepoint": 59925,
-    "hash": "7484d6a76e5fc771d7872213508340dc20a7873fbca198f88edb7e8b393b5378"
+    "hash": "93fce3036c0857dc0b25c394aea20da1a67513bd9431c410658b82adc217185e"
   },
   "scissors": {
     "codepoint": 59926,
-    "hash": "f17af893bd6e3e83ac21072be465db425e7b6ca9a3b95f0ef5b2ba592b96fb3c"
+    "hash": "f7c2fbaa12cde306cac138a3700109c6094813d4074a41a46662b204ae506f60"
   },
   "search": {
     "codepoint": 59927,
-    "hash": "44b8fe2c0fc9b4886ed72dfc94aad1eb0cff86feac1d82cb8727b60cf1530125"
+    "hash": "b3f7e97a8097dcc89ca114091307253269f7c6704e23440a0670a3a6f9f82bc5"
   },
   "security": {
     "codepoint": 59928,
-    "hash": "910afd1b6caed98cf8a8393b54165d64b9de3d75f811fe5d78fbfb35b747e285"
+    "hash": "0354a28cf95c9b5821b5edcbeecb1727d8072083651ae941f70e63f84b490613"
   },
   "send": {
     "codepoint": 59929,
-    "hash": "6f6c3285d32234c698ce8e255dc34dab3429e783edcc6a5a7a6c68c156ac4cff"
+    "hash": "735ed59e07bbc6c4cc73390567a82a2d3dceed812b4f11cbc9699e6cd4f2d384"
   },
   "server": {
     "codepoint": 59930,
-    "hash": "3c622615afe662c874c67fb42d8ca8e16f67042ac40a5be6157125e009680e1e"
+    "hash": "cd0ad8537f48fa5ffd80fdb275780db7ee3d8278ff56f035534023c283e6a128"
   },
   "share": {
     "codepoint": 59931,
-    "hash": "1662934bc3c9eacf05a79262703fa76e21855a73a43d87d7abd8db8ece600458"
+    "hash": "8e5136178160a7991a64002faa25e3992feea53197f7c90fa2da79cfb5a08bcf"
   },
   "show": {
     "codepoint": 59932,
-    "hash": "9ec72699eb73868fa2dd5840503f8d394105a7ac723d5fb8c660350cf53b0bbe"
+    "hash": "162a26baae35a23e9e58090d55758dbe0bce91b73a489bd713bb000f91670eb5"
   },
   "shuffle": {
     "codepoint": 59933,
-    "hash": "f67f57117262ae6ceae0c83bf4611830f1977008902873e06f3fd7d59747893e"
+    "hash": "62899ec74ded328af8b906134e1019de159f4761aeb54629416171bc17567429"
   },
   "sidebar-left": {
     "codepoint": 59934,
-    "hash": "b95a1a727932b39db3639b1122c54503879edaf88acd4d3d57ac5fc0af074c03"
+    "hash": "1f7ce1326ae85e6dd5357f6516973dff83cdd1b08e4196336feeba73412b43ab"
   },
   "sidebar-right": {
     "codepoint": 59935,
-    "hash": "5451ff60c6c13294eb6a51a0fec85daebacbd74a955ff242e93738a7ab27aa32"
+    "hash": "6957097aabde4e3632db314cc46008f9b0573421fd95f4bcbbbac700057d27fd"
   },
   "simulation": {
     "codepoint": 59936,
-    "hash": "0aaa2e4c4efbfe4c493a64de021b0efe234c94588fb27470e4a13e5b8eac59f9"
+    "hash": "366f94f403af5f2da50ac3cc90eede66f61af8be247f8c6f32ee05b3f619c865"
   },
   "skip-to-beginning": {
     "codepoint": 59937,
-    "hash": "c54ff65b4d5fc873e29153c35933b71918ffcdbfdccd27866d6d4d9a44b93105"
+    "hash": "659209bea7f77318c3786a364df162964df1ab95a9455416924261cddedb1108"
   },
   "skip-to-end": {
     "codepoint": 59938,
-    "hash": "3267b7d11b5fb0af132825819401b5c33777b2f800e0b92efd31989153287af2"
+    "hash": "4c9da53d64977a6d7862f59700cf1a9b1181781dcb33c47926871c2e56ed055f"
   },
   "smartphone": {
     "codepoint": 59939,
-    "hash": "6ff82eb5fc10f81781d55cff87876653fb9c375dbbe9bc6f5bc2764e4aac4c1e"
+    "hash": "73132190e06033e0bc19c32c1907c0079cb72bc5917645c00ad18f0159616e79"
   },
   "smile": {
     "codepoint": 59940,
-    "hash": "7b2f8752d8b4324fd89dd0d7d537e4f877eac9d2664d3187b44a84416c521dd6"
+    "hash": "a8acb46f1ba513fa2ef1ebc65b8c30ebfaef8369dad845eb7924f2677d72b057"
   },
   "snow": {
     "codepoint": 59941,
-    "hash": "0081a1408fdf906b796c91096b8f6d5778712e408d62772ab7c4b10816801997"
+    "hash": "c0f83d891725ce97f6daddba0d56422fed441060dbb5a672a90b14a02da25629"
   },
   "software": {
     "codepoint": 59942,
-    "hash": "c5a5c44b85ef42d233debb62ef6a1d91f003f5ad73c72cc91a7c6d9177b656a0"
+    "hash": "5ffad1552b6976f351da15ea4cea7a73e4308fd0de80d0ce132b7836240b19d3"
   },
   "solution": {
     "codepoint": 59943,
-    "hash": "4bad2b1d486d872a01d622de0fbf5f6a246860359862a38b112d549cce1d9393"
+    "hash": "224270c012918efd3d689cc830293828326c0500046063a8a919790925e7f145"
   },
   "sound": {
     "codepoint": 59944,
-    "hash": "c15b18ff68b31558a60bfbeab33e32af8814ba11552f6c36ee51ec61572159db"
+    "hash": "fa46132b1cdd00e5e36100e24f64e2275c94ad4a3619e15b033cdc9593702a95"
   },
   "speaker": {
     "codepoint": 59945,
-    "hash": "14c4b7df3a154a833d77e680eab27616c1574d82829684542c51de85f7c1df0c"
+    "hash": "b684b36704065705c2c8d7cffa4aafaad912f00c3814ef8b2805fab3f173df54"
   },
   "split-view": {
     "codepoint": 59946,
-    "hash": "5451ff60c6c13294eb6a51a0fec85daebacbd74a955ff242e93738a7ab27aa32"
+    "hash": "6957097aabde4e3632db314cc46008f9b0573421fd95f4bcbbbac700057d27fd"
   },
   "star": {
     "codepoint": 59947,
-    "hash": "43080132c3b24522157e3643d2a5255b16869972ccce7da988eaf8b4fdb13461"
+    "hash": "ca60a0adbc4289e96302f00433083e9b4e459943cb0f6dbc2111ead3edccb471"
   },
   "star-f": {
     "codepoint": 59948,
-    "hash": "39cf928170b4af591e98f6e584eb7e979798e943e01b8e8a3325b53e2e61ae81"
+    "hash": "dc3a380d9f055f113d2b9ebdd406a79f8914e754f8d74af849c0667dfd8baadd"
   },
   "street-view": {
     "codepoint": 59949,
-    "hash": "e088082877448913f8bd46a8cdb43c40d1d4c1ef403d87090bf1118cdc14064a"
+    "hash": "6a70e466f8a7a5ced0df22acb764db522df5b673306671622bbae3f506d54a39"
   },
   "stroller": {
     "codepoint": 59950,
-    "hash": "b859b48b154b9c847b3b7365dd4220d2ca016e2fb38f2acfa4355d5b4d98fc98"
+    "hash": "8c82361a7dd53d50a760bdd0d658d47594b29109139343889fbe3e4f19db5cb4"
   },
   "swap-horizontal": {
     "codepoint": 59951,
-    "hash": "1eda96a49eac44e667e46807bcfc5ad94acabcb9f90c1a400b1cf00802a9bcfd"
+    "hash": "b4925aa836ac5e387de6ff5667bc2a974c5aeff3d805bc867b4d2ca296253a85"
   },
   "swap-vertical": {
     "codepoint": 59952,
-    "hash": "26128ed9911ed49d0465c9d7a06a9e751826d50152604419a20cabff4287b905"
+    "hash": "eb7859d807e062e437f82edf67a0b94b0d71f907860baebbc2eba73455de51ce"
   },
   "table": {
     "codepoint": 59953,
-    "hash": "6bdfe6b5869e38642608ee98d19c3b2525e750bb8fc23d26b40493174bf86f6e"
+    "hash": "e6a6a2a0e945b6758bc88218d282c117c866160fff430af6f61357124c07c2d5"
   },
   "table-x": {
     "codepoint": 59954,
-    "hash": "84a1353c3639b3fc9c89057f85bc28bfefd3175e668006b5a4453ee44651ee33"
+    "hash": "ae694b5733318a478e09289b1ab2d5d33ef0ab9303d15d1f32c9dbd0fae9fd23"
   },
   "tag": {
     "codepoint": 59955,
-    "hash": "603789399ddc5b9fb7ac674d2c7ba0d1289751e1687025d2b084fd984d309d9e"
+    "hash": "060d120f4652ee5395f4a7194fc555e81a1640a8c773ce9fd443c985b79124e6"
   },
   "team": {
     "codepoint": 59956,
-    "hash": "119d835e4397127689bffdd88390de404a9f6db74f0bff02f0c033735f551aa3"
+    "hash": "fd4be30652d97f0f4ae7ac85d8db5b2f32b06bb17fcdf11792c795c13be7e088"
   },
   "technology": {
     "codepoint": 59957,
-    "hash": "3ceee55dc0d545457f707cf957309f4c3eb7ff2b69ed556fde70962e6f2e3ba7"
+    "hash": "aa6a6c9bef8283e3ee3114ddaaee3a9dd533e1560328236aa77fc0ce3cf936f6"
   },
   "temperature": {
     "codepoint": 59958,
-    "hash": "5439afc5714adc61e62d55f3bfd829150901870a1d14fdbf387a0409aacec419"
+    "hash": "e2b7f84066e153c0d76f749bddb7fc32504106c63ee27215d6222ab3e51fd9f7"
   },
   "text-bold": {
     "codepoint": 59959,
-    "hash": "5203722f960c218e109584a6bc5c6af871f746a553981b45ac379040f5f7c5c0"
+    "hash": "5540075d805858d850ee8106f7a17ac874eb40810c677886c25576c514153aaf"
   },
   "text-color": {
     "codepoint": 59960,
-    "hash": "f6d0243df64feca326f606643febdda4fa0c70205276af59510e141c1d13403f"
+    "hash": "14a5656119de8f516148cdc045541ff2c842169259f3c0e32f08121e6addcfe1"
   },
   "text-italic": {
     "codepoint": 59961,
-    "hash": "e02fc0bffe1964e9219243ec78845e5a494d51ef2f77c48dc8a3df34630405cf"
+    "hash": "fecef732fd68d13c3635694ac047382a39a863f2fc2b04a104eceb5417fa8cfd"
   },
   "thumb-down": {
     "codepoint": 59962,
-    "hash": "d43495fb1ba671926c2e315fa7a5209da1e1554526aee9db56516196cf3fdca5"
+    "hash": "3248538cc38e54fc18411095025eac371ec362553f9e292fe16f9b614b29243b"
   },
   "thumb-up": {
     "codepoint": 59963,
-    "hash": "c28709c5d8791dbe3c4c59245acade34595987674698c9a2e750d872612201c2"
+    "hash": "acf4e6ca031fc88609590793054a2769e0b8fd9d3acfaf3157ea1975dfe5bc4f"
   },
   "tool": {
     "codepoint": 59964,
-    "hash": "39483c2b15c9ebb3b3f7dc12005f2ce4c0965e3be02af4db666b8ae8d8956d37"
+    "hash": "a9014f3d75ab3ed4e866d0136d43f052da97f17abe98e54d8f08d18ccf9cabe2"
   },
   "training": {
     "codepoint": 59965,
-    "hash": "4e68d59c830442dd8ce7cb2d7a1fc15e616a2817efe6586a79256c58c65e2ca9"
+    "hash": "bd7bfd0eda77f0900712271fcd04f5d72149c70cd911323018c1c529ab648388"
   },
   "tram": {
     "codepoint": 59966,
-    "hash": "892e4e6b85911c70f02b8748ffb607d0b79e910d68bad025a5839c3a3709e0c3"
+    "hash": "f8ca5ab1db475c1e94042a08c668fb4720bc7b6fe7fbe48105f67320c8fe64c8"
   },
   "transceiver": {
     "codepoint": 59967,
-    "hash": "0d9857afde67339e1e311b785746372f64fa2a379557ec6b1bf07b68aa1675e9"
+    "hash": "0cec94e481bf6be1569c38dcd67337317d08ce0a61caabac09e92693123530ac"
   },
   "translation": {
     "codepoint": 59968,
-    "hash": "0ddcd3e230fc3e0bcfa2802a931bc048d5f2720eb1835b86747a14e175c5c231"
+    "hash": "15237c44925d8cd8a9e2692d714575be248bc2e7947670832a4b4eeb4090c7a1"
   },
   "tree-structure": {
     "codepoint": 59969,
-    "hash": "a44e172529c6efd2fcf0e2a86369a5cc202f0864e0cdda1d6bf0881cfa57bc2a"
+    "hash": "a37147c6d4958fe93167fa307eaa183f684e507e7cdcba83c8853443e61b4bfe"
   },
   "trend-down": {
     "codepoint": 59970,
-    "hash": "03e688350552a4b81ca28f9d0c81c847a56d04ed24ff1dc73f6b28faca204ba5"
+    "hash": "467462f02b8f9720b67a4fda441bf32d6bcfb1dc9adf9b369943d1e2caea3570"
   },
   "trend-up": {
     "codepoint": 59971,
-    "hash": "9086c5aa83a3671ea8c2f5570b75e4c8d3069dcb98aab24e4fbe24d1476ed1a8"
+    "hash": "bf1a2560ff020dbb0beeff3a6e787108e44b2622f2ec7cebbcdc86c34ea0d6eb"
   },
   "twitter": {
     "codepoint": 59972,
-    "hash": "6367f198edfef72237cbd277261e248c7dd4ee58bd2871e25b9f12c1120bb1ac"
+    "hash": "b1994f4d79e79c262eb63217e3df4ed193e5d6d1dde644f950dbe091700f4a27"
   },
   "ungroup": {
     "codepoint": 59973,
-    "hash": "28f17d448954dc9b8d2abfb68d0748df428d7383f54c61756d81a811ea08a320"
+    "hash": "c71d93d61082661874a6729110032215441def97ae428b403d46f8eb5505a9a6"
   },
   "unlink": {
     "codepoint": 59974,
-    "hash": "f3f03c80abd4c943a1a74126d981535d04a91f6871da997ffc652e500d70d6a9"
+    "hash": "fc59fdd790bec361c91bc8bf9165388865f29cbbfc195573f73add762174f2a5"
   },
   "unlocked": {
     "codepoint": 59975,
-    "hash": "4a2127f1c9eefcd8f4e7ad2259b94cf252082dbfa27e8005aaa86cb8b1762927"
+    "hash": "afea7c8b9fac538bb4562a3c84f666061a1a49643a6e7ec58c6aa23f7677e0b7"
   },
   "unordered-list": {
     "codepoint": 59976,
-    "hash": "729abad5c82eef0d6287b9cfaf9f71f0c938d010d1adc4f7c98476216efe6103"
+    "hash": "26cc48c3a61d182f39a5d5518f526105e21a1741fb1cab1ee33038b64a9b107d"
   },
   "upload": {
     "codepoint": 59977,
-    "hash": "f750efbde6b68ea5d3c33327d462f8f48b0cac0560a915a536f7fa08bd3fb66f"
+    "hash": "f5e85147de820c20a53f598f33d1c0731a36fe132be31092d21d6d0264adc961"
   },
   "usb": {
     "codepoint": 59978,
-    "hash": "4f77cc75e8edf433ee8f06c0a2311a49801df3a65db861d0d0f9c7e18c20c8e0"
+    "hash": "6a2c48777ee7c47548726f9d825874cde2af8b5ca664f1eeecce5ea4b89740db"
   },
   "user": {
     "codepoint": 59979,
-    "hash": "21bc461fb8ed2689ea94fd5bd7838095b99c26f2b3e40a7f46da1eca0f957903"
+    "hash": "87c60c44d5bd2999a9387a10004a38e687321dbf02113457b25f532167443dab"
   },
   "user-add": {
     "codepoint": 59980,
-    "hash": "82f7b600ab2ee543d010e1df0023226ae787fd7ec4907883ea74da3c8a2ec515"
+    "hash": "921fc62a4f4728a6574bc12cd1103b1eea5e8acb9de1b88d2df3d1c84e587ce8"
   },
   "user-pin": {
     "codepoint": 59981,
-    "hash": "cf2117cc44a8787f987a41490ab1ae1847bab73de85cc945bc57e48dbc53d0bf"
+    "hash": "67eb3f809c88c0fb5398f4fa9d6bc6f42e0f24f3021a838c89287b7c81eaac54"
   },
   "user-remove": {
     "codepoint": 59982,
-    "hash": "241d15be8755edf3b0cb10583cb27637232fba71de6c75de660d26ca64de5ec1"
+    "hash": "c1e66bb782ebabdecf20922a9519daaccc271119088c238887a7f2eb0fc47076"
   },
   "verified": {
     "codepoint": 59983,
-    "hash": "879f1252feaf3e9b03aba51e89534ec22c9e2f7818a3a753b78fd43127cd67f5"
+    "hash": "f1e3c9f95288c27a8173b07acba2ed6ebba29e81bcbc1684d82e2d95e9bac7dc"
   },
   "video": {
     "codepoint": 59984,
-    "hash": "64c680e0d66b589e5a9c8fe746e18cf88bbd5b95c0a136a2d9ee4685f09c3dbb"
+    "hash": "c8fc62975407686b4ea71c751256fa17e18a01b727e1591a2086f6941b51d03b"
   },
   "video-cam": {
     "codepoint": 59985,
-    "hash": "a55a9f32f2332eebc3da19cce19c5affa4922fdde1f25f80a097234a55e7e4b8"
+    "hash": "70d1349745632ca321d7453c9ea57d48d727dbaeb71481d6c8b44943c4f883a9"
   },
   "video-cam-x": {
     "codepoint": 59986,
-    "hash": "d51314f4c9eff347c7a8e3a3b791a78caaa8bd54d44e648357405be5236708c6"
+    "hash": "e7e0226817d49205ad779aacc50081494073fd37414e520f134ad9bc9fcf75d0"
   },
   "view-replacement": {
     "codepoint": 59987,
-    "hash": "4b8965178dd85c8640b2c8a55e1b1e57bc9e7df6fb654de299afb458b420ec6a"
+    "hash": "f7c795320af379c6d3bef89831ea75fd585932fff2530478532b192857c74054"
   },
   "volume-down": {
     "codepoint": 59988,
-    "hash": "044eac24f4493829072ab9df706b6706ed89523d95936f4aa4f44619bc822453"
+    "hash": "98b4aed5cc942feaa82a00f9384edab07263338d8a3777113d42d90e58037b19"
   },
   "volume-mute": {
     "codepoint": 59989,
-    "hash": "cdc5441e2cb6e2cbafd415de8ab37971e40c4323e9a383cda86cf49ef8f13361"
+    "hash": "6d87c6236bc45434c2e59fd3fb9886c809e7c13f6ed09f3cfe7e68cd375a245c"
   },
   "volume-up": {
     "codepoint": 59990,
-    "hash": "04711f5d0e79aa9143a69978ce89e4853b963afa269d9d37bfe16006141eb45b"
+    "hash": "ce7753206efe9337079a83e9716bd379da979ac844be5ba8c688df5b77f54d8b"
   },
   "warning": {
     "codepoint": 59991,
-    "hash": "fc31cf1f3bd074b944dcc058c5b256300a4a7e598418d2702b9d85a323ce9f1a"
+    "hash": "e59394ce332687c49235a64496fe7fed8365bc87679bb1feed0f297f99c458d1"
   },
   "warning-critical": {
     "codepoint": 59992,
-    "hash": "1ddd9bfa54fbee05726f4f6eafb259e838ae66276240b479227ee02813c7bc0d"
+    "hash": "78ce3586d08fb8f7a66f56006dbb133d99a42525e00d535d04e97e96518ca3fd"
   },
   "warning-f": {
     "codepoint": 59993,
-    "hash": "19585bfc1aeb5ad48090e31f7f2371e2e7e368b4e714eab2ef13e687ac4d7608"
+    "hash": "e572d9b8e4bc5ffa27c533e9f2ddd12d7a79c81955552e5cc5d46b24f2e07da8"
   },
   "waves": {
     "codepoint": 59994,
-    "hash": "626cc5543d219a8127280bef0961ea454af387310ebab83352717dbd9c8bf825"
+    "hash": "5ffd9e4adfc741d6071e5fb4169500eaeaa82f3d227aad3f20e68b073dd2ae50"
   },
   "webinar": {
     "codepoint": 59995,
-    "hash": "de5b04b139b30740e223f2ca69c45ae408f84e6f66cf18b21c78b1ffd2f0fcf5"
+    "hash": "c1f376a055c7cd7d5731c779185c42f6580d571c902edc87f26aa54601cbfaf8"
   },
   "webpage": {
     "codepoint": 59996,
-    "hash": "ff3f8e37883922682295f7aeae8e65c1ea56102e1fbae9888f061c55a1ac9f90"
+    "hash": "c6c99af007c2c9b7abb24b73c0e7c8b9aa246ddf9fb2204edc03811893e684ca"
   },
   "wechat": {
     "codepoint": 59997,
-    "hash": "5f6a20f0dd0e5ff8379c8d94937d273730656682fa86e4761da06b199bcbf74d"
+    "hash": "3f53511d6f740f112dcea4cc9702b31bee9e15fe51b03f9cd7eea0813d0f2c11"
   },
   "weibo": {
     "codepoint": 59998,
-    "hash": "216df37cb9a3510664f03b8c07c0c38e072e8e63e92cbbfce6a9cb9a3ad59be1"
+    "hash": "401dd18f8a2b95ef82a88c01f671279baa0e7e3de5911eba4fdfe0f450f49279"
   },
   "wheelchair": {
     "codepoint": 59999,
-    "hash": "927eeb648b516b74de74ca837a38bfa8a058961f431311fb4f9147df020e658d"
+    "hash": "c35ef13bec07e34be9c2c9b01c2b2eaef4644cf34cc669221958cfc1ea6c7198"
   },
   "wifi": {
     "codepoint": 60000,
-    "hash": "a444b6649fb723a1117ab415dfa15e303f70c3d38ea0b426c72f15445432e1b4"
+    "hash": "86e5ad71c074ed4b6e23076ea64e4a23d74bb59edc52c35fc9a3c994c8107a49"
   },
   "windows": {
     "codepoint": 60001,
-    "hash": "4cf17b0267cda8af0374fd72ad41cc0b5be81e7180befd171facaf0325910090"
+    "hash": "5b6e0ec8ebe4a8938a7aed85e74638e7929e55602fc9962f29b3e36092ab6c73"
   },
   "xing": {
     "codepoint": 60002,
-    "hash": "81a10df3ac34a7633d74de75c7aad51c4fac09f46dc1a1a27670f1114d675dde"
+    "hash": "9c7b43f42bad37c7969aef0898b360d1da6bfd39630b10d0203dbf73c232af66"
   },
   "youku": {
     "codepoint": 60003,
-    "hash": "177989340c0579bdaf8659a29a2a209f8c54fd60bf69f21eed6d3e2628b13a86"
+    "hash": "f3184d879a8cf821a3b1d5d1c7c66ddff24d8cec274968097e53f0f4ce6d7ac4"
   },
   "youtube": {
     "codepoint": 60004,
-    "hash": "f10e3043dbf0c389570c2c8cbbd11d6cc14e1a3a9dde54d5f99b8bfc7189f9ec"
+    "hash": "46233e1dd588162898fa1f4f2586ef00f2ff657798f830960b0e848709ff6cce"
   },
   "zhihu": {
     "codepoint": 60005,
-    "hash": "511d62c3edf369bf9097c6b2c8bb32bd4e6c6598432da90cd6edc646a86a0c93"
+    "hash": "0c3ad8d3456d4a3beab3a15cc00faf5e452a8ced85b7a17f8d60031793e56fdd"
   },
   "zoom-in": {
     "codepoint": 60006,
-    "hash": "514b3766c92e79203237240adeeb55db5148cc01d5ca7070632c44e919c0b55b"
+    "hash": "9609d49ae6078644710111f617caa7999ecc0f2d0a388c251c44fe826233599d"
   },
   "zoom-out": {
     "codepoint": 60007,
-    "hash": "755e406e1e3be2b820a5e3fc12fccec77604a5ef043c342252a7b9448738e21a"
+    "hash": "42247cb3c8882f0dc16b696174e631a81934b0f106d3a9bfc4f4cae95cab3892"
   }
 }
