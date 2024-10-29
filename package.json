@@ -15,7 +15,7 @@
   "author": "Kai Werther",
   "scripts": {
     "build": "npm run generate:js && npm run build:icons",
-    "generate:js": "node ./build/generate_js",
+    "generate:js": "node ./build/generate",
     "build:icons": "rollup --config rollup.config.js"
   },
   "main": "dist/icons.js",
