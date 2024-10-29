@@ -1,3 +1,16 @@
+# v3.0.1 (Tue Oct 29 2024)
+
+#### 🐛 Bug Fix
+
+- feat(36): added svg to icon library + added function to create icons … [#37](https://github.com/Infineon/Infineon-Icons/pull/37) ([@verena-ifx](https://github.com/verena-ifx) [@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 2
+
+- [@verena-ifx](https://github.com/verena-ifx)
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v3.0.0 (Fri Oct 11 2024)
 
 #### 💥 Breaking Change
