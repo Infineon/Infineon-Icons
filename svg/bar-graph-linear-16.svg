@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)">  <path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" d="M.5 15.5v-3m5 3v-7m5 7v-11m5 11V.5"/></g><defs>  <clipPath id="a">    <path fill="#fff" d="M0 0h16v16H0z"/>  </clipPath></defs></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"><path d="M14.987 8v8H16V0h-1.013v8M10 10v6h1.013V4H10v6m-5.013 2v4H6V8H4.987v4M0 14v2h1.013v-4H0v2" fill-rule="evenodd" fill="#000"/></svg>
