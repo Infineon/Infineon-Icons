@@ -1,10 +1,10 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable max-len */
 const fs = require('fs').promises;
 const fsr = require('fs'); // Use this for synchronous methods
 const path = require('path');
 const crypto = require('crypto');
 const { execSync } = require('child_process');
-// eslint-disable-next-line import/no-extraneous-dependencies
 const webfont = require('webfont').default;
 
 const svgSourceFolder = './svg/';
@@ -35,11 +35,9 @@ const writeGlyphMap = async (glyphMap) => {
 };
 
 const cleanDirectory = async (directory) => {
-  console.info(`Removing files from target directory ${directory}`);
   try {
     const files = await fs.readdir(directory);
     await Promise.all(files.map((file) => fs.unlink(path.join(directory, file))));
-    console.info('Deletion successful\n');
   } catch (err) {
     console.error(`Error cleaning directory ${directory}:`, err);
   }
@@ -130,14 +128,12 @@ const generateFont = async (icons, glyphMap) => {
       if (result[ext]) {
         const outputPath = path.join(fontTargetFolder, `iconfont.${ext}`);
         fsr.writeFileSync(outputPath, result[ext]); // Correct usage of writeFileSync
-        console.log(`Generated font file: ${outputPath}`);
       }
     });
 
     if (result.template) {
       const cssOutputPath = path.join(fontTargetFolder, 'iconfont.css');
       fsr.writeFileSync(cssOutputPath, result.template);
-      console.log(`Generated CSS file: ${cssOutputPath}`);
     }
 
     console.log('Font generation completed successfully!');
@@ -155,9 +151,9 @@ const main = async () => {
     const files = await fs.readdir(svgSourceFolder);
     const updatedIcons = await Promise.all(
       files
-        .filter((file) => file.endsWith('.svg'))
+        .filter((file) => file.endsWith('.svg') && (file.endsWith('-16.svg') || !file.includes('-'))) // Filter for '-16' or no suffix
         .map(async (file) => {
-          const iconName = file.slice(0, -4);
+          const iconName = file.slice(0, -4); // Remove '.svg' extension
           const svgFile = path.join(svgSourceFolder, file);
 
           validateSVG(svgFile);
