@@ -1,13 +1,22 @@
 @font-face {
+  font-display: auto;
   font-family: "infineon-icons";
+  font-style: normal;
+  font-weight: 400;
   
-  src: url("../font/infineon-icons.woff2?1730195331833") format("woff2"), url("../font/infineon-icons.woff?1730195331833") format("woff"), url("../font/infineon-icons.ttf?1730195331833") format("truetype"); 
+  src: url("./infineon-icons.woff2?1730213062523") format("woff2"), url("./infineon-icons.woff?1730213062523") format("woff"), url("./infineon-icons.ttf?1730213062523") format("truetype"); 
 }
 
 .icon {
   display: inline-block;
   font-family: "infineon-icons";
-  color: red;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .icon-lg {
@@ -92,7 +101,7 @@
 }
 
 
-.icon-Cart-f::before {
+.icon-cart-f::before {
   content: "\e901";
 }
 
@@ -560,6 +569,10 @@
   content: "\e975";
 }
 
+.icon-facebook::before {
+  content: "\e976";
+}
+
 .icon-factory::before {
   content: "\e977";
 }
@@ -760,12 +773,20 @@
   content: "\e9a8";
 }
 
+.icon-github::before {
+  content: "\e9a9";
+}
+
 .icon-glasses::before {
   content: "\e9aa";
 }
 
 .icon-globe::before {
   content: "\e9ab";
+}
+
+.icon-google::before {
+  content: "\e9ac";
 }
 
 .icon-graduation::before {
@@ -872,6 +893,10 @@
   content: "\e9c6";
 }
 
+.icon-instagram::before {
+  content: "\e9c7";
+}
+
 .icon-insurance::before {
   content: "\e9c8";
 }
@@ -918,6 +943,10 @@
 
 .icon-link::before {
   content: "\e9d3";
+}
+
+.icon-linkedin::before {
+  content: "\e9d4";
 }
 
 .icon-list::before {
@@ -1364,6 +1393,10 @@
   content: "\ea43";
 }
 
+.icon-twitter::before {
+  content: "\ea44";
+}
+
 .icon-ungroup::before {
   content: "\ea45";
 }
@@ -1460,6 +1493,14 @@
   content: "\ea5c";
 }
 
+.icon-wechat::before {
+  content: "\ea5d";
+}
+
+.icon-weibo::before {
+  content: "\ea5e";
+}
+
 .icon-wheelchair::before {
   content: "\ea5f";
 }
@@ -1470,6 +1511,22 @@
 
 .icon-windows::before {
   content: "\ea61";
+}
+
+.icon-xing::before {
+  content: "\ea62";
+}
+
+.icon-youku::before {
+  content: "\ea63";
+}
+
+.icon-youtube::before {
+  content: "\ea64";
+}
+
+.icon-zhihu::before {
+  content: "\ea65";
 }
 
 .icon-zoom-in::before {
