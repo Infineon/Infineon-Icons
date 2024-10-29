@@ -4,10 +4,9 @@ const fs = require('fs').promises;
 const fsr = require('fs'); // Use this for synchronous methods
 const path = require('path');
 const crypto = require('crypto');
-const { execSync } = require('child_process');
 const webfont = require('webfont').default;
 
-const svgSourceFolder = './svg/';
+const svgSourceFolder = './svg';
 const jsTargetFolder = './generated_js/';
 const fontTargetFolder = './dist/fonts/';
 const glyphMapFile = './glyphmap.json';
@@ -54,16 +53,6 @@ const computeFileHash = async (filePath) => {
   }
 };
 
-const validateSVG = (filePath) => {
-  try {
-    execSync(`xmllint --noout ${filePath}`);
-    return true;
-  } catch (err) {
-    console.error(`Invalid SVG at ${filePath}:`, err.message);
-    throw new Error(`Invalid SVG at ${filePath}`);
-  }
-};
-
 const generateJSFiles = async (icons) => {
   const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 
@@ -83,11 +72,12 @@ const generateJSFiles = async (icons) => {
 
 const generateFont = async (icons, glyphMap) => {
   try {
-    const iconFiles = icons.map((iconName) => ({
-      path: path.join(svgSourceFolder, `${iconName}-16.svg`),
-      name: iconName,
-      codepoint: glyphMap[iconName].codepoint,
+    const iconFiles = icons.map((icon) => ({
+      path: path.join(svgSourceFolder, `${icon.originalIconName}`),
+      name: icon.iconName,
+      codepoint: glyphMap[icon.iconName].codepoint,
     }));
+    console.log(iconFiles);
 
     const result = await webfont({
       files: iconFiles.map((icon) => icon.path),
@@ -144,30 +134,25 @@ const main = async () => {
         const iconName = file.slice(0, -4); // Remove '.svg' extension
         const svgFile = path.join(svgSourceFolder, file);
 
-        validateSVG(svgFile);
-
         const fileHash = await computeFileHash(svgFile);
         return { iconName, fileHash };
       }),
     );
 
-
     const updatedIconsForFont = await Promise.all(
       iconsForFont.map(async (file) => {
         const iconName = file.endsWith('-16.svg') ? file.slice(0, -7) : file.slice(0, -4); // Remove suffix and '.svg' extension if necessary
+        const originalIconName = file;
         const svgFile = path.join(svgSourceFolder, file);
 
-        validateSVG(svgFile);
-
         const fileHash = await computeFileHash(svgFile);
-        return { iconName, fileHash };
+        return { iconName, originalIconName, fileHash };
       }),
     );
 
     const highestCodepoint = Object.values(glyphMap).reduce((max, { codepoint }) => Math.max(max, codepoint), START_CODEPOINT);
 
     const currentIconsForJS = updatedIconsForJS.map(({ iconName }) => iconName);
-    const currentIconsForFont = updatedIconsForFont.map(({ iconName }) => iconName);
 
     const currentHashesForFont = updatedIconsForFont.reduce((acc, { iconName, fileHash }) => {
       acc[iconName] = fileHash;
@@ -176,23 +161,28 @@ const main = async () => {
 
     let nextCodepoint = highestCodepoint + 1;
 
-    currentIconsForFont.forEach((iconName) => {
-      if (!glyphMap[iconName]) {
-        glyphMap[iconName] = { codepoint: nextCodepoint };
+    updatedIconsForFont.forEach((icon) => {
+      if (!glyphMap[icon.iconName]) {
+        glyphMap[icon.iconName] = { codepoint: nextCodepoint };
         nextCodepoint += 1;
       }
-      if (glyphMap[iconName].hash !== currentHashesForFont[iconName]) {
-        glyphMap[iconName].hash = currentHashesForFont[iconName];
+      if (glyphMap[icon.iconName].hash !== currentHashesForFont[icon.iconName]) {
+        glyphMap[icon.iconName].hash = currentHashesForFont[icon.iconName];
       }
     });
 
-    const deletedIcons = Object.keys(glyphMap).filter((icon) => !currentIconsForFont.includes(icon));
-    deletedIcons.forEach((icon) => {
-      delete glyphMap[icon];
+    // Step 1: Extract iconName values from the array of objects
+    const iconNames = updatedIconsForFont.map((obj) => obj.iconName);
+
+    // Step 2: Iterate through the map keys and delete entries not in the iconNames array
+    Object.keys(glyphMap).forEach((key) => {
+      if (!iconNames.includes(key)) {
+        delete glyphMap[key];
+      }
     });
 
     await generateJSFiles(currentIconsForJS);
-    await generateFont(currentIconsForFont, glyphMap);
+    await generateFont(updatedIconsForFont, glyphMap);
     await writeGlyphMap(glyphMap);
   } catch (err) {
     console.error('Error processing SVG files:', err);
