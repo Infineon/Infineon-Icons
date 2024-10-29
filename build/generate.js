@@ -77,7 +77,6 @@ const generateFont = async (icons, glyphMap) => {
       name: icon.iconName,
       codepoint: glyphMap[icon.iconName].codepoint,
     }));
-    console.log(iconFiles);
 
     const result = await webfont({
       files: iconFiles.map((icon) => icon.path),
