@@ -32,11 +32,23 @@ jobs:
       - name: Install xmllint
         run: sudo apt-get install -y libxml2-utils
 
-      - name: Create Release 
+      - name: Build
         env:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           npm install
           npm run build
-          auto shipit
+
+      - name: Commit changes
+        env:
+          BRANCH_NAME: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Updated glyphmap"
+          git push origin HEAD:$BRANCH_NAME
+
+      - name: Create Release
+        run: auto shipit

@@ -1434,5 +1434,9 @@
   "zoom-out": {
     "codepoint": 60007,
     "hash": "5e06208939306a9085c8f10adcdbf0133538ef5e859568f5c62782b370eb5fc6"
+  },
+  "divider": {
+    "codepoint": 60008,
+    "hash": "d7aaa17dd8250f078095f4344219188677fde85014b07dcf6091c54239c943dd"
   }
 }
