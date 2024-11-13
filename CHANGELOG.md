@@ -1,3 +1,19 @@
+# v3.0.2 (Wed Nov 13 2024)
+
+#### 🐛 Bug Fix
+
+- glyphmap added to gitignore [#43](https://github.com/Infineon/Infineon-Icons/pull/43) ([@verena-ifx](https://github.com/verena-ifx))
+- Bugfix: updated github action to commit changes after updating glyphmap [#41](https://github.com/Infineon/Infineon-Icons/pull/41) ([@verena-ifx](https://github.com/verena-ifx))
+- divider Icon Added [#39](https://github.com/Infineon/Infineon-Icons/pull/39) ([@MuppanaVamsi](https://github.com/MuppanaVamsi) laxman.external@infineon.com)
+
+#### Authors: 3
+
+- [@MuppanaVamsi](https://github.com/MuppanaVamsi)
+- [@verena-ifx](https://github.com/verena-ifx)
+- Laxman (laxman.external@infineon.com)
+
+---
+
 # v3.0.1 (Tue Oct 29 2024)
 
 #### 🐛 Bug Fix
