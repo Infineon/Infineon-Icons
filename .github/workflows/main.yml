@@ -44,11 +44,35 @@ jobs:
         env:
           BRANCH_NAME: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add .
-          git commit -m "Updated glyphmap"
-          git push origin HEAD:$BRANCH_NAME
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes to commit."
+          else
+            echo "Committing changes"
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add .
+            git commit -m "Updated glyphmap"
+            git push origin HEAD:$BRANCH_NAME
+          fi
 
-      - name: Create Release
-        run: auto shipit
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Publish to npm (PR)
+        if: github.event_name == 'pull_request'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+        run: |
+          echo "Publishing with --tag canary"
+          auto shipit
+
+      - name: Publish to npm (master)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+        run: |
+          echo "Publishing without tag"
+          auto shipit
