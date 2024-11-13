@@ -75,4 +75,4 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
         run: |
           echo "Publishing without tag"
-          npm publish
+          auto shipit
