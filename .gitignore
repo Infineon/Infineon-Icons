@@ -3,5 +3,5 @@
 /dist/
 /generated_js/
 /generated_fonts/
-
 /font-example/node_modules/**
+glyphmap.json
