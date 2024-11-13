@@ -39,4 +39,27 @@ jobs:
         run: |
           npm install
           npm run build
-          auto shipit
+
+      - name: Commit changes
+        env:
+          BRANCH_NAME: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Updated glyphmap"
+          git push origin HEAD:$BRANCH_NAME
+
+      - name: Publish to npm (PR)
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "Publishing with --tag canary"
+          npm publish --tag canary
+
+      - name: Publish to npm (master)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: |
+          echo "Publishing without tag"
+          npm publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
