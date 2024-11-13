@@ -51,15 +51,17 @@ jobs:
           git push origin HEAD:$BRANCH_NAME
 
       - name: Publish to npm (PR)
+        env: 
+          NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
         if: github.event_name == 'pull_request'
         run: |
           echo "Publishing with --tag canary"
           npm publish --tag canary
 
       - name: Publish to npm (master)
+        env: 
+          NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: |
           echo "Publishing without tag"
           npm publish
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
