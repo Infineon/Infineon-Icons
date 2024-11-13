@@ -39,16 +39,4 @@ jobs:
         run: |
           npm install
           npm run build
-
-      - name: Commit changes
-        env:
-          BRANCH_NAME: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add .
-          git commit -m "Updated glyphmap"
-          git push origin HEAD:$BRANCH_NAME
-
-      - name: Create Release
-        run: auto shipit
+          auto shipit
