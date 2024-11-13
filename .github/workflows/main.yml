@@ -56,7 +56,7 @@ jobs:
           fi
 
       - name: Publish to npm (PR)
-        if: github.event_name == 'pull_request' && steps.check_changes.outputs.changes == 'true'
+        if: github.event_name == 'pull_request'
         env:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
         run: |
@@ -64,7 +64,7 @@ jobs:
           npm publish --tag canary
 
       - name: Publish to npm (master)
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master' && steps.check_changes.outputs.changes == 'true'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         env:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
         run: |
