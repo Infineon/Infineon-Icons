@@ -67,7 +67,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
         run: |
           echo "Publishing with --tag canary"
-          npm publish --tag canary
+          auto shipit
 
       - name: Publish to npm (master)
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
