@@ -32,11 +32,46 @@ jobs:
       - name: Install xmllint
         run: sudo apt-get install -y libxml2-utils
 
-      - name: Create Release 
+      - name: Build
         env:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           npm install
           npm run build
+
+      - name: Commit changes
+        env:
+          BRANCH_NAME: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes to commit."
+          else
+            echo "Committing changes"
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add .
+            git commit -m "Updated glyphmap"
+            git push origin HEAD:$BRANCH_NAME
+          fi
+
+      - name: Set npm registry
+        uses: actions/setup-node@v4
+        with:
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Publish to npm (PR)
+        if: github.event_name == 'pull_request'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+        run: |
+          echo "Publishing with --tag canary"
+          auto shipit
+
+      - name: Publish to npm (master)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+        run: |
+          echo "Publishing without tag"
           auto shipit
