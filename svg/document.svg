@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.8.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:#0A8276;}
-</style>
-<rect x="0" class="st0" width="48" height="48"/>
-<g>
-	<path class="st1" d="M4,47h34V7H4V47z M6,9h30v36H6V9z"/>
-	<polygon class="st1" points="10,1 10,3 42,3 42,41 44,41 44,1 	"/>
-	<rect x="12" y="17" class="st1" width="18" height="2"/>
-	<rect x="12" y="25" class="st1" width="18" height="2"/>
-	<rect x="12" y="33" class="st1" width="10" height="2"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48" xml:space="preserve"><path d="M10 2v.96h32v38h2V1.04H10V2M4 27v19.96h34V7.04H4V27m32 0v18.04H6V8.96h30V27m-24-9v.96h18v-1.92H12V18m0 8v.96h18v-1.92H12V26m0 8v.96h10v-1.92H12V34" fill-rule="evenodd"/></svg>
