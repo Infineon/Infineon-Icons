@@ -1434,5 +1434,165 @@
   "zoom-out": {
     "codepoint": 60007,
     "hash": "5e06208939306a9085c8f10adcdbf0133538ef5e859568f5c62782b370eb5fc6"
+  },
+  "asic": {
+    "codepoint": 60008,
+    "hash": "525a68064d7a8a5740630843541a9f3c9672be50594944e5056f77ba46e2a171"
+  },
+  "check-active": {
+    "codepoint": 60009,
+    "hash": "deb99a1e67d33335270d0bec5b39fda7a18a89db4712de5adac0091a90a9a811"
+  },
+  "check-disable": {
+    "codepoint": 60010,
+    "hash": "b03144cc377a6dba3aa96e9eca3788012d89ab3c8cf957ebc0d4950c4b505e3d"
+  },
+  "chip-chip-hooray": {
+    "codepoint": 60011,
+    "hash": "d96e56054a91327f237b6d6ce5870b29c61831eab10f62d86ce14cc1d42722ca"
+  },
+  "circle": {
+    "codepoint": 60012,
+    "hash": "a7e2e937802c793db791220e121e8a505c749b549a38f7b53efe702812af1c3f"
+  },
+  "consumer-48": {
+    "codepoint": 60013,
+    "hash": "efea132bf1285f1d321d5042deeddc58f32368493048988bb4f2bbbc7c79122c"
+  },
+  "divider": {
+    "codepoint": 60014,
+    "hash": "d7aaa17dd8250f078095f4344219188677fde85014b07dcf6091c54239c943dd"
+  },
+  "esd": {
+    "codepoint": 60015,
+    "hash": "833cb4fd4ce6615dad590b10b24f5c5f749836e9b45cd5e4fd135a844ba373b6"
+  },
+  "event-confirm": {
+    "codepoint": 60016,
+    "hash": "d7ae6d8b7154d20b0cf8958e17dd9b695915e200a4dd0226c17b080ee3b041ae"
+  },
+  "fuel-electric": {
+    "codepoint": 60017,
+    "hash": "cc6cd6130c3f3374b3091e481b89c6a9b9918615f2929a7c4ca999fa5aa5ceb8"
+  },
+  "hirel-48": {
+    "codepoint": 60018,
+    "hash": "b62ac697c5c24eb3a533e870836f083164a209fba03e8709b981fa9e8e26864b"
+  },
+  "home-16-home-appliances": {
+    "codepoint": 60019,
+    "hash": "2c8fd9772d58034265fd3ba6e96ff1e304ec8d57c1211f81dd305a07f0e0f7d3"
+  },
+  "icon-academy-head-48": {
+    "codepoint": 60020,
+    "hash": "abd36bbc51dbd8cb109e71d37a6d18961f3cf9cf33fcaf8c8f22effac630a7e3"
+  },
+  "icon-analogue-simulations-48": {
+    "codepoint": 60021,
+    "hash": "e3e6eb1f287950b5693d08b3f30685fcb3336687fd2e87edb40bfcd6a7c08990"
+  },
+  "icon-config-48": {
+    "codepoint": 60022,
+    "hash": "8907565439631032ebc67b60d2597754bf76efe12de8e1f3c61180acbccabf75"
+  },
+  "icon-document-48": {
+    "codepoint": 60023,
+    "hash": "2372cc0dfaa7797e1d207c7ae59d79105504a4369b977a0181d7c457258ada98"
+  },
+  "icon-evaluation-board-48": {
+    "codepoint": 60024,
+    "hash": "cd001e27af4a4e84458765bea90bc9d8c3cbcfd7dfd3262708d997c9694fe414"
+  },
+  "icon-light-48": {
+    "codepoint": 60025,
+    "hash": "2fc43347e6dc1aff71f3d16cda047d2b80b5675346431d3abaed25c34fbbd0c9"
+  },
+  "icon-partner-offering_software-48": {
+    "codepoint": 60026,
+    "hash": "7371a9bfcf5092d2d0783f8b8acaf1f989eae76481d17151f9c55db28db91428"
+  },
+  "icon-read-48": {
+    "codepoint": 60027,
+    "hash": "12bb3346a5508584a0aefd83759bcf5465f879a9ac736817a81cb4269c0e097a"
+  },
+  "icon-scripting-48": {
+    "codepoint": 60028,
+    "hash": "0e5bb1d13be8e35d4077fa7e9929d8b56cf0ba654c5903e343439d0b4a183616"
+  },
+  "isolator": {
+    "codepoint": 60029,
+    "hash": "ddbde7e42bb038477c2b95756d80e390cb44f36ea2d076600f404565ec719d18"
+  },
+  "logo-md": {
+    "codepoint": 60030,
+    "hash": "6ebf5e2c311002907ed073ca2dd25edd64ab1e02c6593c3fd71a88400dbc64ee"
+  },
+  "logo": {
+    "codepoint": 60031,
+    "hash": "95ff68bbe640d7fdf686a4f72c4a8ba33204f8e4b207dc84362723ea17c2ace2"
+  },
+  "memories": {
+    "codepoint": 60032,
+    "hash": "0b977a0830084345be63ab65804d2abef205ceec7fb3094c73e185f9fdd2b519"
+  },
+  "no-results-48": {
+    "codepoint": 60033,
+    "hash": "9d0de85b01574430bd109d0f3c84a6250480b50de124dcb1f60fee8046a64131"
+  },
+  "offrampgear": {
+    "codepoint": 60034,
+    "hash": "bbcb88ab4768adfa524d4bc0592121c6b0c45cf471d5487cf47f560ac17f813f"
+  },
+  "pen-green": {
+    "codepoint": 60035,
+    "hash": "116f33f4281440beb4830cced1076dcffb8438491bda7ba67b4fd2b34c7ca4a2"
+  },
+  "pg-left-arrow-active": {
+    "codepoint": 60036,
+    "hash": "ffd1ded5fa1100bfb9834e35564aac5d78bede52b9fb8c7afbccbe6d17fa4194"
+  },
+  "pg-left-arrow-faded": {
+    "codepoint": 60037,
+    "hash": "571232ac1d650bbe0ad035dc1084b97888a5d1b67e56d3dfbe635f128da8e958"
+  },
+  "pg-right-arrow-active": {
+    "codepoint": 60038,
+    "hash": "1c01963ec1eba84ec779970800c823fa1419cc2f28b51446ba959fb26eeac76b"
+  },
+  "pg-right-arrow-faded": {
+    "codepoint": 60039,
+    "hash": "45ed100b9b6c25cb780dee2368753ba2760a4a184fa19f6bbee70fa93b55b488"
+  },
+  "robotics": {
+    "codepoint": 60040,
+    "hash": "c25eafa71240e231bf15a65dad4c6aca77cf8797c064ebf0453b3698174f71ba"
+  },
+  "signal-48": {
+    "codepoint": 60041,
+    "hash": "85da416f12584c3034148531a172aa74580a1792abf4c0125d7786c94b6da590"
+  },
+  "small-signal": {
+    "codepoint": 60042,
+    "hash": "bbe3716ab503a2139c42aad62cc8ae6b9e131817d7ca82702a9b05a919ae67e2"
+  },
+  "smarthome-building": {
+    "codepoint": 60043,
+    "hash": "b75a0dedea32ae78683be98a4fb9e1b9e22ceef849431bee39eb45e8c637d576"
+  },
+  "solutions-48": {
+    "codepoint": 60044,
+    "hash": "2b6fb99770b3267cbd0ee9bc5d9face8ec8f907eb4addb6311ea130fa945097d"
+  },
+  "solved": {
+    "codepoint": 60045,
+    "hash": "46525280b653f4f57bef0b799ec1d1909f97d3e461f9566d07a5b1ad09ee209f"
+  },
+  "support-48": {
+    "codepoint": 60046,
+    "hash": "0221961b3cf0c037c9c262c1642f9cc3e4d523411f4728a539753f409ce543b9"
+  },
+  "wrench-48": {
+    "codepoint": 60047,
+    "hash": "3e453729615ef9a878ea0e79f29da888b0fc4827115b3010f9ab5d56534b51b6"
   }
 }
