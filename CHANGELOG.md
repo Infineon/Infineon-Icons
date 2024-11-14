@@ -1,3 +1,16 @@
+# v3.1.0 (Thu Nov 14 2024)
+
+#### 🚀 Enhancement
+
+- Test new icons [#45](https://github.com/Infineon/Infineon-Icons/pull/45) (laxman.external@infineon.com [@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 2
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+- Laxman (laxman.external@infineon.com)
+
+---
+
 # v3.0.2 (Wed Nov 13 2024)
 
 #### 🐛 Bug Fix
