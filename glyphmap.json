@@ -424,7 +424,7 @@
     "hash": "3e25313d91209a4608b4dd243afa5beb54b60bacb482c1a7f779c34632db5333"
   },
   "divider": {
-    "codepoint": 59755,
+    "codepoint": 60014,
     "hash": "d7aaa17dd8250f078095f4344219188677fde85014b07dcf6091c54239c943dd"
   },
   "double-chevron-left": {
@@ -1462,10 +1462,6 @@
   "consumer-48": {
     "codepoint": 60013,
     "hash": "efea132bf1285f1d321d5042deeddc58f32368493048988bb4f2bbbc7c79122c"
-  },
-  "divider": {
-    "codepoint": 60014,
-    "hash": "d7aaa17dd8250f078095f4344219188677fde85014b07dcf6091c54239c943dd"
   },
   "esd": {
     "codepoint": 60015,
