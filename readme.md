@@ -167,22 +167,14 @@ Include the icon as an SVG into your project:
 
 ---
 
-Step 1: Obtain the `infineon-icons` Package** **Option 1: Install via NPM** 
+Step 1: Obtain the `infineon-icons` Package**
 If you have Node.js and NPM installed, you can install the package using the following command:
 
 
 ```bash
-npm install infineon-icons --save
+npm install @infineon/infineon-icons --save
 ```
-This will download the package into your project's `node_modules` directory.**Option 2: Download Manually** 
-If you prefer not to use NPM, you can manually download the package:
- 
-1. Visit the [NPM package page for infineon-icons](https://www.npmjs.com/package/infineon-icons) .
-
-2. Download the package archive or clone the repository if available.
-
-3. Extract the files to a directory in your project.
-
+This will download the package into your project's `node_modules` directory.
 
 ---
 
