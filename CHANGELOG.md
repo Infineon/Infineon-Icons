@@ -1,3 +1,15 @@
+# v3.1.1 (Fri Nov 15 2024)
+
+#### ⚠️ Pushed to `master`
+
+- Update readme.md ([@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 1
+
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v3.1.0 (Thu Nov 14 2024)
 
 #### 🚀 Enhancement
