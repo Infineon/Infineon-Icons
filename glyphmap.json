@@ -1443,21 +1443,9 @@
     "codepoint": 60008,
     "hash": "04d86b1da0862213527a0e8947b5c761dbd70f9ef349913383474f23a1ec15ff"
   },
-  "check-active": {
-    "codepoint": 60009,
-    "hash": "077a71c6b5fe30ea270b0b246692511fe16ca02830584af7fa8fe82b5208128d"
-  },
-  "check-disable": {
-    "codepoint": 60010,
-    "hash": "59a946fa87e59d2ab8036527699f48dac7bbf6d52640a5884af97256d0e0a8d5"
-  },
   "chip-chip-hooray": {
     "codepoint": 60011,
     "hash": "782963b0747e3e86e88b80069f2a21636f6bced36083961de6ae3b53b4cd0830"
-  },
-  "circle": {
-    "codepoint": 60012,
-    "hash": "d023c6c4651e6ff7446cf010bd975747c6b4a4bd0e5ba33374df749485b2c1bd"
   },
   "esd": {
     "codepoint": 60015,
@@ -1574,5 +1562,33 @@
   "wrench": {
     "codepoint": 60067,
     "hash": "6c443ed6126a80d672a92539d62047919e7d93ef69f28621deafe7b74ad6daff"
+  },
+  "application": {
+    "codepoint": 60068,
+    "hash": "0bd43879a546333e199c0d6d74c445caae2a1e28a8648d3403a0ceeda965eb94"
+  },
+  "decoration": {
+    "codepoint": 60069,
+    "hash": "923b1498cd10b52e301b4da1d6d06d2d99a58c6e38170c16088645996b2ba85c"
+  },
+  "ellipsis": {
+    "codepoint": 60070,
+    "hash": "e82f81d5febd8ecb2205554636ef47034a3cd213d958504a732668c26d89d4eb"
+  },
+  "filter-btn-select": {
+    "codepoint": 60071,
+    "hash": "a5a2506ef5233500669a0bbd06f56cfda42c2f7d3709e6484ea4ebddd65f5130"
+  },
+  "my-icp": {
+    "codepoint": 60073,
+    "hash": "51ac56e32e45e3983e9292f584891769664abb3ca04a6b00799899cf5fa1e9c5"
+  },
+  "radio-fill": {
+    "codepoint": 60075,
+    "hash": "497b8ddbf5681590ab2f6723dfd6b4039136472f59fed0b24758d3c53c405623"
+  },
+  "radio": {
+    "codepoint": 60077,
+    "hash": "dc8ff4873a119d2491ce38acbf3d27a1f658eae8f0968cb7eaa4ec2c6586882b"
   }
 }
