@@ -181,7 +181,7 @@ const main = async () => {
     });
 
     await generateJSFiles(currentIconsForJS);
-    //await generateFont(updatedIconsForFont, glyphMap);
+    await generateFont(updatedIconsForFont, glyphMap);
     await writeGlyphMap(glyphMap);
   } catch (err) {
     console.error('Error processing SVG files:', err);
