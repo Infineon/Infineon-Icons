@@ -705,7 +705,7 @@
   },
   "group": {
     "codepoint": 59825,
-    "hash": "1b95bcd3a54b688b0b538b3b359abe5bba2c060e0028359c33acbffb2ba1ca7c"
+    "hash": "d3d11c544b67c178d2691aea0119657c5bab80a055f81d54f9d41cc21de6eedb"
   },
   "gym": {
     "codepoint": 59826,
@@ -1638,5 +1638,9 @@
   "new-banner": {
     "codepoint": 60092,
     "hash": "102d22f403d215ce67cc065eea41d28f3f5fc568cb4eae9962fe2d5c310dd233"
+  },
+  "people-group": {
+    "codepoint": 60093,
+    "hash": "1b95bcd3a54b688b0b538b3b359abe5bba2c060e0028359c33acbffb2ba1ca7c"
   }
 }
