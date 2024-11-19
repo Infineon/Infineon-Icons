@@ -669,7 +669,7 @@
   },
   "gallery": {
     "codepoint": 59816,
-    "hash": "aa8815992c528a1086cb8a8bfd22d7df683e00f28e422533da309720af4add18"
+    "hash": "f06439b1836ed36b2e827c372835d643945fce5f4a911e9fb1ba7fc1b14b7ead"
   },
   "generic-diode": {
     "codepoint": 59817,
@@ -1634,10 +1634,6 @@
   "filter-button": {
     "codepoint": 60088,
     "hash": "89ccd2af366d065ed7f15f63fbe6dcc10e94e5349a8707ecaf6f024294bf5587"
-  },
-  "gallery-green-48": {
-    "codepoint": 60089,
-    "hash": "f06439b1836ed36b2e827c372835d643945fce5f4a911e9fb1ba7fc1b14b7ead"
   },
   "new-banner": {
     "codepoint": 60092,
