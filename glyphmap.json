@@ -1425,7 +1425,7 @@
   },
   "youtube": {
     "codepoint": 60005,
-    "hash": "9a4dd6cfb8132b4042605aee259a4a990ca454f3c1ae06b0c719e51c9a4680ed"
+    "hash": "5d865f40d458a69b49260c14883f7a4bc292c418559df323343fc2314a6d9cdc"
   },
   "zhihu": {
     "codepoint": 60006,
@@ -1489,7 +1489,7 @@
   },
   "analogue-simulations": {
     "codepoint": 60049,
-    "hash": "5d2ea822c4b2334651eaa2e5f54cbacc7a5ccb976917263ff8ee03c8db342697"
+    "hash": "1ef3df6ef16a48cb71264a1216a4a70f85290a476bccc6fed6d0864edb237dca"
   },
   "config": {
     "codepoint": 60050,
@@ -1590,5 +1590,61 @@
   "radio": {
     "codepoint": 60077,
     "hash": "dc8ff4873a119d2491ce38acbf3d27a1f658eae8f0968cb7eaa4ec2c6586882b"
+  },
+  "battery": {
+    "codepoint": 60078,
+    "hash": "291adbb77e222131e5242be6d3ec2584a1eec7a9e19c72e5cb910108ce0e925d"
+  },
+  "celebrate": {
+    "codepoint": 60079,
+    "hash": "49a8c891978a21b43a7605539c68e5cc0cff1fa7018059e44f3d542dab789051"
+  },
+  "check-active": {
+    "codepoint": 60080,
+    "hash": "077a71c6b5fe30ea270b0b246692511fe16ca02830584af7fa8fe82b5208128d"
+  },
+  "checkbox-icon-fill": {
+    "codepoint": 60081,
+    "hash": "0a39ae44bec8e5336060ab7e36140ed96f9155943935aeabff94355ce1a34259"
+  },
+  "checkbox-icon": {
+    "codepoint": 60082,
+    "hash": "eab247f430e3e8b1146c6cc06403e4c453ab92cbea1fc650882bc8b7efbedad8"
+  },
+  "compare-checkbox": {
+    "codepoint": 60083,
+    "hash": "1a631721741e6cf8b2c6ae3e77cedaaac60db9e54c8034b28f99162af35c9608"
+  },
+  "csv": {
+    "codepoint": 60084,
+    "hash": "d5628f856e2041e0293a92ad50e8b0f059c164fd14e364c1606209023decda30"
+  },
+  "dot": {
+    "codepoint": 60085,
+    "hash": "23db592d13b059c33a5b9049a4420bca347abc83dbd8113be409e5ad43d8649f"
+  },
+  "error": {
+    "codepoint": 60086,
+    "hash": "00d0647baac9e923a757a0ad45c89b3aff3c1f4c8ecbae4988aa41222ea56acb"
+  },
+  "file-vnd": {
+    "codepoint": 60087,
+    "hash": "67b068393f091ab8b0e287df9440ab999f05be74a8937e42ff653f7eb40554e9"
+  },
+  "filter-button": {
+    "codepoint": 60088,
+    "hash": "89ccd2af366d065ed7f15f63fbe6dcc10e94e5349a8707ecaf6f024294bf5587"
+  },
+  "new-banner": {
+    "codepoint": 60092,
+    "hash": "102d22f403d215ce67cc065eea41d28f3f5fc568cb4eae9962fe2d5c310dd233"
+  },
+  "people-group": {
+    "codepoint": 60093,
+    "hash": "1b95bcd3a54b688b0b538b3b359abe5bba2c060e0028359c33acbffb2ba1ca7c"
+  },
+  "usb-cable": {
+    "codepoint": 60094,
+    "hash": "06308efc40675e10497be8330a48aa80a9ade4e2b0f993eda8ca10793c0e5481"
   }
 }
