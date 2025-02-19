@@ -1646,5 +1646,17 @@
   "usb-cable": {
     "codepoint": 60094,
     "hash": "06308efc40675e10497be8330a48aa80a9ade4e2b0f993eda8ca10793c0e5481"
+  },
+  "offering-services": {
+    "codepoint": 60095,
+    "hash": "0264500f630fef4b7a71ed550e007f9626bc3b0bdafde259fc85efe2922aca2d"
+  },
+  "persons": {
+    "codepoint": 60096,
+    "hash": "0ae30385270a6ecb3cbb76f7c893376f20dde4a2848aa7b87a2d67562977b5cc"
+  },
+  "tools": {
+    "codepoint": 60097,
+    "hash": "03d03fc2bf03a972a4bc3e2eb425a55de2e319061b9965050bd2210c4f3aad61"
   }
 }

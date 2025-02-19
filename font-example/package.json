@@ -6,6 +6,6 @@
     "license": "MIT",
     "author": "Kai Werther",
     "dependencies": {
-        "@infineon/infineon-icons": "^3.3.0--canary.50.2387a5783f55253a4663c8166a85f0321e71b006.0"
+        "@infineon/infineon-icons": "^3.3.1--canary.52.5ea17b805bf2d9057f42da31691db230890ad8f9.0"
     }
 }
