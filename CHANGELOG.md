@@ -1,3 +1,16 @@
+# v3.3.1 (Wed Feb 19 2025)
+
+#### 🐛 Bug Fix
+
+- Added icons [#52](https://github.com/Infineon/Infineon-Icons/pull/52) ([@MuppanaVamsi](https://github.com/MuppanaVamsi) [@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 2
+
+- [@MuppanaVamsi](https://github.com/MuppanaVamsi)
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v3.3.0 (Tue Nov 19 2024)
 
 #### 🚀 Enhancement
