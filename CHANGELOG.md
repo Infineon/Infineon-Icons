@@ -1,3 +1,16 @@
+# v3.3.0 (Tue Nov 19 2024)
+
+#### 🚀 Enhancement
+
+- New icons [#50](https://github.com/Infineon/Infineon-Icons/pull/50) ([@MuppanaVamsi](https://github.com/MuppanaVamsi) [@kaiwerther](https://github.com/kaiwerther))
+
+#### Authors: 2
+
+- [@MuppanaVamsi](https://github.com/MuppanaVamsi)
+- Kai Werther ([@kaiwerther](https://github.com/kaiwerther))
+
+---
+
 # v3.2.0 (Fri Nov 15 2024)
 
 #### 🚀 Enhancement
