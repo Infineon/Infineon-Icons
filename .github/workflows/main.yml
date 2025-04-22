@@ -14,13 +14,14 @@ jobs:
   release:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+
     steps:
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: download + setup auto
+      - name: Setup auto
         uses: auto-it/setup-auto@v1
 
       - name: Use Node.js 20.x
@@ -28,11 +29,11 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
-          
+
       - name: Install xmllint
         run: sudo apt-get install -y libxml2-utils
 
-      - name: Build
+      - name: Install dependencies and build
         env:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -40,7 +41,9 @@ jobs:
           npm install
           npm run build
 
-      - name: Commit changes
+      # Only allow commits if this is an internal PR or push to master
+      - name: Commit changes (internal PR or master)
+        if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
         env:
           BRANCH_NAME: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
         run: |
@@ -61,7 +64,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Publish to npm (PR)
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
         env:
           NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
         run: |
