@@ -1666,5 +1666,9 @@
   "change-status": {
     "codepoint": 60099,
     "hash": "add179f662a6479a80c1a8fae8a608e41307456e81a12e57242c7d0da125a7ef"
+  },
+  "ai": {
+    "codepoint": 60100,
+    "hash": "778920d264f68b7e5ad3be1699c18309b6984e752371b3929cf771baef6cb23a"
   }
 }
