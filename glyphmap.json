@@ -1662,5 +1662,9 @@
   "qr-code": {
     "codepoint": 60098,
     "hash": "420c8d141ae3aa010f65deb5cf8fad42793089d80428f87f170affe1afe05d92"
+  },
+  "change-status": {
+    "codepoint": 60099,
+    "hash": "add179f662a6479a80c1a8fae8a608e41307456e81a12e57242c7d0da125a7ef"
   }
 }
