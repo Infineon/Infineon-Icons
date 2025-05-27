@@ -1,3 +1,15 @@
+# v3.3.4 (Tue May 27 2025)
+
+#### 🐛 Bug Fix
+
+- Create qr-code-16.svg [#68](https://github.com/Infineon/Infineon-Icons/pull/68) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v3.3.3 (Tue May 27 2025)
 
 #### 🐛 Bug Fix
