@@ -1,3 +1,15 @@
+# v3.3.3 (Tue May 27 2025)
+
+#### 🐛 Bug Fix
+
+- Update s-warning-16.svg [#67](https://github.com/Infineon/Infineon-Icons/pull/67) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v3.3.2 (Tue May 27 2025)
 
 #### 🐛 Bug Fix
