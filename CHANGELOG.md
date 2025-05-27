@@ -1,3 +1,15 @@
+# v3.3.5 (Tue May 27 2025)
+
+#### 🐛 Bug Fix
+
+- Create change-status-16.svg [#69](https://github.com/Infineon/Infineon-Icons/pull/69) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v3.3.4 (Tue May 27 2025)
 
 #### 🐛 Bug Fix
