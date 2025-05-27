@@ -1,3 +1,15 @@
+# v3.3.7 (Tue May 27 2025)
+
+#### 🐛 Bug Fix
+
+- add new finance icons [#71](https://github.com/Infineon/Infineon-Icons/pull/71) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v3.3.6 (Tue May 27 2025)
 
 #### 🐛 Bug Fix
