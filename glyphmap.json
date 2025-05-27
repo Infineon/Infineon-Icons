@@ -1670,5 +1670,33 @@
   "ai": {
     "codepoint": 60100,
     "hash": "778920d264f68b7e5ad3be1699c18309b6984e752371b3929cf771baef6cb23a"
+  },
+  "card": {
+    "codepoint": 60101,
+    "hash": "75e25756b178068b326a2575cee151f0fa7268d500c31f2d70dd5f7819fb5f03"
+  },
+  "checked-out-other": {
+    "codepoint": 60102,
+    "hash": "35ead6a1524f01100a558c021657855b314baf301f665ab4864215e704bc1bfe"
+  },
+  "checked-out-you": {
+    "codepoint": 60103,
+    "hash": "01db55b3d78b42248090080064adedded8a7003e443a32abb2b50f15e6a8204e"
+  },
+  "css-gid-eu-residence-permit": {
+    "codepoint": 60104,
+    "hash": "1352b8d221bee90bdee3138b357b375038853482fcaea514ede0c3a963b6cc1a"
+  },
+  "eid": {
+    "codepoint": 60105,
+    "hash": "82a1e7a015186f7cda1fa2cbbab9873d4eb4fbc0047ace7b28804e9da4a4c3eb"
+  },
+  "euc": {
+    "codepoint": 60106,
+    "hash": "70a7fa26bb9fdbe827e02bf7ab858e63b7d8d802a754e2ff254bfa9ea1bcb8ee"
+  },
+  "passport": {
+    "codepoint": 60107,
+    "hash": "1cf95f14ca735f1495f4e6d476c2089cd029fe7c954d285dc498bda8c6d1968c"
   }
 }
