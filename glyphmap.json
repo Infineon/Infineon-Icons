@@ -1658,5 +1658,9 @@
   "tools": {
     "codepoint": 60097,
     "hash": "03d03fc2bf03a972a4bc3e2eb425a55de2e319061b9965050bd2210c4f3aad61"
+  },
+  "qr-code": {
+    "codepoint": 60098,
+    "hash": "420c8d141ae3aa010f65deb5cf8fad42793089d80428f87f170affe1afe05d92"
   }
 }
