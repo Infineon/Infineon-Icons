@@ -1,3 +1,15 @@
+# v3.3.9 (Fri May 30 2025)
+
+#### 🐛 Bug Fix
+
+- Create file-ppt-16.svg [#72](https://github.com/Infineon/Infineon-Icons/pull/72) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v3.3.8 (Fri May 30 2025)
 
 #### 🐛 Bug Fix
