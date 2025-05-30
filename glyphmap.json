@@ -477,7 +477,7 @@
   },
   "factory": {
     "codepoint": 59768,
-    "hash": "e44afe8e29e11c02a8b1654e27b53d2c5aa66ed2215be61082e079b1a781e18e"
+    "hash": "a6c39734578b2e25e0622f9c9a0cc7f0a311e5934a35411ffa651fce44b0c0ee"
   },
   "file": {
     "codepoint": 59769,
@@ -949,7 +949,7 @@
   },
   "money": {
     "codepoint": 59886,
-    "hash": "fe552864c226deecd9364bfeac1e0f9dc61b5a991c6ec4bdd5d71ce47a530dfc"
+    "hash": "05846425fe90a4af8eb979e0d75013d7acae1f1ac6118a583bae31bc3bb9f70f"
   },
   "more": {
     "codepoint": 59887,
@@ -1698,5 +1698,9 @@
   "passport": {
     "codepoint": 60107,
     "hash": "1cf95f14ca735f1495f4e6d476c2089cd029fe7c954d285dc498bda8c6d1968c"
+  },
+  "satelite": {
+    "codepoint": 60108,
+    "hash": "bc6708b07fca1b84b14e75e7d843d7ee3eb0ed8b5767162686e3431dbb8a8d4d"
   }
 }
