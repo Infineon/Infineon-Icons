@@ -1,3 +1,21 @@
+# v3.3.8 (Fri May 30 2025)
+
+#### 🐛 Bug Fix
+
+- Create satelite-16.svg [#64](https://github.com/Infineon/Infineon-Icons/pull/64) ([@MuppanaVamsi](https://github.com/MuppanaVamsi) [@mattradikant](https://github.com/mattradikant))
+
+#### ⚠️ Pushed to `master`
+
+- Updated glyphmap (github-actions@github.com)
+
+#### Authors: 3
+
+- [@mattradikant](https://github.com/mattradikant)
+- [@MuppanaVamsi](https://github.com/MuppanaVamsi)
+- github-actions (github-actions@github.com)
+
+---
+
 # v3.3.7 (Tue May 27 2025)
 
 #### 🐛 Bug Fix
