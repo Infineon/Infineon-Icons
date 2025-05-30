@@ -1702,5 +1702,9 @@
   "satelite": {
     "codepoint": 60108,
     "hash": "bc6708b07fca1b84b14e75e7d843d7ee3eb0ed8b5767162686e3431dbb8a8d4d"
+  },
+  "file-ppt": {
+    "codepoint": 60109,
+    "hash": "667525ebef46579a3f47dd7a88f06c9a1cf1934997b8d31b0102a200527fa400"
   }
 }
