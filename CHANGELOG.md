@@ -1,3 +1,15 @@
+# v4.1.0 (Mon Jun 09 2025)
+
+#### 🚀 Enhancement
+
+- export icons and getIcons [#80](https://github.com/Infineon/Infineon-Icons/pull/80) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v4.0.0 (Mon Jun 09 2025)
 
 #### 💥 Breaking Change
