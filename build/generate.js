@@ -57,10 +57,22 @@ const generateJSFiles = async (icons) => {
   const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 
   const svgImports = icons.map((icon) => `import ${makeCamelCase(icon)}Icon from ".${svgSourceFolder}${icon}.svg";`).join('\n');
+
+  const iconsObject = `export const icons = {\n${
+    icons.map((icon) => `  ${makeCamelCase(icon)}: ${makeCamelCase(icon)}Icon`).join(',\n')
+  }};`;
+
+  const getIconFunction = 'export const getIcon = (icon) => icons[icon];';
+
   const indexFileRegistryContent = `export const iconRegistry = {};\n${
     icons.map((icon) => `export const ${makeCamelCase(icon)} = () => iconRegistry["${makeCamelCase(icon)}"] = ${makeCamelCase(icon)}Icon;`).join('\n')}`;
 
-  const data = [svgImports, indexFileRegistryContent].join('\n');
+  const data = [
+    svgImports,
+    indexFileRegistryContent,
+    iconsObject,
+    getIconFunction,
+  ].join('\n\n');
 
   try {
     await fs.writeFile(`${jsTargetFolder}index.js`, data);
