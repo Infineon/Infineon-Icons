@@ -1,3 +1,15 @@
+# v4.0.0 (Mon Jun 09 2025)
+
+#### 💥 Breaking Change
+
+- replaces existing svg icons with new single sized ones [#78](https://github.com/Infineon/Infineon-Icons/pull/78) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v3.3.9 (Fri May 30 2025)
 
 #### 🐛 Bug Fix
