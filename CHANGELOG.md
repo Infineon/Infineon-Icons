@@ -1,3 +1,15 @@
+# v4.2.0 (Tue Jun 10 2025)
+
+#### 🚀 Enhancement
+
+- made camelCase to lower case inside icons object [#82](https://github.com/Infineon/Infineon-Icons/pull/82) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v4.1.0 (Mon Jun 09 2025)
 
 #### 🚀 Enhancement
