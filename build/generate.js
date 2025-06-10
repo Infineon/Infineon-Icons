@@ -54,18 +54,18 @@ const computeFileHash = async (filePath) => {
 };
 
 const generateJSFiles = async (icons) => {
-  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+  const makeLowerCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '');
 
-  const svgImports = icons.map((icon) => `import ${makeCamelCase(icon)}Icon from ".${svgSourceFolder}${icon}.svg";`).join('\n');
+  const svgImports = icons.map((icon) => `import ${makeLowerCase(icon)}Icon from ".${svgSourceFolder}${icon}.svg";`).join('\n');
 
   const iconsObject = `export const icons = {\n${
-    icons.map((icon) => `  ${makeCamelCase(icon)}: ${makeCamelCase(icon)}Icon`).join(',\n')
+    icons.map((icon) => `  ${makeLowerCase(icon)}: ${makeLowerCase(icon)}Icon`).join(',\n')
   }};`;
 
   const getIconFunction = 'export const getIcon = (icon) => icons[icon];';
 
   const indexFileRegistryContent = `export const iconRegistry = {};\n${
-    icons.map((icon) => `export const ${makeCamelCase(icon)} = () => iconRegistry["${makeCamelCase(icon)}"] = ${makeCamelCase(icon)}Icon;`).join('\n')}`;
+    icons.map((icon) => `export const ${makeLowerCase(icon)} = () => iconRegistry["${makeLowerCase(icon)}"] = ${makeLowerCase(icon)}Icon;`).join('\n')}`;
 
   const data = [
     svgImports,
