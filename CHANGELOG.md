@@ -1,3 +1,15 @@
+# v4.3.0 (Thu Jun 12 2025)
+
+#### 🚀 Enhancement
+
+- Replaces hard coded color with currentColor [#84](https://github.com/Infineon/Infineon-Icons/pull/84) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v4.2.0 (Tue Jun 10 2025)
 
 #### 🚀 Enhancement
