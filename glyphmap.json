@@ -241,7 +241,7 @@
   },
   "calendar-check": {
     "codepoint": 59710,
-    "hash": "6ac64c674618887d5bfe5aaab1384b87e7053b963790f7ac7f7980c804514155"
+    "hash": "304f560a88c787d83d5c1e07bc61a105a885f442f2093228fdf96b8ee43a1919"
   },
   "calendar-heart": {
     "codepoint": 59711,
@@ -353,7 +353,7 @@
   },
   "coins": {
     "codepoint": 59738,
-    "hash": "deb112a2ed1e639930a4eff25ea0de28a23d1380d8fad16e6bb531381fa5b220"
+    "hash": "cf0c1f674d3e93f65ca2519e7a4e1eb816889519baa7854a69934be8afa3aff2"
   },
   "comment": {
     "codepoint": 59739,
@@ -393,7 +393,7 @@
   },
   "cutlery": {
     "codepoint": 59748,
-    "hash": "8e7145b5256fdaff534c2f9d2afe5cb7a4105c94ef5fe4a03db6cc524ac5e869"
+    "hash": "1a57de22ddacab8f01374b1d9b2fb32400db7ababb4ed647dc126e7ea1bd50c7"
   },
   "dashboard": {
     "codepoint": 59749,
@@ -753,7 +753,7 @@
   },
   "high-reliablity": {
     "codepoint": 59839,
-    "hash": "6dfdace7676fe5e86f2936e9ef9a381862922532f313cae1d551060dc79702fd"
+    "hash": "c05ee9294498aa5bcbc4e31a70fd2b57d3c73f2ad77a222dae2d0f0d6ad0cbd1"
   },
   "history": {
     "codepoint": 59840,
@@ -769,7 +769,7 @@
   },
   "hospital-bed": {
     "codepoint": 59843,
-    "hash": "2f1db920c338ee5119bfd4bf45ef51895ee3934bb44a5ad6acc196cd43e3a88c"
+    "hash": "4bc62921f7dc8bff67e665f0392f6dd03681a84ccc87b7e7df1a97c8ac7709b1"
   },
   "hourglass": {
     "codepoint": 59844,
@@ -1017,7 +1017,7 @@
   },
   "power": {
     "codepoint": 59905,
-    "hash": "e69c8a78bd1c47993578994a764645be8e91f65e17d9b5f00e317ea8030641ae"
+    "hash": "b7decf6c34cfe814b5d681eae7317b46885a3cb655bbb67c6b52f12c7479dfcc"
   },
   "preferences": {
     "codepoint": 59906,
@@ -1029,7 +1029,7 @@
   },
   "preview": {
     "codepoint": 59908,
-    "hash": "592017e102e5e3a5bbbe7ee9cdb744eaba7d1796bbe0753cb0f209ecf13c0c08"
+    "hash": "953a8a2ee24c91d47792f1a8c5ab43f84654ee8f92e848aab1d3d43e7003277e"
   },
   "printer": {
     "codepoint": 59909,
@@ -1053,11 +1053,11 @@
   },
   "rate-down": {
     "codepoint": 59914,
-    "hash": "3b2a155419d1cbe913e55544627db6878667e5d8fbc04fc9657ba9ac991ea42a"
+    "hash": "13e5f257309048bd8a147787e41d8b0273685b5d30aae1a64184ffc123d77ff4"
   },
   "rate-up": {
     "codepoint": 59915,
-    "hash": "54b257e9d40dfc0657c5fb5dd2b7e99c7b23dd13469671e60cb0115ac7518602"
+    "hash": "8dec41f80d444058b28bd2f7aab19efa7d741101adf68baee7d7806c86279b05"
   },
   "refresh": {
     "codepoint": 59916,
@@ -1169,7 +1169,7 @@
   },
   "solution": {
     "codepoint": 59944,
-    "hash": "d9355f7822656c36d7774b7548914ac2073fcc60761a2447870dc66b3d9b1bbb"
+    "hash": "fd25fe59b851f14d149c489a6a2e7da62b09ea84d0eef7df64fb47ad3ab08169"
   },
   "sound": {
     "codepoint": 59945,
@@ -1221,7 +1221,7 @@
   },
   "team": {
     "codepoint": 59957,
-    "hash": "00a5b09c944b0127b19c17227b072c336fcb6c7414896fe555a785d72ed1d575"
+    "hash": "64928def9591b02253925a3e20036ddc26d2f7846dde71ca9b9b467a35a8ef15"
   },
   "technology": {
     "codepoint": 59958,
@@ -1265,11 +1265,11 @@
   },
   "transceiver": {
     "codepoint": 59968,
-    "hash": "f73b7454437f721cb622e869137052b67acec48f7601c6c51f63241a4338eab3"
+    "hash": "e2811e97d2028099824cd52cf92bf69edf7ceb0f67965343c85a28b4a871d3f2"
   },
   "translation": {
     "codepoint": 59969,
-    "hash": "9ecd6571d702ad76f99c675688132d17e4911d69e1e8b10595d219b674f69280"
+    "hash": "11b7dcd17230fc50dcb429768b36c02cbc08ffebd890ecb0a8354e8981eb0ac5"
   },
   "tree-structure": {
     "codepoint": 59970,
@@ -1341,7 +1341,7 @@
   },
   "view-replacement": {
     "codepoint": 59988,
-    "hash": "3883b0b606a61bdc5b0ea3b9a26610722314aa2f5ed583590ac8317109aab273"
+    "hash": "d8721cb8e1ea1a42ebca448dd5e511da0dda47efc930f64746e3c30fe6f378ef"
   },
   "volume-down": {
     "codepoint": 59989,
