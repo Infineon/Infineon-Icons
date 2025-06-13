@@ -1,3 +1,15 @@
+# v4.4.0 (Fri Jun 13 2025)
+
+#### 🚀 Enhancement
+
+- replaces icons with wrong structure [#86](https://github.com/Infineon/Infineon-Icons/pull/86) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v4.3.0 (Thu Jun 12 2025)
 
 #### 🚀 Enhancement
