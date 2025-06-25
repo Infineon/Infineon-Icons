@@ -1,3 +1,15 @@
+# v4.4.1 (Wed Jun 25 2025)
+
+#### 🐛 Bug Fix
+
+- Reverted change of icon name output format [#89](https://github.com/Infineon/Infineon-Icons/pull/89) ([@verena-ifx](https://github.com/verena-ifx))
+
+#### Authors: 1
+
+- [@verena-ifx](https://github.com/verena-ifx)
+
+---
+
 # v4.4.0 (Fri Jun 13 2025)
 
 #### 🚀 Enhancement
