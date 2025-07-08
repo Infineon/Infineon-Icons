@@ -1,3 +1,15 @@
+# v4.4.2 (Tue Jul 08 2025)
+
+#### 🐛 Bug Fix
+
+- Removes x icon [#91](https://github.com/Infineon/Infineon-Icons/pull/91) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v4.4.1 (Wed Jun 25 2025)
 
 #### 🐛 Bug Fix
