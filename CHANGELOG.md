@@ -1,3 +1,15 @@
+# v4.5.0 (Tue Aug 05 2025)
+
+#### 🚀 Enhancement
+
+- adds two new icons [#93](https://github.com/Infineon/Infineon-Icons/pull/93) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v4.4.2 (Tue Jul 08 2025)
 
 #### 🐛 Bug Fix
