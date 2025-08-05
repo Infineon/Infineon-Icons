@@ -1626,5 +1626,13 @@
   "satelite": {
     "codepoint": 60150,
     "hash": "8273945b3aa9763e9a7210c0967f017250f7ead58a4e9bea14a98acf43ce3cb7"
+  },
+  "finance": {
+    "codepoint": 60151,
+    "hash": "595bf56e5e3cfe67fd289831da77d074cae48f23d4f003ec98a555d66b84a9c3"
+  },
+  "procurement": {
+    "codepoint": 60152,
+    "hash": "57963121856d0de0bb481b74cc3af1a9799e438d51bd7ee345be4dd2641622e3"
   }
 }
