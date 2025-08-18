@@ -1,3 +1,17 @@
+# v4.5.1 (Mon Aug 18 2025)
+
+#### ⚠️ Pushed to `master`
+
+- Updated glyphmap (github-actions@github.com)
+- update finance-16 and procurement-16 ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 2
+
+- [@mattradikant](https://github.com/mattradikant)
+- github-actions (github-actions@github.com)
+
+---
+
 # v4.5.0 (Tue Aug 05 2025)
 
 #### 🚀 Enhancement
