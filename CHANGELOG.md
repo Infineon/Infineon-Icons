@@ -1,3 +1,17 @@
+# v4.5.2 (Wed Sep 24 2025)
+
+#### 🐛 Bug Fix
+
+- updates apt-get [#98](https://github.com/Infineon/Infineon-Icons/pull/98) ([@tishoyanchev](https://github.com/tishoyanchev))
+- add width and height attributes [#95](https://github.com/Infineon/Infineon-Icons/pull/95) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 2
+
+- [@mattradikant](https://github.com/mattradikant)
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v4.5.1 (Mon Aug 18 2025)
 
 #### ⚠️ Pushed to `master`
