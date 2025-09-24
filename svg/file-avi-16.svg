@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor">
   <path fill-rule="evenodd" d="M4.247 7.768 2.543 13h.944l.41-1.416h1.759L6.063 13h.976L5.335 7.768H4.247Zm1.2 3.088-.184-.64a27.665 27.665 0 0 1-.248-.856l-.224-.872h-.032c-.07.293-.144.587-.224.88-.075.288-.155.57-.24.848l-.186.64h1.338Z" clip-rule="evenodd"/>
   <path d="m8.463 13-1.6-5.232h.984L8.55 10.4c.053.197.104.39.152.576l.144.552.168.568h.032a113.748 113.748 0 0 0 .296-1.12c.053-.187.106-.379.16-.576l.76-2.632h.951L9.56 13H8.463ZM11.848 13V7.768h.928V13h-.928Z"/>
   <path fill-rule="evenodd" d="M1 0h8.707L15 5.293V7h-1V6H9V1H2v7H1V0Zm9 1.707L13.293 5H10V1.707ZM15 12v4H1v-2h1v1h12v-3h1Z" clip-rule="evenodd"/>
