@@ -1,3 +1,15 @@
+# v4.6.0 (Thu Sep 25 2025)
+
+#### 🚀 Enhancement
+
+- re-add icons with viewbox [#100](https://github.com/Infineon/Infineon-Icons/pull/100) ([@tishoyanchev](https://github.com/tishoyanchev))
+
+#### Authors: 1
+
+- Tisho Yanchev ([@tishoyanchev](https://github.com/tishoyanchev))
+
+---
+
 # v4.5.2 (Wed Sep 24 2025)
 
 #### 🐛 Bug Fix
