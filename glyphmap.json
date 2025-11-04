@@ -697,7 +697,7 @@
   },
   "group": {
     "codepoint": 59825,
-    "hash": "3dd6d242edcc67d64642ced4e06cbb460e4a7bcb05a69212f69d039685d1b7ad"
+    "hash": "7de588e56537282968f1dc71d8eb3f24e91fe6f4e3768f3d3589816fccafd576"
   },
   "gym": {
     "codepoint": 59826,
@@ -1285,7 +1285,7 @@
   },
   "ungroup": {
     "codepoint": 59974,
-    "hash": "f9b866444d5f1ca44091433b6dc447f6b4be63a3f08762a671cdc524f7ec2539"
+    "hash": "77507814d3724a9b4777e01f43b37668547e569b0674d644a651e0c44081f861"
   },
   "unlink": {
     "codepoint": 59975,
@@ -1634,6 +1634,18 @@
   "procurement": {
     "codepoint": 60152,
     "hash": "b81e390063bd741d0af480401d260e73acd0bf1d5841cd14e426b4ae2f8fc6ed"
+  },
+  "fairy-wand": {
+    "codepoint": 60153,
+    "hash": "96ac71a1fbea2d87056bda56ab59b7f0bc2dc61b7ff2f68fd064c06f16068340"
+  },
+  "layers": {
+    "codepoint": 60154,
+    "hash": "83ccaa27cce62a8277dc464c39b90c2932019655e5243d164b18f52e52f16d4a"
+  },
+  "maximize": {
+    "codepoint": 60155,
+    "hash": "c0256614ce8347405e65240373d2afceb718276903a49348b12c9afd3f09155a"
   },
   "qualified": {
     "codepoint": 60153,
