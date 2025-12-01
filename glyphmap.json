@@ -1634,5 +1634,13 @@
   "procurement": {
     "codepoint": 60152,
     "hash": "b81e390063bd741d0af480401d260e73acd0bf1d5841cd14e426b4ae2f8fc6ed"
+  },
+  "qualified": {
+    "codepoint": 60153,
+    "hash": "dc018bc862484791a0c5c9aae47715c92dedcf6e13e679991b287d0c3836ca77"
+  },
+  "wafer": {
+    "codepoint": 60154,
+    "hash": "3a67fc3b26c0b257b9161a66f884862c9d62de3a14fa9be16647b36714e59087"
   }
 }
