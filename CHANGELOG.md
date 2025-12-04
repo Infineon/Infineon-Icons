@@ -1,3 +1,21 @@
+# v4.7.0 (Thu Dec 04 2025)
+
+#### 🚀 Enhancement
+
+- AI, Qualified, Wafer, Softwaretools icons [#104](https://github.com/Infineon/Infineon-Icons/pull/104) ([@mattradikant](https://github.com/mattradikant) [@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### 🐛 Bug Fix
+
+- Updated glyphmap [#103](https://github.com/Infineon/Infineon-Icons/pull/103) (github-actions@github.com)
+
+#### Authors: 3
+
+- [@mattradikant](https://github.com/mattradikant)
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+- github-actions (github-actions@github.com)
+
+---
+
 # v4.6.0 (Thu Sep 25 2025)
 
 #### 🚀 Enhancement
