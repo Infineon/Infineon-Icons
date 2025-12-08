@@ -1629,11 +1629,11 @@
   },
   "finance": {
     "codepoint": 60151,
-    "hash": "39683fdb44e03e152b87598f7996a7adb4afcbade7ef64be5c561b260a1fd8e0"
+    "hash": "8e3c215b960d34529d533e97e3bcd203fa7a597daeaa7cf9ebf82fad3ebd424e"
   },
   "procurement": {
     "codepoint": 60152,
-    "hash": "b81e390063bd741d0af480401d260e73acd0bf1d5841cd14e426b4ae2f8fc6ed"
+    "hash": "16f896026dced0f8a697fa902e5f72f8783b19f1fdb5eb3e991361ca0290d13a"
   },
   "fairy-wand": {
     "codepoint": 60153,
@@ -1654,5 +1654,41 @@
   "wafer": {
     "codepoint": 60154,
     "hash": "3a67fc3b26c0b257b9161a66f884862c9d62de3a14fa9be16647b36714e59087"
+  },
+  "article": {
+    "codepoint": 60156,
+    "hash": "a75bff239437d4bd84fe546f7ef4386fa7855b755139df60f43a07314d9f99ea"
+  },
+  "eco-mode": {
+    "codepoint": 60157,
+    "hash": "73e73499949c565e01354d32e657dafbaff06eec944559c341c88e96a6a356e7"
+  },
+  "fan-1": {
+    "codepoint": 60158,
+    "hash": "380da34c9e6da7aaa4497b82c71b0d64c06532bf4a257291cd05ddfacce8332a"
+  },
+  "fan-2": {
+    "codepoint": 60159,
+    "hash": "1763fb5922c13c21c8c8ba75a3bdef80798d25d9b9dca4cdc90404ab24662179"
+  },
+  "fan-3": {
+    "codepoint": 60160,
+    "hash": "366b478724665733952172be31b9592aa29945ec073c26b8a6620fad4b683e07"
+  },
+  "spice": {
+    "codepoint": 60161,
+    "hash": "e348ceb8ca88ce8a4a5e3ed8d1a05efa6be9ff8eeba1722a2db1f4df82a51252"
+  },
+  "thermostat": {
+    "codepoint": 60162,
+    "hash": "4fcadb2cbfc417037f4a182601585e08eba2d3c6adfba0e273f3ebdd7e51709b"
+  },
+  "timer": {
+    "codepoint": 60163,
+    "hash": "3b86d127edd3bab60fe05beb5e814f6134e80cfcbc44ea66e1c21c26d0495178"
+  },
+  "tshirt": {
+    "codepoint": 60164,
+    "hash": "a746e98bdcfc98ea762a2ff56cc6e69a15cefd08ab489948f900089e55e9d029"
   }
 }
