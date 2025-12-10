@@ -1,3 +1,15 @@
+# v4.7.1 (Wed Dec 10 2025)
+
+#### 🐛 Bug Fix
+
+- adds new moon icons [#106](https://github.com/Infineon/Infineon-Icons/pull/106) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v4.7.0 (Thu Dec 04 2025)
 
 #### 🚀 Enhancement
