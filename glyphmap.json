@@ -1654,5 +1654,13 @@
   "wafer": {
     "codepoint": 60154,
     "hash": "3a67fc3b26c0b257b9161a66f884862c9d62de3a14fa9be16647b36714e59087"
+  },
+  "moon": {
+    "codepoint": 60156,
+    "hash": "07caceedb0f25811c21d64b725fd7da747c352db6999b942ca64e080059dae3b"
+  },
+  "moon-filled": {
+    "codepoint": 60157,
+    "hash": "3b13ece3ee5c276b3e199ba20334839eecfef909c67e3358dd3a977a99a3507a"
   }
 }
