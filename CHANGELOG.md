@@ -1,3 +1,15 @@
+# v4.7.2 (Thu Dec 11 2025)
+
+#### 🐛 Bug Fix
+
+- ci: use correct npm token variable [#107](https://github.com/Infineon/Infineon-Icons/pull/107) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.7.1 (Wed Dec 10 2025)
 
 #### 🐛 Bug Fix
