@@ -1,3 +1,15 @@
+# v4.7.3 (Thu Mar 05 2026)
+
+#### 🐛 Bug Fix
+
+- Add Typescript Types [#108](https://github.com/Infineon/Infineon-Icons/pull/108) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.7.2 (Thu Dec 11 2025)
 
 #### 🐛 Bug Fix
