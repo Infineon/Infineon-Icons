@@ -1,16 +1,16 @@
 // rollup.config.js
 import resolve from '@rollup/plugin-node-resolve';
-import inlineSvg from 'rollup-plugin-inline-svg';
+import { string } from 'rollup-plugin-string';
 
 export default {
   input: './generated_js/index.js',
   output: {
     file: './dist/icons.js',
     format: 'es',
-    name: 'svgs'
+    name: 'svgs',
   },
   plugins: [
+    string({ include: '**/*.svg' }),
     resolve(),
-    inlineSvg()
-  ]
+  ],
 };

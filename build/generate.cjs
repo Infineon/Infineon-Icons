@@ -9,11 +9,13 @@ const webfont = require('webfont').default;
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
 const fontTargetFolder = './dist/fonts/';
+const distTargetFolder = './dist/';
 const glyphMapFile = './glyphmap.json';
 const START_CODEPOINT = 0xe900;
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
 if (!fsr.existsSync(fontTargetFolder)) fsr.mkdirSync(fontTargetFolder, { recursive: true });
+if (!fsr.existsSync(distTargetFolder)) fsr.mkdirSync(distTargetFolder, { recursive: true });
 
 const readGlyphMap = async () => {
   try {
@@ -77,6 +79,27 @@ const generateJSFiles = async (icons) => {
     await fs.writeFile(`${jsTargetFolder}index.js`, data);
   } catch (err) {
     console.error('Error writing JS files:', err);
+    throw err;
+  }
+};
+
+const generateTypesFile = async (icons) => {
+  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+
+  const iconExports = icons.map((icon) => `export const ${makeCamelCase(icon)}: () => IconData;`).join('\n');
+
+  const data = [
+    'export type IconData = string;',
+    'export const iconRegistry: Record<string, IconData>;',
+    'export const icons: Record<string, IconData>;',
+    'export const getIcon: (icon: string) => IconData | undefined;',
+    iconExports,
+  ].join('\n\n');
+
+  try {
+    await fs.writeFile(path.join(distTargetFolder, 'icons.d.ts'), `${data}\n`);
+  } catch (err) {
+    console.error('Error writing types file:', err);
     throw err;
   }
 };
@@ -192,6 +215,7 @@ const main = async () => {
     });
 
     await generateJSFiles(currentIconsForJS);
+    await generateTypesFile(currentIconsForJS);
     await generateFont(updatedIconsForFont, glyphMap);
     await writeGlyphMap(glyphMap);
   } catch (err) {
