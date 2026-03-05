@@ -1,3 +1,15 @@
+# v4.7.4 (Thu Mar 05 2026)
+
+#### 🐛 Bug Fix
+
+- fix: add require/default exports [#109](https://github.com/Infineon/Infineon-Icons/pull/109) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.7.3 (Thu Mar 05 2026)
 
 #### 🐛 Bug Fix
