@@ -1662,5 +1662,13 @@
   "moon-filled": {
     "codepoint": 60157,
     "hash": "3b13ece3ee5c276b3e199ba20334839eecfef909c67e3358dd3a977a99a3507a"
+  },
+  "availability": {
+    "codepoint": 60158,
+    "hash": "71f2f692ccd530567a8aab0c349b79368f413acb98b208fa0a83b3276e12f6bc"
+  },
+  "staircase-graph": {
+    "codepoint": 60159,
+    "hash": "de7ccfa1fddecf27d46ed028da590d52ff262b4e68251889715d131853276420"
   }
 }
