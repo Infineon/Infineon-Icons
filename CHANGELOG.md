@@ -1,3 +1,15 @@
+# v4.8.0 (Wed Mar 18 2026)
+
+#### 🚀 Enhancement
+
+- New Icons January+February 2026 [#110](https://github.com/Infineon/Infineon-Icons/pull/110) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v4.7.4 (Thu Mar 05 2026)
 
 #### 🐛 Bug Fix
