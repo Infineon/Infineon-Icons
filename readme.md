@@ -55,6 +55,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#usage-of-fonts-in-plain-html">Usage of Fonts in plain HTML</a></li>
+    <li><a href="#regression-testing">Regression Testing</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#requesting-new-icons">License</a></li>
@@ -441,6 +442,30 @@ project/
 ---
 
 **Feel free to reach out if you have any more questions or need further assistance!**
+
+## Regression Testing
+
+Use the regression script to verify that generated outputs do not change unexpectedly.
+
+1. Save the current build as baseline:
+
+```sh
+node test/font-regression.mjs --save-baseline
+```
+
+2. Rebuild outputs after your changes:
+
+```sh
+pnpm run generate:js
+```
+
+3. Run the regression check:
+
+```sh
+node test/font-regression.mjs
+```
+
+The command exits with a non-zero status when differences are detected.
 
 
 <!-- CONTRIBUTING -->
