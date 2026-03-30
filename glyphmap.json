@@ -1670,5 +1670,45 @@
   "staircase-graph": {
     "codepoint": 60159,
     "hash": "de7ccfa1fddecf27d46ed028da590d52ff262b4e68251889715d131853276420"
+  },
+  "eco-mode": {
+    "codepoint": 60160,
+    "hash": "73e73499949c565e01354d32e657dafbaff06eec944559c341c88e96a6a356e7"
+  },
+  "fan-1": {
+    "codepoint": 60161,
+    "hash": "380da34c9e6da7aaa4497b82c71b0d64c06532bf4a257291cd05ddfacce8332a"
+  },
+  "fan-2": {
+    "codepoint": 60162,
+    "hash": "1763fb5922c13c21c8c8ba75a3bdef80798d25d9b9dca4cdc90404ab24662179"
+  },
+  "fan-3": {
+    "codepoint": 60163,
+    "hash": "366b478724665733952172be31b9592aa29945ec073c26b8a6620fad4b683e07"
+  },
+  "spice": {
+    "codepoint": 60164,
+    "hash": "e348ceb8ca88ce8a4a5e3ed8d1a05efa6be9ff8eeba1722a2db1f4df82a51252"
+  },
+  "tablet": {
+    "codepoint": 60165,
+    "hash": "7f88f6d4308b65d370b04ae4bedce47b7eeb659ac519cb387efa9191b5a85fa8"
+  },
+  "thermostat": {
+    "codepoint": 60166,
+    "hash": "4fcadb2cbfc417037f4a182601585e08eba2d3c6adfba0e273f3ebdd7e51709b"
+  },
+  "timer": {
+    "codepoint": 60167,
+    "hash": "3b86d127edd3bab60fe05beb5e814f6134e80cfcbc44ea66e1c21c26d0495178"
+  },
+  "tshirt": {
+    "codepoint": 60168,
+    "hash": "a746e98bdcfc98ea762a2ff56cc6e69a15cefd08ab489948f900089e55e9d029"
+  },
+  "washing-machine": {
+    "codepoint": 60169,
+    "hash": "8db9236846d57d6a99a29287fe1c04bd5624db806509c858c4830583433500cb"
   }
 }
