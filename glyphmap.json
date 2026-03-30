@@ -1629,11 +1629,11 @@
   },
   "finance": {
     "codepoint": 60151,
-    "hash": "39683fdb44e03e152b87598f7996a7adb4afcbade7ef64be5c561b260a1fd8e0"
+    "hash": "8e3c215b960d34529d533e97e3bcd203fa7a597daeaa7cf9ebf82fad3ebd424e"
   },
   "procurement": {
     "codepoint": 60152,
-    "hash": "b81e390063bd741d0af480401d260e73acd0bf1d5841cd14e426b4ae2f8fc6ed"
+    "hash": "16f896026dced0f8a697fa902e5f72f8783b19f1fdb5eb3e991361ca0290d13a"
   },
   "fairy-wand": {
     "codepoint": 60153,
@@ -1710,5 +1710,13 @@
   "washing-machine": {
     "codepoint": 60169,
     "hash": "8db9236846d57d6a99a29287fe1c04bd5624db806509c858c4830583433500cb"
+  },
+  "article": {
+    "codepoint": 60170,
+    "hash": "a75bff239437d4bd84fe546f7ef4386fa7855b755139df60f43a07314d9f99ea"
+  },
+  "gitlab": {
+    "codepoint": 60171,
+    "hash": "2dc9408021c5aa0a0ffe986ddfc548dbe45da3f6e3e3e10daaa09e59904d041b"
   }
 }
