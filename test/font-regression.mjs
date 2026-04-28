@@ -153,10 +153,11 @@ function checkWoff2(basePath, currPath) {
 // ─── CSS check ────────────────────────────────────────────────────────────────
 
 function parseCssCodepoints(css) {
-  // extract .icon-NAME::before { content: "\eXXX"; }
+  // Handle both webfont format:    .icon-NAME::before { content: "\eXXX"; }
+  // and fantasticon format: .icon.icon-NAME:before {\n    content: "\eXXX";\n}
   const map = new Map();
-  for (const [, name, cp] of css.matchAll(/\.icon-([^:]+)::before\s*\{\s*content:\s*"\\([0-9a-fA-F]+)"/g)) {
-    map.set(name, cp.toLowerCase());
+  for (const [, name, cp] of css.matchAll(/\.icon(?:\.icon)?-([^:{]+):{1,2}before[^{]*\{[^}]*content:\s*["'\\]+([0-9a-fA-F]+)/g)) {
+    map.set(name.trim(), cp.toLowerCase());
   }
   return map;
 }
