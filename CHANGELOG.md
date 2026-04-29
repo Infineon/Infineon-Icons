@@ -1,3 +1,17 @@
+# v4.8.1 (Wed Apr 29 2026)
+
+#### ⚠️ Pushed to `master`
+
+- Updated glyphmap (github-actions@github.com)
+- chore: update node version ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 2
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+- github-actions (github-actions@github.com)
+
+---
+
 # v4.8.0 (Wed Mar 18 2026)
 
 #### 🚀 Enhancement
