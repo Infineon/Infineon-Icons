@@ -1670,5 +1670,9 @@
   "staircase-graph": {
     "codepoint": 60159,
     "hash": "de7ccfa1fddecf27d46ed028da590d52ff262b4e68251889715d131853276420"
+  },
+  "gitlab": {
+    "codepoint": 60160,
+    "hash": "2dc9408021c5aa0a0ffe986ddfc548dbe45da3f6e3e3e10daaa09e59904d041b"
   }
 }
