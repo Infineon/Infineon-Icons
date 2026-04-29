@@ -37,6 +37,9 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
     "@xmldom/xmldom": "^0.8.10",
     "svgicons2svgfont": "^14.0.2",

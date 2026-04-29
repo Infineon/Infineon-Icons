@@ -1,4 +1,4 @@
-name: Deploy Library to GitHub
+name: Deploy Library to NPM
 
 on:
   pull_request:
@@ -23,10 +23,10 @@ jobs:
       - name: download + setup auto
         uses: auto-it/setup-auto@v1
 
-      - name: Use Node.js 20.x
+      - name: Use Node.js 22.x
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version-file: '.nvmrc'
           cache: 'npm'
           
       - name: Install xmllint
@@ -60,6 +60,7 @@ jobs:
       - name: Set npm registry
         uses: actions/setup-node@v4
         with:
+          node-version-file: '.nvmrc'
           registry-url: "https://registry.npmjs.org"
 
       - name: Publish to npm (PR)
