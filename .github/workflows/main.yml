@@ -23,11 +23,15 @@ jobs:
       - name: download + setup auto
         uses: auto-it/setup-auto@v1
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Use Node.js 22.x
         uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
-          cache: 'npm'
+          cache: 'pnpm'
+          cache-dependency-path: pnpm-lock.yaml
           
       - name: Install xmllint
         run: |
@@ -39,8 +43,8 @@ jobs:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm install
-          npm run build
+          pnpm install --frozen-lockfile
+          pnpm run build
 
       - name: Commit changes
         env:
