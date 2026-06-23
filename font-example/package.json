@@ -5,7 +5,10 @@
     "description": "Infineon Icons Example",
     "license": "MIT",
     "author": "Kai Werther",
+    "scripts": {
+        "dev": "npx serve ."
+    },
     "dependencies": {
-        "@infineon/infineon-icons": "^3.3.1--canary.52.5ea17b805bf2d9057f42da31691db230890ad8f9.0"
+        "@infineon/infineon-icons": "workspace:*"
     }
 }

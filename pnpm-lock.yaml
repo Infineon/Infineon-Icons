@@ -40,6 +40,12 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
 
+  font-example:
+    dependencies:
+      '@infineon/infineon-icons':
+        specifier: workspace:*
+        version: link:..
+
 packages:
 
   '@auto-it/bot-list@10.46.0':
