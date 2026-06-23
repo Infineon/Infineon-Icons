@@ -1,3 +1,16 @@
+# v4.9.0 (Tue Jun 23 2026)
+
+#### 🚀 Enhancement
+
+- Replace webfont to resolve security vulnerabilities [#115](https://github.com/Infineon/Infineon-Icons/pull/115) ([@github-actions[bot]](https://github.com/github-actions[bot]) [@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 2
+
+- [@github-actions[bot]](https://github.com/github-actions[bot])
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.8.1 (Wed Apr 29 2026)
 
 #### ⚠️ Pushed to `master`
