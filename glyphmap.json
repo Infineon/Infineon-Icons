@@ -1714,5 +1714,13 @@
   "gitlab": {
     "codepoint": 60172,
     "hash": "2dc9408021c5aa0a0ffe986ddfc548dbe45da3f6e3e3e10daaa09e59904d041b"
+  },
+  "tablet": {
+    "codepoint": 60173,
+    "hash": "7f88f6d4308b65d370b04ae4bedce47b7eeb659ac519cb387efa9191b5a85fa8"
+  },
+  "washing-machine": {
+    "codepoint": 60174,
+    "hash": "8db9236846d57d6a99a29287fe1c04bd5624db806509c858c4830583433500cb"
   }
 }
