@@ -4,3 +4,6 @@
 /generated_js/
 /generated_fonts/
 /font-example/node_modules/**
+/test/.artifacts/
+/test/visual-regression-output/
+/test/temp-*.html
