@@ -1706,5 +1706,9 @@
   "tshirt": {
     "codepoint": 60170,
     "hash": "a746e98bdcfc98ea762a2ff56cc6e69a15cefd08ab489948f900089e55e9d029"
+  },
+  "tiktok": {
+    "codepoint": 60171,
+    "hash": "264216e6efd0bbb4cee138dca0172b4acfe78f9466cb71177532bde15ef811a3"
   }
 }

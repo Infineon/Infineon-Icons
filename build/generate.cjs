@@ -46,8 +46,10 @@ const cleanDirectory = async (directory) => {
 
 const computeFileHash = async (filePath) => {
   try {
-    const data = await fs.readFile(filePath);
-    const hash = crypto.createHash('sha256').update(data).digest('hex');
+    const data = await fs.readFile(filePath, 'utf-8');
+    // Normalize line endings so hashes are stable across OS/editor defaults.
+    const normalizedData = data.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+    const hash = crypto.createHash('sha256').update(normalizedData, 'utf8').digest('hex');
     return hash;
   } catch (err) {
     console.error('Error computing file hash:', err);
