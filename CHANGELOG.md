@@ -1,3 +1,16 @@
+# v4.9.1 (Wed Jun 24 2026)
+
+#### 🐛 Bug Fix
+
+- new and refined icons [#105](https://github.com/Infineon/Infineon-Icons/pull/105) ([@mattradikant](https://github.com/mattradikant) [@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 2
+
+- [@mattradikant](https://github.com/mattradikant)
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.9.0 (Tue Jun 23 2026)
 
 #### 🚀 Enhancement
