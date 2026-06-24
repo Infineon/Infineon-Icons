@@ -176,7 +176,12 @@ const main = async () => {
         const svgFile = path.join(svgSourceFolder, file);
 
         const fileHash = await computeFileHash(svgFile);
-        return { iconName: iconName.toLowerCase(), originalIconName, fileHash };
+
+        return {
+          iconName: iconName.toLowerCase(),
+          originalIconName,
+          fileHash,
+        };
       }),
     );
 
