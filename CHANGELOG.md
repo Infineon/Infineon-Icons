@@ -1,3 +1,90 @@
+# v4.9.0 (Tue Jun 23 2026)
+
+#### 🚀 Enhancement
+
+- Replace webfont to resolve security vulnerabilities [#115](https://github.com/Infineon/Infineon-Icons/pull/115) ([@github-actions[bot]](https://github.com/github-actions[bot]) [@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 2
+
+- [@github-actions[bot]](https://github.com/github-actions[bot])
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
+# v4.8.1 (Wed Apr 29 2026)
+
+#### ⚠️ Pushed to `master`
+
+- Updated glyphmap (github-actions@github.com)
+- chore: update node version ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 2
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+- github-actions (github-actions@github.com)
+
+---
+
+# v4.8.0 (Wed Mar 18 2026)
+
+#### 🚀 Enhancement
+
+- New Icons January+February 2026 [#110](https://github.com/Infineon/Infineon-Icons/pull/110) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
+# v4.7.4 (Thu Mar 05 2026)
+
+#### 🐛 Bug Fix
+
+- fix: add require/default exports [#109](https://github.com/Infineon/Infineon-Icons/pull/109) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
+# v4.7.3 (Thu Mar 05 2026)
+
+#### 🐛 Bug Fix
+
+- Add Typescript Types [#108](https://github.com/Infineon/Infineon-Icons/pull/108) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
+# v4.7.2 (Thu Dec 11 2025)
+
+#### 🐛 Bug Fix
+
+- ci: use correct npm token variable [#107](https://github.com/Infineon/Infineon-Icons/pull/107) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
+# v4.7.1 (Wed Dec 10 2025)
+
+#### 🐛 Bug Fix
+
+- adds new moon icons [#106](https://github.com/Infineon/Infineon-Icons/pull/106) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v4.7.0 (Thu Dec 04 2025)
 
 #### 🚀 Enhancement

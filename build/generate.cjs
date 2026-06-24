@@ -2,18 +2,20 @@
 /* eslint-disable max-len */
 const fs = require('fs').promises;
 const fsr = require('fs'); // Use this for synchronous methods
+const os = require('os');
 const path = require('path');
 const crypto = require('crypto');
-const webfont = require('webfont').default;
 
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
 const fontTargetFolder = './dist/fonts/';
+const distTargetFolder = './dist/';
 const glyphMapFile = './glyphmap.json';
 const START_CODEPOINT = 0xe900;
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
 if (!fsr.existsSync(fontTargetFolder)) fsr.mkdirSync(fontTargetFolder, { recursive: true });
+if (!fsr.existsSync(distTargetFolder)) fsr.mkdirSync(distTargetFolder, { recursive: true });
 
 const readGlyphMap = async () => {
   try {
@@ -81,50 +83,66 @@ const generateJSFiles = async (icons) => {
   }
 };
 
-const generateFont = async (icons, glyphMap) => {
-  try {
-    const iconFiles = icons.map((icon) => ({
-      path: path.join(svgSourceFolder, `${icon.originalIconName}`),
-      name: icon.iconName,
-      codepoint: glyphMap[icon.iconName].codepoint,
-    }));
+const generateTypesFile = async (icons) => {
+  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 
-    const result = await webfont({
-      files: iconFiles.map((icon) => icon.path),
-      fontName: 'infineon-icons',
-      formats: ['ttf', 'woff', 'woff2'],
-      glyphTransformFn: (originalObj) => {
-        const obj = { ...originalObj };
-        const icon = iconFiles.find((i) => i.path === obj.path);
-        obj.name = icon.name;
-        obj.unicode = [String.fromCharCode(icon.codepoint)];
-        return obj;
-      },
+  const iconExports = icons.map((icon) => `export const ${makeCamelCase(icon)}: () => IconData;`).join('\n');
+
+  const data = [
+    'export type IconData = string;',
+    'export const iconRegistry: Record<string, IconData>;',
+    'export const icons: Record<string, IconData>;',
+    'export const getIcon: (icon: string) => IconData | undefined;',
+    iconExports,
+  ].join('\n\n');
+
+  try {
+    await fs.writeFile(path.join(distTargetFolder, 'icons.d.ts'), `${data}\n`);
+  } catch (err) {
+    console.error('Error writing types file:', err);
+    throw err;
+  }
+};
+
+const generateFont = async (icons, glyphMap) => {
+  const { generateFonts, FontAssetType, OtherAssetType } = await import('fantasticon');
+
+  // Build codepoints map: iconName -> codepoint number
+  const codepoints = {};
+  for (const icon of icons) {
+    codepoints[icon.iconName] = glyphMap[icon.iconName].codepoint;
+  }
+
+  // Copy filtered/renamed SVGs to a temp dir so fantasticon sees the right icon names
+  const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), 'ifx-icons-'));
+  try {
+    await Promise.all(
+      icons.map((icon) => fs.copyFile(
+        path.join(svgSourceFolder, icon.originalIconName),
+        path.join(tmpDir, `${icon.iconName}.svg`),
+      )),
+    );
+
+    await generateFonts({
+      inputDir: tmpDir,
+      outputDir: fontTargetFolder,
+      name: 'infineon-icons',
+      fontTypes: [FontAssetType.TTF, FontAssetType.WOFF, FontAssetType.WOFF2],
+      assetTypes: [OtherAssetType.CSS],
+      codepoints,
       normalize: true,
       fontHeight: 1000,
       descent: 200,
-      dest: fontTargetFolder,
-      template: 'css', // Optionally generate CSS file
-      templateClassName: 'icon',
-      templateFontPath: './',
+      selector: '.icon',
+      prefix: 'icon',
     });
-
-    ['ttf', 'woff', 'woff2'].forEach((ext) => {
-      if (result[ext]) {
-        const outputPath = path.join(fontTargetFolder, `infineon-icons.${ext}`);
-        fsr.writeFileSync(outputPath, result[ext]); // Correct usage of writeFileSync
-      }
-    });
-
-    if (result.template) {
-      const cssOutputPath = path.join(fontTargetFolder, 'infineon-icons.css');
-      fsr.writeFileSync(cssOutputPath, result.template);
-    }
 
     console.log('Font generation completed successfully!');
   } catch (err) {
     console.error('Error in font generation:', err);
     throw err;
+  } finally {
+    await fs.rm(tmpDir, { recursive: true, force: true });
   }
 };
 
@@ -192,6 +210,7 @@ const main = async () => {
     });
 
     await generateJSFiles(currentIconsForJS);
+    await generateTypesFile(currentIconsForJS);
     await generateFont(updatedIconsForFont, glyphMap);
     await writeGlyphMap(glyphMap);
   } catch (err) {

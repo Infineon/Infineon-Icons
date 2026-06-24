@@ -1,4 +1,4 @@
-name: Deploy Library to GitHub
+name: Deploy Library to NPM
 
 on:
   pull_request:
@@ -23,11 +23,15 @@ jobs:
       - name: download + setup auto
         uses: auto-it/setup-auto@v1
 
-      - name: Use Node.js 20.x
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Use Node.js 22.x
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+          cache-dependency-path: pnpm-lock.yaml
           
       - name: Install xmllint
         run: |
@@ -39,8 +43,8 @@ jobs:
           NPM_TOKEN: ${{ secrets.INFINEON_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm install
-          npm run build
+          pnpm install --frozen-lockfile
+          pnpm run build
 
       - name: Commit changes
         env:
@@ -60,12 +64,13 @@ jobs:
       - name: Set npm registry
         uses: actions/setup-node@v4
         with:
+          node-version-file: '.nvmrc'
           registry-url: "https://registry.npmjs.org"
 
       - name: Publish to npm (PR)
         if: github.event_name == 'pull_request'
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           echo "Publishing with --tag canary"
           auto shipit
@@ -73,7 +78,7 @@ jobs:
       - name: Publish to npm (master)
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.INFINEON_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           echo "Publishing without tag"
           auto shipit
