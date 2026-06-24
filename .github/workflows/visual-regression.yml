@@ -1,0 +1,122 @@
+name: Visual Regression
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  visual-regression:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Detect changed SVG icons
+        id: changed-icons
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          else
+            BASE_SHA="${{ github.event.before }}"
+            HEAD_SHA="${{ github.sha }}"
+          fi
+
+          CHANGED_SVG_FILES=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- 'svg/*.svg' || true)
+
+          if [[ -z "$CHANGED_SVG_FILES" ]]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "icon_list=" >> "$GITHUB_OUTPUT"
+            echo "No changed SVG icon files detected."
+            exit 0
+          fi
+
+          ICON_LIST=$(
+            echo "$CHANGED_SVG_FILES" \
+              | sed -n 's#^svg/##; s/-16\.svg$//p' \
+              | sort -u \
+              | paste -sd, -
+          )
+
+          if [[ -z "$ICON_LIST" ]]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "icon_list=" >> "$GITHUB_OUTPUT"
+            echo "No changed 16px icon SVG files detected after filtering."
+            exit 0
+          fi
+
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          echo "icon_list=$ICON_LIST" >> "$GITHUB_OUTPUT"
+          echo "Testing changed icons: $ICON_LIST"
+
+      - name: Install dependencies
+        if: steps.changed-icons.outputs.has_changes == 'true'
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright Chromium
+        if: steps.changed-icons.outputs.has_changes == 'true'
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Build icon assets
+        if: steps.changed-icons.outputs.has_changes == 'true'
+        run: pnpm run build
+
+      - name: Run visual regression for changed icons
+        if: steps.changed-icons.outputs.has_changes == 'true'
+        env:
+          ICON_ONLY: ${{ steps.changed-icons.outputs.icon_list }}
+        run: pnpm test:visual
+
+      - name: Create skipped report
+        if: steps.changed-icons.outputs.has_changes != 'true'
+        shell: bash
+        run: |
+          mkdir -p test/.artifacts/visual-regression
+          cat > test/.artifacts/visual-regression/report.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Visual Regression - Skipped</title>
+            <style>
+              body { font-family: Arial, sans-serif; margin: 2rem; }
+              .card { max-width: 720px; border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.25rem; }
+            </style>
+          </head>
+          <body>
+            <div class="card">
+              <h1>Visual Regression Skipped</h1>
+              <p>No changed 16px SVG icon files were detected in this run.</p>
+            </div>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload visual regression artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-regression-report
+          path: test/.artifacts/visual-regression/
+          if-no-files-found: warn
