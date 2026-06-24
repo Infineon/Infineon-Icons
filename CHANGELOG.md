@@ -1,3 +1,15 @@
+# v4.9.3 (Wed Jun 24 2026)
+
+#### 🐛 Bug Fix
+
+- add gitlab icon [#111](https://github.com/Infineon/Infineon-Icons/pull/111) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v4.9.2 (Wed Jun 24 2026)
 
 #### 🐛 Bug Fix
