@@ -1710,5 +1710,9 @@
   "tiktok": {
     "codepoint": 60171,
     "hash": "264216e6efd0bbb4cee138dca0172b4acfe78f9466cb71177532bde15ef811a3"
+  },
+  "gitlab": {
+    "codepoint": 60172,
+    "hash": "2dc9408021c5aa0a0ffe986ddfc548dbe45da3f6e3e3e10daaa09e59904d041b"
   }
 }
