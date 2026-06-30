@@ -1,3 +1,18 @@
+# v4.9.5 (Tue Jun 30 2026)
+
+#### 🐛 Bug Fix
+
+- handshake,responsive,window-paragraph - three icons required for development [#113](https://github.com/Infineon/Infineon-Icons/pull/113) ([@Muppana-external_GHIFX](https://github.com/Muppana-external_GHIFX) [@mattradikant](https://github.com/mattradikant) [@pfafffabian-ifx](https://github.com/pfafffabian-ifx) [@MuppanaVamsi](https://github.com/MuppanaVamsi))
+
+#### Authors: 4
+
+- [@mattradikant](https://github.com/mattradikant)
+- [@Muppana-external_GHIFX](https://github.com/Muppana-external_GHIFX)
+- [@MuppanaVamsi](https://github.com/MuppanaVamsi)
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.9.4 (Wed Jun 24 2026)
 
 #### 🐛 Bug Fix
