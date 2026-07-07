@@ -893,7 +893,7 @@
   },
   "media-play": {
     "codepoint": 59874,
-    "hash": "2be586345e978bf1785b63eb2c31bb5413a554f53cf356b271dbbe9f0a45ecd7"
+    "hash": "3a60babc30d7fafe11d3c574c2208339b9b479d23ecafe3879878a25b43f5788"
   },
   "media-record": {
     "codepoint": 59875,
@@ -1726,5 +1726,17 @@
   "responsive": {
     "codepoint": 60175,
     "hash": "60bf9974e9f7096974b7caf03e08bf57aca267b74105114f632affcf34407f94"
+  },
+  "collapse": {
+    "codepoint": 60176,
+    "hash": "bcf4b63db8fec027a74e156a05b5be7087ab4c5dd214e4014e9dfd9417969272"
+  },
+  "expand": {
+    "codepoint": 60177,
+    "hash": "2665fce3f8ec978aa8c8fd42b7f7909fb4a0c78da1e063b2441d05d2b24f3d8a"
+  },
+  "skip": {
+    "codepoint": 60178,
+    "hash": "ac6ebd312d95436a10eae28d1511df727499ab5b3b3698bfe6d7ae0d13685272"
   }
 }
