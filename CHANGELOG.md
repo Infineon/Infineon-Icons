@@ -1,3 +1,15 @@
+# v4.9.6 (Tue Jul 07 2026)
+
+#### 🐛 Bug Fix
+
+- update and add metaphors [#119](https://github.com/Infineon/Infineon-Icons/pull/119) ([@mattradikant](https://github.com/mattradikant))
+
+#### Authors: 1
+
+- [@mattradikant](https://github.com/mattradikant)
+
+---
+
 # v4.9.5 (Tue Jun 30 2026)
 
 #### 🐛 Bug Fix
