@@ -1,27 +1,1345 @@
-[
-    {
-        "address-book-16": {
-            "name": "address-book",
-            "file": "address-book-16.svg",
-            "category": "communication",
-            "metaphor": "An address-book booklet with tabs.",
-            "useFor": [
-                "Address book",
-                "Contact directory",
-                "Full-contacts view"
-            ],
-            "keywords": [
-                "address book",
-                "contacts",
-                "directory",
-                "rolodex"
-            ],
-            "avoidFor": [
-                { "case": "Single contact", "useInstead": "contact-16" },
-                { "case": "List of users", "useInstead": "address-book-16" },
-                { "case": "Group contact", "useInstead": "contact-group-16" }
-            ],
-            "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2536"
-        }
+{
+    "file": {
+        "name": "file",
+        "file": "file-16.svg",
+        "category": "files",
+        "metaphor": "A sheet of paper with a folded corner.",
+        "useFor": [
+            "Generic file or document of unknown / unspecified type",
+            "attachments"
+        ],
+        "keywords": [
+            "file",
+            "document",
+            "paper",
+            "blank file",
+            "generic"
+        ],
+        "avoidFor": [
+            {
+                "case": "Specific file format",
+                "useInsteadText": "Use the matching file-<format> icon for the specific file format."
+            },
+            {
+                "case": "Plain text",
+                "useInsteadIcons": [
+                    "file-text"
+                ]
+            },
+            {
+                "case": "Article",
+                "useInsteadIcons": [
+                    "article"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3812&m=dev"
+    },
+    "file-aac": {
+        "name": "file-aac",
+        "file": "file-aac-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"AAC\" label.",
+        "useFor": [
+            "References to AAC audio files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "aac",
+            "AAC audio",
+            "file",
+            ".aac"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "MP3",
+                "useInsteadIcons": [
+                    "file-mp3"
+                ]
+            },
+            {
+                "case": "Audio playback",
+                "useInsteadIcons": [
+                    "sound"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3813&m=dev"
+    },
+    "file-stp": {
+        "name": "file-stp",
+        "file": "file-stp-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"STP\" label.",
+        "useFor": [
+            "References to STEP / STP 3D CAD files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "stp",
+            "STEP / STP 3D CAD",
+            "file",
+            ".stp"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Generic CAD or 3D",
+                "useInsteadText": "Use file-vdf, file-vdn, or file-vnd depending on the CAD tool/context.",
+                "useInsteadIcons": [
+                    "file-vdf",
+                    "file-vdn",
+                    "file-vnd"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3867&m=dev"
+    },
+    "file-svg": {
+        "name": "file-svg",
+        "file": "file-svg-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"SVG\" label.",
+        "useFor": [
+            "References to SVG vector image files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "svg",
+            "SVG vector image",
+            "file",
+            ".svg"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Raster image",
+                "useInsteadIcons": [
+                    "file-png",
+                    "file-jpg"
+                ]
+            },
+            {
+                "case": "EPS vector",
+                "useInsteadIcons": [
+                    "file-eps"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3868&m=dev"
+    },
+    "file-text": {
+        "name": "file-text",
+        "file": "file-text-16.svg",
+        "category": "files",
+        "metaphor": "A document marked “TEXT”.",
+        "useFor": [
+            "Generic text-document references",
+            "plain-text-content markers"
+        ],
+        "keywords": [
+            "text file",
+            "text document",
+            "plain text"
+        ],
+        "avoidFor": [
+            {
+                "case": "Specific format",
+                "useInsteadIcons": [
+                    "file-txt",
+                    "file-rtf"
+                ]
+            },
+            {
+                "case": "Article",
+                "useInsteadIcons": [
+                    "article"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3870&m=dev"
+    },
+    "file-txt": {
+        "name": "file-txt",
+        "file": "file-txt-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"TXT\" label.",
+        "useFor": [
+            "References to plain-text files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "txt",
+            "plain-text",
+            "file",
+            ".txt"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Generic text",
+                "useInsteadIcons": [
+                    "file-text"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3872&m=dev"
+    },
+    "file-vdf": {
+        "name": "file-vdf",
+        "file": "file-vdf-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"VDF\" label.",
+        "useFor": [
+            "References to VDF configuration / CAD files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "vdf",
+            "VDF configuration / CAD",
+            "file",
+            ".vdf"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Other VD-family formats",
+                "useInsteadIcons": [
+                    "file-vdn",
+                    "file-vnd"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3874&m=dev"
+    },
+    "file-vdn": {
+        "name": "file-vdn",
+        "file": "file-vdn-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"VDN\" label.",
+        "useFor": [
+            "References to VDN configuration / CAD files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "vdn",
+            "VDN configuration / CAD",
+            "file",
+            ".vdn"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Other VD-family formats",
+                "useInsteadIcons": [
+                    "file-vdf",
+                    "file-vnd"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3876&m=dev"
+    },
+    "file-mov": {
+        "name": "file-mov",
+        "file": "file-mov-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"MOV\" label.",
+        "useFor": [
+            "References to QuickTime MOV video files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "mov",
+            "QuickTime MOV video",
+            "file",
+            ".mov"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "MP4",
+                "useInsteadIcons": [
+                    "file-mp4"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3845&m=dev"
+    },
+    "file-png": {
+        "name": "file-png",
+        "file": "file-png-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"PNG\" label.",
+        "useFor": [
+            "References to PNG raster image files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "png",
+            "PNG raster image",
+            "file",
+            ".png"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "JPG",
+                "useInsteadIcons": [
+                    "file-jpg"
+                ]
+            },
+            {
+                "case": "Vector",
+                "useInsteadIcons": [
+                    "file-svg",
+                    "file-eps"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3857&m=dev"
+    },
+    "file-otf": {
+        "name": "file-otf",
+        "file": "file-otf-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"OTF\" label.",
+        "useFor": [
+            "References to OpenType font files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "otf",
+            "OpenType font",
+            "file",
+            ".otf"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Other typography assets",
+                "useInsteadText": "different icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3853&m=dev"
+    },
+    "file-ppt": {
+        "name": "file-ppt",
+        "file": "file-ppt-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"PPT\" label.",
+        "useFor": [
+            "References to legacy Microsoft PowerPoint presentation files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "ppt",
+            "legacy Microsoft PowerPoint presentation",
+            "file",
+            ".ppt"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Modern PowerPoint format",
+                "useInsteadIcons": [
+                    "file-pptx"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=18113-521&m=dev"
+    },
+    "file-vnd": {
+        "name": "file-vnd",
+        "file": "file-vnd-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"VND\" label.",
+        "useFor": [
+            "References to VND configuration / CAD files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "vnd",
+            "VND configuration / CAD",
+            "file",
+            ".vnd"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Other VD-family formats",
+                "useInsteadIcons": [
+                    "file-vdf",
+                    "file-vdn"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3877&m=dev"
+    },
+    "file-mp4": {
+        "name": "file-mp4",
+        "file": "file-mp4-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"MP4\" label.",
+        "useFor": [
+            "References to MP4 video files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "mp4",
+            "MP4 video",
+            "file",
+            ".mp4"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Other video formats",
+                "useInsteadIcons": [
+                    "file-mov",
+                    "file-avi",
+                    "file-mkv",
+                    "file-mpg"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3849&m=dev"
+    },
+    "file-pdf": {
+        "name": "file-pdf",
+        "file": "file-pdf-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"PDF\" label.",
+        "useFor": [
+            "References to PDF document files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "pdf",
+            "PDF document",
+            "file",
+            ".pdf"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Word",
+                "useInsteadIcons": [
+                    "file-doc",
+                    "file-docx"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3855&m=dev"
+    },
+    "file-mkv": {
+        "name": "file-mkv",
+        "file": "file-mkv-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"MKV\" label.",
+        "useFor": [
+            "References to Matroska MKV video files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "mkv",
+            "Matroska MKV video",
+            "file",
+            ".mkv"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "MP4",
+                "useInsteadIcons": [
+                    "file-mp4"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3843&m=dev"
+    },
+    "file-xlsx": {
+        "name": "file-xlsx",
+        "file": "file-xlsx-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"XLSX\" label.",
+        "useFor": [
+            "References to Microsoft Excel spreadsheet files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "xlsx",
+            "Microsoft Excel spreadsheet",
+            "file",
+            ".xlsx"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Generic tabular data",
+                "useInsteadIcons": [
+                    "file-csv"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3878&m=dev"
+    },
+    "file-mpg": {
+        "name": "file-mpg",
+        "file": "file-mpg-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"MPG\" label.",
+        "useFor": [
+            "References to MPEG MPG video files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "mpg",
+            "MPEG MPG video",
+            "file",
+            ".mpg"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "MP4",
+                "useInsteadIcons": [
+                    "file-mp4"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3851&m=dev"
+    },
+    "file-mp3": {
+        "name": "file-mp3",
+        "file": "file-mp3-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"MP3\" label.",
+        "useFor": [
+            "References to MP3 audio files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "mp3",
+            "MP3 audio",
+            "file",
+            ".mp3"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "AAC",
+                "useInsteadIcons": [
+                    "file-aac"
+                ]
+            },
+            {
+                "case": "Audio playback",
+                "useInsteadIcons": [
+                    "sound"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3847&m=dev"
+    },
+    "file-xml": {
+        "name": "file-xml",
+        "file": "file-xml-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"XML\" label.",
+        "useFor": [
+            "References to XML data files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "xml",
+            "XML data",
+            "file",
+            ".xml"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "JSON",
+                "useInsteadIcons": [
+                    "file-json"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3880&m=dev"
+    },
+    "license": {
+        "name": "license",
+        "file": "license-16.svg",
+        "category": "files",
+        "metaphor": "A scroll / certificate with a seal.",
+        "useFor": [
+            "Licenses",
+            "license agreements",
+            "terms-of-use documents"
+        ],
+        "keywords": [
+            "license",
+            "agreement",
+            "terms",
+            "certificate"
+        ],
+        "avoidFor": [
+            {
+                "case": "Copyright mark",
+                "useInsteadIcons": [
+                    "copyright"
+                ]
+            },
+            {
+                "case": "Generic legal",
+                "useInsteadIcons": [
+                    "scale"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-183&m=dev"
+    },
+    "file-rar": {
+        "name": "file-rar",
+        "file": "file-rar-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"RAR\" label.",
+        "useFor": [
+            "References to RAR archive files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "rar",
+            "RAR archive",
+            "file",
+            ".rar"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "ZIP archive",
+                "useInsteadIcons": [
+                    "file-zip"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3861&m=dev"
+    },
+    "file-pptx": {
+        "name": "file-pptx",
+        "file": "file-pptx-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"PPTX\" label.",
+        "useFor": [
+            "References to modern Microsoft PowerPoint presentation files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "pptx",
+            "modern Microsoft PowerPoint presentation",
+            "file",
+            ".pptx"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Legacy PowerPoint format",
+                "useInsteadIcons": [
+                    "file-ppt"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3859&m=dev"
+    },
+    "file-sap": {
+        "name": "file-sap",
+        "file": "file-sap-16.svg",
+        "category": "files",
+        "metaphor": "A document with the SAP logo / mark.",
+        "useFor": [
+            "Any reference to SAP-relevant data",
+            "SAP exports",
+            "ERP attachments"
+        ],
+        "keywords": [
+            "sap",
+            "erp",
+            "sap export",
+            "sap data"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic spreadsheet",
+                "useInsteadIcons": [
+                    "file-xlsx"
+                ]
+            },
+            {
+                "case": "Database",
+                "useInsteadIcons": [
+                    "database"
+                ]
+            },
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-170&m=dev"
+    },
+    "file-rtf": {
+        "name": "file-rtf",
+        "file": "file-rtf-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"RTF\" label.",
+        "useFor": [
+            "References to rich-text files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "rtf",
+            "rich-text",
+            "file",
+            ".rtf"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Plain text",
+                "useInsteadIcons": [
+                    "file-txt",
+                    "file-text"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3863&m=dev"
+    },
+    "file-zip": {
+        "name": "file-zip",
+        "file": "file-zip-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"ZIP\" label.",
+        "useFor": [
+            "References to ZIP archive files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "zip",
+            "ZIP archive",
+            "file",
+            ".zip"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "RAR archive",
+                "useInsteadIcons": [
+                    "file-rar"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3882&m=dev"
+    },
+    "file-avi": {
+        "name": "file-avi",
+        "file": "file-avi-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"AVI\" label.",
+        "useFor": [
+            "References to AVI video files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "avi",
+            "AVI video",
+            "file",
+            ".avi"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "MP4",
+                "useInsteadIcons": [
+                    "file-mp4"
+                ]
+            },
+            {
+                "case": "Generic video",
+                "useInsteadIcons": [
+                    "video"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3814&m=dev"
+    },
+    "file-csv": {
+        "name": "file-csv",
+        "file": "file-csv-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"CSV\" label.",
+        "useFor": [
+            "References to comma-separated tabular data files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "csv",
+            "comma-separated tabular data",
+            "file",
+            ".csv"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Excel-specific",
+                "useInsteadIcons": [
+                    "file-xlsx"
+                ]
+            },
+            {
+                "case": "Live table UI",
+                "useInsteadIcons": [
+                    "table"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3819&m=dev"
+    },
+    "file-doc": {
+        "name": "file-doc",
+        "file": "file-doc-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"DOC\" label.",
+        "useFor": [
+            "References to legacy Microsoft Word document files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "doc",
+            "legacy Microsoft Word document",
+            "file",
+            ".doc"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Modern Word format",
+                "useInsteadIcons": [
+                    "file-docx"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3821&m=dev"
+    },
+    "file-gif": {
+        "name": "file-gif",
+        "file": "file-gif-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"GIF\" label.",
+        "useFor": [
+            "References to GIF image (animated or static) files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "gif",
+            "GIF image (animated or static)",
+            "file",
+            ".gif"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "PNG / JPG stills",
+                "useInsteadIcons": [
+                    "file-png",
+                    "file-jpg"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3829&m=dev"
+    },
+    "file-html": {
+        "name": "file-html",
+        "file": "file-html-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"HTML\" label.",
+        "useFor": [
+            "References to HTML web page files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "html",
+            "HTML web page",
+            "file",
+            ".html"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "CSS stylesheet",
+                "useInsteadIcons": [
+                    "file-css"
+                ]
+            },
+            {
+                "case": "JavaScript",
+                "useInsteadIcons": [
+                    "file-js"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3831&m=dev"
+    },
+    "file-eps": {
+        "name": "file-eps",
+        "file": "file-eps-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"EPS\" label.",
+        "useFor": [
+            "References to Encapsulated PostScript vector files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "eps",
+            "Encapsulated PostScript vector",
+            "file",
+            ".eps"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "SVG vector",
+                "useInsteadIcons": [
+                    "file-svg"
+                ]
+            },
+            {
+                "case": "Raster",
+                "useInsteadIcons": [
+                    "file-png",
+                    "file-jpg"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3825&m=dev"
+    },
+    "file-js": {
+        "name": "file-js",
+        "file": "file-js-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"JS\" label.",
+        "useFor": [
+            "References to JavaScript source files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "js",
+            "JavaScript source",
+            "file",
+            ".js"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "JSON data",
+                "useInsteadIcons": [
+                    "file-json"
+                ]
+            },
+            {
+                "case": "HTML",
+                "useInsteadIcons": [
+                    "file-html"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3835&m=dev"
+    },
+    "file-json": {
+        "name": "file-json",
+        "file": "file-json-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"JSON\" label.",
+        "useFor": [
+            "References to JSON data files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "json",
+            "JSON data",
+            "file",
+            ".json"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "JavaScript code",
+                "useInsteadIcons": [
+                    "file-js"
+                ]
+            },
+            {
+                "case": "XML",
+                "useInsteadIcons": [
+                    "file-xml"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3837&m=dev"
+    },
+    "file-sql": {
+        "name": "file-sql",
+        "file": "file-sql-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"SQL\" label.",
+        "useFor": [
+            "References to SQL database files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "sql",
+            "SQL database",
+            "file",
+            ".sql"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Generic database",
+                "useInsteadIcons": [
+                    "database"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3865&m=dev"
+    },
+    "file-exe": {
+        "name": "file-exe",
+        "file": "file-exe-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"EXE\" label.",
+        "useFor": [
+            "References to Windows executable files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "exe",
+            "Windows executable",
+            "file",
+            ".exe"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Generic app",
+                "useInsteadIcons": [
+                    "applications"
+                ]
+            },
+            {
+                "case": "Software package",
+                "useInsteadIcons": [
+                    "software"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3827&m=dev"
+    },
+    "file-docx": {
+        "name": "file-docx",
+        "file": "file-docx-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"DOCX\" label.",
+        "useFor": [
+            "References to modern Microsoft Word document files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "docx",
+            "modern Microsoft Word document",
+            "file",
+            ".docx"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "Legacy Word format",
+                "useInsteadIcons": [
+                    "file-doc"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3823&m=dev"
+    },
+    "file-jpg": {
+        "name": "file-jpg",
+        "file": "file-jpg-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"JPG\" label.",
+        "useFor": [
+            "References to JPG / JPEG raster image files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "jpg",
+            "JPG / JPEG raster image",
+            "file",
+            ".jpg"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "PNG",
+                "useInsteadIcons": [
+                    "file-png"
+                ]
+            },
+            {
+                "case": "Vector image",
+                "useInsteadIcons": [
+                    "file-svg",
+                    "file-eps"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3833&m=dev"
+    },
+    "file-css": {
+        "name": "file-css",
+        "file": "file-css-16.svg",
+        "category": "files",
+        "metaphor": "A document marked with the \"CSS\" label.",
+        "useFor": [
+            "References to CSS stylesheet files in downloads",
+            "attachments",
+            "file lists"
+        ],
+        "keywords": [
+            "css",
+            "CSS stylesheet",
+            "file",
+            ".css"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file"
+                ]
+            },
+            {
+                "case": "HTML",
+                "useInsteadIcons": [
+                    "file-html"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3817&m=dev"
     }
-]
+}
