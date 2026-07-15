@@ -1,0 +1,54 @@
+[
+    {
+        "sectionId": "16127:61",
+        "name": "Files"
+    },
+    {
+        "sectionId": "16127:375",
+        "name": "Communication"
+    },
+    {
+        "sectionId": "16127:247",
+        "name": "Finance"
+    },
+    {
+        "sectionId": "16127:62",
+        "name": "Arrows"
+    },
+    {
+        "sectionId": "16127:140",
+        "name": "Text"
+    },
+    {
+        "sectionId": "16127:409",
+        "name": "Date & Time"
+    },
+    {
+        "sectionId": "16154:106",
+        "name": "Locations"
+    },
+    {
+        "sectionId": "16127:469",
+        "name": "Audio/Video"
+    },
+    {
+        "sectionId": "16154:200",
+        "name": "Social Media"
+    },
+    {
+        "sectionId": "16154:156",
+        "name": "Miscellaneous"
+    },
+    {
+        "sectionId": "16154:45",
+        "name": "Software"
+    },
+    {
+        "sectionId": "16154:2",
+        "name": "Hardware"
+    },
+    {
+        "sectionId": "16127:190",
+        "name": "Interface"
+    }
+]
