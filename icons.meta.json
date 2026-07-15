@@ -1,0 +1,27 @@
+[
+    {
+        "address-book-16": {
+            "name": "address-book",
+            "file": "address-book-16.svg",
+            "category": "communication",
+            "metaphor": "An address-book booklet with tabs.",
+            "useFor": [
+                "Address book",
+                "Contact directory",
+                "Full-contacts view"
+            ],
+            "keywords": [
+                "address book",
+                "contacts",
+                "directory",
+                "rolodex"
+            ],
+            "avoidFor": [
+                { "case": "Single contact", "useInstead": "contact-16" },
+                { "case": "List of users", "useInstead": "address-book-16" },
+                { "case": "Group contact", "useInstead": "contact-group-16" }
+            ],
+            "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2536"
+        }
+    }
+]
