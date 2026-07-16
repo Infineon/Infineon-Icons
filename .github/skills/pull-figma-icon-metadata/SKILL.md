@@ -78,13 +78,13 @@ Trigger phrases:
   - Supported recommendation fields per `avoidFor` item:
     - `useInsteadIcons`: array of canonical icon names (use one item for single-icon recommendations, multiple for alternatives).
     - `useInsteadText`: plain-text guidance when recommendation is contextual and not a strict icon id.
-  - Normalize any icon names in `useInsteadIcons[]` to canonical names without size suffix (for example `comment-16` -> `comment`).
-  - Cross-check normalized names against `glyphmap.json` keys when available.
+  - Normalize any icon names in `useInsteadIcons[]` to JavaScript export names: remove `.svg` if present, lowercase the name, and convert separators followed by a character to camel case. Preserve the size suffix: `comment-16` -> `comment16`, `file-pdf-16` -> `filePdf16`.
+  - Cross-check normalized names against the JavaScript exports in `dist/icons.d.ts` when available, or derive them from SVG filenames using the same transformation.
 
 5. Build normalized entry.
-- `symbolName`: metadata symbol name (example: `address-book-16`).
-- `name`: remove trailing size suffix from `symbolName` (example: `address-book`).
-- `iconKey`: use `name` (base name only, no size suffix).
+- `symbolName`: Figma symbol name (example: `address-book-16`).
+- `name`: JavaScript icon export name derived from `symbolName` (example: `addressBook16`).
+- `iconKey`: use `name`.
 - `file`: `<symbolName>.svg`.
 - `category`: lowercase section name from discovery (example: `Communication` -> `communication`). If no section is discoverable, use `unknown`.
 - `figma`: original input URL.
@@ -92,22 +92,22 @@ Trigger phrases:
 - `avoidFor` supports:
   - `useInsteadIcons` for one or multiple icon options.
   - `useInsteadText` for textual guidance.
-- All icon ids in `avoidFor` (`useInsteadIcons[]`) must use base names only (no `-16` suffix), matching `glyphmap.json` naming.
+- All icon ids in `avoidFor` (`useInsteadIcons[]`) must use JavaScript export names with the size suffix, matching `icons.d.ts` naming.
 
 Target object shape:
 
 ```json
 {
-  "address-book": {
-    "name": "address-book",
+  "addressBook16": {
+    "name": "addressBook16",
     "file": "address-book-16.svg",
     "category": "communication",
     "metaphor": "An address-book booklet with tabs.",
     "useFor": ["Address book", "Contact directory", "Full-contacts view"],
     "keywords": ["address book", "contacts", "directory", "rolodex"],
     "avoidFor": [
-      { "case": "Single contact", "useInsteadIcons": ["contact"] },
-      { "case": "Generic CAD or 3D", "useInsteadIcons": ["file-vdf", "file-vdn", "file-vnd"], "useInsteadText": "Use the format-specific icon depending on the CAD tool." },
+      { "case": "Single contact", "useInsteadIcons": ["contact16"] },
+      { "case": "Generic CAD or 3D", "useInsteadIcons": ["fileVdf16", "fileVdn16", "fileVnd16"], "useInsteadText": "Use the format-specific icon depending on the CAD tool." },
       { "case": "Context-dependent choice", "useInsteadText": "Choose the icon that matches the user's file format or system." }
     ],
     "figma": "https://www.figma.com/design/...?..."
@@ -120,19 +120,19 @@ Target object shape:
 
 Upsert rules:
 - Existing file format is expected as an object: `{ ...iconEntries }`.
-- Use `iconKey = name` (base name, no size suffix).
+- Use `iconKey = name` (the JavaScript export name, including the size suffix).
 - If `iconKey` exists in the object, replace only that icon object.
 - If `iconKey` does not exist, add it to the object.
 - `category` is required on every icon object. If section discovery fails, write `"category": "unknown"`.
 - `avoidFor` items may contain `useInsteadIcons`, `useInsteadText`, or both.
-- Any icon ids in `avoidFor` (`useInsteadIcons[]`) must use canonical glyph names without size suffix (for example `mail`, not `mail-16`).
+- Any icon ids in `avoidFor` (`useInsteadIcons[]`) must use JavaScript export names with size suffix (for example `mail16`, not `mail`).
 - Keep the root shape intact.
 - Preserve valid JSON formatting (4-space indentation).
 
 7. Validate and report.
 - Confirm written JSON parses.
 - Confirm the target icon key exists with all required fields, including `category`.
-- Confirm every icon id in `avoidFor` (`useInsteadIcons[]`) for the target icon is suffix-free and aligns to `glyphmap.json` keys when present.
+- Confirm every icon id in `avoidFor` (`useInsteadIcons[]`) for the target icon uses the JavaScript export name and aligns to `icons.d.ts` or the SVG-derived export name.
 - If section was resolved through local sections list traversal, report the matching `sectionId`.
 - Summarize: updated file path, icon key, whether action was create or update, and section discovery result.
 
@@ -143,7 +143,7 @@ Upsert rules:
 - If metadata file is missing: create `icons.meta.json` with `{}` then insert the icon key.
 - If section discovery fails during cached traversal: do not block; complete icon metadata upsert and explicitly report `section: unknown`.
 - If section verification was provided and fails, continue sequential cached traversal with next best candidate.
-- If any `avoidFor[].useInsteadIcons[]` value contains a sized variant (for example `*-16`): strip the trailing size suffix before write.
+- If any `avoidFor[].useInsteadIcons[]` value uses a Figma/SVG name (for example `file-pdf-16`): convert it to the JavaScript export name (`filePdf16`) before write.
 
 ## Completion Checklist
 - URL parsed successfully into `fileKey` and MCP `nodeId`.
@@ -154,6 +154,6 @@ Upsert rules:
 - Icon entry normalized to repo schema.
 - `category` is present in the upserted icon entry (`unknown` allowed).
 - `avoidFor` recommendations are preserved as icons (`useInsteadIcons`) and optional text guidance (`useInsteadText`) as provided by source context.
-- Icon ids in `avoidFor` (`useInsteadIcons[]`) use canonical icon names without size suffix.
+- Icon ids in `avoidFor` (`useInsteadIcons[]`) use JavaScript export names with size suffix.
 - Metadata file upserted with valid JSON.
 - Final summary includes file path, icon key, and section discovery status.

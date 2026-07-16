@@ -481,7 +481,7 @@ import {
   searchIconMetadata,
 } from '@infineon/infineon-icons/metadata';
 
-const pdfIcon = getIconMetadata('file-pdf');
+const pdfIcon = getIconMetadata('filePdf16');
 const attachmentIcons = searchIconMetadata('attachments');
 ```
 
@@ -491,7 +491,7 @@ Use the raw JSON export for AI tooling, documentation generators, or other langu
 import metadata from '@infineon/infineon-icons/metadata.json' with { type: 'json' };
 ```
 
-Each entry is keyed by its published icon name and includes `name`, `file`, `category`, `metaphor`, `useFor`, `keywords`, `avoidFor`, and `figma`. Metadata is validated during `pnpm build`; an entry may reference only existing source SVGs and published icon names.
+Each entry is keyed by its JavaScript icon export name, such as `filePdf16`, and includes `name`, `file`, `category`, `metaphor`, `useFor`, `keywords`, `avoidFor`, and `figma`. This is separate from the kebab-case names used by icon-font CSS classes such as `.icon-file-pdf`. Metadata is validated during `pnpm build`; an entry may reference only existing source SVGs and published JavaScript icon names.
 
 ## Figma Metadata Sync
 

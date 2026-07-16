@@ -1,6 +1,6 @@
 {
-    "file": {
-        "name": "file",
+    "file16": {
+        "name": "file16",
         "file": "file-16.svg",
         "category": "files",
         "metaphor": "A sheet of paper with a folded corner.",
@@ -23,20 +23,20 @@
             {
                 "case": "Plain text",
                 "useInsteadIcons": [
-                    "file-text"
+                    "fileText16"
                 ]
             },
             {
                 "case": "Article",
                 "useInsteadIcons": [
-                    "article"
+                    "article16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3812&m=dev"
     },
-    "file-aac": {
-        "name": "file-aac",
+    "fileAac16": {
+        "name": "fileAac16",
         "file": "file-aac-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"AAC\" label.",
@@ -55,26 +55,26 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "MP3",
                 "useInsteadIcons": [
-                    "file-mp3"
+                    "fileMp316"
                 ]
             },
             {
                 "case": "Audio playback",
                 "useInsteadIcons": [
-                    "sound"
+                    "sound16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3813&m=dev"
     },
-    "file-stp": {
-        "name": "file-stp",
+    "fileStp16": {
+        "name": "fileStp16",
         "file": "file-stp-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"STP\" label.",
@@ -93,23 +93,23 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Generic CAD or 3D",
                 "useInsteadText": "Use file-vdf, file-vdn, or file-vnd depending on the CAD tool/context.",
                 "useInsteadIcons": [
-                    "file-vdf",
-                    "file-vdn",
-                    "file-vnd"
+                    "fileVdf16",
+                    "fileVdn16",
+                    "fileVnd16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3867&m=dev"
     },
-    "file-svg": {
-        "name": "file-svg",
+    "fileSvg16": {
+        "name": "fileSvg16",
         "file": "file-svg-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"SVG\" label.",
@@ -128,27 +128,27 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Raster image",
                 "useInsteadIcons": [
-                    "file-png",
-                    "file-jpg"
+                    "filePng16",
+                    "fileJpg16"
                 ]
             },
             {
                 "case": "EPS vector",
                 "useInsteadIcons": [
-                    "file-eps"
+                    "fileEps16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3868&m=dev"
     },
-    "file-text": {
-        "name": "file-text",
+    "fileText16": {
+        "name": "fileText16",
         "file": "file-text-16.svg",
         "category": "files",
         "metaphor": "A document marked “TEXT”.",
@@ -165,21 +165,21 @@
             {
                 "case": "Specific format",
                 "useInsteadIcons": [
-                    "file-txt",
-                    "file-rtf"
+                    "fileTxt16",
+                    "fileRtf16"
                 ]
             },
             {
                 "case": "Article",
                 "useInsteadIcons": [
-                    "article"
+                    "article16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3870&m=dev"
     },
-    "file-txt": {
-        "name": "file-txt",
+    "fileTxt16": {
+        "name": "fileTxt16",
         "file": "file-txt-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"TXT\" label.",
@@ -198,20 +198,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Generic text",
                 "useInsteadIcons": [
-                    "file-text"
+                    "fileText16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3872&m=dev"
     },
-    "file-vdf": {
-        "name": "file-vdf",
+    "fileVdf16": {
+        "name": "fileVdf16",
         "file": "file-vdf-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"VDF\" label.",
@@ -230,21 +230,21 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Other VD-family formats",
                 "useInsteadIcons": [
-                    "file-vdn",
-                    "file-vnd"
+                    "fileVdn16",
+                    "fileVnd16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3874&m=dev"
     },
-    "file-vdn": {
-        "name": "file-vdn",
+    "fileVdn16": {
+        "name": "fileVdn16",
         "file": "file-vdn-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"VDN\" label.",
@@ -263,21 +263,21 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Other VD-family formats",
                 "useInsteadIcons": [
-                    "file-vdf",
-                    "file-vnd"
+                    "fileVdf16",
+                    "fileVnd16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3876&m=dev"
     },
-    "file-mov": {
-        "name": "file-mov",
+    "fileMov16": {
+        "name": "fileMov16",
         "file": "file-mov-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"MOV\" label.",
@@ -296,20 +296,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "MP4",
                 "useInsteadIcons": [
-                    "file-mp4"
+                    "fileMp416"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3845&m=dev"
     },
-    "file-png": {
-        "name": "file-png",
+    "filePng16": {
+        "name": "filePng16",
         "file": "file-png-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"PNG\" label.",
@@ -328,27 +328,27 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "JPG",
                 "useInsteadIcons": [
-                    "file-jpg"
+                    "fileJpg16"
                 ]
             },
             {
                 "case": "Vector",
                 "useInsteadIcons": [
-                    "file-svg",
-                    "file-eps"
+                    "fileSvg16",
+                    "fileEps16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3857&m=dev"
     },
-    "file-otf": {
-        "name": "file-otf",
+    "fileOtf16": {
+        "name": "fileOtf16",
         "file": "file-otf-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"OTF\" label.",
@@ -367,7 +367,7 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
@@ -377,8 +377,8 @@
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3853&m=dev"
     },
-    "file-ppt": {
-        "name": "file-ppt",
+    "filePpt16": {
+        "name": "filePpt16",
         "file": "file-ppt-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"PPT\" label.",
@@ -397,20 +397,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Modern PowerPoint format",
                 "useInsteadIcons": [
-                    "file-pptx"
+                    "filePptx16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=18113-521&m=dev"
     },
-    "file-vnd": {
-        "name": "file-vnd",
+    "fileVnd16": {
+        "name": "fileVnd16",
         "file": "file-vnd-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"VND\" label.",
@@ -429,21 +429,21 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Other VD-family formats",
                 "useInsteadIcons": [
-                    "file-vdf",
-                    "file-vdn"
+                    "fileVdf16",
+                    "fileVdn16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3877&m=dev"
     },
-    "file-mp4": {
-        "name": "file-mp4",
+    "fileMp416": {
+        "name": "fileMp416",
         "file": "file-mp4-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"MP4\" label.",
@@ -462,23 +462,23 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Other video formats",
                 "useInsteadIcons": [
-                    "file-mov",
-                    "file-avi",
-                    "file-mkv",
-                    "file-mpg"
+                    "fileMov16",
+                    "fileAvi16",
+                    "fileMkv16",
+                    "fileMpg16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3849&m=dev"
     },
-    "file-pdf": {
-        "name": "file-pdf",
+    "filePdf16": {
+        "name": "filePdf16",
         "file": "file-pdf-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"PDF\" label.",
@@ -497,21 +497,21 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Word",
                 "useInsteadIcons": [
-                    "file-doc",
-                    "file-docx"
+                    "fileDoc16",
+                    "fileDocx16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3855&m=dev"
     },
-    "file-mkv": {
-        "name": "file-mkv",
+    "fileMkv16": {
+        "name": "fileMkv16",
         "file": "file-mkv-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"MKV\" label.",
@@ -530,20 +530,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "MP4",
                 "useInsteadIcons": [
-                    "file-mp4"
+                    "fileMp416"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3843&m=dev"
     },
-    "file-xlsx": {
-        "name": "file-xlsx",
+    "fileXlsx16": {
+        "name": "fileXlsx16",
         "file": "file-xlsx-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"XLSX\" label.",
@@ -562,20 +562,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Generic tabular data",
                 "useInsteadIcons": [
-                    "file-csv"
+                    "fileCsv16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3878&m=dev"
     },
-    "file-mpg": {
-        "name": "file-mpg",
+    "fileMpg16": {
+        "name": "fileMpg16",
         "file": "file-mpg-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"MPG\" label.",
@@ -594,20 +594,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "MP4",
                 "useInsteadIcons": [
-                    "file-mp4"
+                    "fileMp416"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3851&m=dev"
     },
-    "file-mp3": {
-        "name": "file-mp3",
+    "fileMp316": {
+        "name": "fileMp316",
         "file": "file-mp3-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"MP3\" label.",
@@ -626,26 +626,26 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "AAC",
                 "useInsteadIcons": [
-                    "file-aac"
+                    "fileAac16"
                 ]
             },
             {
                 "case": "Audio playback",
                 "useInsteadIcons": [
-                    "sound"
+                    "sound16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3847&m=dev"
     },
-    "file-xml": {
-        "name": "file-xml",
+    "fileXml16": {
+        "name": "fileXml16",
         "file": "file-xml-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"XML\" label.",
@@ -664,20 +664,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "JSON",
                 "useInsteadIcons": [
-                    "file-json"
+                    "fileJson16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3880&m=dev"
     },
-    "license": {
-        "name": "license",
+    "license16": {
+        "name": "license16",
         "file": "license-16.svg",
         "category": "files",
         "metaphor": "A scroll / certificate with a seal.",
@@ -696,20 +696,20 @@
             {
                 "case": "Copyright mark",
                 "useInsteadIcons": [
-                    "copyright"
+                    "copyright16"
                 ]
             },
             {
                 "case": "Generic legal",
                 "useInsteadIcons": [
-                    "scale"
+                    "scale16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-183&m=dev"
     },
-    "file-rar": {
-        "name": "file-rar",
+    "fileRar16": {
+        "name": "fileRar16",
         "file": "file-rar-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"RAR\" label.",
@@ -728,20 +728,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "ZIP archive",
                 "useInsteadIcons": [
-                    "file-zip"
+                    "fileZip16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3861&m=dev"
     },
-    "file-pptx": {
-        "name": "file-pptx",
+    "filePptx16": {
+        "name": "filePptx16",
         "file": "file-pptx-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"PPTX\" label.",
@@ -760,20 +760,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Legacy PowerPoint format",
                 "useInsteadIcons": [
-                    "file-ppt"
+                    "filePpt16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3859&m=dev"
     },
-    "file-sap": {
-        "name": "file-sap",
+    "fileSap16": {
+        "name": "fileSap16",
         "file": "file-sap-16.svg",
         "category": "files",
         "metaphor": "A document with the SAP logo / mark.",
@@ -792,26 +792,26 @@
             {
                 "case": "Generic spreadsheet",
                 "useInsteadIcons": [
-                    "file-xlsx"
+                    "fileXlsx16"
                 ]
             },
             {
                 "case": "Database",
                 "useInsteadIcons": [
-                    "database"
+                    "database16"
                 ]
             },
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-170&m=dev"
     },
-    "file-rtf": {
-        "name": "file-rtf",
+    "fileRtf16": {
+        "name": "fileRtf16",
         "file": "file-rtf-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"RTF\" label.",
@@ -830,21 +830,21 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Plain text",
                 "useInsteadIcons": [
-                    "file-txt",
-                    "file-text"
+                    "fileTxt16",
+                    "fileText16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3863&m=dev"
     },
-    "file-zip": {
-        "name": "file-zip",
+    "fileZip16": {
+        "name": "fileZip16",
         "file": "file-zip-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"ZIP\" label.",
@@ -863,20 +863,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "RAR archive",
                 "useInsteadIcons": [
-                    "file-rar"
+                    "fileRar16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3882&m=dev"
     },
-    "file-avi": {
-        "name": "file-avi",
+    "fileAvi16": {
+        "name": "fileAvi16",
         "file": "file-avi-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"AVI\" label.",
@@ -895,26 +895,26 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "MP4",
                 "useInsteadIcons": [
-                    "file-mp4"
+                    "fileMp416"
                 ]
             },
             {
                 "case": "Generic video",
                 "useInsteadIcons": [
-                    "video"
+                    "video16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3814&m=dev"
     },
-    "file-csv": {
-        "name": "file-csv",
+    "fileCsv16": {
+        "name": "fileCsv16",
         "file": "file-csv-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"CSV\" label.",
@@ -933,26 +933,26 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Excel-specific",
                 "useInsteadIcons": [
-                    "file-xlsx"
+                    "fileXlsx16"
                 ]
             },
             {
                 "case": "Live table UI",
                 "useInsteadIcons": [
-                    "table"
+                    "table16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3819&m=dev"
     },
-    "file-doc": {
-        "name": "file-doc",
+    "fileDoc16": {
+        "name": "fileDoc16",
         "file": "file-doc-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"DOC\" label.",
@@ -971,20 +971,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Modern Word format",
                 "useInsteadIcons": [
-                    "file-docx"
+                    "fileDocx16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3821&m=dev"
     },
-    "file-gif": {
-        "name": "file-gif",
+    "fileGif16": {
+        "name": "fileGif16",
         "file": "file-gif-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"GIF\" label.",
@@ -1003,21 +1003,21 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "PNG / JPG stills",
                 "useInsteadIcons": [
-                    "file-png",
-                    "file-jpg"
+                    "filePng16",
+                    "fileJpg16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3829&m=dev"
     },
-    "file-html": {
-        "name": "file-html",
+    "fileHtml16": {
+        "name": "fileHtml16",
         "file": "file-html-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"HTML\" label.",
@@ -1036,26 +1036,26 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "CSS stylesheet",
                 "useInsteadIcons": [
-                    "file-css"
+                    "fileCss16"
                 ]
             },
             {
                 "case": "JavaScript",
                 "useInsteadIcons": [
-                    "file-js"
+                    "fileJs16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3831&m=dev"
     },
-    "file-eps": {
-        "name": "file-eps",
+    "fileEps16": {
+        "name": "fileEps16",
         "file": "file-eps-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"EPS\" label.",
@@ -1074,27 +1074,27 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "SVG vector",
                 "useInsteadIcons": [
-                    "file-svg"
+                    "fileSvg16"
                 ]
             },
             {
                 "case": "Raster",
                 "useInsteadIcons": [
-                    "file-png",
-                    "file-jpg"
+                    "filePng16",
+                    "fileJpg16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3825&m=dev"
     },
-    "file-js": {
-        "name": "file-js",
+    "fileJs16": {
+        "name": "fileJs16",
         "file": "file-js-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"JS\" label.",
@@ -1113,26 +1113,26 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "JSON data",
                 "useInsteadIcons": [
-                    "file-json"
+                    "fileJson16"
                 ]
             },
             {
                 "case": "HTML",
                 "useInsteadIcons": [
-                    "file-html"
+                    "fileHtml16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3835&m=dev"
     },
-    "file-json": {
-        "name": "file-json",
+    "fileJson16": {
+        "name": "fileJson16",
         "file": "file-json-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"JSON\" label.",
@@ -1151,26 +1151,26 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "JavaScript code",
                 "useInsteadIcons": [
-                    "file-js"
+                    "fileJs16"
                 ]
             },
             {
                 "case": "XML",
                 "useInsteadIcons": [
-                    "file-xml"
+                    "fileXml16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3837&m=dev"
     },
-    "file-sql": {
-        "name": "file-sql",
+    "fileSql16": {
+        "name": "fileSql16",
         "file": "file-sql-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"SQL\" label.",
@@ -1189,20 +1189,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Generic database",
                 "useInsteadIcons": [
-                    "database"
+                    "database16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3865&m=dev"
     },
-    "file-exe": {
-        "name": "file-exe",
+    "fileExe16": {
+        "name": "fileExe16",
         "file": "file-exe-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"EXE\" label.",
@@ -1221,26 +1221,26 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Generic app",
                 "useInsteadIcons": [
-                    "applications"
+                    "applications16"
                 ]
             },
             {
                 "case": "Software package",
                 "useInsteadIcons": [
-                    "software"
+                    "software16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3827&m=dev"
     },
-    "file-docx": {
-        "name": "file-docx",
+    "fileDocx16": {
+        "name": "fileDocx16",
         "file": "file-docx-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"DOCX\" label.",
@@ -1259,20 +1259,20 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "Legacy Word format",
                 "useInsteadIcons": [
-                    "file-doc"
+                    "fileDoc16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3823&m=dev"
     },
-    "file-jpg": {
-        "name": "file-jpg",
+    "fileJpg16": {
+        "name": "fileJpg16",
         "file": "file-jpg-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"JPG\" label.",
@@ -1291,27 +1291,27 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "PNG",
                 "useInsteadIcons": [
-                    "file-png"
+                    "filePng16"
                 ]
             },
             {
                 "case": "Vector image",
                 "useInsteadIcons": [
-                    "file-svg",
-                    "file-eps"
+                    "fileSvg16",
+                    "fileEps16"
                 ]
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3833&m=dev"
     },
-    "file-css": {
-        "name": "file-css",
+    "fileCss16": {
+        "name": "fileCss16",
         "file": "file-css-16.svg",
         "category": "files",
         "metaphor": "A document marked with the \"CSS\" label.",
@@ -1330,13 +1330,13 @@
             {
                 "case": "Generic file",
                 "useInsteadIcons": [
-                    "file"
+                    "file16"
                 ]
             },
             {
                 "case": "HTML",
                 "useInsteadIcons": [
-                    "file-html"
+                    "fileHtml16"
                 ]
             }
         ],

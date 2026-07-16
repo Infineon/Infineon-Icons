@@ -18,10 +18,20 @@ const { default: exportedJsonMetadata } = await import(
 assert.equal(METADATA_SCHEMA_VERSION, 1);
 assert.deepEqual(iconMetadata, rawMetadata);
 assert.deepEqual(exportedJsonMetadata, rawMetadata);
-assert.deepEqual(getIconMetadata('file-pdf'), rawMetadata['file-pdf']);
+const makeJavaScriptIconName = (fileName) => fileName
+  .replace(/\.svg$/i, '')
+  .toLowerCase()
+  .replace(/[^a-zA-Z0-9]+(.)/g, (match, character) => character.toUpperCase());
+
+for (const [iconName, entry] of Object.entries(rawMetadata)) {
+  assert.equal(iconName, makeJavaScriptIconName(entry.file));
+  assert.equal(entry.name, iconName);
+}
+
+assert.deepEqual(getIconMetadata('filePdf16'), rawMetadata.filePdf16);
 assert.equal(getIconMetadata('not-an-icon'), undefined);
-assert(searchIconMetadata('PDF').some((entry) => entry.name === 'file-pdf'));
-assert(searchIconMetadata('attachments').some((entry) => entry.name === 'file'));
+assert(searchIconMetadata('PDF').some((entry) => entry.name === 'filePdf16'));
+assert(searchIconMetadata('attachments').some((entry) => entry.name === 'file16'));
 assert.equal(searchIconMetadata('').length, Object.keys(rawMetadata).length);
 
 console.log(`Metadata API verified for ${Object.keys(rawMetadata).length} icons.`);

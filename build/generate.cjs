@@ -20,6 +20,11 @@ if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: 
 if (!fsr.existsSync(fontTargetFolder)) fsr.mkdirSync(fontTargetFolder, { recursive: true });
 if (!fsr.existsSync(distTargetFolder)) fsr.mkdirSync(distTargetFolder, { recursive: true });
 
+const makeJavaScriptIconName = (fileName) => fileName
+  .replace(/\.svg$/i, '')
+  .toLowerCase()
+  .replace(/[^a-zA-Z0-9]+(.)/g, (match, character) => character.toUpperCase());
+
 const readGlyphMap = async () => {
   try {
     const glyphMapData = await fs.readFile(glyphMapFile, 'utf-8');
@@ -61,17 +66,15 @@ const computeFileHash = async (filePath) => {
 };
 
 const generateJSFiles = async (icons) => {
-  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
-
-  const svgImports = icons.map((icon) => `import ${makeCamelCase(icon)}Icon from ".${svgSourceFolder}${icon}.svg";`).join('\n');
+  const svgImports = icons.map((icon) => `import ${makeJavaScriptIconName(icon)}Icon from ".${svgSourceFolder}${icon}.svg";`).join('\n');
 
   const iconsObject = `export const icons = {\n${
-    icons.map((icon) => `  ${makeCamelCase(icon)}: ${makeCamelCase(icon)}Icon`).join(',\n')
+    icons.map((icon) => `  ${makeJavaScriptIconName(icon)}: ${makeJavaScriptIconName(icon)}Icon`).join(',\n')
   }};`;
 
   const getIconFunction = 'export const getIcon = (icon) => icons[icon];';
 
-  const indexFileRegistryContent = `export const iconRegistry = {};\n${icons.map((icon) => `export const ${makeCamelCase(icon)} = () => iconRegistry["${makeCamelCase(icon)}"] = ${makeCamelCase(icon)}Icon;`).join('\n')}`;
+  const indexFileRegistryContent = `export const iconRegistry = {};\n${icons.map((icon) => `export const ${makeJavaScriptIconName(icon)} = () => iconRegistry["${makeJavaScriptIconName(icon)}"] = ${makeJavaScriptIconName(icon)}Icon;`).join('\n')}`;
 
   const data = [
     svgImports,
@@ -89,9 +92,7 @@ const generateJSFiles = async (icons) => {
 };
 
 const generateTypesFile = async (icons) => {
-  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
-
-  const iconExports = icons.map((icon) => `export const ${makeCamelCase(icon)}: () => IconData;`).join('\n');
+  const iconExports = icons.map((icon) => `export const ${makeJavaScriptIconName(icon)}: () => IconData;`).join('\n');
 
   const data = [
     'export type IconData = string;',
@@ -133,8 +134,8 @@ const assertStringArray = (value, label) => {
   }
 };
 
-const validateIconMetadata = (metadata, iconNames, sourceFiles) => {
-  const availableIcons = new Set(iconNames);
+const validateIconMetadata = (metadata, sourceFiles) => {
+  const availableIcons = new Set([...sourceFiles].map(makeJavaScriptIconName));
 
   for (const [iconName, entry] of Object.entries(metadata)) {
     const label = `Metadata entry "${iconName}"`;
@@ -151,6 +152,9 @@ const validateIconMetadata = (metadata, iconNames, sourceFiles) => {
     assertString(entry.file, `${label}.file`);
     if (!sourceFiles.has(entry.file)) {
       throw new Error(`${label}.file does not exist in ${svgSourceFolder}.`);
+    }
+    if (iconName !== makeJavaScriptIconName(entry.file)) {
+      throw new Error(`${label} must match the JavaScript export name derived from its file.`);
     }
     assertString(entry.category, `${label}.category`);
     assertString(entry.metaphor, `${label}.metaphor`);
@@ -288,14 +292,13 @@ const main = async () => {
       }
     });
 
-    // Step 1: Extract iconName values from the array of objects
-    const iconNames = updatedIconsForFont.map((obj) => obj.iconName);
+    const fontIconNames = updatedIconsForFont.map((icon) => icon.iconName);
     const iconMetadata = await readIconMetadata();
-    validateIconMetadata(iconMetadata, iconNames, new Set(files));
+    validateIconMetadata(iconMetadata, new Set(files));
 
-    // Step 2: Iterate through the map keys and delete entries not in the iconNames array
+    // Retain codepoints for the existing font identifier namespace.
     Object.keys(glyphMap).forEach((key) => {
-      if (!iconNames.includes(key)) {
+      if (!fontIconNames.includes(key)) {
         delete glyphMap[key];
       }
     });
