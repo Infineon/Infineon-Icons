@@ -16,7 +16,8 @@
   "scripts": {
     "build": "npm run generate:js && npm run build:icons",
     "generate:js": "node ./build/generate.cjs",
-    "build:icons": "rollup --config rollup.config.js"
+    "build:icons": "rollup --config rollup.config.js",
+    "test:metadata": "node ./test/metadata.mjs"
   },
   "type": "module",
   "main": "dist/icons.js",
@@ -27,7 +28,13 @@
       "import": "./dist/icons.js",
       "require": "./dist/icons.js",
       "default": "./dist/icons.js"
-    }
+    },
+    "./metadata": {
+      "types": "./dist/metadata.d.ts",
+      "import": "./dist/metadata.js",
+      "default": "./dist/metadata.js"
+    },
+    "./metadata.json": "./dist/metadata.json"
   },
   "files": [
     "dist",

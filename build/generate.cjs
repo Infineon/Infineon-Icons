@@ -11,6 +11,9 @@ const jsTargetFolder = './generated_js/';
 const fontTargetFolder = './dist/fonts/';
 const distTargetFolder = './dist/';
 const glyphMapFile = './glyphmap.json';
+const metadataFile = './icons.meta.json';
+const metadataModuleFile = './metadata.js';
+const metadataTypesFile = './metadata.d.ts';
 const START_CODEPOINT = 0xe900;
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
@@ -104,6 +107,90 @@ const generateTypesFile = async (icons) => {
     console.error('Error writing types file:', err);
     throw err;
   }
+};
+
+const readIconMetadata = async () => {
+  try {
+    const metadata = JSON.parse(await fs.readFile(metadataFile, 'utf-8'));
+    if (!metadata || Array.isArray(metadata) || typeof metadata !== 'object') {
+      throw new Error('Metadata root must be an object keyed by icon name.');
+    }
+    return metadata;
+  } catch (err) {
+    throw new Error(`Error reading icon metadata: ${err.message}`);
+  }
+};
+
+const assertString = (value, label) => {
+  if (typeof value !== 'string' || !value.trim()) {
+    throw new Error(`${label} must be a non-empty string.`);
+  }
+};
+
+const assertStringArray = (value, label) => {
+  if (!Array.isArray(value) || value.some((item) => typeof item !== 'string' || !item.trim())) {
+    throw new Error(`${label} must be an array of non-empty strings.`);
+  }
+};
+
+const validateIconMetadata = (metadata, iconNames, sourceFiles) => {
+  const availableIcons = new Set(iconNames);
+
+  for (const [iconName, entry] of Object.entries(metadata)) {
+    const label = `Metadata entry "${iconName}"`;
+    if (!entry || Array.isArray(entry) || typeof entry !== 'object') {
+      throw new Error(`${label} must be an object.`);
+    }
+    if (!availableIcons.has(iconName)) {
+      throw new Error(`${label} does not match a generated font icon.`);
+    }
+    assertString(entry.name, `${label}.name`);
+    if (entry.name !== iconName) {
+      throw new Error(`${label}.name must match its key.`);
+    }
+    assertString(entry.file, `${label}.file`);
+    if (!sourceFiles.has(entry.file)) {
+      throw new Error(`${label}.file does not exist in ${svgSourceFolder}.`);
+    }
+    assertString(entry.category, `${label}.category`);
+    assertString(entry.metaphor, `${label}.metaphor`);
+    assertString(entry.figma, `${label}.figma`);
+    assertStringArray(entry.useFor, `${label}.useFor`);
+    assertStringArray(entry.keywords, `${label}.keywords`);
+
+    if (!Array.isArray(entry.avoidFor)) {
+      throw new Error(`${label}.avoidFor must be an array.`);
+    }
+    entry.avoidFor.forEach((avoidance, index) => {
+      const avoidanceLabel = `${label}.avoidFor[${index}]`;
+      if (!avoidance || Array.isArray(avoidance) || typeof avoidance !== 'object') {
+        throw new Error(`${avoidanceLabel} must be an object.`);
+      }
+      assertString(avoidance.case, `${avoidanceLabel}.case`);
+      if (avoidance.useInsteadText !== undefined) {
+        assertString(avoidance.useInsteadText, `${avoidanceLabel}.useInsteadText`);
+      }
+      if (avoidance.useInsteadIcons !== undefined) {
+        assertStringArray(avoidance.useInsteadIcons, `${avoidanceLabel}.useInsteadIcons`);
+        avoidance.useInsteadIcons.forEach((replacementIcon) => {
+          if (!availableIcons.has(replacementIcon)) {
+            throw new Error(`${avoidanceLabel}.useInsteadIcons references unknown icon "${replacementIcon}".`);
+          }
+        });
+      }
+      if (avoidance.useInsteadText === undefined && avoidance.useInsteadIcons === undefined) {
+        throw new Error(`${avoidanceLabel} must include useInsteadText or useInsteadIcons.`);
+      }
+    });
+  }
+};
+
+const generateMetadataFiles = async () => {
+  await Promise.all([
+    fs.copyFile(metadataModuleFile, path.join(distTargetFolder, 'metadata.js')),
+    fs.copyFile(metadataTypesFile, path.join(distTargetFolder, 'metadata.d.ts')),
+    fs.copyFile(metadataFile, path.join(distTargetFolder, 'metadata.json')),
+  ]);
 };
 
 const generateFont = async (icons, glyphMap) => {
@@ -203,6 +290,8 @@ const main = async () => {
 
     // Step 1: Extract iconName values from the array of objects
     const iconNames = updatedIconsForFont.map((obj) => obj.iconName);
+    const iconMetadata = await readIconMetadata();
+    validateIconMetadata(iconMetadata, iconNames, new Set(files));
 
     // Step 2: Iterate through the map keys and delete entries not in the iconNames array
     Object.keys(glyphMap).forEach((key) => {
@@ -213,11 +302,15 @@ const main = async () => {
 
     await generateJSFiles(currentIconsForJS);
     await generateTypesFile(currentIconsForJS);
+    await generateMetadataFiles();
     await generateFont(updatedIconsForFont, glyphMap);
     await writeGlyphMap(glyphMap);
   } catch (err) {
     console.error('Error processing SVG files:', err);
+    throw err;
   }
 };
 
-main();
+main().catch(() => {
+  process.exitCode = 1;
+});

@@ -56,6 +56,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#usage-of-fonts-in-plain-html">Usage of Fonts in plain HTML</a></li>
     <li><a href="#regression-testing">Regression Testing</a></li>
+    <li><a href="#icon-metadata">Icon Metadata</a></li>
     <li><a href="#figma-metadata-sync">Figma Metadata Sync</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -467,6 +468,30 @@ node test/font-regression.mjs
 ```
 
 The command exits with a non-zero status when differences are detected.
+
+## Icon Metadata
+
+The package publishes semantic metadata separately from the SVG icon registry. It provides categories, intended uses, keywords, replacement guidance, and the source Figma node without increasing the default icon import.
+
+Use the typed API in JavaScript or TypeScript:
+
+```ts
+import {
+  getIconMetadata,
+  searchIconMetadata,
+} from '@infineon/infineon-icons/metadata';
+
+const pdfIcon = getIconMetadata('file-pdf');
+const attachmentIcons = searchIconMetadata('attachments');
+```
+
+Use the raw JSON export for AI tooling, documentation generators, or other language-agnostic consumers:
+
+```js
+import metadata from '@infineon/infineon-icons/metadata.json' with { type: 'json' };
+```
+
+Each entry is keyed by its published icon name and includes `name`, `file`, `category`, `metaphor`, `useFor`, `keywords`, `avoidFor`, and `figma`. Metadata is validated during `pnpm build`; an entry may reference only existing source SVGs and published icon names.
 
 ## Figma Metadata Sync
 
