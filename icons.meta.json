@@ -1341,5 +1341,1035 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3817&m=dev"
+    },
+    "poll16": {
+        "name": "poll16",
+        "file": "poll-16.svg",
+        "category": "finance",
+        "metaphor": "A three-bar chart with the middle bar highlighted (outlined).",
+        "useFor": [
+            "Polls",
+            "voting results",
+            "survey-outcome visualizations where one option is featured or the winner"
+        ],
+        "keywords": [
+            "poll",
+            "vote",
+            "survey",
+            "results",
+            "highlighted bar"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic bar chart",
+                "useInsteadIcons": [
+                    "barGraph16"
+                ]
+            },
+            {
+                "case": "Framed chart panel",
+                "useInsteadIcons": [
+                    "chart16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-15&m=dev"
+    },
+    "cart16": {
+        "name": "cart16",
+        "file": "cart-16.svg",
+        "category": "finance",
+        "metaphor": "A shopping cart silhouette.",
+        "useFor": [
+            "Shopping carts",
+            "add to cart actions",
+            "checkout entry points",
+            "e-commerce flows"
+        ],
+        "keywords": [
+            "cart",
+            "shopping cart",
+            "basket",
+            "buy",
+            "purchase",
+            "checkout",
+            "shop",
+            "e-commerce"
+        ],
+        "avoidFor": [
+            {
+                "case": "Active/filled cart state",
+                "useInsteadIcons": [
+                    "cartF16"
+                ]
+            },
+            {
+                "case": "Order history",
+                "useInsteadText": "use a dedicated order icon"
+            },
+            {
+                "case": "Generic item containers",
+                "useInsteadIcons": [
+                    "box16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3758&m=dev"
+    },
+    "availability16": {
+        "name": "availability16",
+        "file": "availability-16.svg",
+        "category": "finance",
+        "metaphor": "A container / bin with up and down arrows inside.",
+        "useFor": [
+            "Stock availability",
+            "item-in-stock indicators",
+            "capacity availability",
+            "inventory in / out movement"
+        ],
+        "keywords": [
+            "availability",
+            "in stock",
+            "capacity",
+            "ready",
+            "stock movement",
+            "inventory"
+        ],
+        "avoidFor": [
+            {
+                "case": "Successful action",
+                "useInsteadIcons": [
+                    "cCheck16"
+                ]
+            },
+            {
+                "case": "Confirmed appointment",
+                "useInsteadIcons": [
+                    "calendarCheck16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=22273-118&m=dev"
+    },
+    "finance16": {
+        "name": "finance16",
+        "file": "finance-16.svg",
+        "category": "finance",
+        "metaphor": "A document combined with a currency mark.",
+        "useFor": [
+            "Finance department references",
+            "financial reports",
+            "budgeting surfaces"
+        ],
+        "keywords": [
+            "finance",
+            "financial report",
+            "budget",
+            "accounting"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single currency value",
+                "useInsteadIcons": [
+                    "money16",
+                    "coins16"
+                ]
+            },
+            {
+                "case": "Specific chart",
+                "useInsteadIcons": [
+                    "chart16",
+                    "lineGraph16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=19712-583&m=dev"
+    },
+    "procurement16": {
+        "name": "procurement16",
+        "file": "procurement-16.svg",
+        "category": "finance",
+        "metaphor": "A diamond / gem outline.",
+        "useFor": [
+            "Procurement workflows",
+            "purchase orders",
+            "sourcing of high-value assets"
+        ],
+        "keywords": [
+            "procurement",
+            "purchasing",
+            "sourcing",
+            "order",
+            "gem",
+            "diamond"
+        ],
+        "avoidFor": [
+            {
+                "case": "Logistics / shipping",
+                "useInsteadIcons": [
+                    "logistics16"
+                ]
+            },
+            {
+                "case": "Cart / checkout",
+                "useInsteadIcons": [
+                    "cart16"
+                ]
+            },
+            {
+                "case": "Finance overview",
+                "useInsteadIcons": [
+                    "finance16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=19712-567&m=dev"
+    },
+    "barGraphLinear16": {
+        "name": "barGraphLinear16",
+        "file": "bar-graph-linear-16.svg",
+        "category": "finance",
+        "metaphor": "Vertical bars whose tops form a linear upward ramp.",
+        "useFor": [
+            "Bar charts showing a linear increase",
+            "growth-progression visualizations"
+        ],
+        "keywords": [
+            "bar graph linear",
+            "ramp",
+            "linear increase",
+            "growth bars"
+        ],
+        "avoidFor": [
+            {
+                "case": "Plain / mixed-height bar chart",
+                "useInsteadIcons": [
+                    "barGraph16"
+                ]
+            },
+            {
+                "case": "Bars with a diagonal trend line overlay",
+                "useInsteadIcons": [
+                    "barGraphX16"
+                ]
+            },
+            {
+                "case": "Smooth line trend",
+                "useInsteadIcons": [
+                    "lineGraph16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2716&m=dev"
+    },
+    "barGraph16": {
+        "name": "barGraph16",
+        "file": "bar-graph-16.svg",
+        "category": "finance",
+        "metaphor": "Vertical bars of mixed heights (a plain bar chart).",
+        "useFor": [
+            "Bar-chart visualizations",
+            "categorical comparisons"
+        ],
+        "keywords": [
+            "bar graph",
+            "bar chart",
+            "comparison",
+            "chart"
+        ],
+        "avoidFor": [
+            {
+                "case": "Bars forming a linear upward ramp",
+                "useInsteadIcons": [
+                    "barGraphLinear16"
+                ]
+            },
+            {
+                "case": "Bars with a diagonal trend line overlay",
+                "useInsteadIcons": [
+                    "barGraphX16"
+                ]
+            },
+            {
+                "case": "Pure line trends",
+                "useInsteadIcons": [
+                    "lineGraph16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2710&m=dev"
+    },
+    "cartF16": {
+        "name": "cartF16",
+        "file": "Cart-f-16.svg",
+        "category": "finance",
+        "metaphor": "A shopping cart with content (filled state).",
+        "useFor": [
+            "Active / non-empty shopping-cart state",
+            "items in cart indicators"
+        ],
+        "keywords": [
+            "cart filled",
+            "shopping cart",
+            "items added",
+            "active cart"
+        ],
+        "avoidFor": [
+            {
+                "case": "Empty cart",
+                "useInsteadIcons": [
+                    "cart16"
+                ]
+            },
+            {
+                "case": "Checkout flow CTA",
+                "useInsteadIcons": [
+                    "cart16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3759&m=dev"
+    },
+    "money16": {
+        "name": "money16",
+        "file": "money-16.svg",
+        "category": "finance",
+        "metaphor": "Stacked bills / banknotes with a currency sign on top.",
+        "useFor": [
+            "Prices",
+            "payments",
+            "payouts",
+            "monetary amounts in summaries"
+        ],
+        "keywords": [
+            "money",
+            "cash",
+            "banknotes",
+            "bills",
+            "currency",
+            "payment"
+        ],
+        "avoidFor": [
+            {
+                "case": "Reports / finance dashboards",
+                "useInsteadIcons": [
+                    "finance16",
+                    "chart16"
+                ]
+            },
+            {
+                "case": "Coins specifically",
+                "useInsteadIcons": [
+                    "coins16"
+                ]
+            },
+            {
+                "case": "Shopping",
+                "useInsteadIcons": [
+                    "cart16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-204&m=dev"
+    },
+    "checkedOutOther16": {
+        "name": "checkedOutOther16",
+        "file": "checked-out-other-16.svg",
+        "category": "finance",
+        "metaphor": "A document with a checkout marker assigned to another person.",
+        "useFor": [
+            "Documents currently signed-out or locked by another user in a signing workflow"
+        ],
+        "keywords": [
+            "checked out",
+            "other",
+            "locked",
+            "signed out",
+            "in progress"
+        ],
+        "avoidFor": [
+            {
+                "case": "You have checkout",
+                "useInsteadIcons": [
+                    "checkedOutYou16"
+                ]
+            },
+            {
+                "case": "Generic lock",
+                "useInsteadIcons": [
+                    "lock16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3733&m=dev"
+    },
+    "barGraphX16": {
+        "name": "barGraphX16",
+        "file": "bar-graph-x-16.svg",
+        "category": "finance",
+        "metaphor": "Vertical bars with a diagonal trend line crossing them.",
+        "useFor": [
+            "Combined bar-and-trend visualizations — a bar chart with an overlaid growth or forecast line"
+        ],
+        "keywords": [
+            "bar graph",
+            "trend line",
+            "combined chart",
+            "overlay",
+            "forecast"
+        ],
+        "avoidFor": [
+            {
+                "case": "Plain bar chart",
+                "useInsteadIcons": [
+                    "barGraph16"
+                ]
+            },
+            {
+                "case": "Bars forming a linear ramp without overlay",
+                "useInsteadIcons": [
+                    "barGraphLinear16"
+                ]
+            },
+            {
+                "case": "Pure line chart",
+                "useInsteadIcons": [
+                    "lineGraph16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2722&m=dev"
+    },
+    "organigram16": {
+        "name": "organigram16",
+        "file": "organigram-16.svg",
+        "category": "finance",
+        "metaphor": "A hierarchical tree of person nodes.",
+        "useFor": [
+            "Organizational charts",
+            "reporting lines",
+            "team hierarchies"
+        ],
+        "keywords": [
+            "organigram",
+            "org chart",
+            "hierarchy",
+            "reporting",
+            "team structure"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single team view",
+                "useInsteadIcons": [
+                    "team16"
+                ]
+            },
+            {
+                "case": "File / project tree",
+                "useInsteadIcons": [
+                    "treeStructure16"
+                ]
+            },
+            {
+                "case": "Single user",
+                "useInsteadIcons": [
+                    "user16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-211&m=dev"
+    },
+    "rateDown16": {
+        "name": "rateDown16",
+        "file": "rate-down-16.svg",
+        "category": "finance",
+        "metaphor": "A percentage with a down arrow.",
+        "useFor": [
+            "Rate / percentage decreases (interest rate, exchange rate, KPI)"
+        ],
+        "keywords": [
+            "rate down",
+            "decrease",
+            "percentage down",
+            "%"
+        ],
+        "avoidFor": [
+            {
+                "case": "Time-series trend",
+                "useInsteadIcons": [
+                    "trendDown16"
+                ]
+            },
+            {
+                "case": "Plain arrow",
+                "useInsteadIcons": [
+                    "arrowDown16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-27&m=dev"
+    },
+    "euc16": {
+        "name": "euc16",
+        "file": "euc-16.svg",
+        "category": "finance",
+        "metaphor": "A European Union Citizen card.",
+        "useFor": [
+            "European Union Citizen card references",
+            "EU citizen identification flows"
+        ],
+        "keywords": [
+            "euc",
+            "eu citizen",
+            "european citizen card",
+            "identification"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic ID",
+                "useInsteadIcons": [
+                    "card16"
+                ]
+            },
+            {
+                "case": "Electronic ID",
+                "useInsteadIcons": [
+                    "eid16"
+                ]
+            },
+            {
+                "case": "Residence permit",
+                "useInsteadIcons": [
+                    "cssGidEuResidencePermit16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=16127-325&m=dev"
+    },
+    "trendDown16": {
+        "name": "trendDown16",
+        "file": "trend-down-16.svg",
+        "category": "finance",
+        "metaphor": "A downward trending arrow.",
+        "useFor": [
+            "Downward trends",
+            "decline indicators",
+            "negative change in time series"
+        ],
+        "keywords": [
+            "trend down",
+            "decline",
+            "decrease",
+            "negative"
+        ],
+        "avoidFor": [
+            {
+                "case": "Discrete rate decrease",
+                "useInsteadIcons": [
+                    "rateDown16"
+                ]
+            },
+            {
+                "case": "Plain arrow",
+                "useInsteadIcons": [
+                    "arrowDown16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-102&m=dev"
+    },
+    "simulation16": {
+        "name": "simulation16",
+        "file": "simulation-16.svg",
+        "category": "finance",
+        "metaphor": "A smooth S-curve (sigmoid) on a chart axis.",
+        "useFor": [
+            "Simulation runs",
+            "modeled scenarios",
+            "what-if analysis surfaces",
+            "sigmoid / logistic trends"
+        ],
+        "keywords": [
+            "simulation",
+            "model",
+            "scenario",
+            "what-if",
+            "s-curve",
+            "sigmoid"
+        ],
+        "avoidFor": [
+            {
+                "case": "SPICE circuit simulation",
+                "useInsteadIcons": [
+                    "spice16"
+                ]
+            },
+            {
+                "case": "Chart of actual data",
+                "useInsteadIcons": [
+                    "chart16"
+                ]
+            },
+            {
+                "case": "Discrete-step chart",
+                "useInsteadIcons": [
+                    "staircaseGraph16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-59&m=dev"
+    },
+    "rateUp16": {
+        "name": "rateUp16",
+        "file": "rate-up-16.svg",
+        "category": "finance",
+        "metaphor": "A percentage with an up arrow.",
+        "useFor": [
+            "Rate / percentage increases (interest rate, exchange rate, KPI)"
+        ],
+        "keywords": [
+            "rate up",
+            "increase",
+            "percentage up",
+            "%"
+        ],
+        "avoidFor": [
+            {
+                "case": "Time-series trend",
+                "useInsteadIcons": [
+                    "trendUp16"
+                ]
+            },
+            {
+                "case": "Plain arrow",
+                "useInsteadIcons": [
+                    "arrowUp16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-28&m=dev"
+    },
+    "checkedOutYou16": {
+        "name": "checkedOutYou16",
+        "file": "checked-out-you-16.svg",
+        "category": "finance",
+        "metaphor": "A document with a checkout marker assigned to you.",
+        "useFor": [
+            "Documents you are currently editing or have signed-out in a signing workflow"
+        ],
+        "keywords": [
+            "checked out",
+            "you",
+            "signed out",
+            "document signing",
+            "in progress"
+        ],
+        "avoidFor": [
+            {
+                "case": "Document held by another user",
+                "useInsteadIcons": [
+                    "checkedOutOther16"
+                ]
+            },
+            {
+                "case": "Generic edit",
+                "useInsteadIcons": [
+                    "editor16",
+                    "pen16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-195&m=dev"
+    },
+    "trendUp16": {
+        "name": "trendUp16",
+        "file": "trend-up-16.svg",
+        "category": "finance",
+        "metaphor": "An upward trending arrow.",
+        "useFor": [
+            "Upward trends",
+            "growth indicators",
+            "positive change in time series"
+        ],
+        "keywords": [
+            "trend up",
+            "growth",
+            "increase",
+            "positive"
+        ],
+        "avoidFor": [
+            {
+                "case": "Discrete rate increase",
+                "useInsteadIcons": [
+                    "rateUp16"
+                ]
+            },
+            {
+                "case": "Plain arrow",
+                "useInsteadIcons": [
+                    "arrowUp16"
+                ]
+            },
+            {
+                "case": "Status indicator",
+                "useInsteadText": "use triangle equivalents"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-103&m=dev"
+    },
+    "chart16": {
+        "name": "chart16",
+        "file": "chart-16.svg",
+        "category": "finance",
+        "metaphor": "A line chart displayed inside a bounded chart area.",
+        "useFor": [
+            "Generic chart references",
+            "framed chart panels",
+            "chart-in-a-card affordances"
+        ],
+        "keywords": [
+            "chart",
+            "generic chart",
+            "chart panel",
+            "framed chart"
+        ],
+        "avoidFor": [
+            {
+                "case": "Time-series line trend",
+                "useInsteadIcons": [
+                    "lineGraph16",
+                    "multiLineGraph16"
+                ]
+            },
+            {
+                "case": "Bar chart",
+                "useInsteadIcons": [
+                    "barGraph16"
+                ]
+            },
+            {
+                "case": "Dashboard",
+                "useInsteadIcons": [
+                    "dashboard16"
+                ]
+            },
+            {
+                "case": "The DDS icon library does not currently provide a pie / donut chart icon",
+                "useInsteadText": "The DDS icon library does not currently provide a pie / donut chart icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3763&m=dev"
+    },
+    "cssGidEuResidencePermit16": {
+        "name": "cssGidEuResidencePermit16",
+        "file": "css-gid-eu-residence-permit-16.svg",
+        "category": "finance",
+        "metaphor": "An EU residence-permit card.",
+        "useFor": [
+            "EU residence-permit identification flows",
+            "residence-status verification"
+        ],
+        "keywords": [
+            "residence permit",
+            "eu permit",
+            "identification"
+        ],
+        "avoidFor": [
+            {
+                "case": "EU citizen card",
+                "useInsteadIcons": [
+                    "euc16"
+                ]
+            },
+            {
+                "case": "Passport",
+                "useInsteadIcons": [
+                    "passport16"
+                ]
+            },
+            {
+                "case": "Electronic ID",
+                "useInsteadIcons": [
+                    "eid16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=16127-327&m=dev"
+    },
+    "passport16": {
+        "name": "passport16",
+        "file": "passport-16.svg",
+        "category": "finance",
+        "metaphor": "A passport booklet.",
+        "useFor": [
+            "Passport references",
+            "travel-document identification flows"
+        ],
+        "keywords": [
+            "passport",
+            "travel",
+            "identification",
+            "document"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic ID card",
+                "useInsteadIcons": [
+                    "card16"
+                ]
+            },
+            {
+                "case": "EU citizen card",
+                "useInsteadIcons": [
+                    "euc16"
+                ]
+            },
+            {
+                "case": "Electronic ID",
+                "useInsteadIcons": [
+                    "eid16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=16127-326&m=dev"
+    },
+    "coins16": {
+        "name": "coins16",
+        "file": "coins-16.svg",
+        "category": "finance",
+        "metaphor": "Two overlapping coins, the foreground coin showing a Euro sign.",
+        "useFor": [
+            "Coin and cash references",
+            "micro-payments",
+            "savings balances",
+            "currency references"
+        ],
+        "keywords": [
+            "coins",
+            "money",
+            "cash",
+            "savings",
+            "currency",
+            "euro"
+        ],
+        "avoidFor": [
+            {
+                "case": "Banknote",
+                "useInsteadIcons": [
+                    "money16"
+                ]
+            },
+            {
+                "case": "Reports",
+                "useInsteadIcons": [
+                    "finance16"
+                ]
+            },
+            {
+                "case": "Shopping",
+                "useInsteadIcons": [
+                    "cart16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3783&m=dev"
+    },
+    "multiLineGraph16": {
+        "name": "multiLineGraph16",
+        "file": "multi-line-graph-16.svg",
+        "category": "finance",
+        "metaphor": "Multiple line series overlaid on a chart.",
+        "useFor": [
+            "Multi-series line charts",
+            "comparing trends across categories"
+        ],
+        "keywords": [
+            "multi line graph",
+            "multi-series",
+            "comparison",
+            "trends"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single line",
+                "useInsteadIcons": [
+                    "lineGraph16"
+                ]
+            },
+            {
+                "case": "Bar comparisons",
+                "useInsteadIcons": [
+                    "barGraph16"
+                ]
+            },
+            {
+                "case": "Framed chart panel",
+                "useInsteadIcons": [
+                    "chart16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-209&m=dev"
+    },
+    "lineGraph16": {
+        "name": "lineGraph16",
+        "file": "line-graph-16.svg",
+        "category": "finance",
+        "metaphor": "A single dotted line trend with peaks and dips.",
+        "useFor": [
+            "Single-series line charts",
+            "individual KPI time-series"
+        ],
+        "keywords": [
+            "line graph",
+            "trend",
+            "time series"
+        ],
+        "avoidFor": [
+            {
+                "case": "Multi-series",
+                "useInsteadIcons": [
+                    "multiLineGraph16"
+                ]
+            },
+            {
+                "case": "Bars",
+                "useInsteadIcons": [
+                    "barGraph16"
+                ]
+            },
+            {
+                "case": "Step chart",
+                "useInsteadIcons": [
+                    "staircaseGraph16"
+                ]
+            },
+            {
+                "case": "Framed chart panel",
+                "useInsteadIcons": [
+                    "chart16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3931&m=dev"
+    },
+    "card16": {
+        "name": "card16",
+        "file": "card-16.svg",
+        "category": "finance",
+        "metaphor": "A plastic card.",
+        "useFor": [
+            "Open metaphor for any physical card (credit, ID, membership). Useful as analog counterpart to eID-16"
+        ],
+        "keywords": [
+            "card",
+            "plastic card",
+            "credit card",
+            "id card",
+            "membership"
+        ],
+        "avoidFor": [
+            {
+                "case": "Electronic / digital ID",
+                "useInsteadIcons": [
+                    "eid16"
+                ]
+            },
+            {
+                "case": "Passport",
+                "useInsteadIcons": [
+                    "passport16"
+                ]
+            },
+            {
+                "case": "EU citizen card",
+                "useInsteadIcons": [
+                    "euc16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=16127-328&m=dev"
+    },
+    "eid16": {
+        "name": "eid16",
+        "file": "eID-16.svg",
+        "category": "finance",
+        "metaphor": "An ID card with a person and a wireless / NFC signal.",
+        "useFor": [
+            "Electronic ID flows",
+            "contactless identification",
+            "NFC-enabled ID cards",
+            "digital identification",
+            "online identity verification"
+        ],
+        "keywords": [
+            "eid",
+            "electronic id",
+            "digital identity",
+            "nfc",
+            "contactless",
+            "online verification"
+        ],
+        "avoidFor": [
+            {
+                "case": "Physical card without contactless capability",
+                "useInsteadIcons": [
+                    "card16"
+                ]
+            },
+            {
+                "case": "Passport",
+                "useInsteadIcons": [
+                    "passport16"
+                ]
+            },
+            {
+                "case": "EU citizen card",
+                "useInsteadIcons": [
+                    "euc16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=16127-329&m=dev"
+    },
+    "staircaseGraph16": {
+        "name": "staircaseGraph16",
+        "file": "staircase-graph-16.svg",
+        "category": "finance",
+        "metaphor": "A step chart with a rise, plateau, and drop (a pulse shape).",
+        "useFor": [
+            "Step charts",
+            "discrete on/off state changes",
+            "threshold-based visualizations",
+            "pulse indicators"
+        ],
+        "keywords": [
+            "step chart",
+            "discrete steps",
+            "plateau",
+            "pulse",
+            "threshold"
+        ],
+        "avoidFor": [
+            {
+                "case": "Smooth line",
+                "useInsteadIcons": [
+                    "lineGraph16"
+                ]
+            },
+            {
+                "case": "Bars",
+                "useInsteadIcons": [
+                    "barGraph16"
+                ]
+            },
+            {
+                "case": "Rising bar ramp",
+                "useInsteadIcons": [
+                    "barGraphLinear16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=23718-38&m=dev"
     }
 }
