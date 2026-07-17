@@ -6506,5 +6506,1924 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=25762-212&m=dev"
+    },
+    "responsive16": {
+        "name": "responsive16",
+        "file": "responsive-16.svg",
+        "category": "interface",
+        "metaphor": "A larger screen overlapping with a smaller mobile device.",
+        "useFor": [
+            "Responsive-design references, multi-device previews, breakpoint switchers, content that adapts across viewport sizes"
+        ],
+        "keywords": [
+            "responsive",
+            "responsive design",
+            "multi-device",
+            "breakpoints",
+            "viewports",
+            "adaptive layout."
+        ],
+        "avoidFor": [
+            {
+                "case": "Single device",
+                "useInsteadIcons": [
+                    "desktopScreen16",
+                    "laptop16",
+                    "tablet16",
+                    "smartphone16"
+                ]
+            },
+            {
+                "case": "Layout settings",
+                "useInsteadIcons": [
+                    "layout16"
+                ]
+            },
+            {
+                "case": "Window arrangement",
+                "useInsteadIcons": [
+                    "windows16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=25755-633&m=dev"
+    },
+    "microcontroller16": {
+        "name": "microcontroller16",
+        "file": "microcontroller-16.svg",
+        "category": "hardware",
+        "metaphor": "A microcontroller chip with surrounding pads.",
+        "useFor": [
+            "Microcontroller (MCU) references in catalogs, IDE targets, embedded contexts"
+        ],
+        "keywords": [
+            "microcontroller",
+            "mcu",
+            "controller",
+            "embedded."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic IC",
+                "useInsteadIcons": [
+                    "chip16"
+                ]
+            },
+            {
+                "case": "AI silicon",
+                "useInsteadText": "use chip-AI-16"
+            },
+            {
+                "case": "Through-hole IC",
+                "useInsteadIcons": [
+                    "chipDip16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3955&m=dev"
+    },
+    "washingMachine16": {
+        "name": "washingMachine16",
+        "file": "washing-machine-16.svg",
+        "category": "hardware",
+        "metaphor": "A washing machine.",
+        "useFor": [
+            "Washing-machine / home-appliance references, laundry contexts"
+        ],
+        "keywords": [
+            "washing machine",
+            "laundry",
+            "appliance."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic device",
+                "useInsteadText": "different icon"
+            },
+            {
+                "case": "Thermostat",
+                "useInsteadIcons": [
+                    "thermostat16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=22138-112&m=dev"
+    },
+    "fan216": {
+        "name": "fan216",
+        "file": "fan-2-16.svg",
+        "category": "hardware",
+        "metaphor": "A fan with the digit \"2\" beside it.",
+        "useFor": [
+            "Medium fan-speed level (speed 2)"
+        ],
+        "keywords": [
+            "fan",
+            "speed 2",
+            "medium speed."
+        ],
+        "avoidFor": [
+            {
+                "case": "Low",
+                "useInsteadIcons": [
+                    "fan116"
+                ]
+            },
+            {
+                "case": "High",
+                "useInsteadIcons": [
+                    "fan316"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21924-709&m=dev"
+    },
+    "fan116": {
+        "name": "fan116",
+        "file": "fan-1-16.svg",
+        "category": "hardware",
+        "metaphor": "A fan with the digit \"1\" beside it.",
+        "useFor": [
+            "Lowest fan-speed level (speed 1)"
+        ],
+        "keywords": [
+            "fan",
+            "speed 1",
+            "low speed."
+        ],
+        "avoidFor": [
+            {
+                "case": "Medium speed",
+                "useInsteadIcons": [
+                    "fan216"
+                ]
+            },
+            {
+                "case": "High speed",
+                "useInsteadIcons": [
+                    "fan316"
+                ]
+            },
+            {
+                "case": "Generic ventilation",
+                "useInsteadIcons": [
+                    "fan316",
+                    "thermostat16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21924-694&m=dev"
+    },
+    "thermostat16": {
+        "name": "thermostat16",
+        "file": "thermostat-16.svg",
+        "category": "hardware",
+        "metaphor": "A rectangular digital thermostat with a numeric temperature readout and control buttons.",
+        "useFor": [
+            "Smart-thermostat references, HVAC controls, room-temperature setpoints"
+        ],
+        "keywords": [
+            "thermostat",
+            "hvac",
+            "temperature control",
+            "digital thermostat."
+        ],
+        "avoidFor": [
+            {
+                "case": "Temperature reading",
+                "useInsteadIcons": [
+                    "temperature16"
+                ]
+            },
+            {
+                "case": "Fan speed",
+                "useInsteadIcons": [
+                    "fan116",
+                    "fan216",
+                    "fan316"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21922-679&m=dev"
+    },
+    "isolator16": {
+        "name": "isolator16",
+        "file": "isolator-16.svg",
+        "category": "hardware",
+        "metaphor": "An isolator symbol.",
+        "useFor": [
+            "Isolator products (galvanic / digital), isolation contexts"
+        ],
+        "keywords": [
+            "isolator",
+            "isolation",
+            "galvanic",
+            "digital isolator."
+        ],
+        "avoidFor": [
+            {
+                "case": "Diode",
+                "useInsteadIcons": [
+                    "genericDiode16"
+                ]
+            },
+            {
+                "case": "Transceiver",
+                "useInsteadIcons": [
+                    "transceiver16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=10248-2&m=dev"
+    },
+    "chemistry16": {
+        "name": "chemistry16",
+        "file": "chemistry-16.svg",
+        "category": "hardware",
+        "metaphor": "A chemistry flask.",
+        "useFor": [
+            "Chemistry / lab contexts, experiments, materials science"
+        ],
+        "keywords": [
+            "chemistry",
+            "lab",
+            "flask",
+            "experiment."
+        ],
+        "avoidFor": [
+            {
+                "case": "Cooking / food",
+                "useInsteadIcons": [
+                    "cutlery16"
+                ]
+            },
+            {
+                "case": "Tool",
+                "useInsteadIcons": [
+                    "tool16"
+                ]
+            },
+            {
+                "case": "Bug / debug",
+                "useInsteadIcons": [
+                    "bug16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3767&m=dev"
+    },
+    "chipAi16": {
+        "name": "chipAi16",
+        "file": "chip-AI-16.svg",
+        "category": "hardware",
+        "metaphor": "An IC chip marked with AI.",
+        "useFor": [
+            "AI accelerators, AI / ML silicon products"
+        ],
+        "keywords": [
+            "chip ai",
+            "ai chip",
+            "ai silicon",
+            "ml accelerator."
+        ],
+        "avoidFor": [
+            {
+                "case": "AI software / service",
+                "useInsteadIcons": [
+                    "ai16"
+                ]
+            },
+            {
+                "case": "AI Label component",
+                "useInsteadText": "for content provenance"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=16317-87&m=dev"
+    },
+    "factory16": {
+        "name": "factory16",
+        "file": "factory-16.svg",
+        "category": "hardware",
+        "metaphor": "An industrial factory silhouette.",
+        "useFor": [
+            "Manufacturing references, factory locations, production contexts"
+        ],
+        "keywords": [
+            "factory",
+            "manufacturing",
+            "production",
+            "industrial."
+        ],
+        "avoidFor": [
+            {
+                "case": "Wafer fab specifically",
+                "useInsteadIcons": [
+                    "wafer16"
+                ]
+            },
+            {
+                "case": "Robot / automation",
+                "useInsteadIcons": [
+                    "roboticArm16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3811&m=dev"
+    },
+    "tool16": {
+        "name": "tool16",
+        "file": "tool-16.svg",
+        "category": "hardware",
+        "metaphor": "A wrench.",
+        "useFor": [
+            "Generic tools, settings, maintenance actions"
+        ],
+        "keywords": [
+            "tool",
+            "wrench",
+            "maintenance",
+            "settings."
+        ],
+        "avoidFor": [
+            {
+                "case": "Configuration",
+                "useInsteadIcons": [
+                    "configure16"
+                ]
+            },
+            {
+                "case": "Generic settings",
+                "useInsteadIcons": [
+                    "cogwheel16"
+                ]
+            },
+            {
+                "case": "User preferences",
+                "useInsteadIcons": [
+                    "preferences16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-94&m=dev"
+    },
+    "calculator16": {
+        "name": "calculator16",
+        "file": "calculator-16.svg",
+        "category": "hardware",
+        "metaphor": "A calculator.",
+        "useFor": [
+            "Calculator tools, numerical-computation entry points"
+        ],
+        "keywords": [
+            "calculator",
+            "math",
+            "compute",
+            "numbers."
+        ],
+        "avoidFor": [
+            {
+                "case": "Financial reports",
+                "useInsteadIcons": [
+                    "finance16"
+                ]
+            },
+            {
+                "case": "Chart",
+                "useInsteadIcons": [
+                    "chart16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-175&m=dev"
+    },
+    "microcontrollerProgram16": {
+        "name": "microcontrollerProgram16",
+        "file": "microcontroller-program-16.svg",
+        "category": "hardware",
+        "metaphor": "A microcontroller with \"01\" (binary code) inside.",
+        "useFor": [
+            "Program / flash an MCU in programming tools"
+        ],
+        "keywords": [
+            "microcontroller program",
+            "flash",
+            "mcu program",
+            "binary."
+        ],
+        "avoidFor": [
+            {
+                "case": "Verify only",
+                "useInsteadIcons": [
+                    "microcontrollerVerify16"
+                ]
+            },
+            {
+                "case": "Erase",
+                "useInsteadIcons": [
+                    "microcontrollerErase16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=15490-457&m=dev"
+    },
+    "glasses16": {
+        "name": "glasses16",
+        "file": "glasses-16.svg",
+        "category": "hardware",
+        "metaphor": "Eyeglasses.",
+        "useFor": [
+            "Reading view, focus modes, vision-related contexts"
+        ],
+        "keywords": [
+            "glasses",
+            "reading",
+            "view",
+            "optics."
+        ],
+        "avoidFor": [
+            {
+                "case": "Observation / monitor",
+                "useInsteadIcons": [
+                    "binoculars16"
+                ]
+            },
+            {
+                "case": "Preview",
+                "useInsteadIcons": [
+                    "preview16"
+                ]
+            },
+            {
+                "case": "Show / visibility",
+                "useInsteadIcons": [
+                    "show16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3898&m=dev"
+    },
+    "airplane16": {
+        "name": "airplane16",
+        "file": "airplane-16.svg",
+        "category": "hardware",
+        "metaphor": "An airplane in flight.",
+        "useFor": [
+            "Aviation references, air-travel contexts, flight modes"
+        ],
+        "keywords": [
+            "airplane",
+            "plane",
+            "flight",
+            "aviation."
+        ],
+        "avoidFor": [
+            {
+                "case": "Rocket / boost",
+                "useInsteadIcons": [
+                    "rocket16"
+                ]
+            },
+            {
+                "case": "Satellite",
+                "useInsteadIcons": [
+                    "satelite16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2576&m=dev"
+    },
+    "satelite16": {
+        "name": "satelite16",
+        "file": "satelite-16.svg",
+        "category": "hardware",
+        "metaphor": "An orbiting satellite.",
+        "useFor": [
+            "Satellite references, satellite-communication contexts, space hardware"
+        ],
+        "keywords": [
+            "satellite",
+            "satelite",
+            "space",
+            "orbit",
+            "comms."
+        ],
+        "avoidFor": [
+            {
+                "case": "Antenna",
+                "useInsteadIcons": [
+                    "antenna16"
+                ]
+            },
+            {
+                "case": "Rocket",
+                "useInsteadIcons": [
+                    "rocket16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=17420-568&m=dev"
+    },
+    "rocket16": {
+        "name": "rocket16",
+        "file": "rocket-16.svg",
+        "category": "hardware",
+        "metaphor": "A rocket launching.",
+        "useFor": [
+            "Launch / start-up contexts, growth-acceleration metaphors, boost affordances"
+        ],
+        "keywords": [
+            "rocket",
+            "launch",
+            "boost",
+            "accelerate."
+        ],
+        "avoidFor": [
+            {
+                "case": "External link",
+                "useInsteadIcons": [
+                    "launch16"
+                ]
+            },
+            {
+                "case": "Satellite",
+                "useInsteadIcons": [
+                    "satelite16"
+                ]
+            },
+            {
+                "case": "Airplane",
+                "useInsteadIcons": [
+                    "airplane16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-36&m=dev"
+    },
+    "bike16": {
+        "name": "bike16",
+        "file": "bike-16.svg",
+        "category": "hardware",
+        "metaphor": "A bicycle.",
+        "useFor": [
+            "Bicycle / cycling references, e-bike contexts"
+        ],
+        "keywords": [
+            "bike",
+            "bicycle",
+            "cycle",
+            "e-bike."
+        ],
+        "avoidFor": [
+            {
+                "case": "Car",
+                "useInsteadIcons": [
+                    "car16"
+                ]
+            },
+            {
+                "case": "Motorbike",
+                "useInsteadText": "different icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13287-22&m=dev"
+    },
+    "temperature16": {
+        "name": "temperature16",
+        "file": "temperature-16.svg",
+        "category": "hardware",
+        "metaphor": "A thermometer.",
+        "useFor": [
+            "Temperature display, thermal-sensor data, temperature-related controls"
+        ],
+        "keywords": [
+            "temperature",
+            "thermometer",
+            "thermal."
+        ],
+        "avoidFor": [
+            {
+                "case": "Cold / freeze",
+                "useInsteadIcons": [
+                    "snow16"
+                ]
+            },
+            {
+                "case": "Thermostat device",
+                "useInsteadIcons": [
+                    "thermostat16"
+                ]
+            },
+            {
+                "case": "Eco mode",
+                "useInsteadIcons": [
+                    "ecoMode16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-89&m=dev"
+    },
+    "camera16": {
+        "name": "camera16",
+        "file": "camera-16.svg",
+        "category": "hardware",
+        "metaphor": "A still-photo camera.",
+        "useFor": [
+            "Still-photo capture, camera hardware references"
+        ],
+        "keywords": [
+            "camera",
+            "photo",
+            "capture",
+            "still image."
+        ],
+        "avoidFor": [
+            {
+                "case": "Video camera",
+                "useInsteadIcons": [
+                    "videoCam16"
+                ]
+            },
+            {
+                "case": "Gallery",
+                "useInsteadIcons": [
+                    "gallery16"
+                ]
+            },
+            {
+                "case": "Image",
+                "useInsteadIcons": [
+                    "image16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3755&m=dev"
+    },
+    "module16": {
+        "name": "module16",
+        "file": "module-16.svg",
+        "category": "hardware",
+        "metaphor": "A module / sub-assembly outline.",
+        "useFor": [
+            "Infineon product category: modules"
+        ],
+        "keywords": [
+            "module",
+            "sub-assembly",
+            "infineon product."
+        ],
+        "avoidFor": [
+            {
+                "case": "Package",
+                "useInsteadIcons": [
+                    "package16"
+                ]
+            },
+            {
+                "case": "Solution",
+                "useInsteadIcons": [
+                    "solution16"
+                ]
+            },
+            {
+                "case": "Assembled product",
+                "useInsteadIcons": [
+                    "assembledProduct16"
+                ]
+            },
+            {
+                "case": "Software module",
+                "useInsteadIcons": [
+                    "blocks16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-203&m=dev"
+    },
+    "tram16": {
+        "name": "tram16",
+        "file": "tram-16.svg",
+        "category": "hardware",
+        "metaphor": "A tram / streetcar.",
+        "useFor": [
+            "Tram / streetcar references, public-transport rail contexts"
+        ],
+        "keywords": [
+            "tram",
+            "streetcar",
+            "rail",
+            "public transport."
+        ],
+        "avoidFor": [
+            {
+                "case": "Car",
+                "useInsteadIcons": [
+                    "car16"
+                ]
+            },
+            {
+                "case": "Train",
+                "useInsteadText": "different icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-97&m=dev"
+    },
+    "batteryCharging16": {
+        "name": "batteryCharging16",
+        "file": "battery-charging-16.svg",
+        "category": "hardware",
+        "metaphor": "A battery with a lightning bolt.",
+        "useFor": [
+            "Battery-charging status, charge level + active-charging indicators"
+        ],
+        "keywords": [
+            "battery charging",
+            "battery",
+            "charging level."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic charging port",
+                "useInsteadIcons": [
+                    "charging16"
+                ]
+            },
+            {
+                "case": "Power state",
+                "useInsteadIcons": [
+                    "power16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2737&m=dev"
+    },
+    "usbRemove16": {
+        "name": "usbRemove16",
+        "file": "usb-remove-16.svg",
+        "category": "hardware",
+        "metaphor": "A USB connector with an X mark.",
+        "useFor": [
+            "Safely remove USB / eject USB device"
+        ],
+        "keywords": [
+            "usb remove",
+            "eject usb",
+            "safely remove."
+        ],
+        "avoidFor": [
+            {
+                "case": "Media eject",
+                "useInsteadIcons": [
+                    "mediaEject16"
+                ]
+            },
+            {
+                "case": "Plain USB",
+                "useInsteadIcons": [
+                    "usb16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=15490-448&m=dev"
+    },
+    "transceiver16": {
+        "name": "transceiver16",
+        "file": "transceiver-16.svg",
+        "category": "hardware",
+        "metaphor": "A modem-like box with an antenna on top and indicator LEDs.",
+        "useFor": [
+            "Transceiver products (CAN / LIN / Ethernet etc.), communication-IC references"
+        ],
+        "keywords": [
+            "transceiver",
+            "can transceiver",
+            "comm ic",
+            "modem."
+        ],
+        "avoidFor": [
+            {
+                "case": "Antenna",
+                "useInsteadIcons": [
+                    "antenna16"
+                ]
+            },
+            {
+                "case": "Generic chip",
+                "useInsteadIcons": [
+                    "chip16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-98&m=dev"
+    },
+    "roboticArm16": {
+        "name": "roboticArm16",
+        "file": "robotic-arm-16.svg",
+        "category": "hardware",
+        "metaphor": "A robotic arm.",
+        "useFor": [
+            "Robotics, automation, industrial-arm applications"
+        ],
+        "keywords": [
+            "robotic arm",
+            "robot",
+            "automation",
+            "industrial."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic factory",
+                "useInsteadIcons": [
+                    "factory16"
+                ]
+            },
+            {
+                "case": "Tool",
+                "useInsteadIcons": [
+                    "tool16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-33&m=dev"
+    },
+    "chipDip16": {
+        "name": "chipDip16",
+        "file": "chip-dip-16.svg",
+        "category": "hardware",
+        "metaphor": "A wide rectangular IC package with pins on the top edge.",
+        "useFor": [
+            "DIP-package ICs in through-hole catalogs, legacy components"
+        ],
+        "keywords": [
+            "chip dip",
+            "dual inline package",
+            "through-hole",
+            "ic."
+        ],
+        "avoidFor": [
+            {
+                "case": "Surface-mount chip",
+                "useInsteadIcons": [
+                    "chip16"
+                ]
+            },
+            {
+                "case": "Multiple chips",
+                "useInsteadIcons": [
+                    "chips16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3773&m=dev"
+    },
+    "desktop16": {
+        "name": "desktop16",
+        "file": "desktop-16.svg",
+        "category": "hardware",
+        "metaphor": "A desktop tower and monitor.",
+        "useFor": [
+            "Desktop-computer device references, workstation targets"
+        ],
+        "keywords": [
+            "desktop",
+            "pc",
+            "workstation."
+        ],
+        "avoidFor": [
+            {
+                "case": "Monitor alone",
+                "useInsteadIcons": [
+                    "desktopScreen16"
+                ]
+            },
+            {
+                "case": "Laptop",
+                "useInsteadIcons": [
+                    "laptop16"
+                ]
+            },
+            {
+                "case": "Server",
+                "useInsteadIcons": [
+                    "server16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3799&m=dev"
+    },
+    "genericDiode16": {
+        "name": "genericDiode16",
+        "file": "generic-diode-16.svg",
+        "category": "hardware",
+        "metaphor": "A diode schematic symbol.",
+        "useFor": [
+            "Generic diode product references, semiconductor diodes"
+        ],
+        "keywords": [
+            "diode",
+            "semiconductor diode",
+            "generic diode."
+        ],
+        "avoidFor": [
+            {
+                "case": "LED",
+                "useInsteadIcons": [
+                    "lightEmittingDiode16"
+                ]
+            },
+            {
+                "case": "Isolator",
+                "useInsteadIcons": [
+                    "isolator16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3897&m=dev"
+    },
+    "fan316": {
+        "name": "fan316",
+        "file": "fan-3-16.svg",
+        "category": "hardware",
+        "metaphor": "A fan with the digit \"3\" beside it.",
+        "useFor": [
+            "Highest fan-speed level (speed 3)"
+        ],
+        "keywords": [
+            "fan",
+            "speed 3",
+            "high speed."
+        ],
+        "avoidFor": [
+            {
+                "case": "Low",
+                "useInsteadIcons": [
+                    "fan116"
+                ]
+            },
+            {
+                "case": "Medium",
+                "useInsteadIcons": [
+                    "fan216"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21924-724&m=dev"
+    },
+    "solution16": {
+        "name": "solution16",
+        "file": "solution-16.svg",
+        "category": "hardware",
+        "metaphor": "A rounded-corner rectangle framed by four corner brackets.",
+        "useFor": [
+            "Infineon product category: solutions (multi-component bundles)"
+        ],
+        "keywords": [
+            "solution",
+            "product solution",
+            "bundle."
+        ],
+        "avoidFor": [
+            {
+                "case": "Package",
+                "useInsteadIcons": [
+                    "package16"
+                ]
+            },
+            {
+                "case": "Module",
+                "useInsteadIcons": [
+                    "module16"
+                ]
+            },
+            {
+                "case": "Assembled product",
+                "useInsteadIcons": [
+                    "assembledProduct16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-69&m=dev"
+    },
+    "lightEmittingDiode16": {
+        "name": "lightEmittingDiode16",
+        "file": "light-emitting-diode-16.svg",
+        "category": "hardware",
+        "metaphor": "A diode schematic symbol inside a circular envelope (LED package).",
+        "useFor": [
+            "Light-emitting diode (LED) product references"
+        ],
+        "keywords": [
+            "led",
+            "light-emitting diode",
+            "light",
+            "diode."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic diode",
+                "useInsteadIcons": [
+                    "genericDiode16"
+                ]
+            },
+            {
+                "case": "Bulb / lighting UI",
+                "useInsteadText": "different icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3930&m=dev"
+    },
+    "smartphone16": {
+        "name": "smartphone16",
+        "file": "smartphone-16.svg",
+        "category": "hardware",
+        "metaphor": "A smartphone outline.",
+        "useFor": [
+            "Smartphone device references, mobile-device targets"
+        ],
+        "keywords": [
+            "smartphone",
+            "mobile",
+            "phone device."
+        ],
+        "avoidFor": [
+            {
+                "case": "Phone call",
+                "useInsteadIcons": [
+                    "phone16",
+                    "phoneCall16"
+                ]
+            },
+            {
+                "case": "Mobile chat",
+                "useInsteadIcons": [
+                    "mobileChat16"
+                ]
+            },
+            {
+                "case": "Tablet",
+                "useInsteadIcons": [
+                    "tablet16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-62&m=dev"
+    },
+    "assembledProduct16": {
+        "name": "assembledProduct16",
+        "file": "assembled-product-16.svg",
+        "category": "hardware",
+        "metaphor": "An assembled product / system outline.",
+        "useFor": [
+            "Infineon product category: assembled / finished products"
+        ],
+        "keywords": [
+            "assembled product",
+            "finished product",
+            "system."
+        ],
+        "avoidFor": [
+            {
+                "case": "Package",
+                "useInsteadIcons": [
+                    "package16"
+                ]
+            },
+            {
+                "case": "Module",
+                "useInsteadIcons": [
+                    "module16"
+                ]
+            },
+            {
+                "case": "Solution",
+                "useInsteadIcons": [
+                    "solution16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2680&m=dev"
+    },
+    "microcontrollerErase16": {
+        "name": "microcontrollerErase16",
+        "file": "microcontroller-erase-16.svg",
+        "category": "hardware",
+        "metaphor": "A microcontroller with an X mark inside.",
+        "useFor": [
+            "Erase-flash operation in MCU programming tools"
+        ],
+        "keywords": [
+            "microcontroller erase",
+            "flash erase",
+            "mcu erase."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic delete",
+                "useInsteadIcons": [
+                    "delete16"
+                ]
+            },
+            {
+                "case": "Program flash",
+                "useInsteadIcons": [
+                    "microcontrollerProgram16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=15490-459&m=dev"
+    },
+    "laptop16": {
+        "name": "laptop16",
+        "file": "laptop-16.svg",
+        "category": "hardware",
+        "metaphor": "An open laptop.",
+        "useFor": [
+            "Laptop device references, mobile-computing targets"
+        ],
+        "keywords": [
+            "laptop",
+            "notebook",
+            "portable computer."
+        ],
+        "avoidFor": [
+            {
+                "case": "Desktop computer",
+                "useInsteadIcons": [
+                    "desktop16"
+                ]
+            },
+            {
+                "case": "Tablet",
+                "useInsteadIcons": [
+                    "tablet16"
+                ]
+            },
+            {
+                "case": "Smartphone",
+                "useInsteadIcons": [
+                    "smartphone16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3925&m=dev"
+    },
+    "webinar16": {
+        "name": "webinar16",
+        "file": "webinar-16.svg",
+        "category": "hardware",
+        "metaphor": "A laptop showing a person's head and shoulders.",
+        "useFor": [
+            "Webinars, live online sessions, remote-attendance learning"
+        ],
+        "keywords": [
+            "webinar",
+            "online session",
+            "live stream",
+            "virtual class."
+        ],
+        "avoidFor": [
+            {
+                "case": "Self-paced eLearning",
+                "useInsteadIcons": [
+                    "elearning16"
+                ]
+            },
+            {
+                "case": "Workshop coach",
+                "useInsteadIcons": [
+                    "coach16"
+                ]
+            },
+            {
+                "case": "Classroom training",
+                "useInsteadIcons": [
+                    "training16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-158&m=dev"
+    },
+    "halogenFree16": {
+        "name": "halogenFree16",
+        "file": "halogen-free-16.svg",
+        "category": "hardware",
+        "metaphor": "An Hal symbol with a strike-through.",
+        "useFor": [
+            "Halogen-free compliance label on products / packages"
+        ],
+        "keywords": [
+            "halogen free",
+            "compliance."
+        ],
+        "avoidFor": [
+            {
+                "case": "Lead-free",
+                "useInsteadIcons": [
+                    "leadFree16"
+                ]
+            },
+            {
+                "case": "Sustainability",
+                "useInsteadIcons": [
+                    "leaf16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3905&m=dev"
+    },
+    "microcontrollerVerify16": {
+        "name": "microcontrollerVerify16",
+        "file": "microcontroller-verify-16.svg",
+        "category": "hardware",
+        "metaphor": "A microcontroller with a checkmark.",
+        "useFor": [
+            "Verify-flash operation in MCU programming tools"
+        ],
+        "keywords": [
+            "microcontroller verify",
+            "flash verify",
+            "mcu verify."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic check",
+                "useInsteadIcons": [
+                    "check16",
+                    "cCheck16"
+                ]
+            },
+            {
+                "case": "Save state",
+                "useInsteadIcons": [
+                    "microcontrollerSave16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=15490-458&m=dev"
+    },
+    "package16": {
+        "name": "package16",
+        "file": "package-16.svg",
+        "category": "hardware",
+        "metaphor": "A semiconductor package outline.",
+        "useFor": [
+            "Infineon product category: packaged semiconductors"
+        ],
+        "keywords": [
+            "package",
+            "packaged semiconductor",
+            "product."
+        ],
+        "avoidFor": [
+            {
+                "case": "Module product",
+                "useInsteadIcons": [
+                    "module16"
+                ]
+            },
+            {
+                "case": "Solution product",
+                "useInsteadIcons": [
+                    "solution16"
+                ]
+            },
+            {
+                "case": "Assembled product",
+                "useInsteadIcons": [
+                    "assembledProduct16"
+                ]
+            },
+            {
+                "case": "Generic box",
+                "useInsteadIcons": [
+                    "box16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-7&m=dev"
+    },
+    "car16": {
+        "name": "car16",
+        "file": "car-16.svg",
+        "category": "hardware",
+        "metaphor": "A passenger car seen from the front (windshield and two headlights).",
+        "useFor": [
+            "Automotive references, vehicle products, car-related contexts"
+        ],
+        "keywords": [
+            "car",
+            "vehicle",
+            "automotive",
+            "auto."
+        ],
+        "avoidFor": [
+            {
+                "case": "Car headlights specifically",
+                "useInsteadIcons": [
+                    "carLights16"
+                ]
+            },
+            {
+                "case": "Truck / logistics",
+                "useInsteadIcons": [
+                    "logistics16"
+                ]
+            },
+            {
+                "case": "Tram",
+                "useInsteadIcons": [
+                    "tram16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3756&m=dev"
+    },
+    "technology16": {
+        "name": "technology16",
+        "file": "technology-16.svg",
+        "category": "hardware",
+        "metaphor": "Abstract technology / IC representation.",
+        "useFor": [
+            "Generic technology references, platform overviews"
+        ],
+        "keywords": [
+            "technology",
+            "tech",
+            "platform."
+        ],
+        "avoidFor": [
+            {
+                "case": "Specific chip",
+                "useInsteadIcons": [
+                    "chip16"
+                ]
+            },
+            {
+                "case": "Software",
+                "useInsteadIcons": [
+                    "software16"
+                ]
+            },
+            {
+                "case": "AI",
+                "useInsteadIcons": [
+                    "ai16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-88&m=dev"
+    },
+    "leadFree16": {
+        "name": "leadFree16",
+        "file": "lead-free-16.svg",
+        "category": "hardware",
+        "metaphor": "A Pb symbol with a strike-through.",
+        "useFor": [
+            "Lead-free compliance label on products / packages"
+        ],
+        "keywords": [
+            "lead free",
+            "pb free",
+            "rohs",
+            "compliance."
+        ],
+        "avoidFor": [
+            {
+                "case": "Halogen-free",
+                "useInsteadIcons": [
+                    "halogenFree16"
+                ]
+            },
+            {
+                "case": "Sustainability",
+                "useInsteadIcons": [
+                    "leaf16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3928&m=dev"
+    },
+    "desktopScreen16": {
+        "name": "desktopScreen16",
+        "file": "desktop-screen-16.svg",
+        "category": "hardware",
+        "metaphor": "A monitor on a stand.",
+        "useFor": [
+            "Desktop monitor / screen references, display-device targets"
+        ],
+        "keywords": [
+            "desktop screen",
+            "monitor",
+            "display."
+        ],
+        "avoidFor": [
+            {
+                "case": "Full desktop computer",
+                "useInsteadIcons": [
+                    "desktop16"
+                ]
+            },
+            {
+                "case": "Laptop",
+                "useInsteadIcons": [
+                    "laptop16"
+                ]
+            },
+            {
+                "case": "Single window",
+                "useInsteadIcons": [
+                    "windows16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-178&m=dev"
+    },
+    "tablet16": {
+        "name": "tablet16",
+        "file": "tablet-16.svg",
+        "category": "hardware",
+        "metaphor": "A tablet outline.",
+        "useFor": [
+            "Tablet device references, mobile-device targets between phone and laptop"
+        ],
+        "keywords": [
+            "tablet",
+            "ipad",
+            "slate",
+            "mobile device."
+        ],
+        "avoidFor": [
+            {
+                "case": "Smartphone",
+                "useInsteadIcons": [
+                    "smartphone16"
+                ]
+            },
+            {
+                "case": "Laptop",
+                "useInsteadIcons": [
+                    "laptop16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=20437-506&m=dev"
+    },
+    "wafer16": {
+        "name": "wafer16",
+        "file": "wafer-16.svg",
+        "category": "hardware",
+        "metaphor": "A silicon wafer.",
+        "useFor": [
+            "Wafer / fab references, semiconductor-manufacturing contexts"
+        ],
+        "keywords": [
+            "wafer",
+            "fab",
+            "silicon",
+            "semiconductor manufacturing."
+        ],
+        "avoidFor": [
+            {
+                "case": "Single chip",
+                "useInsteadIcons": [
+                    "chip16"
+                ]
+            },
+            {
+                "case": "Factory",
+                "useInsteadIcons": [
+                    "factory16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21802-383&m=dev"
+    },
+    "chips16": {
+        "name": "chips16",
+        "file": "chips-16.svg",
+        "category": "hardware",
+        "metaphor": "Multiple chips stacked or in a row.",
+        "useFor": [
+            "Multiple ICs, chip portfolios, family catalogs"
+        ],
+        "keywords": [
+            "chips",
+            "ics",
+            "portfolio",
+            "family."
+        ],
+        "avoidFor": [
+            {
+                "case": "Single chip",
+                "useInsteadIcons": [
+                    "chip16"
+                ]
+            },
+            {
+                "case": "Wafer",
+                "useInsteadIcons": [
+                    "wafer16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3774&m=dev"
+    },
+    "carLights16": {
+        "name": "carLights16",
+        "file": "car-lights-16.svg",
+        "category": "hardware",
+        "metaphor": "A headlight with rays projecting to the right.",
+        "useFor": [
+            "Car-lights references, headlamp-product contexts, automotive lighting"
+        ],
+        "keywords": [
+            "car lights",
+            "headlight",
+            "headlamp",
+            "rays."
+        ],
+        "avoidFor": [
+            {
+                "case": "Whole car",
+                "useInsteadIcons": [
+                    "car16"
+                ]
+            },
+            {
+                "case": "Generic light",
+                "useInsteadIcons": [
+                    "lightEmittingDiode16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3757&m=dev"
+    },
+    "ecoMode16": {
+        "name": "ecoMode16",
+        "file": "eco-mode-16.svg",
+        "category": "hardware",
+        "metaphor": "A leaf connected to a power plug by a cable.",
+        "useFor": [
+            "Eco-mode device toggle, energy-saving operation mode on appliances"
+        ],
+        "keywords": [
+            "eco mode",
+            "energy saving",
+            "low power."
+        ],
+        "avoidFor": [
+            {
+                "case": "Sustainability concept",
+                "useInsteadIcons": [
+                    "leaf16"
+                ]
+            },
+            {
+                "case": "Generic power",
+                "useInsteadIcons": [
+                    "power16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21924-761&m=dev"
+    },
+    "chip16": {
+        "name": "chip16",
+        "file": "chip-16.svg",
+        "category": "hardware",
+        "metaphor": "A square IC package with pins.",
+        "useFor": [
+            "Generic semiconductors, processors, IC product references"
+        ],
+        "keywords": [
+            "chip",
+            "ic",
+            "semiconductor",
+            "processor."
+        ],
+        "avoidFor": [
+            {
+                "case": "Multiple chips",
+                "useInsteadIcons": [
+                    "chips16"
+                ]
+            },
+            {
+                "case": "Through-hole DIP",
+                "useInsteadIcons": [
+                    "chipDip16"
+                ]
+            },
+            {
+                "case": "AI silicon",
+                "useInsteadText": "use chip-AI-16"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3772&m=dev"
+    },
+    "antenna16": {
+        "name": "antenna16",
+        "file": "antenna-16.svg",
+        "category": "hardware",
+        "metaphor": "An antenna with radiating waves.",
+        "useFor": [
+            "Antenna references, RF / wireless product context, signal-source indicators"
+        ],
+        "keywords": [
+            "antenna",
+            "rf",
+            "wireless",
+            "broadcast."
+        ],
+        "avoidFor": [
+            {
+                "case": "WiFi connectivity",
+                "useInsteadIcons": [
+                    "wifi16"
+                ]
+            },
+            {
+                "case": "Bluetooth",
+                "useInsteadIcons": [
+                    "bluetooth16"
+                ]
+            },
+            {
+                "case": "Generic signal",
+                "useInsteadIcons": [
+                    "waves16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2581&m=dev"
+    },
+    "board16": {
+        "name": "board16",
+        "file": "board-16.svg",
+        "category": "hardware",
+        "metaphor": "A printed circuit board.",
+        "useFor": [
+            "PCB / development-board references, hardware schematics"
+        ],
+        "keywords": [
+            "board",
+            "pcb",
+            "dev board",
+            "circuit board."
+        ],
+        "avoidFor": [
+            {
+                "case": "Single chip",
+                "useInsteadIcons": [
+                    "chip16"
+                ]
+            },
+            {
+                "case": "Wafer",
+                "useInsteadIcons": [
+                    "wafer16"
+                ]
+            },
+            {
+                "case": "SPICE simulation",
+                "useInsteadIcons": [
+                    "spice16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-124&m=dev"
+    },
+    "binoculars16": {
+        "name": "binoculars16",
+        "file": "binoculars-16.svg",
+        "category": "hardware",
+        "metaphor": "Binoculars.",
+        "useFor": [
+            "Search / observation, look ahead, monitoring contexts"
+        ],
+        "keywords": [
+            "binoculars",
+            "observe",
+            "look",
+            "monitor."
+        ],
+        "avoidFor": [
+            {
+                "case": "Search input",
+                "useInsteadIcons": [
+                    "search16"
+                ]
+            },
+            {
+                "case": "Preview",
+                "useInsteadIcons": [
+                    "preview16"
+                ]
+            },
+            {
+                "case": "Glasses",
+                "useInsteadIcons": [
+                    "glasses16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13287-30&m=dev"
+    },
+    "usbToggle16": {
+        "name": "usbToggle16",
+        "file": "usb-toggle-16.svg",
+        "category": "hardware",
+        "metaphor": "A USB connector with a power symbol.",
+        "useFor": [
+            "Toggle USB port on / off, switch between USB modes"
+        ],
+        "keywords": [
+            "usb toggle",
+            "switch usb",
+            "usb mode",
+            "power."
+        ],
+        "avoidFor": [
+            {
+                "case": "Plain USB",
+                "useInsteadIcons": [
+                    "usb16"
+                ]
+            },
+            {
+                "case": "Safely remove",
+                "useInsteadIcons": [
+                    "usbRemove16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=15490-449&m=dev"
+    },
+    "server16": {
+        "name": "server16",
+        "file": "server-16.svg",
+        "category": "hardware",
+        "metaphor": "A server rack.",
+        "useFor": [
+            "Servers, on-prem hardware, datacenter references"
+        ],
+        "keywords": [
+            "server",
+            "datacenter",
+            "rack",
+            "on-prem."
+        ],
+        "avoidFor": [
+            {
+                "case": "Cloud service",
+                "useInsteadIcons": [
+                    "cloud16"
+                ]
+            },
+            {
+                "case": "Database",
+                "useInsteadIcons": [
+                    "database16"
+                ]
+            },
+            {
+                "case": "Desktop computer",
+                "useInsteadIcons": [
+                    "desktop16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-48&m=dev"
+    },
+    "software16": {
+        "name": "software16",
+        "file": "software-16.svg",
+        "category": "hardware",
+        "metaphor": "A laptop with a power symbol on the screen.",
+        "useFor": [
+            "Generic software product references, software-package downloads"
+        ],
+        "keywords": [
+            "software",
+            "application",
+            "app",
+            "program."
+        ],
+        "avoidFor": [
+            {
+                "case": "Source code",
+                "useInsteadIcons": [
+                    "code16"
+                ]
+            },
+            {
+                "case": "App launcher",
+                "useInsteadIcons": [
+                    "applications16"
+                ]
+            },
+            {
+                "case": "Executable",
+                "useInsteadIcons": [
+                    "fileExe16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-68&m=dev"
+    },
+    "usb16": {
+        "name": "usb16",
+        "file": "usb-16.svg",
+        "category": "hardware",
+        "metaphor": "A USB connector.",
+        "useFor": [
+            "USB-port references, USB-device connections"
+        ],
+        "keywords": [
+            "usb",
+            "usb port",
+            "connector."
+        ],
+        "avoidFor": [
+            {
+                "case": "USB safely remove",
+                "useInsteadIcons": [
+                    "usbRemove16"
+                ]
+            },
+            {
+                "case": "USB switch",
+                "useInsteadIcons": [
+                    "usbToggle16"
+                ]
+            },
+            {
+                "case": "Charging",
+                "useInsteadIcons": [
+                    "charging16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-114&m=dev"
+    },
+    "charging16": {
+        "name": "charging16",
+        "file": "charging-16.svg",
+        "category": "hardware",
+        "metaphor": "A two-pin electrical plug going into a socket.",
+        "useFor": [
+            "Charging stations, charging-port references, EV-charging contexts"
+        ],
+        "keywords": [
+            "charging",
+            "ev charging",
+            "plug",
+            "socket",
+            "power."
+        ],
+        "avoidFor": [
+            {
+                "case": "Battery state",
+                "useInsteadIcons": [
+                    "batteryCharging16"
+                ]
+            },
+            {
+                "case": "Generic power",
+                "useInsteadIcons": [
+                    "power16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3762&m=dev"
+    },
+    "microcontrollerSave16": {
+        "name": "microcontrollerSave16",
+        "file": "microcontroller-save-16.svg",
+        "category": "hardware",
+        "metaphor": "A microcontroller with a downward arrow inside.",
+        "useFor": [
+            "Save current MCU state / firmware snapshot"
+        ],
+        "keywords": [
+            "microcontroller save",
+            "mcu save",
+            "snapshot",
+            "download."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic save",
+                "useInsteadIcons": [
+                    "floppyDisk16"
+                ]
+            },
+            {
+                "case": "Program",
+                "useInsteadIcons": [
+                    "microcontrollerProgram16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=15490-460&m=dev"
     }
 }
