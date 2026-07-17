@@ -5443,5 +5443,299 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-210&m=dev"
+    },
+    "clock16": {
+        "name": "clock16",
+        "file": "clock-16.svg",
+        "category": "date-and-time",
+        "metaphor": "An analog clock face with hour and minute hands.",
+        "useFor": [
+            "Time of day",
+            "time selectors",
+            "time stamps",
+            "opening hours"
+        ],
+        "keywords": [
+            "clock",
+            "time",
+            "time of day",
+            "hour",
+            "minute"
+        ],
+        "avoidFor": [
+            {
+                "case": "A date",
+                "useInsteadIcons": [
+                    "calendar16"
+                ]
+            },
+            {
+                "case": "Elapsed/remaining time",
+                "useInsteadIcons": [
+                    "hourglass16",
+                    "timer16"
+                ]
+            },
+            {
+                "case": "Recent activity",
+                "useInsteadIcons": [
+                    "history16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3778&m=dev"
+    },
+    "hourglass16": {
+        "name": "hourglass16",
+        "file": "hourglass-16.svg",
+        "category": "date-and-time",
+        "metaphor": "An hourglass outline.",
+        "useFor": [
+            "Waiting states",
+            "processing",
+            "undetermined duration",
+            "\"please wait\" feedback"
+        ],
+        "keywords": [
+            "hourglass",
+            "wait",
+            "loading",
+            "pending",
+            "processing"
+        ],
+        "avoidFor": [
+            {
+                "case": "Determinate progress",
+                "useInsteadText": "use progress-bar"
+            },
+            {
+                "case": "Countdown",
+                "useInsteadIcons": [
+                    "timer16"
+                ]
+            },
+            {
+                "case": "Historical actions",
+                "useInsteadIcons": [
+                    "history16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3917&m=dev"
+    },
+    "calendar16": {
+        "name": "calendar16",
+        "file": "calendar-16.svg",
+        "category": "date-and-time",
+        "metaphor": "A calendar rectangle with two small tabs at the top.",
+        "useFor": [
+            "Date pickers",
+            "scheduled events",
+            "deadlines",
+            "date columns"
+        ],
+        "keywords": [
+            "calendar",
+            "date",
+            "schedule",
+            "event",
+            "day"
+        ],
+        "avoidFor": [
+            {
+                "case": "Time of day",
+                "useInsteadIcons": [
+                    "clock16"
+                ]
+            },
+            {
+                "case": "Duration",
+                "useInsteadIcons": [
+                    "hourglass16",
+                    "timer16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3747&m=dev"
+    },
+    "history16": {
+        "name": "history16",
+        "file": "history-16.svg",
+        "category": "date-and-time",
+        "metaphor": "A clock face with a counter-clockwise arrow.",
+        "useFor": [
+            "Activity history",
+            "version history",
+            "audit logs",
+            "recently viewed items"
+        ],
+        "keywords": [
+            "history",
+            "past",
+            "log",
+            "recent activity",
+            "audit",
+            "timeline"
+        ],
+        "avoidFor": [
+            {
+                "case": "Time of day",
+                "useInsteadIcons": [
+                    "clock16"
+                ]
+            },
+            {
+                "case": "Waiting state",
+                "useInsteadIcons": [
+                    "hourglass16"
+                ]
+            },
+            {
+                "case": "Reverting to a previous state",
+                "useInsteadIcons": [
+                    "restore16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3913&m=dev"
+    },
+    "calendarCheck16": {
+        "name": "calendarCheck16",
+        "file": "calendar-check-16.svg",
+        "category": "date-and-time",
+        "metaphor": "A calendar page marked with a checkmark.",
+        "useFor": [
+            "Confirmed appointments",
+            "completed events",
+            "RSVP-accepted states"
+        ],
+        "keywords": [
+            "confirmed event",
+            "booked",
+            "accepted",
+            "scheduled",
+            "done"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic checklists",
+                "useInsteadIcons": [
+                    "checkList16"
+                ]
+            },
+            {
+                "case": "Task completion",
+                "useInsteadIcons": [
+                    "cCheck16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3748&m=dev"
+    },
+    "calendarHeart16": {
+        "name": "calendarHeart16",
+        "file": "calendar-heart-16.svg",
+        "category": "date-and-time",
+        "metaphor": "A calendar page marked with a heart.",
+        "useFor": [
+            "Saved or favorite dates",
+            "important personal events",
+            "anniversaries"
+        ],
+        "keywords": [
+            "favorite date",
+            "anniversary",
+            "important date",
+            "loved",
+            "saved"
+        ],
+        "avoidFor": [
+            {
+                "case": "Creating a new event",
+                "useInsteadIcons": [
+                    "calendarPlus16"
+                ]
+            },
+            {
+                "case": "Confirmed events",
+                "useInsteadIcons": [
+                    "calendarCheck16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3750&m=dev"
+    },
+    "calendarPlus16": {
+        "name": "calendarPlus16",
+        "file": "calendar-plus-16.svg",
+        "category": "date-and-time",
+        "metaphor": "A calendar page marked with a plus sign.",
+        "useFor": [
+            "Creating a new event",
+            "adding an entry to a schedule"
+        ],
+        "keywords": [
+            "add event",
+            "new event",
+            "create date",
+            "schedule entry",
+            "plus"
+        ],
+        "avoidFor": [
+            {
+                "case": "Confirming an existing event",
+                "useInsteadIcons": [
+                    "calendarCheck16"
+                ]
+            },
+            {
+                "case": "Favoriting a date",
+                "useInsteadIcons": [
+                    "calendarHeart16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3753&m=dev"
+    },
+    "timer16": {
+        "name": "timer16",
+        "file": "timer-16.svg",
+        "category": "date-and-time",
+        "metaphor": "A round timer with two small tabs at the top corners and a diagonal hand inside.",
+        "useFor": [
+            "Countdown timers",
+            "kitchen-timer references",
+            "time-tracking sessions",
+            "scheduled durations"
+        ],
+        "keywords": [
+            "timer",
+            "stopwatch",
+            "countdown",
+            "duration",
+            "time tracking",
+            "kitchen timer"
+        ],
+        "avoidFor": [
+            {
+                "case": "Indeterminate waiting",
+                "useInsteadIcons": [
+                    "hourglass16"
+                ]
+            },
+            {
+                "case": "Time of day",
+                "useInsteadIcons": [
+                    "clock16"
+                ]
+            },
+            {
+                "case": "Date-based duration",
+                "useInsteadIcons": [
+                    "calendar16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21924-746&m=dev"
     }
 }
