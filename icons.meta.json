@@ -14073,5 +14073,444 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-163&m=dev"
+    },
+    "facebook": {
+        "name": "facebook",
+        "file": "facebook.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "Facebook profile/page links",
+            "share-to-Facebook actions",
+            "sign-in with Facebook"
+        ],
+        "keywords": [
+            "facebook",
+            "meta",
+            "social",
+            "share",
+            "login"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic social sharing",
+                "useInsteadIcons": [
+                    "share16"
+                ]
+            },
+            {
+                "case": "Other Meta products",
+                "useInsteadText": "Use their dedicated icons."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-140&m=dev"
+    },
+    "github": {
+        "name": "github",
+        "file": "github.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "GitHub repository/profile links",
+            "source-code references",
+            "sign-in with GitHub"
+        ],
+        "keywords": [
+            "github",
+            "git",
+            "repository",
+            "source code",
+            "open source",
+            "login"
+        ],
+        "avoidFor": [
+            {
+                "case": "Alternative Git hosting",
+                "useInsteadIcons": [
+                    "gitlab"
+                ]
+            },
+            {
+                "case": "Generic source code",
+                "useInsteadText": "Use code-16 or a specific file-<lang>-16 icon."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=1178-163&m=dev"
+    },
+    "gitlab": {
+        "name": "gitlab",
+        "file": "gitlab.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "GitLab repository/profile links",
+            "source-code references",
+            "sign-in with GitLab",
+            "CI/CD-pipeline references"
+        ],
+        "keywords": [
+            "gitlab",
+            "git",
+            "repository",
+            "source code",
+            "devops",
+            "ci",
+            "login"
+        ],
+        "avoidFor": [
+            {
+                "case": "GitHub-hosted repos",
+                "useInsteadIcons": [
+                    "github"
+                ]
+            },
+            {
+                "case": "Generic source code",
+                "useInsteadIcons": [
+                    "code16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=23904-50&m=dev"
+    },
+    "google": {
+        "name": "google",
+        "file": "google.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "Google brand links",
+            "sign-in with Google",
+            "Google-service references"
+        ],
+        "keywords": [
+            "google",
+            "login",
+            "sign in",
+            "account"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic search",
+                "useInsteadIcons": [
+                    "search16"
+                ]
+            },
+            {
+                "case": "Internet/web references",
+                "useInsteadIcons": [
+                    "globe16"
+                ]
+            },
+            {
+                "case": "YouTube specifically",
+                "useInsteadIcons": [
+                    "youtube"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=2354-229&m=dev"
+    },
+    "instagram": {
+        "name": "instagram",
+        "file": "instagram.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "Instagram profile links",
+            "share-to-Instagram actions",
+            "image-feed references"
+        ],
+        "keywords": [
+            "instagram",
+            "social",
+            "photos",
+            "share",
+            "login"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic image gallery",
+                "useInsteadIcons": [
+                    "gallery16",
+                    "image16"
+                ]
+            },
+            {
+                "case": "Camera",
+                "useInsteadIcons": [
+                    "camera16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-138&m=dev"
+    },
+    "linkedin": {
+        "name": "linkedin",
+        "file": "linkedin.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "LinkedIn profile links",
+            "share-to-LinkedIn actions",
+            "sign-in with LinkedIn",
+            "professional-network references"
+        ],
+        "keywords": [
+            "linkedin",
+            "professional",
+            "network",
+            "share",
+            "login"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic networking concepts",
+                "useInsteadIcons": [
+                    "network16"
+                ]
+            },
+            {
+                "case": "Business contacts",
+                "useInsteadIcons": [
+                    "contact16",
+                    "addressBook16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-141&m=dev"
+    },
+    "tiktok": {
+        "name": "tiktok",
+        "file": "tiktok.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "TikTok profile links",
+            "share-to-TikTok actions",
+            "short-video references"
+        ],
+        "keywords": [
+            "tiktok",
+            "social",
+            "video",
+            "share",
+            "login"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic video file",
+                "useInsteadIcons": [
+                    "fileMp416",
+                    "video16"
+                ]
+            },
+            {
+                "case": "Audio content",
+                "useInsteadIcons": [
+                    "sound16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=25638-17&m=dev"
+    },
+    "wechat": {
+        "name": "wechat",
+        "file": "wechat.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "WeChat profile/account links",
+            "share-to-WeChat actions",
+            "Chinese-market social references"
+        ],
+        "keywords": [
+            "wechat",
+            "weixin",
+            "china",
+            "social",
+            "messaging",
+            "share"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic chat",
+                "useInsteadIcons": [
+                    "chat16",
+                    "comment16"
+                ]
+            },
+            {
+                "case": "Other Chinese platforms",
+                "useInsteadText": "Use weibo, zhihu, or youku."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-143&m=dev"
+    },
+    "weibo": {
+        "name": "weibo",
+        "file": "weibo.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "Weibo profile/post links",
+            "share-to-Weibo actions",
+            "Chinese-market microblog references"
+        ],
+        "keywords": [
+            "weibo",
+            "china",
+            "social",
+            "microblog",
+            "share"
+        ],
+        "avoidFor": [
+            {
+                "case": "Other Chinese platforms",
+                "useInsteadText": "Use wechat, zhihu, or youku."
+            },
+            {
+                "case": "Generic social share",
+                "useInsteadIcons": [
+                    "share16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=2189-189&m=dev"
+    },
+    "xing": {
+        "name": "xing",
+        "file": "xing.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "XING profile links",
+            "share-to-XING actions",
+            "DACH-region professional-network references"
+        ],
+        "keywords": [
+            "xing",
+            "professional",
+            "network",
+            "dach",
+            "share"
+        ],
+        "avoidFor": [
+            {
+                "case": "International professional network",
+                "useInsteadIcons": [
+                    "linkedin"
+                ]
+            },
+            {
+                "case": "Generic network",
+                "useInsteadIcons": [
+                    "network16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-142&m=dev"
+    },
+    "youku": {
+        "name": "youku",
+        "file": "youku.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "Youku channel/video links",
+            "share-to-Youku actions",
+            "Chinese-market video-platform references"
+        ],
+        "keywords": [
+            "youku",
+            "china",
+            "video",
+            "watch",
+            "share"
+        ],
+        "avoidFor": [
+            {
+                "case": "International video platform",
+                "useInsteadIcons": [
+                    "youtube"
+                ]
+            },
+            {
+                "case": "Generic video",
+                "useInsteadIcons": [
+                    "video16"
+                ]
+            },
+            {
+                "case": "Other Chinese platforms",
+                "useInsteadText": "Use weibo, wechat, or zhihu."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-165&m=dev"
+    },
+    "youtube": {
+        "name": "youtube",
+        "file": "youtube.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "YouTube channel links",
+            "share-to-YouTube actions",
+            "embedded-video references"
+        ],
+        "keywords": [
+            "youtube",
+            "video",
+            "channel",
+            "watch",
+            "share"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic video file",
+                "useInsteadIcons": [
+                    "fileMp416",
+                    "video16"
+                ]
+            },
+            {
+                "case": "Playback control",
+                "useInsteadIcons": [
+                    "mediaPlay16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-137&m=dev"
+    },
+    "zhihu": {
+        "name": "zhihu",
+        "file": "zhihu.svg",
+        "category": "social-media",
+        "metaphor": "Brand logo.",
+        "useFor": [
+            "Zhihu profile/content links",
+            "share-to-Zhihu actions",
+            "Chinese Q&A-community references"
+        ],
+        "keywords": [
+            "zhihu",
+            "china",
+            "qa",
+            "knowledge",
+            "social"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic Q&A",
+                "useInsteadIcons": [
+                    "questionMark16"
+                ]
+            },
+            {
+                "case": "Other Chinese platforms",
+                "useInsteadText": "Use weibo, wechat, or youku."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-164&m=dev"
     }
 }
