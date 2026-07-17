@@ -6511,7 +6511,10 @@
         "category": "interface",
         "metaphor": "A larger screen overlapping with a smaller mobile device.",
         "useFor": [
-            "Responsive-design references, multi-device previews, breakpoint switchers, content that adapts across viewport sizes"
+            "Responsive-design references",
+            "multi-device previews",
+            "breakpoint switchers",
+            "content that adapts across viewport sizes"
         ],
         "keywords": [
             "responsive",
@@ -6552,7 +6555,9 @@
         "category": "hardware",
         "metaphor": "A microcontroller chip with surrounding pads.",
         "useFor": [
-            "Microcontroller (MCU) references in catalogs, IDE targets, embedded contexts"
+            "Microcontroller (MCU) references in catalogs",
+            "IDE targets",
+            "embedded contexts"
         ],
         "keywords": [
             "microcontroller",
@@ -6586,7 +6591,8 @@
         "category": "hardware",
         "metaphor": "A washing machine.",
         "useFor": [
-            "Washing-machine / home-appliance references, laundry contexts"
+            "Washing-machine / home-appliance references",
+            "laundry contexts"
         ],
         "keywords": [
             "washing machine",
@@ -6678,7 +6684,9 @@
         "category": "hardware",
         "metaphor": "A rectangular digital thermostat with a numeric temperature readout and control buttons.",
         "useFor": [
-            "Smart-thermostat references, HVAC controls, room-temperature setpoints"
+            "Smart-thermostat references",
+            "HVAC controls",
+            "room-temperature setpoints"
         ],
         "keywords": [
             "thermostat",
@@ -6710,7 +6718,8 @@
         "category": "hardware",
         "metaphor": "An isolator symbol.",
         "useFor": [
-            "Isolator products (galvanic / digital), isolation contexts"
+            "Isolator products (galvanic / digital)",
+            "isolation contexts"
         ],
         "keywords": [
             "isolator",
@@ -6740,7 +6749,9 @@
         "category": "hardware",
         "metaphor": "A chemistry flask.",
         "useFor": [
-            "Chemistry / lab contexts, experiments, materials science"
+            "Chemistry / lab contexts",
+            "experiments",
+            "materials science"
         ],
         "keywords": [
             "chemistry",
@@ -6776,7 +6787,8 @@
         "category": "hardware",
         "metaphor": "An IC chip marked with AI.",
         "useFor": [
-            "AI accelerators, AI / ML silicon products"
+            "AI accelerators",
+            "AI / ML silicon products"
         ],
         "keywords": [
             "chip ai",
@@ -6804,7 +6816,9 @@
         "category": "hardware",
         "metaphor": "An industrial factory silhouette.",
         "useFor": [
-            "Manufacturing references, factory locations, production contexts"
+            "Manufacturing references",
+            "factory locations",
+            "production contexts"
         ],
         "keywords": [
             "factory",
@@ -6834,7 +6848,9 @@
         "category": "hardware",
         "metaphor": "A wrench.",
         "useFor": [
-            "Generic tools, settings, maintenance actions"
+            "Generic tools",
+            "settings",
+            "maintenance actions"
         ],
         "keywords": [
             "tool",
@@ -6870,7 +6886,8 @@
         "category": "hardware",
         "metaphor": "A calculator.",
         "useFor": [
-            "Calculator tools, numerical-computation entry points"
+            "Calculator tools",
+            "numerical-computation entry points"
         ],
         "keywords": [
             "calculator",
@@ -6930,7 +6947,9 @@
         "category": "hardware",
         "metaphor": "Eyeglasses.",
         "useFor": [
-            "Reading view, focus modes, vision-related contexts"
+            "Reading view",
+            "focus modes",
+            "vision-related contexts"
         ],
         "keywords": [
             "glasses",
@@ -6966,7 +6985,9 @@
         "category": "hardware",
         "metaphor": "An airplane in flight.",
         "useFor": [
-            "Aviation references, air-travel contexts, flight modes"
+            "Aviation references",
+            "air-travel contexts",
+            "flight modes"
         ],
         "keywords": [
             "airplane",
@@ -6996,7 +7017,9 @@
         "category": "hardware",
         "metaphor": "An orbiting satellite.",
         "useFor": [
-            "Satellite references, satellite-communication contexts, space hardware"
+            "Satellite references",
+            "satellite-communication contexts",
+            "space hardware"
         ],
         "keywords": [
             "satellite",
@@ -7027,7 +7050,9 @@
         "category": "hardware",
         "metaphor": "A rocket launching.",
         "useFor": [
-            "Launch / start-up contexts, growth-acceleration metaphors, boost affordances"
+            "Launch / start-up contexts",
+            "growth-acceleration metaphors",
+            "boost affordances"
         ],
         "keywords": [
             "rocket",
@@ -7063,7 +7088,8 @@
         "category": "hardware",
         "metaphor": "A bicycle.",
         "useFor": [
-            "Bicycle / cycling references, e-bike contexts"
+            "Bicycle / cycling references",
+            "e-bike contexts"
         ],
         "keywords": [
             "bike",
@@ -7091,7 +7117,9 @@
         "category": "hardware",
         "metaphor": "A thermometer.",
         "useFor": [
-            "Temperature display, thermal-sensor data, temperature-related controls"
+            "Temperature display",
+            "thermal-sensor data",
+            "temperature-related controls"
         ],
         "keywords": [
             "temperature",
@@ -7126,7 +7154,8 @@
         "category": "hardware",
         "metaphor": "A still-photo camera.",
         "useFor": [
-            "Still-photo capture, camera hardware references"
+            "Still-photo capture",
+            "camera hardware references"
         ],
         "keywords": [
             "camera",
@@ -7203,7 +7232,8 @@
         "category": "hardware",
         "metaphor": "A tram / streetcar.",
         "useFor": [
-            "Tram / streetcar references, public-transport rail contexts"
+            "Tram / streetcar references",
+            "public-transport rail contexts"
         ],
         "keywords": [
             "tram",
@@ -7231,7 +7261,8 @@
         "category": "hardware",
         "metaphor": "A battery with a lightning bolt.",
         "useFor": [
-            "Battery-charging status, charge level + active-charging indicators"
+            "Battery-charging status",
+            "charge level + active-charging indicators"
         ],
         "keywords": [
             "battery charging",
@@ -7289,7 +7320,8 @@
         "category": "hardware",
         "metaphor": "A modem-like box with an antenna on top and indicator LEDs.",
         "useFor": [
-            "Transceiver products (CAN / LIN / Ethernet etc.), communication-IC references"
+            "Transceiver products (CAN / LIN / Ethernet etc.)",
+            "communication-IC references"
         ],
         "keywords": [
             "transceiver",
@@ -7319,7 +7351,9 @@
         "category": "hardware",
         "metaphor": "A robotic arm.",
         "useFor": [
-            "Robotics, automation, industrial-arm applications"
+            "Robotics",
+            "automation",
+            "industrial-arm applications"
         ],
         "keywords": [
             "robotic arm",
@@ -7349,7 +7383,8 @@
         "category": "hardware",
         "metaphor": "A wide rectangular IC package with pins on the top edge.",
         "useFor": [
-            "DIP-package ICs in through-hole catalogs, legacy components"
+            "DIP-package ICs in through-hole catalogs",
+            "legacy components"
         ],
         "keywords": [
             "chip dip",
@@ -7379,7 +7414,8 @@
         "category": "hardware",
         "metaphor": "A desktop tower and monitor.",
         "useFor": [
-            "Desktop-computer device references, workstation targets"
+            "Desktop-computer device references",
+            "workstation targets"
         ],
         "keywords": [
             "desktop",
@@ -7414,7 +7450,8 @@
         "category": "hardware",
         "metaphor": "A diode schematic symbol.",
         "useFor": [
-            "Generic diode product references, semiconductor diodes"
+            "Generic diode product references",
+            "semiconductor diodes"
         ],
         "keywords": [
             "diode",
@@ -7535,7 +7572,8 @@
         "category": "hardware",
         "metaphor": "A smartphone outline.",
         "useFor": [
-            "Smartphone device references, mobile-device targets"
+            "Smartphone device references",
+            "mobile-device targets"
         ],
         "keywords": [
             "smartphone",
@@ -7635,7 +7673,8 @@
         "category": "hardware",
         "metaphor": "An open laptop.",
         "useFor": [
-            "Laptop device references, mobile-computing targets"
+            "Laptop device references",
+            "mobile-computing targets"
         ],
         "keywords": [
             "laptop",
@@ -7670,7 +7709,9 @@
         "category": "hardware",
         "metaphor": "A laptop showing a person's head and shoulders.",
         "useFor": [
-            "Webinars, live online sessions, remote-attendance learning"
+            "Webinars",
+            "live online sessions",
+            "remote-attendance learning"
         ],
         "keywords": [
             "webinar",
@@ -7805,7 +7846,9 @@
         "category": "hardware",
         "metaphor": "A passenger car seen from the front (windshield and two headlights).",
         "useFor": [
-            "Automotive references, vehicle products, car-related contexts"
+            "Automotive references",
+            "vehicle products",
+            "car-related contexts"
         ],
         "keywords": [
             "car",
@@ -7841,7 +7884,8 @@
         "category": "hardware",
         "metaphor": "Abstract technology / IC representation.",
         "useFor": [
-            "Generic technology references, platform overviews"
+            "Generic technology references",
+            "platform overviews"
         ],
         "keywords": [
             "technology",
@@ -7906,7 +7950,8 @@
         "category": "hardware",
         "metaphor": "A monitor on a stand.",
         "useFor": [
-            "Desktop monitor / screen references, display-device targets"
+            "Desktop monitor / screen references",
+            "display-device targets"
         ],
         "keywords": [
             "desktop screen",
@@ -7941,7 +7986,8 @@
         "category": "hardware",
         "metaphor": "A tablet outline.",
         "useFor": [
-            "Tablet device references, mobile-device targets between phone and laptop"
+            "Tablet device references",
+            "mobile-device targets between phone and laptop"
         ],
         "keywords": [
             "tablet",
@@ -7971,7 +8017,8 @@
         "category": "hardware",
         "metaphor": "A silicon wafer.",
         "useFor": [
-            "Wafer / fab references, semiconductor-manufacturing contexts"
+            "Wafer / fab references",
+            "semiconductor-manufacturing contexts"
         ],
         "keywords": [
             "wafer",
@@ -8001,7 +8048,9 @@
         "category": "hardware",
         "metaphor": "Multiple chips stacked or in a row.",
         "useFor": [
-            "Multiple ICs, chip portfolios, family catalogs"
+            "Multiple ICs",
+            "chip portfolios",
+            "family catalogs"
         ],
         "keywords": [
             "chips",
@@ -8031,7 +8080,9 @@
         "category": "hardware",
         "metaphor": "A headlight with rays projecting to the right.",
         "useFor": [
-            "Car-lights references, headlamp-product contexts, automotive lighting"
+            "Car-lights references",
+            "headlamp-product contexts",
+            "automotive lighting"
         ],
         "keywords": [
             "car lights",
@@ -8061,7 +8112,8 @@
         "category": "hardware",
         "metaphor": "A leaf connected to a power plug by a cable.",
         "useFor": [
-            "Eco-mode device toggle, energy-saving operation mode on appliances"
+            "Eco-mode device toggle",
+            "energy-saving operation mode on appliances"
         ],
         "keywords": [
             "eco mode",
@@ -8090,7 +8142,9 @@
         "category": "hardware",
         "metaphor": "A square IC package with pins.",
         "useFor": [
-            "Generic semiconductors, processors, IC product references"
+            "Generic semiconductors",
+            "processors",
+            "IC product references"
         ],
         "keywords": [
             "chip",
@@ -8124,7 +8178,9 @@
         "category": "hardware",
         "metaphor": "An antenna with radiating waves.",
         "useFor": [
-            "Antenna references, RF / wireless product context, signal-source indicators"
+            "Antenna references",
+            "RF / wireless product context",
+            "signal-source indicators"
         ],
         "keywords": [
             "antenna",
@@ -8160,7 +8216,8 @@
         "category": "hardware",
         "metaphor": "A printed circuit board.",
         "useFor": [
-            "PCB / development-board references, hardware schematics"
+            "PCB / development-board references",
+            "hardware schematics"
         ],
         "keywords": [
             "board",
@@ -8196,7 +8253,9 @@
         "category": "hardware",
         "metaphor": "Binoculars.",
         "useFor": [
-            "Search / observation, look ahead, monitoring contexts"
+            "Search / observation",
+            "look ahead",
+            "monitoring contexts"
         ],
         "keywords": [
             "binoculars",
@@ -8232,7 +8291,8 @@
         "category": "hardware",
         "metaphor": "A USB connector with a power symbol.",
         "useFor": [
-            "Toggle USB port on / off, switch between USB modes"
+            "Toggle USB port on / off",
+            "switch between USB modes"
         ],
         "keywords": [
             "usb toggle",
@@ -8262,7 +8322,9 @@
         "category": "hardware",
         "metaphor": "A server rack.",
         "useFor": [
-            "Servers, on-prem hardware, datacenter references"
+            "Servers",
+            "on-prem hardware",
+            "datacenter references"
         ],
         "keywords": [
             "server",
@@ -8298,7 +8360,8 @@
         "category": "hardware",
         "metaphor": "A laptop with a power symbol on the screen.",
         "useFor": [
-            "Generic software product references, software-package downloads"
+            "Generic software product references",
+            "software-package downloads"
         ],
         "keywords": [
             "software",
@@ -8334,7 +8397,8 @@
         "category": "hardware",
         "metaphor": "A USB connector.",
         "useFor": [
-            "USB-port references, USB-device connections"
+            "USB-port references",
+            "USB-device connections"
         ],
         "keywords": [
             "usb",
@@ -8369,7 +8433,9 @@
         "category": "hardware",
         "metaphor": "A two-pin electrical plug going into a socket.",
         "useFor": [
-            "Charging stations, charging-port references, EV-charging contexts"
+            "Charging stations",
+            "charging-port references",
+            "EV-charging contexts"
         ],
         "keywords": [
             "charging",
@@ -13109,5 +13175,317 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-126&m=dev"
+    },
+    "snow16": {
+        "name": "snow16",
+        "file": "snow-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A snowflake.",
+        "useFor": [
+            "Cold-environment device modes",
+            "winter-season content",
+            "low-temperature alerts",
+            "refrigeration"
+        ],
+        "keywords": [
+            "snow",
+            "cold",
+            "winter",
+            "freeze",
+            "low temperature",
+            "snowflake."
+        ],
+        "avoidFor": [
+            {
+                "case": "General temperature display",
+                "useInsteadIcons": [
+                    "temperature16"
+                ],
+                "useInsteadText": "Use temperature-16. Energy-saving device mode."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-66&m=dev"
+    },
+    "fairyWand16": {
+        "name": "fairyWand16",
+        "file": "fairy-wand-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A magic wand with a star tip, surrounded by sparkles.",
+        "useFor": [
+            "Smart suggestions",
+            "auto-actions",
+            "\"magic\" shortcuts that automate a multi-step task"
+        ],
+        "keywords": [
+            "magic",
+            "wand",
+            "star",
+            "sparkles",
+            "smart",
+            "auto",
+            "suggest",
+            "automate",
+            "shortcut."
+        ],
+        "avoidFor": [
+            {
+                "case": "Labeling AI-generated content",
+                "useInsteadIcons": [
+                    "ai16"
+                ],
+                "useInsteadText": "Use ai-16 or the AI Label component. Manual configuration."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=20432-496&m=dev"
+    },
+    "fruitCrate16": {
+        "name": "fruitCrate16",
+        "file": "fruit-crate-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A wooden crate filled with fruit.",
+        "useFor": [
+            "Grocery and produce contexts",
+            "food sourcing",
+            "supply-chain food categories"
+        ],
+        "keywords": [
+            "fruit",
+            "produce",
+            "grocery",
+            "food",
+            "crate",
+            "supply."
+        ],
+        "avoidFor": [
+            {
+                "case": "Cafeteria or dining",
+                "useInsteadIcons": [
+                    "cutlery16"
+                ],
+                "useInsteadText": "Use cutlery-16. Generic packaging."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-223&m=dev"
+    },
+    "myHr16": {
+        "name": "myHr16",
+        "file": "my-hr-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "Two hands from below, each holding a leaf (a \"care / growth\" gesture).",
+        "useFor": [
+            "HR portal entry",
+            "employee self-service",
+            "personal HR records",
+            "benefits and welfare programs"
+        ],
+        "keywords": [
+            "HR",
+            "my HR",
+            "human resources",
+            "employee portal",
+            "self-service",
+            "care."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic user profile",
+                "useInsteadIcons": [
+                    "user16"
+                ],
+                "useInsteadText": "Use user-16. Team or organization view."
+            },
+            {
+                "case": "use team-16 or organigram-16. Sustainability alone",
+                "useInsteadIcons": [
+                    "leaf16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3727&m=dev"
+    },
+    "present16": {
+        "name": "present16",
+        "file": "present-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A wrapped gift box with a ribbon.",
+        "useFor": [
+            "Rewards",
+            "gifts",
+            "employee perks",
+            "anniversaries",
+            "promotions"
+        ],
+        "keywords": [
+            "present",
+            "gift",
+            "reward",
+            "bonus",
+            "perk",
+            "anniversary."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic packages or shipping",
+                "useInsteadIcons": [
+                    "box16"
+                ],
+                "useInsteadText": "Use box-16 or package-16. Achievements."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-18&m=dev"
+    },
+    "cutlery16": {
+        "name": "cutlery16",
+        "file": "cutlery-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A crossed knife and fork.",
+        "useFor": [
+            "Cafeteria menus",
+            "food services",
+            "meal benefits",
+            "restaurant locations"
+        ],
+        "keywords": [
+            "cutlery",
+            "food",
+            "meal",
+            "restaurant",
+            "canteen",
+            "dining."
+        ],
+        "avoidFor": [
+            {
+                "case": "Grocery or produce contexts",
+                "useInsteadIcons": [
+                    "fruitCrate16"
+                ],
+                "useInsteadText": "Use fruit-crate-16. Cooking/lab instructions."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3793&m=dev"
+    },
+    "tshirt16": {
+        "name": "tshirt16",
+        "file": "tshirt-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A short-sleeved T-shirt silhouette.",
+        "useFor": [
+            "Apparel categories",
+            "merchandise and swag",
+            "dress-code or uniform contexts"
+        ],
+        "keywords": [
+            "tshirt",
+            "apparel",
+            "clothing",
+            "merchandise",
+            "swag",
+            "uniform."
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic gifts or perks",
+                "useInsteadIcons": [
+                    "present16"
+                ],
+                "useInsteadText": "Use present-16. Achievements."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21924-733&m=dev"
+    },
+    "leaf16": {
+        "name": "leaf16",
+        "file": "leaf-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A single plant leaf.",
+        "useFor": [
+            "Sustainability",
+            "environmental programs",
+            "green labels",
+            "nature-related content"
+        ],
+        "keywords": [
+            "leaf",
+            "eco",
+            "sustainability",
+            "environment",
+            "green",
+            "nature."
+        ],
+        "avoidFor": [
+            {
+                "case": "Power-saving device modes",
+                "useInsteadIcons": [
+                    "ecoMode16"
+                ],
+                "useInsteadText": "Use eco-mode-16. Halogen/lead-free compliance."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3929&m=dev"
+    },
+    "stroller16": {
+        "name": "stroller16",
+        "file": "stroller-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A pushchair seen from the side.",
+        "useFor": [
+            "Parental leave logistics",
+            "baby transport",
+            "family-travel info",
+            "childcare amenities"
+        ],
+        "keywords": [
+            "stroller",
+            "pushchair",
+            "pram",
+            "baby transport",
+            "parental."
+        ],
+        "avoidFor": [
+            {
+                "case": "The baby itself",
+                "useInsteadIcons": [
+                    "happyBaby16"
+                ],
+                "useInsteadText": "Use happy-baby-16. General mobility."
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-78&m=dev"
+    },
+    "happyBaby16": {
+        "name": "happyBaby16",
+        "file": "happy-baby-16.svg",
+        "category": "miscellaneous",
+        "metaphor": "A smiling baby face.",
+        "useFor": [
+            "Family benefits",
+            "parental leave",
+            "childcare programs",
+            "baby-related content in HR or social contexts"
+        ],
+        "keywords": [
+            "baby",
+            "infant",
+            "child",
+            "family",
+            "parental",
+            "newborn."
+        ],
+        "avoidFor": [
+            {
+                "case": "Strollers or baby transport",
+                "useInsteadIcons": [
+                    "stroller16"
+                ],
+                "useInsteadText": "Use stroller-16. General user/person."
+            },
+            {
+                "case": "use user-16. HR portal entry",
+                "useInsteadIcons": [
+                    "myHr16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3906&m=dev"
     }
 }
