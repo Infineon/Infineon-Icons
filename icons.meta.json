@@ -5737,5 +5737,774 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21924-746&m=dev"
+    },
+    "videoCamX16": {
+        "name": "videoCamX16",
+        "file": "video-cam-x-16.svg",
+        "category": "audio-video",
+        "metaphor": "A video camera with a strike-through.",
+        "useFor": [
+            "Video off / disabled state",
+            "turn camera off in conferencing UIs"
+        ],
+        "keywords": [
+            "video off",
+            "camera off",
+            "no video",
+            "disabled"
+        ],
+        "avoidFor": [
+            {
+                "case": "Active video",
+                "useInsteadIcons": [
+                    "videoCam16"
+                ]
+            },
+            {
+                "case": "Generic video file",
+                "useInsteadIcons": [
+                    "video16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-125&m=dev"
+    },
+    "headset16": {
+        "name": "headset16",
+        "file": "headset-16.svg",
+        "category": "audio-video",
+        "metaphor": "Over-ear headphones with a boom microphone (a call-center headset).",
+        "useFor": [
+            "Headset / headphones",
+            "audio-listening contexts",
+            "call-center personas"
+        ],
+        "keywords": [
+            "headset",
+            "headphones",
+            "audio listening",
+            "call center",
+            "boom mic"
+        ],
+        "avoidFor": [
+            {
+                "case": "Microphone alone",
+                "useInsteadIcons": [
+                    "microphone16"
+                ]
+            },
+            {
+                "case": "Speaker output",
+                "useInsteadIcons": [
+                    "sound16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3910&m=dev"
+    },
+    "volumeDown16": {
+        "name": "volumeDown16",
+        "file": "volume-down-16.svg",
+        "category": "audio-video",
+        "metaphor": "A speaker with a minus mark.",
+        "useFor": [
+            "Decrease volume",
+            "low-volume indicator"
+        ],
+        "keywords": [
+            "volume down",
+            "low volume",
+            "quieter",
+            "minus"
+        ],
+        "avoidFor": [
+            {
+                "case": "Mute",
+                "useInsteadIcons": [
+                    "volumeMute16"
+                ]
+            },
+            {
+                "case": "Volume up",
+                "useInsteadIcons": [
+                    "volumeUp16"
+                ]
+            },
+            {
+                "case": "Generic sound",
+                "useInsteadIcons": [
+                    "sound16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-127&m=dev"
+    },
+    "preferences16": {
+        "name": "preferences16",
+        "file": "preferences-16.svg",
+        "category": "audio-video",
+        "metaphor": "Two vertical mixer-style sliders with rectangular handles.",
+        "useFor": [
+            "User-specific preferences",
+            "personalization",
+            "profile-level settings"
+        ],
+        "keywords": [
+            "preferences",
+            "personal settings",
+            "user settings",
+            "mixer sliders",
+            "faders"
+        ],
+        "avoidFor": [
+            {
+                "case": "System-wide configuration (horizontal sliders)",
+                "useInsteadIcons": [
+                    "configure16"
+                ]
+            },
+            {
+                "case": "Generic settings",
+                "useInsteadIcons": [
+                    "cogwheel16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-17&m=dev"
+    },
+    "volumeMute16": {
+        "name": "volumeMute16",
+        "file": "volume-mute-16.svg",
+        "category": "audio-video",
+        "metaphor": "A speaker with a strike-through.",
+        "useFor": [
+            "Mute action",
+            "no-sound state indicator"
+        ],
+        "keywords": [
+            "volume mute",
+            "silent",
+            "no sound"
+        ],
+        "avoidFor": [
+            {
+                "case": "Low volume",
+                "useInsteadIcons": [
+                    "volumeDown16"
+                ]
+            },
+            {
+                "case": "Disabled",
+                "useInsteadIcons": [
+                    "ban16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-128&m=dev"
+    },
+    "volumeUp16": {
+        "name": "volumeUp16",
+        "file": "volume-up-16.svg",
+        "category": "audio-video",
+        "metaphor": "A speaker with a plus mark.",
+        "useFor": [
+            "Increase volume",
+            "max-volume indicator",
+            "sound on / loud state"
+        ],
+        "keywords": [
+            "volume up",
+            "loud",
+            "max volume",
+            "plus"
+        ],
+        "avoidFor": [
+            {
+                "case": "Volume down",
+                "useInsteadIcons": [
+                    "volumeDown16"
+                ]
+            },
+            {
+                "case": "Mute",
+                "useInsteadIcons": [
+                    "volumeMute16"
+                ]
+            },
+            {
+                "case": "Generic sound",
+                "useInsteadIcons": [
+                    "sound16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-129&m=dev"
+    },
+    "skipToBeginning16": {
+        "name": "skipToBeginning16",
+        "file": "skip-to-beginning-16.svg",
+        "category": "audio-video",
+        "metaphor": "A left-pointing triangle with a leading bar.",
+        "useFor": [
+            "Jump to the beginning of a collection or sequence (first track / first item)",
+            "rewind to start"
+        ],
+        "keywords": [
+            "skip to beginning",
+            "jump to start",
+            "first",
+            "rewind"
+        ],
+        "avoidFor": [
+            {
+                "case": "Standard back nav",
+                "useInsteadIcons": [
+                    "arrowLeft16",
+                    "chevronLeft16"
+                ]
+            },
+            {
+                "case": "First page in pagination",
+                "useInsteadIcons": [
+                    "doubleChevronLeft16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-60&m=dev"
+    },
+    "shuffle16": {
+        "name": "shuffle16",
+        "file": "shuffle-16.svg",
+        "category": "audio-video",
+        "metaphor": "Two crossed arrows (shuffle).",
+        "useFor": [
+            "Shuffle playback order",
+            "random-play mode"
+        ],
+        "keywords": [
+            "shuffle",
+            "random",
+            "mix"
+        ],
+        "avoidFor": [
+            {
+                "case": "Swap two items",
+                "useInsteadIcons": [
+                    "swapHorizontal16"
+                ]
+            },
+            {
+                "case": "Refresh",
+                "useInsteadIcons": [
+                    "refresh16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-53&m=dev"
+    },
+    "microphone16": {
+        "name": "microphone16",
+        "file": "microphone-16.svg",
+        "category": "audio-video",
+        "metaphor": "A microphone.",
+        "useFor": [
+            "Microphone input",
+            "audio recording",
+            "voice features"
+        ],
+        "keywords": [
+            "microphone",
+            "mic",
+            "voice input",
+            "recording"
+        ],
+        "avoidFor": [
+            {
+                "case": "Speaker output",
+                "useInsteadIcons": [
+                    "sound16"
+                ]
+            },
+            {
+                "case": "Recording state",
+                "useInsteadIcons": [
+                    "mediaRecord16"
+                ]
+            },
+            {
+                "case": "Public speaker",
+                "useInsteadIcons": [
+                    "speaker16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-199&m=dev"
+    },
+    "skipToEnd16": {
+        "name": "skipToEnd16",
+        "file": "skip-to-end-16.svg",
+        "category": "audio-video",
+        "metaphor": "A right-pointing triangle with a trailing bar.",
+        "useFor": [
+            "Jump to the end of a collection or sequence (last track / last item)",
+            "fast-forward to end"
+        ],
+        "keywords": [
+            "skip to end",
+            "jump to end",
+            "last",
+            "fast forward"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single forward skip (one item)",
+                "useInsteadIcons": [
+                    "skip16"
+                ]
+            },
+            {
+                "case": "Standard next nav",
+                "useInsteadIcons": [
+                    "arrowRight16",
+                    "chevronRight16"
+                ]
+            },
+            {
+                "case": "Last page in pagination",
+                "useInsteadIcons": [
+                    "doubleChevronRight16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-61&m=dev"
+    },
+    "mediaEject16": {
+        "name": "mediaEject16",
+        "file": "media-eject-16.svg",
+        "category": "audio-video",
+        "metaphor": "An upward-pointing triangle with a horizontal bar below (eject symbol).",
+        "useFor": [
+            "Eject media",
+            "disconnect external drive",
+            "\"remove safely\" actions"
+        ],
+        "keywords": [
+            "eject",
+            "remove media",
+            "disconnect drive"
+        ],
+        "avoidFor": [
+            {
+                "case": "Upload",
+                "useInsteadIcons": [
+                    "upload16"
+                ]
+            },
+            {
+                "case": "Stop playback",
+                "useInsteadIcons": [
+                    "mediaStop16"
+                ]
+            },
+            {
+                "case": "USB remove",
+                "useInsteadIcons": [
+                    "usbRemove16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3944&m=dev"
+    },
+    "sound16": {
+        "name": "sound16",
+        "file": "sound-16.svg",
+        "category": "audio-video",
+        "metaphor": "A speaker with a single small sound arc.",
+        "useFor": [
+            "Generic sound indicator",
+            "audio status",
+            "audio playback affordances"
+        ],
+        "keywords": [
+            "sound",
+            "audio",
+            "speaker"
+        ],
+        "avoidFor": [
+            {
+                "case": "Volume up (speaker + plus)",
+                "useInsteadIcons": [
+                    "volumeUp16"
+                ]
+            },
+            {
+                "case": "Volume down (speaker + minus)",
+                "useInsteadIcons": [
+                    "volumeDown16"
+                ]
+            },
+            {
+                "case": "Mute",
+                "useInsteadIcons": [
+                    "volumeMute16"
+                ]
+            },
+            {
+                "case": "Public speaker",
+                "useInsteadIcons": [
+                    "speaker16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-70&m=dev"
+    },
+    "configure16": {
+        "name": "configure16",
+        "file": "configure-16.svg",
+        "category": "audio-video",
+        "metaphor": "Three horizontal sliders with round handles.",
+        "useFor": [
+            "System-level configuration",
+            "technical setup",
+            "environment configuration"
+        ],
+        "keywords": [
+            "configure",
+            "setup",
+            "system settings",
+            "sliders"
+        ],
+        "avoidFor": [
+            {
+                "case": "User-specific preferences (vertical mixer sliders)",
+                "useInsteadIcons": [
+                    "preferences16"
+                ]
+            },
+            {
+                "case": "Generic settings",
+                "useInsteadIcons": [
+                    "cogwheel16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-176&m=dev"
+    },
+    "mediaPlay16": {
+        "name": "mediaPlay16",
+        "file": "media-play-16.svg",
+        "category": "audio-video",
+        "metaphor": "A right-pointing triangle outline.",
+        "useFor": [
+            "Start or resume playback of audio or video"
+        ],
+        "keywords": [
+            "play",
+            "start",
+            "resume",
+            "playback"
+        ],
+        "avoidFor": [
+            {
+                "case": "Submit / send",
+                "useInsteadIcons": [
+                    "send16"
+                ]
+            },
+            {
+                "case": "Single forward step",
+                "useInsteadIcons": [
+                    "skip16"
+                ]
+            },
+            {
+                "case": "Jump to end",
+                "useInsteadIcons": [
+                    "skipToEnd16"
+                ]
+            },
+            {
+                "case": "Triangle navigation",
+                "useInsteadIcons": [
+                    "arrowTriangleRight16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3946&m=dev"
+    },
+    "audioDescription16": {
+        "name": "audioDescription16",
+        "file": "audio-description-16.svg",
+        "category": "audio-video",
+        "metaphor": "The letters \"AD\" inside a rectangular frame.",
+        "useFor": [
+            "Audio-description accessibility tracks",
+            "narration for visually impaired users"
+        ],
+        "keywords": [
+            "audio description",
+            "narration",
+            "accessibility",
+            "blind support"
+        ],
+        "avoidFor": [
+            {
+                "case": "Braille",
+                "useInsteadIcons": [
+                    "braille16"
+                ]
+            },
+            {
+                "case": "Captions",
+                "useInsteadText": "different icon"
+            },
+            {
+                "case": "Wheelchair access",
+                "useInsteadIcons": [
+                    "wheelchair16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2692&m=dev"
+    },
+    "mediaStop16": {
+        "name": "mediaStop16",
+        "file": "media-stop-16.svg",
+        "category": "audio-video",
+        "metaphor": "A square outline.",
+        "useFor": [
+            "Stop playback or recording",
+            "halt media stream"
+        ],
+        "keywords": [
+            "stop",
+            "halt",
+            "media stop"
+        ],
+        "avoidFor": [
+            {
+                "case": "Pause",
+                "useInsteadIcons": [
+                    "mediaPause16"
+                ]
+            },
+            {
+                "case": "Eject",
+                "useInsteadIcons": [
+                    "mediaEject16"
+                ]
+            },
+            {
+                "case": "Block / ban",
+                "useInsteadIcons": [
+                    "ban16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3948&m=dev"
+    },
+    "power16": {
+        "name": "power16",
+        "file": "power-16.svg",
+        "category": "audio-video",
+        "metaphor": "A power button.",
+        "useFor": [
+            "Power on / off action",
+            "shutdown",
+            "restart prompts"
+        ],
+        "keywords": [
+            "power",
+            "on off",
+            "shutdown",
+            "restart"
+        ],
+        "avoidFor": [
+            {
+                "case": "Standby / sleep",
+                "useInsteadIcons": [
+                    "moon16"
+                ]
+            },
+            {
+                "case": "Disconnect / unlink",
+                "useInsteadIcons": [
+                    "unlink16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-16&m=dev"
+    },
+    "video16": {
+        "name": "video16",
+        "file": "video-16.svg",
+        "category": "audio-video",
+        "metaphor": "A play triangle inside a circle.",
+        "useFor": [
+            "Video files",
+            "video content references",
+            "embedded video markers"
+        ],
+        "keywords": [
+            "video",
+            "clip",
+            "movie",
+            "footage",
+            "play button"
+        ],
+        "avoidFor": [
+            {
+                "case": "Video call camera",
+                "useInsteadIcons": [
+                    "videoCam16"
+                ]
+            },
+            {
+                "case": "Standalone play control",
+                "useInsteadIcons": [
+                    "mediaPlay16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-123&m=dev"
+    },
+    "mediaPause16": {
+        "name": "mediaPause16",
+        "file": "media-pause-16.svg",
+        "category": "audio-video",
+        "metaphor": "Two vertical bars.",
+        "useFor": [
+            "Pause playback or recording"
+        ],
+        "keywords": [
+            "pause",
+            "hold",
+            "suspend"
+        ],
+        "avoidFor": [
+            {
+                "case": "Stop",
+                "useInsteadIcons": [
+                    "mediaStop16"
+                ]
+            },
+            {
+                "case": "Volume bars",
+                "useInsteadText": "different icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3945&m=dev"
+    },
+    "videoCam16": {
+        "name": "videoCam16",
+        "file": "video-cam-16.svg",
+        "category": "audio-video",
+        "metaphor": "A video camera.",
+        "useFor": [
+            "Active camera in a video call",
+            "video capture",
+            "livestream-source indicator"
+        ],
+        "keywords": [
+            "video cam",
+            "camera on",
+            "live",
+            "video capture"
+        ],
+        "avoidFor": [
+            {
+                "case": "Disabled",
+                "useInsteadIcons": [
+                    "videoCamX16"
+                ]
+            },
+            {
+                "case": "Generic video content",
+                "useInsteadIcons": [
+                    "video16"
+                ]
+            },
+            {
+                "case": "Still-photo camera",
+                "useInsteadIcons": [
+                    "camera16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-124&m=dev"
+    },
+    "mediaRecord16": {
+        "name": "mediaRecord16",
+        "file": "media-record-16.svg",
+        "category": "audio-video",
+        "metaphor": "A circle outline.",
+        "useFor": [
+            "Start recording (audio or video)",
+            "record-armed indicator"
+        ],
+        "keywords": [
+            "record",
+            "rec",
+            "capture"
+        ],
+        "avoidFor": [
+            {
+                "case": "Status dot",
+                "useInsteadIcons": [
+                    "dot16"
+                ]
+            },
+            {
+                "case": "Bullet point",
+                "useInsteadIcons": [
+                    "bulletList16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3947&m=dev"
+    },
+    "skip16": {
+        "name": "skip16",
+        "file": "skip-16.svg",
+        "category": "interface",
+        "metaphor": "A right-pointing triangle followed by a vertical bar.",
+        "useFor": [
+            "A single forward skip — advance by one item in a collection or sequence"
+        ],
+        "keywords": [
+            "skip",
+            "single skip",
+            "skip forward",
+            "next",
+            "one step forward"
+        ],
+        "avoidFor": [
+            {
+                "case": "Jump to the end of the entire collection",
+                "useInsteadIcons": [
+                    "skipToEnd16"
+                ]
+            },
+            {
+                "case": "Jump to the beginning of the entire collection",
+                "useInsteadIcons": [
+                    "skipToBeginning16"
+                ]
+            },
+            {
+                "case": "Standard next / continue navigation",
+                "useInsteadIcons": [
+                    "arrowRight16",
+                    "chevronRight16"
+                ]
+            },
+            {
+                "case": "Media play",
+                "useInsteadIcons": [
+                    "mediaPlay16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=25762-212&m=dev"
     }
 }
