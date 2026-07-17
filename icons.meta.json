@@ -14512,5 +14512,464 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=393-164&m=dev"
+    },
+    "apartmentBuilding16": {
+        "name": "apartmentBuilding16",
+        "file": "apartment-building-16.svg",
+        "category": "locations",
+        "metaphor": "A multi-story apartment building",
+        "useFor": [
+            "Apartment buildings",
+            "residential property listings",
+            "urban housing references"
+        ],
+        "keywords": [
+            "apartment",
+            "building",
+            "residential",
+            "housing",
+            "urban"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic office building",
+                "useInsteadText": "different icon"
+            },
+            {
+                "case": "Hospital",
+                "useInsteadIcons": [
+                    "hospital16"
+                ]
+            },
+            {
+                "case": "Factory",
+                "useInsteadIcons": [
+                    "factory16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2587&m=dev"
+    },
+    "wheelchair16": {
+        "name": "wheelchair16",
+        "file": "wheelchair-16.svg",
+        "category": "locations",
+        "metaphor": "A wheelchair (side view, no person)",
+        "useFor": [
+            "Accessibility features",
+            "wheelchair access",
+            "accessible-route indicators"
+        ],
+        "keywords": [
+            "wheelchair",
+            "accessibility",
+            "accessible",
+            "mobility"
+        ],
+        "avoidFor": [
+            {
+                "case": "Audio accessibility",
+                "useInsteadIcons": [
+                    "audioDescription16"
+                ]
+            },
+            {
+                "case": "Braille",
+                "useInsteadIcons": [
+                    "braille16"
+                ]
+            },
+            {
+                "case": "Generic user",
+                "useInsteadIcons": [
+                    "user16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-162&m=dev"
+    },
+    "park16": {
+        "name": "park16",
+        "file": "park-16.svg",
+        "category": "locations",
+        "metaphor": "A park bench next to a tree",
+        "useFor": [
+            "Park locations",
+            "green public spaces",
+            "recreational outdoor areas"
+        ],
+        "keywords": [
+            "park",
+            "green space",
+            "outdoors",
+            "recreation",
+            "tree",
+            "bench"
+        ],
+        "avoidFor": [
+            {
+                "case": "Sustainability concept",
+                "useInsteadIcons": [
+                    "leaf16"
+                ]
+            },
+            {
+                "case": "Parking action",
+                "useInsteadText": "different icon"
+            },
+            {
+                "case": "Gym",
+                "useInsteadIcons": [
+                    "gym16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13494-1196&m=dev"
+    },
+    "waves16": {
+        "name": "waves16",
+        "file": "waves-16.svg",
+        "category": "locations",
+        "metaphor": "Three stacked water waves",
+        "useFor": [
+            "Water",
+            "ocean",
+            "hydro references",
+            "wave patterns"
+        ],
+        "keywords": [
+            "waves",
+            "water",
+            "ocean",
+            "hydro",
+            "wave pattern"
+        ],
+        "avoidFor": [
+            {
+                "case": "WiFi signal",
+                "useInsteadIcons": [
+                    "wifi16"
+                ]
+            },
+            {
+                "case": "Audio playback / sound waves",
+                "useInsteadIcons": [
+                    "sound16"
+                ]
+            },
+            {
+                "case": "Audio meter / mic",
+                "useInsteadIcons": [
+                    "microphone16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-156&m=dev"
+    },
+    "hospitalBed16": {
+        "name": "hospitalBed16",
+        "file": "hospital-bed-16.svg",
+        "category": "locations",
+        "metaphor": "A hospital bed with a medical cross above it",
+        "useFor": [
+            "Inpatient capacity",
+            "ward occupancy",
+            "hospital-bed availability dashboards"
+        ],
+        "keywords": [
+            "hospital bed",
+            "ward",
+            "patient",
+            "bed"
+        ],
+        "avoidFor": [
+            {
+                "case": "Hospital location",
+                "useInsteadIcons": [
+                    "hospital16"
+                ]
+            },
+            {
+                "case": "Medical record",
+                "useInsteadIcons": [
+                    "clipboardMedical16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3916&m=dev"
+    },
+    "gym16": {
+        "name": "gym16",
+        "file": "gym-16.svg",
+        "category": "locations",
+        "metaphor": "A dumbbell",
+        "useFor": [
+            "Gym locations",
+            "fitness facilities",
+            "workout / training references"
+        ],
+        "keywords": [
+            "gym",
+            "fitness",
+            "workout",
+            "dumbbell",
+            "training"
+        ],
+        "avoidFor": [
+            {
+                "case": "Outdoor park",
+                "useInsteadIcons": [
+                    "park16"
+                ]
+            },
+            {
+                "case": "Health center",
+                "useInsteadIcons": [
+                    "hospital16"
+                ]
+            },
+            {
+                "case": "Body-related metrics",
+                "useInsteadText": "different icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3904&m=dev"
+    },
+    "logistics16": {
+        "name": "logistics16",
+        "file": "logistics-16.svg",
+        "category": "locations",
+        "metaphor": "A warehouse and a tall building with a peaked roof",
+        "useFor": [
+            "Logistics",
+            "shipping",
+            "delivery tracking",
+            "supply-chain references",
+            "warehouse locations"
+        ],
+        "keywords": [
+            "logistics",
+            "shipping",
+            "delivery",
+            "supply chain",
+            "warehouse"
+        ],
+        "avoidFor": [
+            {
+                "case": "Order in cart",
+                "useInsteadIcons": [
+                    "cart16"
+                ]
+            },
+            {
+                "case": "Generic package",
+                "useInsteadIcons": [
+                    "package16",
+                    "box16"
+                ]
+            },
+            {
+                "case": "Procurement process",
+                "useInsteadIcons": [
+                    "procurement16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3938&m=dev"
+    },
+    "scale16": {
+        "name": "scale16",
+        "file": "scale-16.svg",
+        "category": "locations",
+        "metaphor": "Lady Justice scales",
+        "useFor": [
+            "Legal references",
+            "justice",
+            "compliance",
+            "balance / fairness concepts"
+        ],
+        "keywords": [
+            "scale",
+            "justice",
+            "legal",
+            "balance",
+            "law",
+            "compliance"
+        ],
+        "avoidFor": [
+            {
+                "case": "Weight measurement",
+                "useInsteadText": "different icon"
+            },
+            {
+                "case": "Sizing controls",
+                "useInsteadIcons": [
+                    "enlarge16",
+                    "maximize16"
+                ]
+            },
+            {
+                "case": "Settings balance",
+                "useInsteadIcons": [
+                    "cogwheel16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-43&m=dev"
+    },
+    "mapPin16": {
+        "name": "mapPin16",
+        "file": "map-pin-16.svg",
+        "category": "locations",
+        "metaphor": "A teardrop pin dropped on a map",
+        "useFor": [
+            "Single-location markers",
+            "addresses",
+            "find on map actions"
+        ],
+        "keywords": [
+            "location",
+            "pin",
+            "marker",
+            "place",
+            "address",
+            "map"
+        ],
+        "avoidFor": [
+            {
+                "case": "Saved favorite location",
+                "useInsteadIcons": [
+                    "pin16"
+                ]
+            },
+            {
+                "case": "Navigation routing",
+                "useInsteadText": "different icon"
+            },
+            {
+                "case": "Apartment specifically",
+                "useInsteadIcons": [
+                    "apartmentBuilding16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3942&m=dev"
+    },
+    "desk16": {
+        "name": "desk16",
+        "file": "desk-16.svg",
+        "category": "locations",
+        "metaphor": "An office desk with a drawer unit on the right",
+        "useFor": [
+            "Workspace booking",
+            "desk-reservation systems",
+            "office-layout references"
+        ],
+        "keywords": [
+            "desk",
+            "workspace",
+            "office",
+            "workstation",
+            "booking"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single person",
+                "useInsteadIcons": [
+                    "user16"
+                ]
+            },
+            {
+                "case": "Office building",
+                "useInsteadIcons": [
+                    "apartmentBuilding16"
+                ]
+            },
+            {
+                "case": "Generic table",
+                "useInsteadIcons": [
+                    "table16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-194&m=dev"
+    },
+    "hospital16": {
+        "name": "hospital16",
+        "file": "hospital-16.svg",
+        "category": "locations",
+        "metaphor": "A medical cross inside a square frame",
+        "useFor": [
+            "Hospital locations",
+            "medical facilities",
+            "healthcare provider references"
+        ],
+        "keywords": [
+            "hospital",
+            "medical",
+            "healthcare",
+            "clinic",
+            "cross"
+        ],
+        "avoidFor": [
+            {
+                "case": "Patient bed",
+                "useInsteadIcons": [
+                    "hospitalBed16"
+                ]
+            },
+            {
+                "case": "First aid / support",
+                "useInsteadIcons": [
+                    "lifebuoy16"
+                ]
+            },
+            {
+                "case": "Medical document",
+                "useInsteadIcons": [
+                    "clipboardMedical16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3915&m=dev"
+    },
+    "streetView16": {
+        "name": "streetView16",
+        "file": "street-view-16.svg",
+        "category": "locations",
+        "metaphor": "A person figure standing on an oval base / spotlight",
+        "useFor": [
+            "Street-view exploration",
+            "on-the-ground perspective in maps",
+            "\"you are here\" markers"
+        ],
+        "keywords": [
+            "street view",
+            "perspective",
+            "exterior",
+            "ground view",
+            "you are here"
+        ],
+        "avoidFor": [
+            {
+                "case": "Map marker",
+                "useInsteadIcons": [
+                    "mapPin16"
+                ]
+            },
+            {
+                "case": "Bird-eye layout",
+                "useInsteadIcons": [
+                    "layout16"
+                ]
+            },
+            {
+                "case": "Building specifically",
+                "useInsteadIcons": [
+                    "apartmentBuilding16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-77&m=dev"
     }
 }
