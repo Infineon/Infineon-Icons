@@ -13487,5 +13487,591 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3906&m=dev"
+    },
+    "ai16": {
+        "name": "ai16",
+        "file": "ai-16.svg",
+        "category": "software",
+        "metaphor": "Two four-pointed sparkle / star shapes.",
+        "useFor": [
+            "AI features",
+            "AI services",
+            "powered by AI badges",
+            "magical / generative-content markers"
+        ],
+        "keywords": [
+            "ai",
+            "artificial intelligence",
+            "machine learning",
+            "sparkles",
+            "magic"
+        ],
+        "avoidFor": [
+            {
+                "case": "AI-generated content provenance",
+                "useInsteadText": "Use the AI Label component."
+            },
+            {
+                "case": "Smart automation shortcuts",
+                "useInsteadIcons": [
+                    "fairyWand16"
+                ]
+            },
+            {
+                "case": "AI silicon",
+                "useInsteadIcons": [
+                    "chipAi16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=17336-496&m=dev"
+    },
+    "applications16": {
+        "name": "applications16",
+        "file": "applications-16.svg",
+        "category": "software",
+        "metaphor": "Four small application tiles in a 2x2 grid, with one tile rotated 45° as a diamond.",
+        "useFor": [
+            "Application launcher",
+            "all apps overview",
+            "installed-apps list"
+        ],
+        "keywords": [
+            "applications",
+            "apps",
+            "launcher",
+            "tools",
+            "tiles"
+        ],
+        "avoidFor": [
+            {
+                "case": "A single app",
+                "useInsteadText": "Use that app's own icon."
+            },
+            {
+                "case": "Software package",
+                "useInsteadIcons": [
+                    "software16"
+                ]
+            },
+            {
+                "case": "Hardware module",
+                "useInsteadIcons": [
+                    "module16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2595&m=dev"
+    },
+    "block16": {
+        "name": "block16",
+        "file": "block-16.svg",
+        "category": "software",
+        "metaphor": "A 3D cube outline (isometric).",
+        "useFor": [
+            "A single software abstraction unit",
+            "building-block reference"
+        ],
+        "keywords": [
+            "block",
+            "abstraction",
+            "unit",
+            "building block",
+            "cube"
+        ],
+        "avoidFor": [
+            {
+                "case": "Multiple blocks",
+                "useInsteadIcons": [
+                    "blocks16"
+                ]
+            },
+            {
+                "case": "Stacked cards",
+                "useInsteadIcons": [
+                    "layers16"
+                ]
+            },
+            {
+                "case": "Hardware module",
+                "useInsteadIcons": [
+                    "module16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13287-37&m=dev"
+    },
+    "blocks16": {
+        "name": "blocks16",
+        "file": "blocks-16.svg",
+        "category": "software",
+        "metaphor": "Multiple blocks arranged together.",
+        "useFor": [
+            "Multiple software abstraction units",
+            "modular collections",
+            "component palettes"
+        ],
+        "keywords": [
+            "blocks",
+            "modules",
+            "components",
+            "building blocks"
+        ],
+        "avoidFor": [
+            {
+                "case": "A single block",
+                "useInsteadIcons": [
+                    "block16"
+                ]
+            },
+            {
+                "case": "Stacked layers",
+                "useInsteadIcons": [
+                    "layers16"
+                ]
+            },
+            {
+                "case": "Hardware modules",
+                "useInsteadIcons": [
+                    "module16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13331-54&m=dev"
+    },
+    "bluetooth16": {
+        "name": "bluetooth16",
+        "file": "bluetooth-16.svg",
+        "category": "software",
+        "metaphor": "The Bluetooth glyph.",
+        "useFor": [
+            "Bluetooth connectivity",
+            "pair-device actions",
+            "Bluetooth status indicators"
+        ],
+        "keywords": [
+            "bluetooth",
+            "ble",
+            "wireless",
+            "pair"
+        ],
+        "avoidFor": [
+            {
+                "case": "WiFi connectivity",
+                "useInsteadIcons": [
+                    "wifi16"
+                ]
+            },
+            {
+                "case": "Generic wireless network",
+                "useInsteadIcons": [
+                    "network16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-125&m=dev"
+    },
+    "bug16": {
+        "name": "bug16",
+        "file": "bug-16.svg",
+        "category": "software",
+        "metaphor": "An insect silhouette.",
+        "useFor": [
+            "Bug reports",
+            "defect tracking",
+            "debug actions",
+            "issue triage"
+        ],
+        "keywords": [
+            "bug",
+            "defect",
+            "debug",
+            "issue",
+            "error"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic warning",
+                "useInsteadIcons": [
+                    "warning16"
+                ]
+            },
+            {
+                "case": "Error / failure status",
+                "useInsteadIcons": [
+                    "cWarning16"
+                ]
+            },
+            {
+                "case": "Critical alert",
+                "useInsteadIcons": [
+                    "warningCritical16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-115&m=dev"
+    },
+    "cloud16": {
+        "name": "cloud16",
+        "file": "cloud-16.svg",
+        "category": "software",
+        "metaphor": "A simple cloud silhouette.",
+        "useFor": [
+            "Cloud services",
+            "remote storage",
+            "online-sync status",
+            "cloud-hosted features"
+        ],
+        "keywords": [
+            "cloud",
+            "online",
+            "remote",
+            "sync",
+            "saas"
+        ],
+        "avoidFor": [
+            {
+                "case": "Two-way transfer",
+                "useInsteadIcons": [
+                    "cloudUploadDownload16"
+                ]
+            },
+            {
+                "case": "Local server",
+                "useInsteadIcons": [
+                    "server16"
+                ]
+            },
+            {
+                "case": "Network topology",
+                "useInsteadIcons": [
+                    "network16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3779&m=dev"
+    },
+    "cloudUploadDownload16": {
+        "name": "cloudUploadDownload16",
+        "file": "cloud-upload-download-16.svg",
+        "category": "software",
+        "metaphor": "A cloud with up and down arrows.",
+        "useFor": [
+            "Cloud sync status",
+            "two-way cloud transfers",
+            "sync activity indicators"
+        ],
+        "keywords": [
+            "cloud sync",
+            "upload",
+            "download",
+            "transfer"
+        ],
+        "avoidFor": [
+            {
+                "case": "One-way upload",
+                "useInsteadIcons": [
+                    "upload16"
+                ]
+            },
+            {
+                "case": "One-way download",
+                "useInsteadIcons": [
+                    "download16"
+                ]
+            },
+            {
+                "case": "Cloud as a service",
+                "useInsteadIcons": [
+                    "cloud16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-177&m=dev"
+    },
+    "code16": {
+        "name": "code16",
+        "file": "code-16.svg",
+        "category": "software",
+        "metaphor": "Angle brackets enclosing a slash.",
+        "useFor": [
+            "Source-code references",
+            "code blocks in editors",
+            "developer contexts"
+        ],
+        "keywords": [
+            "code",
+            "source",
+            "dev",
+            "programming"
+        ],
+        "avoidFor": [
+            {
+                "case": "A source file of a specific language",
+                "useInsteadText": "Use file-<lang>-16."
+            },
+            {
+                "case": "Code repository hosting",
+                "useInsteadIcons": [
+                    "github",
+                    "gitlab"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3781&m=dev"
+    },
+    "dashboard16": {
+        "name": "dashboard16",
+        "file": "dashboard-16.svg",
+        "category": "software",
+        "metaphor": "A widget-tile layout inside a frame (two small squares on the left, a tall rectangle on the right).",
+        "useFor": [
+            "Dashboards",
+            "analytics overviews",
+            "KPI summary surfaces"
+        ],
+        "keywords": [
+            "dashboard",
+            "overview",
+            "kpi",
+            "analytics",
+            "widgets",
+            "tiles"
+        ],
+        "avoidFor": [
+            {
+                "case": "A single chart",
+                "useInsteadText": "Use chart-16 or a specific bar / line graph icon."
+            },
+            {
+                "case": "App home page",
+                "useInsteadIcons": [
+                    "home16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3794&m=dev"
+    },
+    "database16": {
+        "name": "database16",
+        "file": "database-16.svg",
+        "category": "software",
+        "metaphor": "A single cylinder.",
+        "useFor": [
+            "Database references",
+            "persisted data",
+            "DB administration surfaces"
+        ],
+        "keywords": [
+            "database",
+            "db",
+            "storage",
+            "data",
+            "cylinder"
+        ],
+        "avoidFor": [
+            {
+                "case": "Cloud storage",
+                "useInsteadIcons": [
+                    "cloud16"
+                ]
+            },
+            {
+                "case": "Local file storage",
+                "useInsteadIcons": [
+                    "folder16",
+                    "floppyDisk16"
+                ]
+            },
+            {
+                "case": "Server hardware",
+                "useInsteadIcons": [
+                    "server16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3795&m=dev"
+    },
+    "globe16": {
+        "name": "globe16",
+        "file": "globe-16.svg",
+        "category": "software",
+        "metaphor": "A globe with longitude and latitude lines.",
+        "useFor": [
+            "Internet",
+            "world wide web",
+            "international / global scope",
+            "region pickers"
+        ],
+        "keywords": [
+            "globe",
+            "world",
+            "internet",
+            "web",
+            "international"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic network",
+                "useInsteadIcons": [
+                    "network16"
+                ]
+            },
+            {
+                "case": "Language picker",
+                "useInsteadIcons": [
+                    "language16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3899&m=dev"
+    },
+    "layers16": {
+        "name": "layers16",
+        "file": "layers-16.svg",
+        "category": "software",
+        "metaphor": "Three overlapping cards / pages stacked diagonally.",
+        "useFor": [
+            "Software layers (architecture)",
+            "z-order stacks",
+            "layer panels in design tools"
+        ],
+        "keywords": [
+            "layers",
+            "stack",
+            "architecture",
+            "z-order",
+            "cards"
+        ],
+        "avoidFor": [
+            {
+                "case": "A single block",
+                "useInsteadIcons": [
+                    "block16"
+                ]
+            },
+            {
+                "case": "Multiple 3D cubes",
+                "useInsteadIcons": [
+                    "blocks16"
+                ]
+            },
+            {
+                "case": "Project structure",
+                "useInsteadIcons": [
+                    "treeStructure16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=20481-512&m=dev"
+    },
+    "network16": {
+        "name": "network16",
+        "file": "network-16.svg",
+        "category": "software",
+        "metaphor": "Connected nodes forming a topology.",
+        "useFor": [
+            "Network topology references",
+            "any-network concept",
+            "connected systems"
+        ],
+        "keywords": [
+            "network",
+            "nodes",
+            "topology",
+            "connection"
+        ],
+        "avoidFor": [
+            {
+                "case": "Internet broadly",
+                "useInsteadIcons": [
+                    "globe16"
+                ]
+            },
+            {
+                "case": "WiFi specifically",
+                "useInsteadIcons": [
+                    "wifi16"
+                ]
+            },
+            {
+                "case": "Cloud services",
+                "useInsteadIcons": [
+                    "cloud16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-182&m=dev"
+    },
+    "spice16": {
+        "name": "spice16",
+        "file": "spice-16.svg",
+        "category": "software",
+        "metaphor": "A chili pepper (a visual pun on \"spice\").",
+        "useFor": [
+            "SPICE circuit-simulation tools",
+            "simulation results",
+            "circuit-analysis features"
+        ],
+        "keywords": [
+            "spice",
+            "simulation",
+            "circuit",
+            "simulator",
+            "chili"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic simulation",
+                "useInsteadIcons": [
+                    "simulation16"
+                ]
+            },
+            {
+                "case": "Schematic / board reference",
+                "useInsteadIcons": [
+                    "board16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21922-658&m=dev"
+    },
+    "wifi16": {
+        "name": "wifi16",
+        "file": "wifi-16.svg",
+        "category": "software",
+        "metaphor": "Curved signal arcs radiating upward.",
+        "useFor": [
+            "WiFi connectivity",
+            "signal strength",
+            "network-connection status"
+        ],
+        "keywords": [
+            "wifi",
+            "wireless",
+            "signal",
+            "network"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic network",
+                "useInsteadIcons": [
+                    "network16"
+                ]
+            },
+            {
+                "case": "Bluetooth",
+                "useInsteadIcons": [
+                    "bluetooth16"
+                ]
+            },
+            {
+                "case": "Internet broadly",
+                "useInsteadIcons": [
+                    "globe16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-163&m=dev"
     }
 }
