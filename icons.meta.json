@@ -2371,5 +2371,840 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=23718-38&m=dev"
+    },
+    "arrowDown16": {
+        "name": "arrowDown16",
+        "file": "arrow-down-16.svg",
+        "category": "arrows",
+        "metaphor": "A straight arrow pointing down.",
+        "useFor": [
+            "Move down",
+            "scroll down",
+            "descending order",
+            "download direction indicator"
+        ],
+        "keywords": [
+            "arrow",
+            "down",
+            "descend",
+            "move down"
+        ],
+        "avoidFor": [
+            {
+                "case": "Collapse / expand menus",
+                "useInsteadIcons": [
+                    "chevronDown16"
+                ]
+            },
+            {
+                "case": "Download action",
+                "useInsteadIcons": [
+                    "download16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2608&m=dev"
+    },
+    "doubleChevronDown16": {
+        "name": "doubleChevronDown16",
+        "file": "double-chevron-down-16.svg",
+        "category": "arrows",
+        "metaphor": "Two stacked carets pointing down.",
+        "useFor": [
+            "Expand all",
+            "jump to bottom",
+            "reveal-many affordances"
+        ],
+        "keywords": [
+            "double chevron",
+            "down",
+            "expand all",
+            "jump to bottom"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single section",
+                "useInsteadIcons": [
+                    "chevronDown16"
+                ]
+            },
+            {
+                "case": "Download",
+                "useInsteadIcons": [
+                    "download16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-192&m=dev"
+    },
+    "arrowUp16": {
+        "name": "arrowUp16",
+        "file": "arrow-up-16.svg",
+        "category": "arrows",
+        "metaphor": "A straight arrow pointing up.",
+        "useFor": [
+            "Move up",
+            "scroll up",
+            "ascending order",
+            "upload direction indicator"
+        ],
+        "keywords": [
+            "arrow",
+            "up",
+            "ascend",
+            "move up"
+        ],
+        "avoidFor": [
+            {
+                "case": "Collapse / expand menus",
+                "useInsteadIcons": [
+                    "chevronUp16"
+                ]
+            },
+            {
+                "case": "Upload action",
+                "useInsteadIcons": [
+                    "upload16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2668&m=dev"
+    },
+    "chevronDown16": {
+        "name": "chevronDown16",
+        "file": "chevron-down-16.svg",
+        "category": "arrows",
+        "metaphor": "A caret pointing down.",
+        "useFor": [
+            "Expand a section",
+            "reveal-more affordance",
+            "select-dropdown indicator",
+            "sort-descending"
+        ],
+        "keywords": [
+            "chevron",
+            "caret",
+            "down",
+            "expand",
+            "dropdown",
+            "descending"
+        ],
+        "avoidFor": [
+            {
+                "case": "Move-down action",
+                "useInsteadIcons": [
+                    "arrowDown16"
+                ]
+            },
+            {
+                "case": "Download",
+                "useInsteadIcons": [
+                    "download16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3768&m=dev"
+    },
+    "curvedArrowRight16": {
+        "name": "curvedArrowRight16",
+        "file": "curved-arrow-right-16.svg",
+        "category": "arrows",
+        "metaphor": "A curved arrow turning right (clockwise).",
+        "useFor": [
+            "Redo",
+            "forward action",
+            "clockwise rotate"
+        ],
+        "keywords": [
+            "curved",
+            "redo",
+            "forward",
+            "clockwise"
+        ],
+        "avoidFor": [
+            {
+                "case": "Share content",
+                "useInsteadIcons": [
+                    "share16"
+                ]
+            },
+            {
+                "case": "Reload",
+                "useInsteadIcons": [
+                    "reload16"
+                ]
+            },
+            {
+                "case": "Standard forward navigation",
+                "useInsteadIcons": [
+                    "arrowRight16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3792&m=dev"
+    },
+    "doubleChevronLeft16": {
+        "name": "doubleChevronLeft16",
+        "file": "double-chevron-left-16.svg",
+        "category": "arrows",
+        "metaphor": "Two stacked carets pointing left.",
+        "useFor": [
+            "Jump to first page in pagination",
+            "skip back",
+            "collapse a sidebar"
+        ],
+        "keywords": [
+            "double chevron",
+            "left",
+            "first page",
+            "skip back"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single back step",
+                "useInsteadIcons": [
+                    "chevronLeft16",
+                    "arrowLeft16"
+                ]
+            },
+            {
+                "case": "Media skip",
+                "useInsteadIcons": [
+                    "skipToBeginning16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3800&m=dev"
+    },
+    "doubleChevronRight16": {
+        "name": "doubleChevronRight16",
+        "file": "double-chevron-right-16.svg",
+        "category": "arrows",
+        "metaphor": "Two stacked carets pointing right.",
+        "useFor": [
+            "Jump to last page in pagination",
+            "skip forward",
+            "expand a sidebar"
+        ],
+        "keywords": [
+            "double chevron",
+            "right",
+            "last page",
+            "skip forward"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single forward step",
+                "useInsteadIcons": [
+                    "chevronRight16",
+                    "arrowRight16"
+                ]
+            },
+            {
+                "case": "Media skip",
+                "useInsteadIcons": [
+                    "skipToEnd16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3801&m=dev"
+    },
+    "chevronRight16": {
+        "name": "chevronRight16",
+        "file": "chevron-right-16.svg",
+        "category": "arrows",
+        "metaphor": "A caret pointing right.",
+        "useFor": [
+            "Expand a submenu",
+            "breadcrumb separator",
+            "more affordance on a row",
+            "next slide"
+        ],
+        "keywords": [
+            "chevron",
+            "caret",
+            "right",
+            "expand",
+            "next",
+            "breadcrumb"
+        ],
+        "avoidFor": [
+            {
+                "case": "Cross-page forward navigation",
+                "useInsteadIcons": [
+                    "arrowRight16"
+                ]
+            },
+            {
+                "case": "External link",
+                "useInsteadIcons": [
+                    "launch16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3770&m=dev"
+    },
+    "swapVertical16": {
+        "name": "swapVertical16",
+        "file": "swap-vertical-16.svg",
+        "category": "arrows",
+        "metaphor": "Two parallel vertical arrows side by side — left one pointing up, right one pointing down.",
+        "useFor": [
+            "Swapping two items on a vertical axis",
+            "reordering rows",
+            "vertical exchange"
+        ],
+        "keywords": [
+            "swap",
+            "exchange",
+            "switch",
+            "vertical",
+            "reorder"
+        ],
+        "avoidFor": [
+            {
+                "case": "Sorting",
+                "useInsteadText": "use arrow-up-16 / arrow-down-16 or chevron equivalents"
+            },
+            {
+                "case": "Drag-reorder handle",
+                "useInsteadIcons": [
+                    "dragIndicator16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-81&m=dev"
+    },
+    "chevronUp16": {
+        "name": "chevronUp16",
+        "file": "chevron-up-16.svg",
+        "category": "arrows",
+        "metaphor": "A caret pointing up.",
+        "useFor": [
+            "Collapse a section",
+            "hide-more affordance",
+            "sort-ascending indicators"
+        ],
+        "keywords": [
+            "chevron",
+            "caret",
+            "up",
+            "collapse",
+            "ascending"
+        ],
+        "avoidFor": [
+            {
+                "case": "Move-up action",
+                "useInsteadIcons": [
+                    "arrowUp16"
+                ]
+            },
+            {
+                "case": "Upload",
+                "useInsteadIcons": [
+                    "upload16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3771&m=dev"
+    },
+    "arrowTriangleVertikal16": {
+        "name": "arrowTriangleVertikal16",
+        "file": "arrow-triangle-vertikal-16.svg",
+        "category": "arrows",
+        "metaphor": "Two solid triangles back-to-back on a vertical axis.",
+        "useFor": [
+            "Vertical expand / contract",
+            "dual-direction indicators on the y-axis",
+            "vertical resize handles"
+        ],
+        "keywords": [
+            "triangle",
+            "vertical",
+            "expand",
+            "two-way",
+            "axis"
+        ],
+        "avoidFor": [
+            {
+                "case": "Swap action",
+                "useInsteadIcons": [
+                    "swapVertical16"
+                ]
+            },
+            {
+                "case": "Single-direction navigation",
+                "useInsteadIcons": [
+                    "arrowUp16",
+                    "arrowDown16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2662&m=dev"
+    },
+    "chevronLeft16": {
+        "name": "chevronLeft16",
+        "file": "chevron-left-16.svg",
+        "category": "arrows",
+        "metaphor": "A caret pointing left.",
+        "useFor": [
+            "Collapse a submenu",
+            "previous slide in a carousel",
+            "back within in-page navigation"
+        ],
+        "keywords": [
+            "chevron",
+            "caret",
+            "left",
+            "collapse",
+            "previous"
+        ],
+        "avoidFor": [
+            {
+                "case": "Cross-page back navigation",
+                "useInsteadIcons": [
+                    "arrowLeft16"
+                ]
+            },
+            {
+                "case": "Jump to start",
+                "useInsteadIcons": [
+                    "skipToBeginning16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3769&m=dev"
+    },
+    "arrowRight16": {
+        "name": "arrowRight16",
+        "file": "arrow-right-16.svg",
+        "category": "arrows",
+        "metaphor": "A straight arrow pointing right.",
+        "useFor": [
+            "Forward navigation",
+            "next step",
+            "continue affordances"
+        ],
+        "keywords": [
+            "arrow",
+            "right",
+            "next",
+            "forward",
+            "continue"
+        ],
+        "avoidFor": [
+            {
+                "case": "Expand submenu",
+                "useInsteadIcons": [
+                    "chevronRight16"
+                ]
+            },
+            {
+                "case": "External link",
+                "useInsteadIcons": [
+                    "launch16"
+                ]
+            },
+            {
+                "case": "Jump to end",
+                "useInsteadIcons": [
+                    "skipToEnd16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2620&m=dev"
+    },
+    "arrowTriangleUp16": {
+        "name": "arrowTriangleUp16",
+        "file": "arrow-triangle-up-16.svg",
+        "category": "arrows",
+        "metaphor": "A solid triangle pointing up.",
+        "useFor": [
+            "Compact up affordance for dense UI",
+            "table-cell increases",
+            "small inline indicators"
+        ],
+        "keywords": [
+            "triangle",
+            "up",
+            "increase",
+            "indicator"
+        ],
+        "avoidFor": [
+            {
+                "case": "Standard navigation",
+                "useInsteadIcons": [
+                    "arrowUp16"
+                ]
+            },
+            {
+                "case": "Trend indicators",
+                "useInsteadIcons": [
+                    "trendUp16",
+                    "rateUp16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2656&m=dev"
+    },
+    "arrowTriangleRight16": {
+        "name": "arrowTriangleRight16",
+        "file": "arrow-triangle-right-16.svg",
+        "category": "arrows",
+        "metaphor": "A solid triangle pointing right.",
+        "useFor": [
+            "Compact next affordance",
+            "mini carousels",
+            "play-like indicators"
+        ],
+        "keywords": [
+            "triangle",
+            "right",
+            "next",
+            "indicator"
+        ],
+        "avoidFor": [
+            {
+                "case": "Standard forward navigation",
+                "useInsteadIcons": [
+                    "arrowRight16"
+                ]
+            },
+            {
+                "case": "Submenu",
+                "useInsteadIcons": [
+                    "chevronRight16"
+                ]
+            },
+            {
+                "case": "Media playback",
+                "useInsteadIcons": [
+                    "mediaPlay16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2650&m=dev"
+    },
+    "arrowTriangleHorizontal16": {
+        "name": "arrowTriangleHorizontal16",
+        "file": "arrow-triangle-horizontal-16.svg",
+        "category": "arrows",
+        "metaphor": "Two solid triangles back-to-back on a horizontal axis.",
+        "useFor": [
+            "Horizontal expand / contract",
+            "dual-direction indicators on the x-axis",
+            "horizontal resize handles"
+        ],
+        "keywords": [
+            "triangle",
+            "horizontal",
+            "expand",
+            "two-way",
+            "axis"
+        ],
+        "avoidFor": [
+            {
+                "case": "Swap action",
+                "useInsteadIcons": [
+                    "swapHorizontal16"
+                ]
+            },
+            {
+                "case": "Single-direction navigation",
+                "useInsteadIcons": [
+                    "arrowLeft16",
+                    "arrowRight16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2638&m=dev"
+    },
+    "arrowTriangleDown16": {
+        "name": "arrowTriangleDown16",
+        "file": "arrow-triangle-down-16.svg",
+        "category": "arrows",
+        "metaphor": "A solid triangle pointing down.",
+        "useFor": [
+            "Compact down affordance for dense UI like select dropdowns or table-cell decreases"
+        ],
+        "keywords": [
+            "triangle",
+            "down",
+            "dropdown",
+            "decrease",
+            "indicator"
+        ],
+        "avoidFor": [
+            {
+                "case": "Standard navigation",
+                "useInsteadIcons": [
+                    "arrowDown16"
+                ]
+            },
+            {
+                "case": "Expand / collapse menu",
+                "useInsteadIcons": [
+                    "chevronDown16"
+                ]
+            },
+            {
+                "case": "Trend indicators",
+                "useInsteadIcons": [
+                    "trendDown16",
+                    "rateDown16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2632&m=dev"
+    },
+    "arrowLeft16": {
+        "name": "arrowLeft16",
+        "file": "arrow-left-16.svg",
+        "category": "arrows",
+        "metaphor": "A straight arrow pointing left.",
+        "useFor": [
+            "Back navigation",
+            "previous step",
+            "returning to a prior page or list"
+        ],
+        "keywords": [
+            "arrow",
+            "left",
+            "back",
+            "previous",
+            "return"
+        ],
+        "avoidFor": [
+            {
+                "case": "Submenu reveal",
+                "useInsteadIcons": [
+                    "chevronLeft16"
+                ]
+            },
+            {
+                "case": "Jump to start",
+                "useInsteadIcons": [
+                    "skipToBeginning16"
+                ]
+            },
+            {
+                "case": "Undo",
+                "useInsteadIcons": [
+                    "curvedArrowLeft16",
+                    "restore16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2614&m=dev"
+    },
+    "curvedArrowLeft16": {
+        "name": "curvedArrowLeft16",
+        "file": "curved-arrow-left-16.svg",
+        "category": "arrows",
+        "metaphor": "A curved arrow turning left (counter-clockwise).",
+        "useFor": [
+            "Undo",
+            "return-to-previous",
+            "counter-clockwise rotate"
+        ],
+        "keywords": [
+            "curved",
+            "undo",
+            "return",
+            "back",
+            "counter-clockwise"
+        ],
+        "avoidFor": [
+            {
+                "case": "Reply to a message",
+                "useInsteadIcons": [
+                    "reply16"
+                ]
+            },
+            {
+                "case": "Full state restore",
+                "useInsteadIcons": [
+                    "restore16"
+                ]
+            },
+            {
+                "case": "Standard back navigation",
+                "useInsteadIcons": [
+                    "arrowLeft16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3791&m=dev"
+    },
+    "doubleChevronUp16": {
+        "name": "doubleChevronUp16",
+        "file": "double-chevron-up-16.svg",
+        "category": "arrows",
+        "metaphor": "Two stacked carets pointing up.",
+        "useFor": [
+            "Collapse all",
+            "jump to top",
+            "hide-many affordances"
+        ],
+        "keywords": [
+            "double chevron",
+            "up",
+            "collapse all",
+            "jump to top"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single section",
+                "useInsteadIcons": [
+                    "chevronUp16"
+                ]
+            },
+            {
+                "case": "Reset state",
+                "useInsteadIcons": [
+                    "restore16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-191&m=dev"
+    },
+    "swapHorizontal16": {
+        "name": "swapHorizontal16",
+        "file": "swap-horizontal-16.svg",
+        "category": "arrows",
+        "metaphor": "Two parallel horizontal arrows stacked — top one pointing left, bottom one pointing right.",
+        "useFor": [
+            "Swapping two items on a horizontal axis",
+            "exchanging columns",
+            "horizontal exchange"
+        ],
+        "keywords": [
+            "swap",
+            "exchange",
+            "switch",
+            "horizontal",
+            "reorder"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic refresh",
+                "useInsteadIcons": [
+                    "refresh16",
+                    "reload16"
+                ]
+            },
+            {
+                "case": "Drag-reorder handle",
+                "useInsteadIcons": [
+                    "dragIndicator16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-80&m=dev"
+    },
+    "arrowTriangleLeft16": {
+        "name": "arrowTriangleLeft16",
+        "file": "arrow-triangle-left-16.svg",
+        "category": "arrows",
+        "metaphor": "A solid triangle pointing left.",
+        "useFor": [
+            "Compact previous affordance in dense UI",
+            "mini carousels",
+            "table headers"
+        ],
+        "keywords": [
+            "triangle",
+            "left",
+            "previous",
+            "indicator"
+        ],
+        "avoidFor": [
+            {
+                "case": "Standard back navigation",
+                "useInsteadIcons": [
+                    "arrowLeft16"
+                ]
+            },
+            {
+                "case": "Submenu",
+                "useInsteadIcons": [
+                    "chevronLeft16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2644&m=dev"
+    },
+    "arrowTriangleDiagonal16": {
+        "name": "arrowTriangleDiagonal16",
+        "file": "arrow-triangle-diagonal-16.svg",
+        "category": "arrows",
+        "metaphor": "Two solid triangles back-to-back on a diagonal axis.",
+        "useFor": [
+            "Resize handles in corners",
+            "diagonal expand affordances"
+        ],
+        "keywords": [
+            "triangle",
+            "diagonal",
+            "resize",
+            "expand",
+            "corner"
+        ],
+        "avoidFor": [
+            {
+                "case": "Standard maximize",
+                "useInsteadIcons": [
+                    "maximize16",
+                    "enlarge16"
+                ]
+            },
+            {
+                "case": "Move action",
+                "useInsteadIcons": [
+                    "dragArrows16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2626&m=dev"
+    },
+    "cornerArrowDownRight16": {
+        "name": "cornerArrowDownRight16",
+        "file": "corner-arrow-down-right-16.svg",
+        "category": "arrows",
+        "metaphor": "An arrow that turns at a right angle, pointing down then right.",
+        "useFor": [
+            "Sub-action / indented-response indicator",
+            "branching flow steps",
+            "go into affordances"
+        ],
+        "keywords": [
+            "corner",
+            "arrow",
+            "branch",
+            "sub-action",
+            "indent"
+        ],
+        "avoidFor": [
+            {
+                "case": "Reply to a message",
+                "useInsteadIcons": [
+                    "reply16"
+                ]
+            },
+            {
+                "case": "Standard move action",
+                "useInsteadIcons": [
+                    "arrowDown16",
+                    "arrowRight16"
+                ]
+            },
+            {
+                "case": "Nested hierarchy",
+                "useInsteadIcons": [
+                    "treeStructure16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3789&m=dev"
     }
 }
