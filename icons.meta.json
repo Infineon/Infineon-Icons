@@ -4502,5 +4502,946 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13494-1241&m=dev"
+    },
+    "unorderedList16": {
+        "name": "unorderedList16",
+        "file": "unordered-list-16.svg",
+        "category": "text",
+        "metaphor": "Stacked lines with bullet points (rich-text style).",
+        "useFor": [
+            "Applying unordered (bulleted) list formatting in a rich-text editor"
+        ],
+        "keywords": [
+            "unordered list",
+            "ul",
+            "bulleted",
+            "format"
+        ],
+        "avoidFor": [
+            {
+                "case": "Ordered list",
+                "useInsteadIcons": [
+                    "orderedList16"
+                ]
+            },
+            {
+                "case": "Generic display",
+                "useInsteadIcons": [
+                    "list16",
+                    "bulletList16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-111&m=dev"
+    },
+    "superscript16": {
+        "name": "superscript16",
+        "file": "superscript-16.svg",
+        "category": "text",
+        "metaphor": "An X with a small 2 raised above the baseline.",
+        "useFor": [
+            "Applying superscript formatting (exponents, footnote references, ordinals)"
+        ],
+        "keywords": [
+            "superscript",
+            "exponent",
+            "footnote",
+            "X squared"
+        ],
+        "avoidFor": [
+            {
+                "case": "Subscript",
+                "useInsteadIcons": [
+                    "subscript16"
+                ]
+            },
+            {
+                "case": "Standalone footnote indicator",
+                "useInsteadText": "use a dedicated footnote icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=10365-184&m=dev"
+    },
+    "copyright16": {
+        "name": "copyright16",
+        "file": "copyright-16.svg",
+        "category": "text",
+        "metaphor": "The letter C inside a circle.",
+        "useFor": [
+            "Copyright marks",
+            "legal notices in footers",
+            "attribution lines"
+        ],
+        "keywords": [
+            "copyright",
+            "legal",
+            "rights",
+            "attribution"
+        ],
+        "avoidFor": [
+            {
+                "case": "Software/document licensing",
+                "useInsteadIcons": [
+                    "license16"
+                ]
+            },
+            {
+                "case": "Trademark notice",
+                "useInsteadText": "use a dedicated trademark icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3788&m=dev"
+    },
+    "questionMark16": {
+        "name": "questionMark16",
+        "file": "question-mark-16.svg",
+        "category": "text",
+        "metaphor": "A question mark (?).",
+        "useFor": [
+            "Help triggers",
+            "FAQ entries",
+            "what is this hints"
+        ],
+        "keywords": [
+            "help",
+            "question",
+            "faq",
+            "hint"
+        ],
+        "avoidFor": [
+            {
+                "case": "Status info",
+                "useInsteadIcons": [
+                    "cInfo16"
+                ]
+            },
+            {
+                "case": "Support / lifeline",
+                "useInsteadIcons": [
+                    "lifebuoy16"
+                ]
+            },
+            {
+                "case": "Status with circle",
+                "useInsteadIcons": [
+                    "cQuestion16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-23&m=dev"
+    },
+    "listUser16": {
+        "name": "listUser16",
+        "file": "list-user-16.svg",
+        "category": "text",
+        "metaphor": "A list with a person.",
+        "useFor": [
+            "User-assigned lists",
+            "contact lists",
+            "member lists"
+        ],
+        "keywords": [
+            "list user",
+            "contacts",
+            "members"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single user",
+                "useInsteadIcons": [
+                    "user16"
+                ]
+            },
+            {
+                "case": "Team view",
+                "useInsteadIcons": [
+                    "team16"
+                ]
+            },
+            {
+                "case": "Address book",
+                "useInsteadIcons": [
+                    "addressBook16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3734&m=dev"
+    },
+    "hashMark16": {
+        "name": "hashMark16",
+        "file": "hash-mark-16.svg",
+        "category": "text",
+        "metaphor": "The hash (#) character.",
+        "useFor": [
+            "Hashtag indicators",
+            "numeric prefixes",
+            "Markdown heading shortcuts"
+        ],
+        "keywords": [
+            "hash",
+            "hashtag",
+            "number",
+            "pound"
+        ],
+        "avoidFor": [
+            {
+                "case": "Tagging system",
+                "useInsteadIcons": [
+                    "tag16"
+                ]
+            },
+            {
+                "case": "Sharp-key sound",
+                "useInsteadIcons": [
+                    "sound16"
+                ]
+            },
+            {
+                "case": "Article anchors",
+                "useInsteadIcons": [
+                    "hyperlink16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3907&m=dev"
+    },
+    "heading116": {
+        "name": "heading116",
+        "file": "heading-1-16.svg",
+        "category": "text",
+        "metaphor": "The letter H paired with the numeral 1.",
+        "useFor": [
+            "Applying the top-level heading style in a rich-text editor",
+            "marking the main page title"
+        ],
+        "keywords": [
+            "heading",
+            "H1",
+            "title",
+            "top heading",
+            "format"
+        ],
+        "avoidFor": [
+            {
+                "case": "Other heading levels",
+                "useInsteadIcons": [
+                    "heading216",
+                    "heading316",
+                    "heading416",
+                    "heading516",
+                    "heading616"
+                ]
+            },
+            {
+                "case": "Generic article title",
+                "useInsteadIcons": [
+                    "article16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3908&m=dev"
+    },
+    "checkList16": {
+        "name": "checkList16",
+        "file": "check-list-16.svg",
+        "category": "text",
+        "metaphor": "A list with checkbox squares.",
+        "useFor": [
+            "To-do lists",
+            "checkbox lists",
+            "action-item lists"
+        ],
+        "keywords": [
+            "checklist",
+            "to-do",
+            "tasks",
+            "checkboxes"
+        ],
+        "avoidFor": [
+            {
+                "case": "Mark items as completed visually",
+                "useInsteadIcons": [
+                    "listCheck16"
+                ]
+            },
+            {
+                "case": "Generic list",
+                "useInsteadIcons": [
+                    "list16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3766&m=dev"
+    },
+    "heading316": {
+        "name": "heading316",
+        "file": "heading-3-16.svg",
+        "category": "text",
+        "metaphor": "The letter H paired with the numeral 3.",
+        "useFor": [
+            "Applying third-level heading style for sub-sections in a rich-text editor"
+        ],
+        "keywords": [
+            "heading",
+            "H3",
+            "sub-section"
+        ],
+        "avoidFor": [
+            {
+                "case": "Higher level",
+                "useInsteadIcons": [
+                    "heading116",
+                    "heading216"
+                ]
+            },
+            {
+                "case": "Lower level",
+                "useInsteadIcons": [
+                    "heading416",
+                    "heading516",
+                    "heading616"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13494-1191&m=dev"
+    },
+    "list16": {
+        "name": "list16",
+        "file": "list-16.svg",
+        "category": "text",
+        "metaphor": "Three stacked list rows, the top one outlined and the bottom two filled.",
+        "useFor": [
+            "Generic list view",
+            "displaying items in any UI surface"
+        ],
+        "keywords": [
+            "list",
+            "lines",
+            "items"
+        ],
+        "avoidFor": [
+            {
+                "case": "Bulleted formatting",
+                "useInsteadIcons": [
+                    "unorderedList16",
+                    "bulletList16"
+                ]
+            },
+            {
+                "case": "Numbered formatting",
+                "useInsteadIcons": [
+                    "orderedList16"
+                ]
+            },
+            {
+                "case": "To-do",
+                "useInsteadIcons": [
+                    "checkList16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3933&m=dev"
+    },
+    "bulletList16": {
+        "name": "bulletList16",
+        "file": "bullet-list-16.svg",
+        "category": "text",
+        "metaphor": "Stacked lines with bullet points.",
+        "useFor": [
+            "Bulleted-list affordances",
+            "content overview with bullet points"
+        ],
+        "keywords": [
+            "bullet list",
+            "bullets",
+            "items"
+        ],
+        "avoidFor": [
+            {
+                "case": "Rich-text bullet formatting",
+                "useInsteadIcons": [
+                    "unorderedList16"
+                ]
+            },
+            {
+                "case": "Numbered list",
+                "useInsteadIcons": [
+                    "orderedList16"
+                ]
+            },
+            {
+                "case": "Plain list",
+                "useInsteadIcons": [
+                    "list16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3736&m=dev"
+    },
+    "listCheck16": {
+        "name": "listCheck16",
+        "file": "list-check-16.svg",
+        "category": "text",
+        "metaphor": "A list with a checkmark.",
+        "useFor": [
+            "Mark list items as complete",
+            "validated-list states"
+        ],
+        "keywords": [
+            "list check",
+            "completed list",
+            "validated"
+        ],
+        "avoidFor": [
+            {
+                "case": "To-do checkboxes",
+                "useInsteadIcons": [
+                    "checkList16"
+                ]
+            },
+            {
+                "case": "Single confirmation",
+                "useInsteadIcons": [
+                    "check16",
+                    "cCheck16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3934&m=dev"
+    },
+    "listPlus16": {
+        "name": "listPlus16",
+        "file": "list-plus-16.svg",
+        "category": "text",
+        "metaphor": "A list with a plus sign.",
+        "useFor": [
+            "Add a new item to a list"
+        ],
+        "keywords": [
+            "add to list",
+            "list plus",
+            "new item"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic add",
+                "useInsteadIcons": [
+                    "plus16"
+                ]
+            },
+            {
+                "case": "Edit list",
+                "useInsteadIcons": [
+                    "listEdit16"
+                ]
+            },
+            {
+                "case": "Mark item complete",
+                "useInsteadIcons": [
+                    "listCheck16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3935&m=dev"
+    },
+    "quote16": {
+        "name": "quote16",
+        "file": "quote-16.svg",
+        "category": "text",
+        "metaphor": "Two pairs of opening quotation marks side by side.",
+        "useFor": [
+            "Block-quote affordance in a rich-text editor",
+            "testimonials",
+            "quoted text styling"
+        ],
+        "keywords": [
+            "quote",
+            "quotation",
+            "testimonial",
+            "blockquote"
+        ],
+        "avoidFor": [
+            {
+                "case": "Inline comments",
+                "useInsteadIcons": [
+                    "comment16"
+                ]
+            },
+            {
+                "case": "Speech / chat",
+                "useInsteadIcons": [
+                    "chat16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-25&m=dev"
+    },
+    "heading516": {
+        "name": "heading516",
+        "file": "heading-5-16.svg",
+        "category": "text",
+        "metaphor": "The letter H paired with the numeral 5.",
+        "useFor": [
+            "Applying fifth-level heading style for deeply nested content"
+        ],
+        "keywords": [
+            "heading",
+            "H5",
+            "deep nested"
+        ],
+        "avoidFor": [
+            {
+                "case": "Higher level",
+                "useInsteadIcons": [
+                    "heading116",
+                    "heading216",
+                    "heading316",
+                    "heading416"
+                ]
+            },
+            {
+                "case": "Lowest level",
+                "useInsteadIcons": [
+                    "heading616"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13493-1181&m=dev"
+    },
+    "menuRight16": {
+        "name": "menuRight16",
+        "file": "menu-right-16.svg",
+        "category": "text",
+        "metaphor": "Three horizontal lines biased toward the right.",
+        "useFor": [
+            "Right-align text formatting in a rich-text editor"
+        ],
+        "keywords": [
+            "menu right",
+            "align right",
+            "right justify"
+        ],
+        "avoidFor": [
+            {
+                "case": "Opening the right sidebar",
+                "useInsteadIcons": [
+                    "sidebarRight16"
+                ]
+            },
+            {
+                "case": "Generic menu",
+                "useInsteadIcons": [
+                    "menu16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3953&m=dev"
+    },
+    "paragraphs16": {
+        "name": "paragraphs16",
+        "file": "paragraphs-16.svg",
+        "category": "text",
+        "metaphor": "Two rows, each with a square block on the left and horizontal text lines on the right.",
+        "useFor": [
+            "Paragraph-level formatting controls",
+            "paragraph style picker in an editor",
+            "block-with-text layouts"
+        ],
+        "keywords": [
+            "paragraph",
+            "text block",
+            "list with thumbnails"
+        ],
+        "avoidFor": [
+            {
+                "case": "Article composition surface",
+                "useInsteadIcons": [
+                    "article16",
+                    "editor16"
+                ]
+            },
+            {
+                "case": "Full document",
+                "useInsteadIcons": [
+                    "fileText16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-8&m=dev"
+    },
+    "menuLeft16": {
+        "name": "menuLeft16",
+        "file": "menu-left-16.svg",
+        "category": "text",
+        "metaphor": "Three horizontal lines biased toward the left.",
+        "useFor": [
+            "Left-align text formatting in a rich-text editor"
+        ],
+        "keywords": [
+            "menu left",
+            "align left",
+            "left justify"
+        ],
+        "avoidFor": [
+            {
+                "case": "Opening the left sidebar",
+                "useInsteadIcons": [
+                    "sidebarLeft16"
+                ]
+            },
+            {
+                "case": "Generic menu",
+                "useInsteadIcons": [
+                    "menu16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3951&m=dev"
+    },
+    "textBold16": {
+        "name": "textBold16",
+        "file": "text-bold-16.svg",
+        "category": "text",
+        "metaphor": "A bold uppercase B.",
+        "useFor": [
+            "Applying bold formatting to the selected text in a rich-text editor"
+        ],
+        "keywords": [
+            "bold",
+            "B",
+            "strong",
+            "format"
+        ],
+        "avoidFor": [
+            {
+                "case": "Italic emphasis",
+                "useInsteadIcons": [
+                    "textItalic16"
+                ]
+            },
+            {
+                "case": "Heading weight",
+                "useInsteadIcons": [
+                    "heading116",
+                    "heading216",
+                    "heading316",
+                    "heading416",
+                    "heading516",
+                    "heading616"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-91&m=dev"
+    },
+    "textColor16": {
+        "name": "textColor16",
+        "file": "text-color-16.svg",
+        "category": "text",
+        "metaphor": "A capital A with an underline bar (representing a color swatch).",
+        "useFor": [
+            "Changing the color of selected text in a rich-text editor"
+        ],
+        "keywords": [
+            "text color",
+            "font color",
+            "format",
+            "color"
+        ],
+        "avoidFor": [
+            {
+                "case": "Background highlight",
+                "useInsteadText": "use a highlight icon"
+            },
+            {
+                "case": "Theme switch",
+                "useInsteadIcons": [
+                    "cogwheel16",
+                    "moon16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-92&m=dev"
+    },
+    "menu16": {
+        "name": "menu16",
+        "file": "menu-16.svg",
+        "category": "text",
+        "metaphor": "Three stacked horizontal lines (hamburger).",
+        "useFor": [
+            "Main menu trigger on mobile and compact UI",
+            "app drawer"
+        ],
+        "keywords": [
+            "menu",
+            "hamburger",
+            "navigation",
+            "drawer"
+        ],
+        "avoidFor": [
+            {
+                "case": "Overflow / more actions",
+                "useInsteadIcons": [
+                    "more16"
+                ]
+            },
+            {
+                "case": "Settings",
+                "useInsteadIcons": [
+                    "cogwheel16"
+                ]
+            },
+            {
+                "case": "6x6 grid menu",
+                "useInsteadIcons": [
+                    "chocolateMenu16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3950&m=dev"
+    },
+    "textItalic16": {
+        "name": "textItalic16",
+        "file": "text-italic-16.svg",
+        "category": "text",
+        "metaphor": "A slanted lowercase i (with a dot).",
+        "useFor": [
+            "Applying italic formatting to the selected text in a rich-text editor"
+        ],
+        "keywords": [
+            "italic",
+            "i",
+            "emphasis",
+            "format"
+        ],
+        "avoidFor": [
+            {
+                "case": "Bold weight",
+                "useInsteadIcons": [
+                    "textBold16"
+                ]
+            },
+            {
+                "case": "Quoted block",
+                "useInsteadIcons": [
+                    "quote16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-93&m=dev"
+    },
+    "listEdit16": {
+        "name": "listEdit16",
+        "file": "list-edit-16.svg",
+        "category": "text",
+        "metaphor": "A list with a pencil.",
+        "useFor": [
+            "Editing list items",
+            "manage-list affordances"
+        ],
+        "keywords": [
+            "list edit",
+            "manage list",
+            "edit items"
+        ],
+        "avoidFor": [
+            {
+                "case": "Add an item",
+                "useInsteadIcons": [
+                    "listPlus16"
+                ]
+            },
+            {
+                "case": "Edit free text",
+                "useInsteadIcons": [
+                    "editor16",
+                    "pen16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-186&m=dev"
+    },
+    "heading416": {
+        "name": "heading416",
+        "file": "heading-4-16.svg",
+        "category": "text",
+        "metaphor": "The letter H paired with the numeral 4.",
+        "useFor": [
+            "Applying fourth-level heading style for nested sub-sections"
+        ],
+        "keywords": [
+            "heading",
+            "H4",
+            "nested"
+        ],
+        "avoidFor": [
+            {
+                "case": "Higher level",
+                "useInsteadIcons": [
+                    "heading116",
+                    "heading216",
+                    "heading316"
+                ]
+            },
+            {
+                "case": "Lower level",
+                "useInsteadIcons": [
+                    "heading516",
+                    "heading616"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13493-1173&m=dev"
+    },
+    "translation16": {
+        "name": "translation16",
+        "file": "translation-16.svg",
+        "category": "text",
+        "metaphor": "A non-Latin character (e.g. 文) next to a Latin letter A.",
+        "useFor": [
+            "Translation actions",
+            "\"translate this\"",
+            "switching content language inline"
+        ],
+        "keywords": [
+            "translation",
+            "translate",
+            "language",
+            "localization"
+        ],
+        "avoidFor": [
+            {
+                "case": "App-wide language picker",
+                "useInsteadIcons": [
+                    "language16"
+                ]
+            },
+            {
+                "case": "Multi-language label",
+                "useInsteadIcons": [
+                    "language16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-99&m=dev"
+    },
+    "subscript16": {
+        "name": "subscript16",
+        "file": "subscript-16.svg",
+        "category": "text",
+        "metaphor": "An X with a small 2 dropped below the baseline.",
+        "useFor": [
+            "Applying subscript formatting (chemical formulas, math notation)"
+        ],
+        "keywords": [
+            "subscript",
+            "formula",
+            "chemistry"
+        ],
+        "avoidFor": [
+            {
+                "case": "Superscript",
+                "useInsteadIcons": [
+                    "superscript16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=10365-183&m=dev"
+    },
+    "heading616": {
+        "name": "heading616",
+        "file": "heading-6-16.svg",
+        "category": "text",
+        "metaphor": "The letter H paired with the numeral 6.",
+        "useFor": [
+            "Applying the deepest heading style in a rich-text editor"
+        ],
+        "keywords": [
+            "heading",
+            "H6",
+            "deepest"
+        ],
+        "avoidFor": [
+            {
+                "case": "Higher level",
+                "useInsteadIcons": [
+                    "heading116",
+                    "heading216",
+                    "heading316",
+                    "heading416",
+                    "heading516"
+                ]
+            },
+            {
+                "case": "Plain bold text",
+                "useInsteadIcons": [
+                    "textBold16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13494-1185&m=dev"
+    },
+    "heading216": {
+        "name": "heading216",
+        "file": "heading-2-16.svg",
+        "category": "text",
+        "metaphor": "The letter H paired with the numeral 2.",
+        "useFor": [
+            "Applying second-level heading style for major sections in a rich-text editor"
+        ],
+        "keywords": [
+            "heading",
+            "H2",
+            "subheading",
+            "section"
+        ],
+        "avoidFor": [
+            {
+                "case": "Page title",
+                "useInsteadIcons": [
+                    "heading116"
+                ]
+            },
+            {
+                "case": "Deeper sub-sections",
+                "useInsteadIcons": [
+                    "heading316",
+                    "heading416",
+                    "heading516",
+                    "heading616"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13493-1169&m=dev"
+    },
+    "orderedList16": {
+        "name": "orderedList16",
+        "file": "ordered-list-16.svg",
+        "category": "text",
+        "metaphor": "Stacked lines preceded by numerals.",
+        "useFor": [
+            "Applying ordered (numbered) list formatting in a rich-text editor"
+        ],
+        "keywords": [
+            "ordered list",
+            "ol",
+            "numbered",
+            "format"
+        ],
+        "avoidFor": [
+            {
+                "case": "Bulleted list",
+                "useInsteadIcons": [
+                    "unorderedList16",
+                    "bulletList16"
+                ]
+            },
+            {
+                "case": "Plain list",
+                "useInsteadIcons": [
+                    "list16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-210&m=dev"
     }
 }
