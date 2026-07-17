@@ -3206,5 +3206,1301 @@
             }
         ],
         "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3789&m=dev"
+    },
+    "mail16": {
+        "name": "mail16",
+        "file": "mail-16.svg",
+        "category": "communication",
+        "metaphor": "A closed envelope.",
+        "useFor": [
+            "Email messages",
+            "inbox links",
+            "contact-by-email actions"
+        ],
+        "keywords": [
+            "mail",
+            "email",
+            "envelope",
+            "message",
+            "inbox"
+        ],
+        "avoidFor": [
+            {
+                "case": "In-app chat",
+                "useInsteadIcons": [
+                    "chat16"
+                ]
+            },
+            {
+                "case": "Comment thread",
+                "useInsteadIcons": [
+                    "comment16"
+                ]
+            },
+            {
+                "case": "Physical shipping",
+                "useInsteadIcons": [
+                    "logistics16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-117&m=dev"
+    },
+    "mobileChat16": {
+        "name": "mobileChat16",
+        "file": "mobile-chat-16.svg",
+        "category": "communication",
+        "metaphor": "A mobile phone with a chat bubble.",
+        "useFor": [
+            "Mobile chat / messaging",
+            "SMS",
+            "in-app mobile messaging"
+        ],
+        "keywords": [
+            "mobile chat",
+            "sms",
+            "messaging",
+            "phone chat"
+        ],
+        "avoidFor": [
+            {
+                "case": "Desktop chat",
+                "useInsteadIcons": [
+                    "chat16"
+                ]
+            },
+            {
+                "case": "Email",
+                "useInsteadIcons": [
+                    "mail16"
+                ]
+            },
+            {
+                "case": "Comment thread",
+                "useInsteadIcons": [
+                    "comment16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-49&m=dev"
+    },
+    "phone16": {
+        "name": "phone16",
+        "file": "phone-16.svg",
+        "category": "communication",
+        "metaphor": "A phone handset.",
+        "useFor": [
+            "Phone references",
+            "call-this-number actions",
+            "contact-by-phone affordances"
+        ],
+        "keywords": [
+            "phone",
+            "call",
+            "telephone",
+            "handset"
+        ],
+        "avoidFor": [
+            {
+                "case": "Active call",
+                "useInsteadIcons": [
+                    "phoneCall16"
+                ]
+            },
+            {
+                "case": "Mobile chat",
+                "useInsteadIcons": [
+                    "mobileChat16"
+                ]
+            },
+            {
+                "case": "Smartphone device",
+                "useInsteadIcons": [
+                    "smartphone16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2686&m=dev"
+    },
+    "addressBook16": {
+        "name": "addressBook16",
+        "file": "address-book-16.svg",
+        "category": "communication",
+        "metaphor": "An address-book booklet with tabs.",
+        "useFor": [
+            "Address book",
+            "contact directory",
+            "full-contacts view"
+        ],
+        "keywords": [
+            "address book",
+            "contacts",
+            "directory",
+            "rolodex"
+        ],
+        "avoidFor": [
+            {
+                "case": "Single contact",
+                "useInsteadIcons": [
+                    "contact16"
+                ]
+            },
+            {
+                "case": "List of users",
+                "useInsteadIcons": [
+                    "listUser16"
+                ]
+            },
+            {
+                "case": "Mail inbox",
+                "useInsteadIcons": [
+                    "inbox16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2536&m=dev"
+    },
+    "chat16": {
+        "name": "chat16",
+        "file": "chat-16.svg",
+        "category": "communication",
+        "metaphor": "A rectangular speech bubble with a pointer.",
+        "useFor": [
+            "Live chat",
+            "two-way messaging",
+            "conversation surfaces"
+        ],
+        "keywords": [
+            "chat",
+            "conversation",
+            "messaging",
+            "dialogue",
+            "speech bubble"
+        ],
+        "avoidFor": [
+            {
+                "case": "Speech bubble with text lines / comment thread",
+                "useInsteadIcons": [
+                    "comment16"
+                ]
+            },
+            {
+                "case": "Email",
+                "useInsteadIcons": [
+                    "mail16"
+                ]
+            },
+            {
+                "case": "Mobile-specific chat",
+                "useInsteadIcons": [
+                    "mobileChat16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3785&m=dev"
+    },
+    "people16": {
+        "name": "people16",
+        "file": "people-16.svg",
+        "category": "communication",
+        "metaphor": "Two person silhouettes placed side by side.",
+        "useFor": [
+            "Multiple users",
+            "audience references",
+            "\"several people\" surfaces"
+        ],
+        "keywords": [
+            "people",
+            "group",
+            "users",
+            "two people"
+        ],
+        "avoidFor": [
+            {
+                "case": "Team of three",
+                "useInsteadIcons": [
+                    "team16"
+                ]
+            },
+            {
+                "case": "Two overlapping people",
+                "useInsteadIcons": [
+                    "community16"
+                ]
+            },
+            {
+                "case": "Org chart",
+                "useInsteadIcons": [
+                    "organigram16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-87&m=dev"
+    },
+    "inbox16": {
+        "name": "inbox16",
+        "file": "inbox-16.svg",
+        "category": "communication",
+        "metaphor": "An inbox tray.",
+        "useFor": [
+            "Inbox views",
+            "received-items list",
+            "message tray"
+        ],
+        "keywords": [
+            "inbox",
+            "tray",
+            "received",
+            "messages"
+        ],
+        "avoidFor": [
+            {
+                "case": "Email composition",
+                "useInsteadIcons": [
+                    "mail16"
+                ]
+            },
+            {
+                "case": "Archive",
+                "useInsteadIcons": [
+                    "archive16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-116&m=dev"
+    },
+    "rss16": {
+        "name": "rss16",
+        "file": "rss-16.svg",
+        "category": "communication",
+        "metaphor": "Radiating signal arcs in a corner.",
+        "useFor": [
+            "RSS feed subscriptions",
+            "content syndication links"
+        ],
+        "keywords": [
+            "rss",
+            "feed",
+            "subscribe",
+            "syndication"
+        ],
+        "avoidFor": [
+            {
+                "case": "WiFi",
+                "useInsteadIcons": [
+                    "wifi16"
+                ]
+            },
+            {
+                "case": "Notifications",
+                "useInsteadIcons": [
+                    "bell16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-118&m=dev"
+    },
+    "phoneCall16": {
+        "name": "phoneCall16",
+        "file": "phone-call-16.svg",
+        "category": "communication",
+        "metaphor": "A phone handset with outgoing call lines.",
+        "useFor": [
+            "Active phone calls",
+            "call-in-progress",
+            "dial action with status"
+        ],
+        "keywords": [
+            "phone call",
+            "calling",
+            "dial",
+            "in call"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic phone reference",
+                "useInsteadIcons": [
+                    "phone16"
+                ]
+            },
+            {
+                "case": "Mobile messaging",
+                "useInsteadIcons": [
+                    "mobileChat16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3920&m=dev"
+    },
+    "comment16": {
+        "name": "comment16",
+        "file": "comment-16.svg",
+        "category": "communication",
+        "metaphor": "An oval speech bubble containing two horizontal text lines.",
+        "useFor": [
+            "Comments",
+            "comment threads on content",
+            "inline feedback with text preview"
+        ],
+        "keywords": [
+            "comment",
+            "speech bubble",
+            "feedback",
+            "thread",
+            "text"
+        ],
+        "avoidFor": [
+            {
+                "case": "Live chat (rectangular bubble)",
+                "useInsteadIcons": [
+                    "chat16"
+                ]
+            },
+            {
+                "case": "Email",
+                "useInsteadIcons": [
+                    "mail16"
+                ]
+            },
+            {
+                "case": "Quotation",
+                "useInsteadIcons": [
+                    "quote16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-31&m=dev"
+    },
+    "handshake16": {
+        "name": "handshake16",
+        "file": "handshake-16.svg",
+        "category": "communication",
+        "metaphor": "Two clasped hands.",
+        "useFor": [
+            "Partnerships",
+            "agreements",
+            "deals",
+            "professional collaboration"
+        ],
+        "keywords": [
+            "handshake",
+            "partnership",
+            "deal",
+            "agreement",
+            "collaboration"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic team",
+                "useInsteadIcons": [
+                    "team16"
+                ]
+            },
+            {
+                "case": "Help / support",
+                "useInsteadIcons": [
+                    "lifebuoy16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-202&m=dev"
+    },
+    "reply16": {
+        "name": "reply16",
+        "file": "reply-16.svg",
+        "category": "communication",
+        "metaphor": "A curved arrow returning to a message.",
+        "useFor": [
+            "Reply to a message",
+            "email reply",
+            "response action"
+        ],
+        "keywords": [
+            "reply",
+            "respond",
+            "answer",
+            "return"
+        ],
+        "avoidFor": [
+            {
+                "case": "Undo",
+                "useInsteadIcons": [
+                    "curvedArrowLeft16",
+                    "restore16"
+                ]
+            },
+            {
+                "case": "Send new",
+                "useInsteadIcons": [
+                    "send16"
+                ]
+            },
+            {
+                "case": "Forward",
+                "useInsteadText": "different icon"
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13488-1161&m=dev"
+    },
+    "archive16": {
+        "name": "archive16",
+        "file": "archive-16.svg",
+        "category": "communication",
+        "metaphor": "A storage box with a downward arrow or tab.",
+        "useFor": [
+            "Archiving messages",
+            "moving items to long-term storage",
+            "archived-folder view"
+        ],
+        "keywords": [
+            "archive",
+            "storage",
+            "stored",
+            "long-term"
+        ],
+        "avoidFor": [
+            {
+                "case": "Delete",
+                "useInsteadIcons": [
+                    "delete16"
+                ]
+            },
+            {
+                "case": "Folder",
+                "useInsteadIcons": [
+                    "folder16"
+                ]
+            },
+            {
+                "case": "Box of items",
+                "useInsteadIcons": [
+                    "box16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-11&m=dev"
+    },
+    "userAdded16": {
+        "name": "userAdded16",
+        "file": "user-added-16.svg",
+        "category": "communication",
+        "metaphor": "A person silhouette with a check mark.",
+        "useFor": [
+            "Confirmed user",
+            "successfully added member",
+            "verified-membership state"
+        ],
+        "keywords": [
+            "user added",
+            "member confirmed",
+            "verified user"
+        ],
+        "avoidFor": [
+            {
+                "case": "Add action",
+                "useInsteadIcons": [
+                    "userAdd16"
+                ]
+            },
+            {
+                "case": "Verified entity",
+                "useInsteadIcons": [
+                    "verified16"
+                ]
+            },
+            {
+                "case": "Qualified",
+                "useInsteadIcons": [
+                    "qualified16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-187&m=dev"
+    },
+    "feedbackSupport16": {
+        "name": "feedbackSupport16",
+        "file": "feedback-support-16.svg",
+        "category": "communication",
+        "metaphor": "Two speech bubbles side by side — one with a question mark, one with an exclamation mark.",
+        "useFor": [
+            "Feedback or support entry points",
+            "contact support CTAs",
+            "help + issue-reporting surfaces"
+        ],
+        "keywords": [
+            "feedback",
+            "support",
+            "contact us",
+            "help chat",
+            "question",
+            "alert"
+        ],
+        "avoidFor": [
+            {
+                "case": "FAQ / help only",
+                "useInsteadIcons": [
+                    "questionMark16"
+                ]
+            },
+            {
+                "case": "Lifeline / emergency support",
+                "useInsteadIcons": [
+                    "lifebuoy16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3808&m=dev"
+    },
+    "team16": {
+        "name": "team16",
+        "file": "team-16.svg",
+        "category": "communication",
+        "metaphor": "Three person silhouettes standing close together.",
+        "useFor": [
+            "Team views",
+            "team workspaces",
+            "group memberships"
+        ],
+        "keywords": [
+            "team",
+            "group",
+            "three people",
+            "team members",
+            "workspace"
+        ],
+        "avoidFor": [
+            {
+                "case": "Two people side by side",
+                "useInsteadIcons": [
+                    "people16"
+                ]
+            },
+            {
+                "case": "Two overlapping people",
+                "useInsteadIcons": [
+                    "community16"
+                ]
+            },
+            {
+                "case": "Organization hierarchy",
+                "useInsteadIcons": [
+                    "organigram16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-47&m=dev"
+    },
+    "send16": {
+        "name": "send16",
+        "file": "send-16.svg",
+        "category": "communication",
+        "metaphor": "A paper plane.",
+        "useFor": [
+            "Send action — submit a message",
+            "send email",
+            "dispatch form"
+        ],
+        "keywords": [
+            "send",
+            "submit",
+            "dispatch",
+            "paper plane"
+        ],
+        "avoidFor": [
+            {
+                "case": "Share to other apps",
+                "useInsteadIcons": [
+                    "share16"
+                ]
+            },
+            {
+                "case": "External link",
+                "useInsteadIcons": [
+                    "launch16"
+                ]
+            },
+            {
+                "case": "Forward / reply",
+                "useInsteadIcons": [
+                    "reply16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-118&m=dev"
+    },
+    "userAdd16": {
+        "name": "userAdd16",
+        "file": "user-add-16.svg",
+        "category": "communication",
+        "metaphor": "A person silhouette with a plus mark.",
+        "useFor": [
+            "Add a user",
+            "invite member",
+            "create-new-user actions"
+        ],
+        "keywords": [
+            "user add",
+            "invite",
+            "new user",
+            "add member"
+        ],
+        "avoidFor": [
+            {
+                "case": "Already added",
+                "useInsteadIcons": [
+                    "userAdded16"
+                ]
+            },
+            {
+                "case": "Pin user",
+                "useInsteadIcons": [
+                    "userPin16"
+                ]
+            },
+            {
+                "case": "Generic add",
+                "useInsteadIcons": [
+                    "plus16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-116&m=dev"
+    },
+    "attachment16": {
+        "name": "attachment16",
+        "file": "attachment-16.svg",
+        "category": "communication",
+        "metaphor": "A paperclip.",
+        "useFor": [
+            "Email attachments",
+            "file attachments to messages or records"
+        ],
+        "keywords": [
+            "attachment",
+            "paperclip",
+            "file attachment",
+            "email attachment"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file16"
+                ]
+            },
+            {
+                "case": "Hyperlink",
+                "useInsteadIcons": [
+                    "hyperlink16",
+                    "link16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3764&m=dev"
+    },
+    "share16": {
+        "name": "share16",
+        "file": "share-16.svg",
+        "category": "communication",
+        "metaphor": "Three nodes connected by lines (share graph).",
+        "useFor": [
+            "Share content to other apps",
+            "social-share trigger",
+            "distribute content"
+        ],
+        "keywords": [
+            "share",
+            "social share",
+            "distribute"
+        ],
+        "avoidFor": [
+            {
+                "case": "Send a message",
+                "useInsteadIcons": [
+                    "send16"
+                ]
+            },
+            {
+                "case": "External link",
+                "useInsteadIcons": [
+                    "launch16"
+                ]
+            },
+            {
+                "case": "Hyperlink",
+                "useInsteadIcons": [
+                    "hyperlink16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3780&m=dev"
+    },
+    "user16": {
+        "name": "user16",
+        "file": "user-16.svg",
+        "category": "communication",
+        "metaphor": "A single person silhouette.",
+        "useFor": [
+            "Generic user reference",
+            "account profile",
+            "single-person indicator"
+        ],
+        "keywords": [
+            "user",
+            "person",
+            "profile",
+            "account"
+        ],
+        "avoidFor": [
+            {
+                "case": "Multiple users",
+                "useInsteadIcons": [
+                    "people16",
+                    "team16"
+                ]
+            },
+            {
+                "case": "Contact card",
+                "useInsteadIcons": [
+                    "contact16"
+                ]
+            },
+            {
+                "case": "HR portal",
+                "useInsteadIcons": [
+                    "myHr16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-71&m=dev"
+    },
+    "article16": {
+        "name": "article16",
+        "file": "article-16.svg",
+        "category": "communication",
+        "metaphor": "A long-form article page.",
+        "useFor": [
+            "Article references",
+            "blog posts",
+            "long-form editorial content"
+        ],
+        "keywords": [
+            "article",
+            "blog post",
+            "editorial",
+            "long-form"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic document",
+                "useInsteadIcons": [
+                    "fileText16"
+                ]
+            },
+            {
+                "case": "Page title (H1)",
+                "useInsteadIcons": [
+                    "heading116"
+                ]
+            },
+            {
+                "case": "Editor surface",
+                "useInsteadIcons": [
+                    "editor16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3786&m=dev"
+    },
+    "speaker16": {
+        "name": "speaker16",
+        "file": "speaker-16.svg",
+        "category": "communication",
+        "metaphor": "A speaker presenting.",
+        "useFor": [
+            "Public speaker",
+            "presenter",
+            "conference-talk references"
+        ],
+        "keywords": [
+            "speaker",
+            "presenter",
+            "talk",
+            "presentation"
+        ],
+        "avoidFor": [
+            {
+                "case": "Audio speaker (volume)",
+                "useInsteadIcons": [
+                    "sound16",
+                    "volumeUp16"
+                ]
+            },
+            {
+                "case": "Megaphone broadcast",
+                "useInsteadIcons": [
+                    "megaphone16"
+                ]
+            },
+            {
+                "case": "Training class",
+                "useInsteadIcons": [
+                    "training16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3924&m=dev"
+    },
+    "box16": {
+        "name": "box16",
+        "file": "box-16.svg",
+        "category": "communication",
+        "metaphor": "An archive box.",
+        "useFor": [
+            "General metaphor for archived material or analog documents",
+            "storage of records"
+        ],
+        "keywords": [
+            "box",
+            "archive",
+            "records",
+            "storage",
+            "analog documents"
+        ],
+        "avoidFor": [
+            {
+                "case": "Active archive action",
+                "useInsteadIcons": [
+                    "archive16"
+                ]
+            },
+            {
+                "case": "Generic package",
+                "useInsteadIcons": [
+                    "package16"
+                ]
+            },
+            {
+                "case": "Briefcase / formal",
+                "useInsteadIcons": [
+                    "briefcase16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3784&m=dev"
+    },
+    "coach16": {
+        "name": "coach16",
+        "file": "coach-16.svg",
+        "category": "communication",
+        "metaphor": "A single person figure with arms outstretched (a coaching stance).",
+        "useFor": [
+            "Workshop coach references",
+            "business mentorship",
+            "training-coach contexts"
+        ],
+        "keywords": [
+            "coach",
+            "mentor",
+            "workshop lead",
+            "training",
+            "guidance"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic training program",
+                "useInsteadIcons": [
+                    "training16"
+                ]
+            },
+            {
+                "case": "Single user",
+                "useInsteadIcons": [
+                    "user16"
+                ]
+            },
+            {
+                "case": "Team",
+                "useInsteadIcons": [
+                    "team16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3941&m=dev"
+    },
+    "megaphone16": {
+        "name": "megaphone16",
+        "file": "megaphone-16.svg",
+        "category": "communication",
+        "metaphor": "A megaphone / bullhorn.",
+        "useFor": [
+            "Announcements",
+            "marketing campaigns",
+            "broadcast messages"
+        ],
+        "keywords": [
+            "megaphone",
+            "announcement",
+            "broadcast",
+            "campaign"
+        ],
+        "avoidFor": [
+            {
+                "case": "User notification",
+                "useInsteadIcons": [
+                    "bell16"
+                ]
+            },
+            {
+                "case": "Speaker / audio",
+                "useInsteadIcons": [
+                    "speaker16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21682-470&m=dev"
+    },
+    "briefcase16": {
+        "name": "briefcase16",
+        "file": "briefcase-16.svg",
+        "category": "communication",
+        "metaphor": "A business briefcase.",
+        "useFor": [
+            "Formal documents",
+            "professional / business materials",
+            "work portfolio"
+        ],
+        "keywords": [
+            "briefcase",
+            "formal documents",
+            "work",
+            "business",
+            "portfolio"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic file",
+                "useInsteadIcons": [
+                    "file16"
+                ]
+            },
+            {
+                "case": "Generic box",
+                "useInsteadIcons": [
+                    "box16"
+                ]
+            },
+            {
+                "case": "Email attachment",
+                "useInsteadIcons": [
+                    "attachment16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-10&m=dev"
+    },
+    "community16": {
+        "name": "community16",
+        "file": "community-16.svg",
+        "category": "communication",
+        "metaphor": "Two overlapping person silhouettes (one foreground, one behind).",
+        "useFor": [
+            "Community references",
+            "forums",
+            "social groups",
+            "user communities"
+        ],
+        "keywords": [
+            "community",
+            "forum",
+            "social group",
+            "members"
+        ],
+        "avoidFor": [
+            {
+                "case": "Team of three",
+                "useInsteadIcons": [
+                    "team16"
+                ]
+            },
+            {
+                "case": "Two people side by side",
+                "useInsteadIcons": [
+                    "people16"
+                ]
+            },
+            {
+                "case": "Network topology",
+                "useInsteadIcons": [
+                    "network16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3949&m=dev"
+    },
+    "contact16": {
+        "name": "contact16",
+        "file": "contact-16.svg",
+        "category": "communication",
+        "metaphor": "A phone handset inside a circle.",
+        "useFor": [
+            "Single contact entry",
+            "contact-by-phone affordances",
+            "contact-card display"
+        ],
+        "keywords": [
+            "contact",
+            "phone contact",
+            "call contact"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic user",
+                "useInsteadIcons": [
+                    "user16"
+                ]
+            },
+            {
+                "case": "Address book",
+                "useInsteadIcons": [
+                    "addressBook16"
+                ]
+            },
+            {
+                "case": "Multiple users",
+                "useInsteadIcons": [
+                    "people16",
+                    "team16"
+                ]
+            },
+            {
+                "case": "Plain phone handset",
+                "useInsteadIcons": [
+                    "phone16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-37&m=dev"
+    },
+    "language16": {
+        "name": "language16",
+        "file": "language-16.svg",
+        "category": "communication",
+        "metaphor": "A speech bubble containing three horizontal text lines.",
+        "useFor": [
+            "App-wide language picker",
+            "multi-language content labels",
+            "spoken-language references"
+        ],
+        "keywords": [
+            "language",
+            "locale",
+            "multi-language",
+            "i18n",
+            "spoken"
+        ],
+        "avoidFor": [
+            {
+                "case": "Translating content inline",
+                "useInsteadIcons": [
+                    "translation16"
+                ]
+            },
+            {
+                "case": "Region picker",
+                "useInsteadIcons": [
+                    "globe16"
+                ]
+            },
+            {
+                "case": "Live chat speech bubble",
+                "useInsteadIcons": [
+                    "chat16"
+                ]
+            },
+            {
+                "case": "Comment bubble with text",
+                "useInsteadIcons": [
+                    "comment16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3726&m=dev"
+    },
+    "userRemove16": {
+        "name": "userRemove16",
+        "file": "user-remove-16.svg",
+        "category": "communication",
+        "metaphor": "A person silhouette with a minus mark.",
+        "useFor": [
+            "Remove a user from a list",
+            "group",
+            "or organization"
+        ],
+        "keywords": [
+            "user remove",
+            "delete user",
+            "remove member"
+        ],
+        "avoidFor": [
+            {
+                "case": "Add a user",
+                "useInsteadIcons": [
+                    "userAdd16"
+                ]
+            },
+            {
+                "case": "Generic delete",
+                "useInsteadIcons": [
+                    "delete16"
+                ]
+            },
+            {
+                "case": "Block user",
+                "useInsteadIcons": [
+                    "ban16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-120&m=dev"
+    },
+    "userPin16": {
+        "name": "userPin16",
+        "file": "user-pin-16.svg",
+        "category": "communication",
+        "metaphor": "A person silhouette with a map pin.",
+        "useFor": [
+            "Pinning a user to a location",
+            "assigning user to a place",
+            "on-site user indicators"
+        ],
+        "keywords": [
+            "user pin",
+            "located user",
+            "on site",
+            "user location"
+        ],
+        "avoidFor": [
+            {
+                "case": "Generic location pin",
+                "useInsteadIcons": [
+                    "mapPin16"
+                ]
+            },
+            {
+                "case": "User added",
+                "useInsteadIcons": [
+                    "userAdded16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-197&m=dev"
+    },
+    "editor16": {
+        "name": "editor16",
+        "file": "editor-16.svg",
+        "category": "communication",
+        "metaphor": "A pen on a document — editing surface.",
+        "useFor": [
+            "Rich-text / WYSIWYG editor surfaces",
+            "document editing affordances"
+        ],
+        "keywords": [
+            "editor",
+            "edit document",
+            "wysiwyg",
+            "writing"
+        ],
+        "avoidFor": [
+            {
+                "case": "Quick inline edit",
+                "useInsteadIcons": [
+                    "pen16"
+                ]
+            },
+            {
+                "case": "List editing",
+                "useInsteadIcons": [
+                    "listEdit16"
+                ]
+            },
+            {
+                "case": "Article composition",
+                "useInsteadIcons": [
+                    "article16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2602&m=dev"
+    },
+    "training16": {
+        "name": "training16",
+        "file": "training-16.svg",
+        "category": "communication",
+        "metaphor": "A person with a chalkboard or progress chart.",
+        "useFor": [
+            "Training programs",
+            "learning sessions",
+            "instructor-led courses"
+        ],
+        "keywords": [
+            "training",
+            "course",
+            "learning",
+            "instructor"
+        ],
+        "avoidFor": [
+            {
+                "case": "Self-paced eLearning",
+                "useInsteadIcons": [
+                    "elearning16"
+                ]
+            },
+            {
+                "case": "Workshop coach",
+                "useInsteadIcons": [
+                    "coach16"
+                ]
+            },
+            {
+                "case": "Webinar",
+                "useInsteadIcons": [
+                    "webinar16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-95&m=dev"
+    },
+    "braille16": {
+        "name": "braille16",
+        "file": "braille-16.svg",
+        "category": "communication",
+        "metaphor": "Braille dot pattern.",
+        "useFor": [
+            "Braille support",
+            "tactile accessibility indicators",
+            "accessible-content markers"
+        ],
+        "keywords": [
+            "braille",
+            "accessibility",
+            "tactile",
+            "blind support"
+        ],
+        "avoidFor": [
+            {
+                "case": "Wheelchair access",
+                "useInsteadIcons": [
+                    "wheelchair16"
+                ]
+            },
+            {
+                "case": "Audio narration",
+                "useInsteadIcons": [
+                    "audioDescription16"
+                ]
+            }
+        ],
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13494-1241&m=dev"
     }
 }
