@@ -151,7 +151,7 @@
         "name": "fileText16",
         "file": "file-text-16.svg",
         "category": "files",
-        "metaphor": "A document marked “TEXT”.",
+        "metaphor": "A document marked \u201cTEXT\u201d.",
         "useFor": [
             "Generic text-document references",
             "plain-text-content markers"
@@ -1707,7 +1707,7 @@
         "category": "finance",
         "metaphor": "Vertical bars with a diagonal trend line crossing them.",
         "useFor": [
-            "Combined bar-and-trend visualizations — a bar chart with an overlaid growth or forecast line"
+            "Combined bar-and-trend visualizations \u2014 a bar chart with an overlaid growth or forecast line"
         ],
         "keywords": [
             "bar graph",
@@ -2646,7 +2646,7 @@
         "name": "swapVertical16",
         "file": "swap-vertical-16.svg",
         "category": "arrows",
-        "metaphor": "Two parallel vertical arrows side by side — left one pointing up, right one pointing down.",
+        "metaphor": "Two parallel vertical arrows side by side \u2014 left one pointing up, right one pointing down.",
         "useFor": [
             "Swapping two items on a vertical axis",
             "reordering rows",
@@ -3070,7 +3070,7 @@
         "name": "swapHorizontal16",
         "file": "swap-horizontal-16.svg",
         "category": "arrows",
-        "metaphor": "Two parallel horizontal arrows stacked — top one pointing left, bottom one pointing right.",
+        "metaphor": "Two parallel horizontal arrows stacked \u2014 top one pointing left, bottom one pointing right.",
         "useFor": [
             "Swapping two items on a horizontal axis",
             "exchanging columns",
@@ -3242,7 +3242,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-117&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3941&m=dev"
     },
     "mobileChat16": {
         "name": "mobileChat16",
@@ -3280,7 +3280,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-49&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-202&m=dev"
     },
     "phone16": {
         "name": "phone16",
@@ -3318,7 +3318,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2686&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-11&m=dev"
     },
     "addressBook16": {
         "name": "addressBook16",
@@ -3395,7 +3395,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3785&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3764&m=dev"
     },
     "people16": {
         "name": "people16",
@@ -3433,7 +3433,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-87&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-10&m=dev"
     },
     "inbox16": {
         "name": "inbox16",
@@ -3465,7 +3465,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-116&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3920&m=dev"
     },
     "rss16": {
         "name": "rss16",
@@ -3496,7 +3496,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-118&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-37&m=dev"
     },
     "phoneCall16": {
         "name": "phoneCall16",
@@ -3528,7 +3528,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3920&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13488-1161&m=dev"
     },
     "comment16": {
         "name": "comment16",
@@ -3567,7 +3567,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-31&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3784&m=dev"
     },
     "handshake16": {
         "name": "handshake16",
@@ -3601,7 +3601,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-202&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13494-1241&m=dev"
     },
     "reply16": {
         "name": "reply16",
@@ -3638,7 +3638,7 @@
                 "useInsteadText": "different icon"
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13488-1161&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-31&m=dev"
     },
     "archive16": {
         "name": "archive16",
@@ -3676,7 +3676,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-11&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2602&m=dev"
     },
     "userAdded16": {
         "name": "userAdded16",
@@ -3719,7 +3719,7 @@
         "name": "feedbackSupport16",
         "file": "feedback-support-16.svg",
         "category": "communication",
-        "metaphor": "Two speech bubbles side by side — one with a question mark, one with an exclamation mark.",
+        "metaphor": "Two speech bubbles side by side \u2014 one with a question mark, one with an exclamation mark.",
         "useFor": [
             "Feedback or support entry points",
             "contact support CTAs",
@@ -3747,7 +3747,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3808&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-197&m=dev"
     },
     "team16": {
         "name": "team16",
@@ -3786,7 +3786,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-47&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-87&m=dev"
     },
     "send16": {
         "name": "send16",
@@ -3794,7 +3794,7 @@
         "category": "communication",
         "metaphor": "A paper plane.",
         "useFor": [
-            "Send action — submit a message",
+            "Send action \u2014 submit a message",
             "send email",
             "dispatch form"
         ],
@@ -3824,7 +3824,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-118&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-47&m=dev"
     },
     "userAdd16": {
         "name": "userAdd16",
@@ -3862,7 +3862,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-116&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-118&m=dev"
     },
     "attachment16": {
         "name": "attachment16",
@@ -3894,7 +3894,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3764&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2686&m=dev"
     },
     "share16": {
         "name": "share16",
@@ -3931,7 +3931,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3780&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-49&m=dev"
     },
     "user16": {
         "name": "user16",
@@ -3970,7 +3970,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-71&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-116&m=dev"
     },
     "article16": {
         "name": "article16",
@@ -4008,7 +4008,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3786&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21682-470&m=dev"
     },
     "speaker16": {
         "name": "speaker16",
@@ -4047,7 +4047,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3924&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-71&m=dev"
     },
     "box16": {
         "name": "box16",
@@ -4085,7 +4085,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3784&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-118&m=dev"
     },
     "coach16": {
         "name": "coach16",
@@ -4124,7 +4124,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3941&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3780&m=dev"
     },
     "megaphone16": {
         "name": "megaphone16",
@@ -4156,7 +4156,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=21682-470&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3949&m=dev"
     },
     "briefcase16": {
         "name": "briefcase16",
@@ -4195,7 +4195,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-10&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-116&m=dev"
     },
     "community16": {
         "name": "community16",
@@ -4234,7 +4234,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3949&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3785&m=dev"
     },
     "contact16": {
         "name": "contact16",
@@ -4278,7 +4278,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-37&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3786&m=dev"
     },
     "language16": {
         "name": "language16",
@@ -4323,7 +4323,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3726&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3924&m=dev"
     },
     "userRemove16": {
         "name": "userRemove16",
@@ -4392,13 +4392,13 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13336-197&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3726&m=dev"
     },
     "editor16": {
         "name": "editor16",
         "file": "editor-16.svg",
         "category": "communication",
-        "metaphor": "A pen on a document — editing surface.",
+        "metaphor": "A pen on a document \u2014 editing surface.",
         "useFor": [
             "Rich-text / WYSIWYG editor surfaces",
             "document editing affordances"
@@ -4429,7 +4429,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13284-2602&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-3808&m=dev"
     },
     "training16": {
         "name": "training16",
@@ -4499,7 +4499,7 @@
                 ]
             }
         ],
-        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13494-1241&m=dev"
+        "figma": "https://www.figma.com/design/yWwaLoqsWLWygDxXfvdym9/Infineon-DDS-%7C-UI-icon-library?node-id=13333-117&m=dev"
     },
     "unorderedList16": {
         "name": "unorderedList16",
@@ -5294,7 +5294,7 @@
         "name": "translation16",
         "file": "translation-16.svg",
         "category": "text",
-        "metaphor": "A non-Latin character (e.g. 文) next to a Latin letter A.",
+        "metaphor": "A non-Latin character (e.g. \u6587) next to a Latin letter A.",
         "useFor": [
             "Translation actions",
             "\"translate this\"",
@@ -6467,7 +6467,7 @@
         "category": "interface",
         "metaphor": "A right-pointing triangle followed by a vertical bar.",
         "useFor": [
-            "A single forward skip — advance by one item in a collection or sequence"
+            "A single forward skip \u2014 advance by one item in a collection or sequence"
         ],
         "keywords": [
             "skip",
@@ -9274,7 +9274,7 @@
         "category": "interface",
         "metaphor": "An exclamation mark inside a square.",
         "useFor": [
-            "Square-style warning badge — alternative to circle / triangle in compact UI"
+            "Square-style warning badge \u2014 alternative to circle / triangle in compact UI"
         ],
         "keywords": [
             "s-warning",
@@ -9953,7 +9953,7 @@
         "category": "interface",
         "metaphor": "A filled crescent moon.",
         "useFor": [
-            "Dark-mode toggle (active state) — dark theme currently active"
+            "Dark-mode toggle (active state) \u2014 dark theme currently active"
         ],
         "keywords": [
             "moon filled",
@@ -9982,7 +9982,7 @@
         "category": "interface",
         "metaphor": "A solid / filled funnel filter.",
         "useFor": [
-            "Active filter state — filter criteria currently applied"
+            "Active filter state \u2014 filter criteria currently applied"
         ],
         "keywords": [
             "filter active",
@@ -10047,7 +10047,7 @@
         "category": "interface",
         "metaphor": "A funnel filter.",
         "useFor": [
-            "Filter affordance — apply or clear filter criteria"
+            "Filter affordance \u2014 apply or clear filter criteria"
         ],
         "keywords": [
             "filter",
@@ -10548,7 +10548,7 @@
         "category": "interface",
         "metaphor": "A filled bookmark ribbon.",
         "useFor": [
-            "Currently bookmarked state — item is saved for later"
+            "Currently bookmarked state \u2014 item is saved for later"
         ],
         "keywords": [
             "bookmark filled",
@@ -10669,7 +10669,7 @@
         "category": "interface",
         "metaphor": "A filled pushpin.",
         "useFor": [
-            "Currently pinned state — the item is held at top / saved location"
+            "Currently pinned state \u2014 the item is held at top / saved location"
         ],
         "keywords": [
             "pin filled",
@@ -11384,9 +11384,9 @@
         "name": "duplicate16",
         "file": "duplicate-16.svg",
         "category": "interface",
-        "metaphor": "Two overlapping circles — one duplicated behind another.",
+        "metaphor": "Two overlapping circles \u2014 one duplicated behind another.",
         "useFor": [
-            "Duplicate an object — direct copy placed adjacent to the original"
+            "Duplicate an object \u2014 direct copy placed adjacent to the original"
         ],
         "keywords": [
             "duplicate",
@@ -11663,7 +11663,7 @@
         "category": "interface",
         "metaphor": "A checkmark inside a circle with two ribbons hanging below (a certification badge).",
         "useFor": [
-            "Open metaphor for any context with a qualification process — person",
+            "Open metaphor for any context with a qualification process \u2014 person",
             "product",
             "etc"
         ],
@@ -11760,7 +11760,7 @@
         "category": "interface",
         "metaphor": "An outline crescent moon.",
         "useFor": [
-            "Dark-mode toggle (inactive state) — switch to dark theme"
+            "Dark-mode toggle (inactive state) \u2014 switch to dark theme"
         ],
         "keywords": [
             "moon",
@@ -12517,7 +12517,7 @@
         "category": "interface",
         "metaphor": "A 3x3 grid of outlined tiles.",
         "useFor": [
-            "Chocolate-menu launcher — grid of CTAs / tiles (default state)"
+            "Chocolate-menu launcher \u2014 grid of CTAs / tiles (default state)"
         ],
         "keywords": [
             "chocolate menu",
@@ -13530,7 +13530,7 @@
         "name": "applications16",
         "file": "applications-16.svg",
         "category": "software",
-        "metaphor": "Four small application tiles in a 2x2 grid, with one tile rotated 45° as a diamond.",
+        "metaphor": "Four small application tiles in a 2x2 grid, with one tile rotated 45\u00b0 as a diamond.",
         "useFor": [
             "Application launcher",
             "all apps overview",
