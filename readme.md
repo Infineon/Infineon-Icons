@@ -56,6 +56,8 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#usage-of-fonts-in-plain-html">Usage of Fonts in plain HTML</a></li>
     <li><a href="#regression-testing">Regression Testing</a></li>
+    <li><a href="#icon-metadata">Icon Metadata</a></li>
+    <li><a href="#figma-metadata-sync">Figma Metadata Sync</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#requesting-new-icons">License</a></li>
@@ -466,6 +468,92 @@ node test/font-regression.mjs
 ```
 
 The command exits with a non-zero status when differences are detected.
+
+## Icon Metadata
+
+The package publishes semantic metadata separately from the SVG icon registry. It provides categories, intended uses, keywords, replacement guidance, and the source Figma node without increasing the default icon import.
+
+Use the typed API in JavaScript or TypeScript:
+
+```ts
+import {
+  getIconMetadata,
+  searchIconMetadata,
+} from '@infineon/infineon-icons/metadata';
+
+const pdfIcon = getIconMetadata('filePdf16');
+const attachmentIcons = searchIconMetadata('attachments');
+```
+
+Use the raw JSON export for AI tooling, documentation generators, or other language-agnostic consumers:
+
+```js
+import metadata from '@infineon/infineon-icons/metadata.json' with { type: 'json' };
+```
+
+Each entry is keyed by its JavaScript icon export name, such as `filePdf16`, and includes `name`, `file`, `category`, `metaphor`, `useFor`, `keywords`, `avoidFor`, and `figma`. This is separate from the kebab-case names used by icon-font CSS classes such as `.icon-file-pdf`. Metadata is validated during `pnpm build`; an entry may reference only existing source SVGs and published JavaScript icon names.
+
+## Figma Metadata Sync
+
+Icon metadata is synced in one direction: from Figma into `icons.meta.json`.
+
+This repository includes the Copilot skill `.github/skills/pull-figma-icon-metadata/SKILL.md` for that workflow. Use it when you want to add a new icon entry or refresh the metadata for an existing icon from the Infineon DDS Figma library.
+
+What the skill updates:
+- `category`
+- `metaphor`
+- `useFor`
+- `keywords`
+- `avoidFor`
+- `figma`
+
+What you need:
+- A Figma design URL that points to a specific icon node and includes `node-id`
+- An active Copilot chat session in this repository
+
+How to run it in Copilot Chat:
+
+1. Open Copilot Chat in this repository.
+2. Provide the icon node URL.
+3. Ask Copilot to run the skill with a prompt such as:
+
+```text
+pull figma icon metadata for https://www.figma.com/design/<fileKey>/<fileName>?node-id=12345-6789
+```
+
+or:
+
+```text
+sync icon metadata from figma: https://www.figma.com/design/<fileKey>/<fileName>?node-id=12345-6789
+```
+
+What happens:
+- The skill parses the Figma URL.
+- It reads the icon metadata and description guidance from Figma.
+- It discovers the icon category when possible.
+- It normalizes the result into the repository schema.
+- It upserts the matching entry in `icons.meta.json`.
+
+Notes:
+- The skill is single-icon by default. If you need to sync multiple icons, run it once per icon URL.
+- `avoidFor.useInsteadIcons` is normalized to repository icon keys without the size suffix, for example `file-vdf` instead of `file-vdf-16`.
+- If category discovery cannot be proven from cached section traversal, the entry is still written and the category falls back to `unknown`.
+- This workflow does not push metadata back into Figma. The repository is updated from Figma, not the other way around.
+
+Recommended follow-up after syncing:
+
+1. Review the changed entry in `icons.meta.json`.
+2. Run the normal build if the icon asset itself also changed:
+
+```sh
+pnpm run build
+```
+
+3. If you want to check generated outputs, run the regression script:
+
+```sh
+node test/font-regression.mjs
+```
 
 
 <!-- CONTRIBUTING -->

@@ -11,11 +11,19 @@ const jsTargetFolder = './generated_js/';
 const fontTargetFolder = './dist/fonts/';
 const distTargetFolder = './dist/';
 const glyphMapFile = './glyphmap.json';
+const metadataFile = './icons.meta.json';
+const metadataModuleFile = './metadata.js';
+const metadataTypesFile = './metadata.d.ts';
 const START_CODEPOINT = 0xe900;
 
 if (!fsr.existsSync(jsTargetFolder)) fsr.mkdirSync(jsTargetFolder, { recursive: true });
 if (!fsr.existsSync(fontTargetFolder)) fsr.mkdirSync(fontTargetFolder, { recursive: true });
 if (!fsr.existsSync(distTargetFolder)) fsr.mkdirSync(distTargetFolder, { recursive: true });
+
+const makeJavaScriptIconName = (fileName) => fileName
+  .replace(/\.svg$/i, '')
+  .toLowerCase()
+  .replace(/[^a-zA-Z0-9]+(.)/g, (match, character) => character.toUpperCase());
 
 const readGlyphMap = async () => {
   try {
@@ -58,17 +66,15 @@ const computeFileHash = async (filePath) => {
 };
 
 const generateJSFiles = async (icons) => {
-  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
-
-  const svgImports = icons.map((icon) => `import ${makeCamelCase(icon)}Icon from ".${svgSourceFolder}${icon}.svg";`).join('\n');
+  const svgImports = icons.map((icon) => `import ${makeJavaScriptIconName(icon)}Icon from ".${svgSourceFolder}${icon}.svg";`).join('\n');
 
   const iconsObject = `export const icons = {\n${
-    icons.map((icon) => `  ${makeCamelCase(icon)}: ${makeCamelCase(icon)}Icon`).join(',\n')
+    icons.map((icon) => `  ${makeJavaScriptIconName(icon)}: ${makeJavaScriptIconName(icon)}Icon`).join(',\n')
   }};`;
 
   const getIconFunction = 'export const getIcon = (icon) => icons[icon];';
 
-  const indexFileRegistryContent = `export const iconRegistry = {};\n${icons.map((icon) => `export const ${makeCamelCase(icon)} = () => iconRegistry["${makeCamelCase(icon)}"] = ${makeCamelCase(icon)}Icon;`).join('\n')}`;
+  const indexFileRegistryContent = `export const iconRegistry = {};\n${icons.map((icon) => `export const ${makeJavaScriptIconName(icon)} = () => iconRegistry["${makeJavaScriptIconName(icon)}"] = ${makeJavaScriptIconName(icon)}Icon;`).join('\n')}`;
 
   const data = [
     svgImports,
@@ -86,9 +92,7 @@ const generateJSFiles = async (icons) => {
 };
 
 const generateTypesFile = async (icons) => {
-  const makeCamelCase = (str) => str.toLowerCase().replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
-
-  const iconExports = icons.map((icon) => `export const ${makeCamelCase(icon)}: () => IconData;`).join('\n');
+  const iconExports = icons.map((icon) => `export const ${makeJavaScriptIconName(icon)}: () => IconData;`).join('\n');
 
   const data = [
     'export type IconData = string;',
@@ -104,6 +108,93 @@ const generateTypesFile = async (icons) => {
     console.error('Error writing types file:', err);
     throw err;
   }
+};
+
+const readIconMetadata = async () => {
+  try {
+    const metadata = JSON.parse(await fs.readFile(metadataFile, 'utf-8'));
+    if (!metadata || Array.isArray(metadata) || typeof metadata !== 'object') {
+      throw new Error('Metadata root must be an object keyed by icon name.');
+    }
+    return metadata;
+  } catch (err) {
+    throw new Error(`Error reading icon metadata: ${err.message}`);
+  }
+};
+
+const assertString = (value, label) => {
+  if (typeof value !== 'string' || !value.trim()) {
+    throw new Error(`${label} must be a non-empty string.`);
+  }
+};
+
+const assertStringArray = (value, label) => {
+  if (!Array.isArray(value) || value.some((item) => typeof item !== 'string' || !item.trim())) {
+    throw new Error(`${label} must be an array of non-empty strings.`);
+  }
+};
+
+const validateIconMetadata = (metadata, sourceFiles) => {
+  const availableIcons = new Set([...sourceFiles].map(makeJavaScriptIconName));
+
+  for (const [iconName, entry] of Object.entries(metadata)) {
+    const label = `Metadata entry "${iconName}"`;
+    if (!entry || Array.isArray(entry) || typeof entry !== 'object') {
+      throw new Error(`${label} must be an object.`);
+    }
+    if (!availableIcons.has(iconName)) {
+      throw new Error(`${label} does not match a generated font icon.`);
+    }
+    assertString(entry.name, `${label}.name`);
+    if (entry.name !== iconName) {
+      throw new Error(`${label}.name must match its key.`);
+    }
+    assertString(entry.file, `${label}.file`);
+    if (!sourceFiles.has(entry.file)) {
+      throw new Error(`${label}.file does not exist in ${svgSourceFolder}.`);
+    }
+    if (iconName !== makeJavaScriptIconName(entry.file)) {
+      throw new Error(`${label} must match the JavaScript export name derived from its file.`);
+    }
+    assertString(entry.category, `${label}.category`);
+    assertString(entry.metaphor, `${label}.metaphor`);
+    assertString(entry.figma, `${label}.figma`);
+    assertStringArray(entry.useFor, `${label}.useFor`);
+    assertStringArray(entry.keywords, `${label}.keywords`);
+
+    if (!Array.isArray(entry.avoidFor)) {
+      throw new Error(`${label}.avoidFor must be an array.`);
+    }
+    entry.avoidFor.forEach((avoidance, index) => {
+      const avoidanceLabel = `${label}.avoidFor[${index}]`;
+      if (!avoidance || Array.isArray(avoidance) || typeof avoidance !== 'object') {
+        throw new Error(`${avoidanceLabel} must be an object.`);
+      }
+      assertString(avoidance.case, `${avoidanceLabel}.case`);
+      if (avoidance.useInsteadText !== undefined) {
+        assertString(avoidance.useInsteadText, `${avoidanceLabel}.useInsteadText`);
+      }
+      if (avoidance.useInsteadIcons !== undefined) {
+        assertStringArray(avoidance.useInsteadIcons, `${avoidanceLabel}.useInsteadIcons`);
+        avoidance.useInsteadIcons.forEach((replacementIcon) => {
+          if (!availableIcons.has(replacementIcon)) {
+            throw new Error(`${avoidanceLabel}.useInsteadIcons references unknown icon "${replacementIcon}".`);
+          }
+        });
+      }
+      if (avoidance.useInsteadText === undefined && avoidance.useInsteadIcons === undefined) {
+        throw new Error(`${avoidanceLabel} must include useInsteadText or useInsteadIcons.`);
+      }
+    });
+  }
+};
+
+const generateMetadataFiles = async () => {
+  await Promise.all([
+    fs.copyFile(metadataModuleFile, path.join(distTargetFolder, 'metadata.js')),
+    fs.copyFile(metadataTypesFile, path.join(distTargetFolder, 'metadata.d.ts')),
+    fs.copyFile(metadataFile, path.join(distTargetFolder, 'metadata.json')),
+  ]);
 };
 
 const generateFont = async (icons, glyphMap) => {
@@ -201,23 +292,28 @@ const main = async () => {
       }
     });
 
-    // Step 1: Extract iconName values from the array of objects
-    const iconNames = updatedIconsForFont.map((obj) => obj.iconName);
+    const fontIconNames = updatedIconsForFont.map((icon) => icon.iconName);
+    const iconMetadata = await readIconMetadata();
+    validateIconMetadata(iconMetadata, new Set(files));
 
-    // Step 2: Iterate through the map keys and delete entries not in the iconNames array
+    // Retain codepoints for the existing font identifier namespace.
     Object.keys(glyphMap).forEach((key) => {
-      if (!iconNames.includes(key)) {
+      if (!fontIconNames.includes(key)) {
         delete glyphMap[key];
       }
     });
 
     await generateJSFiles(currentIconsForJS);
     await generateTypesFile(currentIconsForJS);
+    await generateMetadataFiles();
     await generateFont(updatedIconsForFont, glyphMap);
     await writeGlyphMap(glyphMap);
   } catch (err) {
     console.error('Error processing SVG files:', err);
+    throw err;
   }
 };
 
-main();
+main().catch(() => {
+  process.exitCode = 1;
+});
