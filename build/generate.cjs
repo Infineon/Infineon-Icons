@@ -5,6 +5,10 @@ const fsr = require('fs'); // Use this for synchronous methods
 const os = require('os');
 const path = require('path');
 const crypto = require('crypto');
+const { execFile } = require('child_process');
+const { promisify } = require('util');
+
+const execFileAsync = promisify(execFile);
 
 const svgSourceFolder = './svg/';
 const jsTargetFolder = './generated_js/';
@@ -197,6 +201,26 @@ const generateMetadataFiles = async () => {
   ]);
 };
 
+const prepareFontSvgs = async (icons, sourceDir, targetDir) => {
+  await Promise.all(icons.map((icon) => fs.copyFile(
+    path.join(svgSourceFolder, icon.originalIconName),
+    path.join(sourceDir, `${icon.iconName}.svg`),
+  )));
+
+  try {
+    await execFileAsync(process.env.PYTHON || 'python3', [
+      path.join(__dirname, 'normalize_font_svgs.py'),
+      sourceDir,
+      targetDir,
+    ]);
+  } catch (error) {
+    const details = error.stderr?.trim() || error.message;
+    throw new Error(
+      `picosvg font normalization failed. Install requirements-font.txt.\n${details}`,
+    );
+  }
+};
+
 const generateFont = async (icons, glyphMap) => {
   const { generateFonts, FontAssetType, OtherAssetType } = await import('fantasticon');
 
@@ -206,15 +230,12 @@ const generateFont = async (icons, glyphMap) => {
     codepoints[icon.iconName] = glyphMap[icon.iconName].codepoint;
   }
 
-  // Copy filtered/renamed SVGs to a temp dir so fantasticon sees the right icon names
-  const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), 'ifx-icons-'));
+  // Normalize filtered/renamed SVGs in temp dirs so fonts retain even-odd holes.
+  const sourceTmpDir = await fs.mkdtemp(path.join(os.tmpdir(), 'ifx-icons-source-'));
+  let tmpDir;
   try {
-    await Promise.all(
-      icons.map((icon) => fs.copyFile(
-        path.join(svgSourceFolder, icon.originalIconName),
-        path.join(tmpDir, `${icon.iconName}.svg`),
-      )),
-    );
+    tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), 'ifx-icons-'));
+    await prepareFontSvgs(icons, sourceTmpDir, tmpDir);
 
     await generateFonts({
       inputDir: tmpDir,
@@ -235,7 +256,8 @@ const generateFont = async (icons, glyphMap) => {
     console.error('Error in font generation:', err);
     throw err;
   } finally {
-    await fs.rm(tmpDir, { recursive: true, force: true });
+    await fs.rm(sourceTmpDir, { recursive: true, force: true });
+    if (tmpDir) await fs.rm(tmpDir, { recursive: true, force: true });
   }
 };
 
