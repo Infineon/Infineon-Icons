@@ -1,3 +1,15 @@
+# v4.9.8 (Fri Aug 14 2026)
+
+#### 🐛 Bug Fix
+
+- fix(font): preserve SVG holes in generated fonts [#123](https://github.com/Infineon/Infineon-Icons/pull/123) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.9.7 (Thu Aug 06 2026)
 
 #### 🐛 Bug Fix
