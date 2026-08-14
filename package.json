@@ -17,6 +17,7 @@
     "build": "npm run generate:js && npm run build:icons",
     "generate:js": "node ./build/generate.cjs",
     "build:icons": "rollup --config rollup.config.js",
+    "test:font-normalization": "node ./test/normalize-font-svg.cjs",
     "test:metadata": "node ./test/metadata.mjs"
   },
   "type": "module",

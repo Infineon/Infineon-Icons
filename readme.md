@@ -45,6 +45,7 @@
       </ul>
     </li>
     <li><a href="#project-configuration">Project configuration</a></li>
+    <li><a href="#building-the-project">Building the project</a></li>
     <li>
       <a href="#installation">Installation</a>
       <ul>
@@ -103,6 +104,16 @@ npm config set '//npm.pkg.github.com/:_authToken' '<yourPAThere>'
  ```@infineon:registry=https://npm.pkg.github.com/ ```
   It is considered best practice to keep package configuration on project level. Please note that
   access configuration should never be added to your source control system, though.
+
+## Building the project
+
+Font generation requires Python 3.10 or newer and the pinned Google Fonts tooling:
+
+```sh
+python3 -m pip install -r requirements-font.txt
+```
+
+The build uses `picosvg` to prepare temporary font inputs. Source SVGs remain unchanged.
 
 ## Installation
 ### Install Packages
