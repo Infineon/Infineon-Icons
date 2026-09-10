@@ -1738,5 +1738,33 @@
   "skip": {
     "codepoint": 60178,
     "hash": "ac6ebd312d95436a10eae28d1511df727499ab5b3b3698bfe6d7ae0d13685272"
+  },
+  "context-dots": {
+    "codepoint": 60179,
+    "hash": "236a959d4bd7e5119e83d2a42023f4a409a2ee0be6e2559841a3673e398c05f4"
+  },
+  "device-onbody": {
+    "codepoint": 60180,
+    "hash": "70491e569103068775c131ac3dd0b1cf8e5320c62b5d0436a0353837837d854e"
+  },
+  "device-onbody-connected": {
+    "codepoint": 60181,
+    "hash": "3fda2dafef1565249487b7f28bc1f7292a17d835bcbf40d737951cdbea0bea62"
+  },
+  "export": {
+    "codepoint": 60182,
+    "hash": "920ab76d9b32f1ae8dbef4869ee704952162593a4890902c3e36454f5e10c114"
+  },
+  "health": {
+    "codepoint": 60183,
+    "hash": "a750c1aa4cbff493286ca5dd259999f613b61250876b526448b7da0d9edd3eb4"
+  },
+  "user-access": {
+    "codepoint": 60184,
+    "hash": "15ebc4281963e7eac8922ecb853042df24d098e1df86fcc5372ffd415e7a8045"
+  },
+  "wallet": {
+    "codepoint": 60185,
+    "hash": "8f5aa8afb8418cd01b1d11e60ff512ea2cf5fc20fb399fac47638536148c4d6c"
   }
 }
