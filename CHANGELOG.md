@@ -1,3 +1,15 @@
+# v4.9.10 (Thu Oct 01 2026)
+
+#### 🐛 Bug Fix
+
+- Ci: use npm trusted publishing [#125](https://github.com/Infineon/Infineon-Icons/pull/125) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.9.9 (Thu Sep 10 2026)
 
 #### 🐛 Bug Fix
