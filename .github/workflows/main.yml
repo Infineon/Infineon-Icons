@@ -92,25 +92,32 @@ jobs:
         run: |
           before=$(jq -r .version package.json)
           if [[ "$RELEASE_CHANNEL" == canary ]]; then
-            pnpm exec auto canary --force
+            after=$(pnpm exec auto canary --force --quiet)
+            if [[ -z "$after" ]]; then
+              echo "::error::Auto did not return a canary version."
+              exit 1
+            fi
           else
             pnpm exec auto shipit
+            after=$(jq -r .version package.json)
           fi
-          after=$(jq -r .version package.json)
           if [[ "$after" == "$before" ]]; then
             echo "Auto selected no release; skipping the legacy publication."
             exit 0
           fi
           echo "Published canonical version: $after ($RELEASE_CHANNEL)"
           echo "published=true" >> "$GITHUB_OUTPUT"
+          echo "version=$after" >> "$GITHUB_OUTPUT"
 
       - name: Publish legacy package
         if: steps.canonical.outputs.published == 'true'
         env:
           RELEASE_TAG: ${{ github.event_name == 'push' && 'latest' || 'canary' }}
+          RELEASE_VERSION: ${{ steps.canonical.outputs.version }}
         run: |
-          jq '
+          jq --arg version "$RELEASE_VERSION" '
             .name = "@infineon/infineon-icons"
+            | .version = $version
             | .deprecated = "This package has moved to @infineon/design-system-icons. It remains supported during the migration period; use the new name when migrating."
           ' package.json > package.legacy.json
           mv package.legacy.json package.json
