@@ -1,8 +1,8 @@
 {
-  "name": "@infineon/infineon-icons",
+  "name": "@infineon/design-system-icons",
   "version": "4.9.10",
   "private": false,
-  "description": "Infineon Icons",
+  "description": "Infineon Design System Icons",
   "license": "MIT",
   "homepage": "https://github.com/Infineon/Infineon-Icons#readme",
   "bugs": {
@@ -68,7 +68,12 @@
   },
   "auto": {
     "plugins": [
-      "npm",
+      [
+        "npm",
+        {
+          "setRcToken": false
+        }
+      ],
       "released"
     ]
   }

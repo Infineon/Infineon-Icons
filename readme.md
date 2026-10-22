@@ -38,11 +38,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-access-to-infineons-github-repository">Getting Access to Infineons Github Repository</a>
-      <ul>
-        <li><a href="#creating-github-account">Creating GitHub Account</a></li>
-        <li><a href="#create-configure-pat">Create + Configure PAT</a></li>
-      </ul>
+      <a href="#package-names-and-migration">Package names and migration</a>
     </li>
     <li><a href="#project-configuration">Project configuration</a></li>
     <li><a href="#building-the-project">Building the project</a></li>
@@ -77,33 +73,22 @@
 
 
 <!-- GETTING STARTED -->
-## Getting Access to Infineons Github Repository
+## Package names and migration
 
-### Creating GitHub Account
-In order to access the npm packages that are available at github you need to create an github account and contact out github admins (Yushev Artem) to be added to the Infineon Company.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Use `@infineon/design-system-icons` for new projects. The legacy
+`@infineon/infineon-icons` package remains supported and receives matching releases,
+with a migration notice.
 
-### Create + Configure PAT
-1. Create PAT
-	follow guide at https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-	give token the "read:packages" scope
-
-2. Authorize PAT with Infineon SSO
-	Click on Configure SSO
-	Click on Authorize
-
-
-3. Set global npm config for your pc
-```sh
-npm config set '//npm.pkg.github.com/:_authToken' '<yourPAThere>'
-```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+To migrate, change the dependency and import names. APIs, font assets, CSS classes,
+and glyph codepoints are unchanged. Use one package name consistently; the two
+packages have independent icon registries.
 
 ## Project configuration
-1. add a file .npmrc to your project root. It should contain 
- ```@infineon:registry=https://npm.pkg.github.com/ ```
-  It is considered best practice to keep package configuration on project level. Please note that
-  access configuration should never be added to your source control system, though.
+
+Both package names are public on npm; no GitHub account or PAT is needed to install.
+If your project previously configured the Infineon scope for GitHub Packages,
+remove that override or use `@infineon:registry=https://registry.npmjs.org/`
+where appropriate for your other dependencies. Never commit authentication tokens.
 
 ## Building the project
 
@@ -115,24 +100,30 @@ python3 -m pip install -r requirements-font.txt
 
 The build uses `picosvg` to prepare temporary font inputs. Source SVGs remain unchanged.
 
+```sh
+pnpm install --frozen-lockfile
+pnpm build
+pnpm test:metadata
+```
+
+CI publishes both names at the same version and release tag. If publication
+partially fails, publish only the missing package at that exact version; do not
+rerun Auto.
+
 ## Installation
 ### Install Packages
 ```sh
-npm i -S @infineon/infineon-icons
+npm i -S @infineon/design-system-icons
 ```
 
 ### Create Icon Library
 create file ./src/plugins/infineonIcons.js
 ```js
-import library from '@infineon/infineon-icons/library';
-
 import {
 	cCheck16,
-} from '@infineon/infineon-icons';
+} from '@infineon/design-system-icons';
 
-library.add(
-	cCheck16,
-);
+cCheck16();
 ```
   import this file in your main.js/index.js
 ```js
@@ -144,25 +135,15 @@ import './plugins/infineonIcons'
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use the icon component in any template. The icon has to be a string matching the icon name in your library.
-The name can be the original file name from figma or camelCase.
-
-Depending on project language, the following shows how to access the icon and its properties:
+Use `getIcon` to retrieve an SVG string by its JavaScript export name, or call an
+individual icon factory to register that icon:
 
 ```js
-import library from '@infineon/infineon-icons/library';
+import { cCheck16, getIcon, iconRegistry } from '@infineon/design-system-icons';
 
-const iconObj = library.getIcon('cCheck16');
-const height = iconObj.height;
-const width = iconObj.width;
-const viewbox = `0 0 ${height} ${width}`;
-const pathD = iconObj.svgContent.substring(iconObj.svgContent.indexOf('d=') + 3).split("\"/>")[0];
-```
-
-Include the icon as an SVG into your project:
-
-```html
-<svg width={width} height={height} xmlns="http://www.w3.org/2000/svg" viewBox={viewbox}><path fill="currentColor" d={pathD}/></svg>
+const svg = getIcon('cCheck16');
+cCheck16();
+const registeredSvg = iconRegistry.cCheck16;
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -186,7 +167,7 @@ If you have Node.js and NPM installed, you can install the package using the fol
 
 
 ```bash
-npm install @infineon/infineon-icons --save
+npm install @infineon/design-system-icons --save
 ```
 This will download the package into your project's `node_modules` directory.
 
@@ -216,9 +197,9 @@ Organize the files within your project directory:
  
   - **CSS Directory** : `assets/css/`
  
-2. **Copy Font Files** :Copy the font files from `./node_modules/@infineon/infineon-icons/dist/fonts` into the `assets/fonts/` directory.
+2. **Copy Font Files** :Copy the font files from `./node_modules/@infineon/design-system-icons/dist/fonts` into the `assets/fonts/` directory.
  
-3. **Copy CSS File** :Copy the `infineon-icons.css` file from `./node_modules/@infineon/infineon-icons/dist/fonts` into the `assets/css/` directory.
+3. **Copy CSS File** :Copy the `infineon-icons.css` file from `./node_modules/@infineon/design-system-icons/dist/fonts` into the `assets/css/` directory.
 **Adjust Font Paths in CSS** Open `infineon-icons.css` and update the `@font-face` `src` paths to point to the correct location of the font files relative to the CSS file.
 
 ```css
@@ -437,7 +418,7 @@ project/
 ---
 
 **Additional Resources**  
-- **Infineon Icons NPM Page** : [npmjs.com/package/infineon-icons](https://www.npmjs.com/package/infineon-icons)
+- **Infineon Icons NPM Page** : [@infineon/design-system-icons](https://www.npmjs.com/package/@infineon/design-system-icons)
  
 - **Web Accessibility Initiative (WAI)** : [Using ARIA](https://www.w3.org/WAI/ARIA/apg/)
  
@@ -490,7 +471,7 @@ Use the typed API in JavaScript or TypeScript:
 import {
   getIconMetadata,
   searchIconMetadata,
-} from '@infineon/infineon-icons/metadata';
+} from '@infineon/design-system-icons/metadata';
 
 const pdfIcon = getIconMetadata('filePdf16');
 const attachmentIcons = searchIconMetadata('attachments');
@@ -499,7 +480,7 @@ const attachmentIcons = searchIconMetadata('attachments');
 Use the raw JSON export for AI tooling, documentation generators, or other language-agnostic consumers:
 
 ```js
-import metadata from '@infineon/infineon-icons/metadata.json' with { type: 'json' };
+import metadata from '@infineon/design-system-icons/metadata.json' with { type: 'json' };
 ```
 
 Each entry is keyed by its JavaScript icon export name, such as `filePdf16`, and includes `name`, `file`, `category`, `metaphor`, `useFor`, `keywords`, `avoidFor`, and `figma`. This is separate from the kebab-case names used by icon-font CSS classes such as `.icon-file-pdf`. Metadata is validated during `pnpm build`; an entry may reference only existing source SVGs and published JavaScript icon names.

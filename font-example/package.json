@@ -1,7 +1,7 @@
 {
     "name": "@infineon/infineon-icons-font-example",
     "version": "1.0.0",
-    "private": false,
+    "private": true,
     "description": "Infineon Icons Example",
     "license": "MIT",
     "author": "Kai Werther",
@@ -9,6 +9,6 @@
         "dev": "npx serve ."
     },
     "dependencies": {
-        "@infineon/infineon-icons": "workspace:*"
+        "@infineon/design-system-icons": "workspace:*"
     }
 }
