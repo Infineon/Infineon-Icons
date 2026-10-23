@@ -1,3 +1,15 @@
+# v5.0.0 (Fri Oct 23 2026)
+
+#### 💥 Breaking Change
+
+- Rename npm package to @infineon/design-system-icons [#126](https://github.com/Infineon/Infineon-Icons/pull/126) ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+#### Authors: 1
+
+- Fabian Pfaff ([@pfafffabian-ifx](https://github.com/pfafffabian-ifx))
+
+---
+
 # v4.9.10 (Thu Oct 01 2026)
 
 #### 🐛 Bug Fix
