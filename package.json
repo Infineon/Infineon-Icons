@@ -1,8 +1,8 @@
 {
-  "name": "@infineon/infineon-icons",
+  "name": "@infineon/design-system-icons",
   "version": "4.9.10",
   "private": false,
-  "description": "Infineon Icons",
+  "description": "Infineon Design System Icons",
   "license": "MIT",
   "homepage": "https://github.com/Infineon/Infineon-Icons#readme",
   "bugs": {
@@ -51,7 +51,7 @@
   "packageManager": "pnpm@10.33.2",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "auto": "^10.37.4",
+    "auto": "^11.3.6",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "fantasticon": "^4.1.0",
@@ -68,7 +68,12 @@
   },
   "auto": {
     "plugins": [
-      "npm",
+      [
+        "npm",
+        {
+          "setRcToken": false
+        }
+      ],
       "released"
     ]
   }

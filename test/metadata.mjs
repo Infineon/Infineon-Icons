@@ -5,13 +5,13 @@ import {
   getIconMetadata,
   iconMetadata,
   searchIconMetadata,
-} from '@infineon/infineon-icons/metadata';
+} from '@infineon/design-system-icons/metadata';
 
 const rawMetadata = JSON.parse(
   await readFile(new URL('../dist/metadata.json', import.meta.url), 'utf-8'),
 );
 const { default: exportedJsonMetadata } = await import(
-  '@infineon/infineon-icons/metadata.json',
+  '@infineon/design-system-icons/metadata.json',
   { with: { type: 'json' } },
 );
 

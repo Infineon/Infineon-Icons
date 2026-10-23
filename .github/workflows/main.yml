@@ -62,6 +62,7 @@ jobs:
           pnpm run build
 
       - name: Commit changes
+        if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
         env:
           BRANCH_NAME: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
         run: |
@@ -82,14 +83,42 @@ jobs:
           node-version-file: '.nvmrc'
           registry-url: "https://registry.npmjs.org"
 
-      - name: Publish to npm (PR)
-        if: github.event_name == 'pull_request'
+      - name: Publish canonical package with Auto
+        id: canonical
+        if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_CHANNEL: ${{ github.event_name == 'push' && 'latest' || 'canary' }}
         run: |
-          echo "Publishing with --tag canary"
-          auto shipit
+          before=$(jq -r .version package.json)
+          if [[ "$RELEASE_CHANNEL" == canary ]]; then
+            after=$(pnpm exec auto canary --force --quiet)
+            if [[ -z "$after" ]]; then
+              echo "::error::Auto did not return a canary version."
+              exit 1
+            fi
+          else
+            pnpm exec auto shipit
+            after=$(jq -r .version package.json)
+          fi
+          if [[ "$after" == "$before" ]]; then
+            echo "Auto selected no release; skipping the legacy publication."
+            exit 0
+          fi
+          echo "Published canonical version: $after ($RELEASE_CHANNEL)"
+          echo "published=true" >> "$GITHUB_OUTPUT"
+          echo "version=$after" >> "$GITHUB_OUTPUT"
 
-      - name: Publish to npm (master)
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      - name: Publish legacy package
+        if: steps.canonical.outputs.published == 'true'
+        env:
+          RELEASE_TAG: ${{ github.event_name == 'push' && 'latest' || 'canary' }}
+          RELEASE_VERSION: ${{ steps.canonical.outputs.version }}
         run: |
-          echo "Publishing without tag"
-          auto shipit
+          jq --arg version "$RELEASE_VERSION" '
+            .name = "@infineon/infineon-icons"
+            | .version = $version
+            | .deprecated = "This package has moved to @infineon/design-system-icons. It remains supported during the migration period; use the new name when migrating."
+          ' package.json > package.legacy.json
+          mv package.legacy.json package.json
+          npm publish --access public --tag "$RELEASE_TAG"
